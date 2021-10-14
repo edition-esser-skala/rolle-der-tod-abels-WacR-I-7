@@ -9,14 +9,14 @@
 #(set-global-staff-size 15.87)
 
 \book {
-  \bookpart {
-    \paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-    \partTitle "1" "E R S T E R   T H E I L"
-    \tocLabel "erstertheil" "1" "Erster Theil"
-    \partMark
-    \pageBreak
-    \markup \null
-  }
+  % \bookpart {
+  %   \paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
+  %   \partTitle "1" "E R S T E R   T H E I L"
+  %   \tocLabel "erstertheil" "1" "Erster Theil"
+  %   \partMark
+  %   \pageBreak
+  %   \markup \null
+  % }
   \bookpart {
     \header {
       genre = "C O R O"
@@ -109,7 +109,7 @@
         \new FiguredBass { \LobtDenBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 80 }
+      \midi { \tempo 2 = 75 }
     }
   }
 }
