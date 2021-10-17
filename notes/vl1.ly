@@ -217,3 +217,69 @@ IchElendViolinoI = {
     g4 r\fermata \bar "|." %78 finis
   }
 }
+
+SeyMirViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSeyMir
+    c'1~
+    c2 c~
+    c c~
+    c1
+    b2 d %5
+    c1
+    a!2 r4 a
+    e'1~
+    e2 d~
+    d4 d2.~ %10
+    d2 c~
+    c1
+    b2 e
+    d1~
+    d2 d~ %15
+    d d~
+    d1~
+    d2 c4 r
+    d1
+    c2 \once \tieDashed cis~ %20
+    cis1~
+    cis
+    d
+    e
+    e2 dis %25
+    e1~
+    e2 e~
+    e d
+    e1
+    d %30
+    d
+    d2 d~
+    d c
+    b es~
+    es d %35
+    es1~
+    es2 g
+    f1
+    f2 des
+    des4 c c2~ %40
+    c b
+    f' es~
+    es des
+    f es
+    g!1 %45
+    r4 f f2~
+    f1~
+    f
+    es
+    b2 c~ %50
+    c d
+    r4 d d2
+    c1~
+    c2 c
+    f es %55
+    g f~
+    f f
+    e!4 r r2
+    \partial 2 r4 e, \bar "||" %59 finis
+  }
+}

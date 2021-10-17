@@ -423,3 +423,131 @@ IchElendBassFigures = \figuremode {
   r
   r %78 finis
 }
+
+SeyMirOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoSeyMir
+    c1~
+    c2 c~
+    c a!~
+    a1
+    b2 h %5
+    c1
+    es2 r4 d
+    cis1~
+    cis2 d~
+    d4 h!2.~ %10
+    h2 c~
+    c1
+    cis
+    d~
+    d2 h!~ %15
+    h h~
+    h1~
+    h2 c4 r
+    gis1
+    a2 g~ %20
+    g1~
+    g
+    f'
+    e
+    c2 h %25
+    e1~
+    e2 ais,~
+    ais h
+    cis1
+    d %30
+    c!
+    b2 h~
+    h c
+    d es~
+    es~ es~ %35
+    es1~
+    es2 e
+    f1
+    as,2 b
+    b a~ %40
+    a b~
+    b c~
+    c des
+    d es
+    e1 %45
+    r4 f d!2~
+    d1~
+    d
+    es~
+    es2 as,~ %50
+    as1
+    r4 b h2
+    c1~
+    c2 c
+    d es %55
+    e f~
+    f des
+    c1
+    \partial 2 r4 c \bar "||" %59 finis
+  }
+}
+
+SeyMirBassFigures = \figuremode {
+  <_->1
+  r
+  r2 <6\\>
+  r1
+  <6>2 <7-> %5
+  <_->1
+  <4 2+>2. <_+>4
+  <6>1
+  r
+  r4 <6\\>2. %10
+  r2 <6>
+  r1
+  <7->
+  <5 3>
+  r2 <6> %15
+  r q
+  r1
+  r
+  <7>
+  r2 <4+ 2> %20
+  r1
+  r
+  <6>
+  <_+>
+  <6>2 <7 [5+] _+> %25
+  r1
+  r2 <7 [_+]>
+  r <5+>
+  <6>1
+  <_+> %30
+  <4+ 2>
+  <6>2 <7->
+  r <_->
+  <6-> <[5-]>
+  r <7 4- 2> %35
+  <5- 3>1
+  r2 <6 5->
+  <_->1
+  <6>2 <_->
+  <6- _->4 <[6!] 4! [2]> <6>2 %40
+  r <_->
+  r <6- _->
+  r <[5-]>
+  <6-> <[5-] _->
+  <7- [5- _!]>1 %45
+  r2 <6->
+  r1
+  r
+  <[5-]>
+  r2 q %50
+  <6> <4 2->
+  r <6>
+  <_->1
+  r2 <6- _->
+  <6- 5-> <[5-]> %55
+  <6 5-> <_->
+  r <6->
+  <7- _!>1
+  r2 %59 finis
+}

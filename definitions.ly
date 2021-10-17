@@ -686,6 +686,10 @@ tocLabelLong = #(define-music-function
 )
 
 
+fC = \set Staff.forceClef = ##t
+soloAdam = \markup \remark "Adam"
+soloKain = \markup \remark "Kain"
+
 
 tempoLobtDen = \tempoMarkup "Lobgesang der Kinder Adams in ihrer Laube"
 tempoSieSingen = \tempoMarkup "Kain, der um Abels Laube feindſelig herumſchleicht"
@@ -693,6 +697,7 @@ tempoIchElend = \tempoMarkup "Poco lento"
   tempoIchElendB = \tempoMarkup "Allegro"
   tempoIchElendC = \tempoMarkup "Poco lento"
   tempoIchElendD = \tempoMarkup "Allegro"
+tempoSeyMir = \tempoMarkup "Recitativo"
 
 
 % \include "notes/fl1.ly"
@@ -709,6 +714,7 @@ tempoIchElend = \tempoMarkup "Poco lento"
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"
 \include "notes/vla.ly"
+\include "notes/soli.ly"
 \include "notes/S.ly"
 \include "notes/A.ly"
 \include "notes/T.ly"

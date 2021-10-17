@@ -146,9 +146,9 @@
   %       \new ChoirStaff <<
   %         \new Staff {
   %           \set Staff.instrumentName = "Kain"
-  %           \new Voice = "Basso" { \dynamicUp \SieSingenBasso }
+  %           \new Voice = "Soli" { \dynamicUp \SieSingenSoli }
   %         }
-  %         \new Lyrics \lyricsto Basso \SieSingenBassoLyrics
+  %         \new Lyrics \lyricsto Soli \SieSingenSoliLyrics
   %       >>
   %       \new StaffGroup <<
   %         \new Staff {
@@ -163,13 +163,64 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \header {
+  %     genre = "A R I A"
+  %     number = "1.3"
+  %     title = "Ich elend! elend meine Kinder!"
+  %   }
+  %   \tocLabelLong "ichelend" "1.3" "Aria" "Ich elend! elend meine Kinder!"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #30
+  %     system-system-spacing.minimum-distance = #30
+  %     systems-per-page = #2
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \IchElendViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \IchElendViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \IchElendViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Kain"
+  %           \new Voice = "Soli" { \dynamicUp \IchElendSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \IchElendSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \IchElendOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \IchElendBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 60 }
+  %   }
+  % }
   \bookpart {
     \header {
-      genre = "A R I A"
-      number = "1.3"
-      title = "Ich elend!"
+      genre = "A C C O M P A G N A T O"
+      number = "1.4"
+      title = "Sey mir gegrüßt, mein erſtgebohrner Sohn!"
     }
-    \tocLabelLong "ichelend" "1.3" "Aria" "Ich elend!"
+    \tocLabelLong "seymir" "1.4" "Accompagnato" "Sey mir gegrüßt, mein erſtgebohrner Sohn!"
     \paper {
       system-system-spacing.basic-distance = #30
       system-system-spacing.minimum-distance = #30
@@ -182,36 +233,36 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \IchElendViolinoI
+              \SeyMirViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \IchElendViolinoII
+              \SeyMirViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \IchElendViola
+            \SeyMirViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "Kain"
-            \new Voice = "Basso" { \dynamicUp \IchElendBasso }
+            \set Staff.instrumentName = \markup \center-column { "Adam" "Kain" }
+            \new Voice = "Soli" { \dynamicUp \SeyMirSoli }
           }
-          \new Lyrics \lyricsto Basso \IchElendBassoLyrics
+          \new Lyrics \lyricsto Soli \SeyMirSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \IchElendOrgano
+            \SeyMirOrgano
           }
         >>
-        \new FiguredBass { \IchElendBassFigures }
+        \new FiguredBass { \SeyMirBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 60 }
+      \midi { \tempo 4 = 70 }
     }
   }
 }

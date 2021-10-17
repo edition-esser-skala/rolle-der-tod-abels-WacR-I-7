@@ -217,3 +217,69 @@ IchElendViola = {
     c,4 r\fermata \bar "|." %78 finis
   }
 }
+
+SeyMirViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoSeyMir
+    g'1~
+    g2 g~
+    g c,~
+    c1
+    d2 f! %5
+    es1
+    c2 r4 d
+    e1~
+    e2 f~
+    f4 d2.~ %10
+    d2 e~
+    e1
+    e2 g
+    f1~
+    f2 d~ %15
+    d d~
+    d1~
+    d2 e4 r
+    f!1
+    e2 \once \tieDashed e~ %20
+    e1~
+    e
+    d
+    e
+    e2 fis %25
+    g1~
+    g2 g~
+    g fis
+    e1
+    fis %30
+    fis
+    d2 f~
+    f es
+    d b~
+    b f' %35
+    g1~
+    g2 b
+    as1
+    f2 f
+    ges4 e! f2 %40
+    c des~
+    des es~
+    es f
+    f ges
+    des1 %45
+    r4 c f2~
+    f1~
+    f
+    g
+    es2 es %50
+    f^\critnote f
+    r4 f d2
+    es1~
+    es2 es
+    as g %55
+    b as~
+    as f
+    g4 r r2
+    \partial 2 r4 c, \bar "||" %59 finis
+  }
+}
