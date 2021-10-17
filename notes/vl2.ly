@@ -132,3 +132,88 @@ SieSingenViolinoII = {
     a r4 g \bar "||" %49 finis
   }
 }
+
+IchElendViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \tempoIchElend
+    g8\p c4 h d c8~
+    c f4 es d c8
+    r c4 c8~ c \slurDashed es'16( h) c8 es16( h) \slurSolid
+    c8 c,4 c c c8~
+    c es'16( h) c8 es16( h) c8 c,4 c8 %5
+    c2~ c8 h h \grace d16 c h \noBreak
+    \partial 2 h4\fermata r
+    \twofourtime \time 2/4 es16\p es es es es es es es \noBreak
+    d d d d d\f d d d
+    c c c c c\p c c c %10
+    c c c c c c c c
+    d d d d d d d d
+    c c c c c\f c c c
+    b b b b b\p b b b
+    b b b b b\f b b b %15
+    es es es es es es es es
+    es2~\p
+    es~
+    es~
+    es4 r %20
+    r es16\f g b es
+    es4 r\fermata
+    as,2~\p
+    as
+    as~ %25
+    as4 r
+    r es16\f g b es
+    es8 es,16 es' es, es' es,\p es'
+    es, es' es, es' es, es' es, es'
+    es, es' es, es' es, es' es, es' %30
+    es, es' es, es' es, es' es, es'
+    es, es' es, es' es, es' es, es'
+    es,\f es' es, es' es, es' es, es'
+    d8 b, d f
+    b4 r %35
+    r8 b, d f
+    b4 r
+    R2\fermata
+    R
+    f16\p f f f f f f f %40
+    f f f f f f f f
+    e e e e e e e e
+    e e e e e e e e
+    e e e e e e e e
+    f f f f f f f f %45
+    e e e e e e e e
+    e e e e e e e e
+    f f f f f f f f
+    b b b b b b b b
+    b b b b as as as as %50
+    as as as as as as as as
+    as as as as g g g g
+    g g g g g g g g
+    es es es es es es es es \noBreak
+    es\f es es es es es es es %55
+    \time 4/4 a4~ a2.~\pE \noBreak
+    a1 \noBreak
+    g2 r4 r8 g
+    \twofourtime \time 2/4 c b! as g \noBreak
+    f \tuplet 3/2 8 { c16([\f d e)] } f8 \noBeam f\p %60
+    b as g f
+    es \tuplet 3/2 8 { b16([\f c d)] } es8 \noBeam g\p
+    as16 as8 as as as16
+    f f8 f f f16
+    es c8\f c c c16~ %65
+    c c8 c c c16~\pE
+    c c8 c c c16~
+    c c8 c c c16~
+    c c8 c c c16~
+    c c8 c c c16 %70
+    d d d d d d d d
+    es8 c\f es g
+    c4 r
+    r8 c, es g
+    c4 r %75
+    r8 c,16\ff es g8 es16 g
+    c8 g16 es c8 es16 c
+    g4 r\fermata \bar "|." %78 finis
+  }
+}

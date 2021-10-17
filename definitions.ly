@@ -687,8 +687,12 @@ tocLabelLong = #(define-music-function
 
 
 
-tempoLobtDen = \tempoMarkup "[Tempo deest]"
-tempoSieSingen = \tempoMarkup "[Tempo deest]"
+tempoLobtDen = \tempoMarkup "Lobgesang der Kinder Adams in ihrer Laube"
+tempoSieSingen = \tempoMarkup "Kain, der um Abels Laube feindſelig herumſchleicht"
+tempoIchElend = \tempoMarkup "Poco lento"
+  tempoIchElendB = \tempoMarkup "Allegro"
+  tempoIchElendC = \tempoMarkup "Poco lento"
+  tempoIchElendD = \tempoMarkup "Allegro"
 
 
 % \include "notes/fl1.ly"

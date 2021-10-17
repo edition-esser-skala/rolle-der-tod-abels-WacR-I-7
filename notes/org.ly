@@ -257,3 +257,169 @@ SieSingenBassFigures = \figuremode {
   r <_->
   <7- [_!]>2. <_!>4 %49 finis
 }
+
+IchElendOrgano = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 4/4 \tempoIchElend
+    \mvTr c4\p-\soloE g g' c,
+    f, c' g' c,
+    as as as2~
+    as4 as as as
+    g2. g'4 %5
+    fis2 g4 g, \noBreak
+    \partial 2 g4\fermata r
+    \twofourtime \time 2/4 \tempoIchElendB r8 c\p es c \noBreak
+    g' g, g'\f f
+    e g e\p c %10
+    f f, f' es
+    d f d b
+    f' f, f'\f es
+    d f d\p b
+    es es es\f es %15
+    g, g g g
+    as2~\p
+    as~
+    as~
+    as4 r %20
+    r <g g'>8\f q
+    q4 r\fermata
+    d'2~\p
+    d
+    d~ %25
+    d4 r
+    r es8\f f
+    g g, r g\p
+    as b c g
+    as4 r8 es' %30
+    f g as b
+    c c c c
+    c,\f c c c
+    b b d f
+    b4 r %35
+    r8 b, d f
+    b4 r
+    R2\fermata
+    R
+    des,8\p des des des %40
+    des des des des
+    c c c c
+    c c c c
+    c c c c
+    c c c c %45
+    c c c c
+    c c c c
+    des des des des
+    des des des des
+    c c c c %50
+    c c c c
+    b b b b
+    b b b b
+    as as as as \noBreak
+    as'\f as g g %55
+    \time 4/4 \tempoIchElendC fis4~ fis2.~\pE \noBreak
+    fis1 \noBreak
+    g2 r4 r8 g-\unisonoE
+    \twofourtime \time 2/4 \tempoIchElendD c8 b! as g \noBreak
+    f \tuplet 3/2 8 { c16([\f d e)] } f8 r %60
+    b\p as g f
+    es \tuplet 3/2 8 { b16([\f c d)] } es8 r
+    f\p f f f
+    g g g g
+    as4 r %65
+    r r8 es
+    f g as es
+    f4 r8 es
+    f es f d
+    c4 es %70
+    f g
+    c,8 c\f es g
+    c4 r
+    r8 c, es g
+    c4 r %75
+    r8 c,\ff c c
+    c c c c
+    c,4 r\fermata \bar "|." %78 finis
+  }
+}
+
+IchElendBassFigures = \figuremode {
+  r4 <_!> <7 _!>2
+  r <7 _!>
+  r1
+  r
+  <6 4>2. <\t \t>4 %5
+  <7 _!>2 <6 4>8 <5 _!> <\t \t> <6 4>
+  <5 _!>2
+  r
+  <4>4 <_!>
+  <6 5->4. \bassFigureExtendersOn q8 \bassFigureExtendersOff %10
+  <9 4>4 <8 _!>
+  <6>2
+  <4>4 <_!>
+  <6 5->4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+  <9 4>4 <8 3> %15
+  <6>2
+  r
+  r
+  r
+  r %20
+  r4 <6>
+  <\t>2
+  <6 5>
+  r
+  <\t \t> %25
+  r
+  r
+  <6>
+  <6 5>8 <6 4> <6> q
+  r2 %30
+  <7>8 <6>4.
+  <5>4 <6!>
+  <\t>2
+  r
+  r %35
+  r
+  r
+  r
+  r
+  <6> %40
+  <\t>
+  <7 _!>
+  <\t \t>
+  q
+  <6 4> %45
+  <5 _!>
+  <\t \t>
+  <7>
+  <6>
+  <7>4 <6> %50
+  <\t>2
+  <7 _->
+  <6 \t>
+  <4->4 <3>
+  <5 3> <\t \t> %55
+  <7 _!>1
+  r
+  <_!>
+  r2
+  r %60
+  r
+  r
+  <5 3>
+  <7 _!>
+  <5> %65
+  r4. <6>8
+  <6 5> <6 4> <6> q
+  r4. <6>8
+  r q4 <6!>8
+  r4 <6> %70
+  <6 5> <_!>
+  r2
+  r
+  r
+  r %75
+  r
+  r
+  r %78 finis
+}

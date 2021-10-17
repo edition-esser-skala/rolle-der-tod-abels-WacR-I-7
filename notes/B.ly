@@ -130,7 +130,7 @@ LobtDenBassoLyrics = \lyricmode {
 SieSingenBasso = {
   \relative c {
     \clef bass
-    \key c \major \time 4/4 \autoBeamOff \tempoSieSingen
+    \key c \minor \time 4/4 \autoBeamOff \tempoSieSingen
     r4 r8 es es b r4
     es8 r16 es es8 f g g g b
     b f r f16 f as4 r8 as
@@ -233,4 +233,167 @@ SieSingenBassoLyrics = \lyricmode {
   ſie als Scla -- ven bin -- det, hört nicht ihr
   Fle -- hen, nicht ihr Schreyn, und führt ſie
   weg, dienſt -- bar zu ſeyn. %49 finis
+}
+
+IchElendBasso = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 4/4 \autoBeamOff \tempoIchElend
+    R1
+    r2 r4 g'
+    g8.([ fis16)] fis2 r4
+    r c'~ c8 as g fis
+    g4 g, r c'~ %5
+    c8 c, es d16([ c)] g'4 g, \noBreak
+    \partial 2 r\fermata r8 g'
+    \twofourtime \time 2/4 \tempoIchElendB c c, c' c \noBreak
+    c4 h
+    r b8 b %10
+    b4 a8 f
+    b b, b' b
+    b4 a
+    r as8 as
+    as4 g %15
+    R2
+    c
+    as,~
+    as~
+    as4 r8 c' %20
+    b8. g16 es4
+    R2\fermata
+    as
+    b,~
+    b~ %25
+    b4 r8 as'
+    g8. as16 b4
+    r r8 es,
+    f g as b
+    c4 r8 g %30
+    as b c d
+    es4 a,
+    c es,
+    b' r
+    r8 b, d f %35
+    b4 r
+    r8 b, d f
+    b4 r\fermata
+    r r8 f
+    b4 r8 b %40
+    des4 r8 f,
+    e2
+    b'
+    b(
+    as) %45
+    g4 r
+    r8 c c c
+    c4 f,
+    b b
+    b as %50
+    r8 as as as
+    as4 g
+    des' des
+    des c \noBreak
+    R2 %55
+    \time 4/4 \tempoIchElendC r4 r8 c c4 c,~ \noBreak
+    c r es8 es d c \noBreak
+    g'2 r4 r8 g
+    \twofourtime \time 2/4 c b! as g \noBreak
+    f4 r8 f %60
+    b as g f
+    es4 r8 g
+    as4 f
+    h g
+    c r %65
+    r r8 c,
+    d es f g
+    as4 r8 g
+    as g as h
+    c4 c8 es, %70
+    f4 g
+    c, r
+    r8 c es g
+    c4 r
+    c,8 c es g %75
+    c4 r
+    R2
+    R\fermata \bar "|." %78 finis
+  }
+}
+
+IchElendBassoLyrics = \lyricmode {
+  Ich %2
+  e -- lend!
+  e -- lend mei -- ne
+  Kind -- er! e -- %5
+  lend mei -- ne Kind -- er!
+  Ge --
+  wit -- ter Got -- tes,
+  trefft mich,
+  trefft mich %10
+  Sün -- der! Ge --
+  wit -- ter Got -- tes,
+  trefft mich,
+  trefft mich
+  Sün -- der! %15
+
+  Ab --
+  grund, __
+
+  er -- %20
+  öff -- ne dich!
+
+  Ab --
+  grund, __
+  %25
+  er --
+  öff -- ne dich!
+  ver --
+  ſchling, ver -- ſchlin -- ge
+  mich, ver -- %30
+  ſchling, ver -- ſchlin -- ge
+  mich, ver --
+  ſchlin -- ge
+  mich,
+  er -- öff -- ne %35
+  dich,
+  ver -- ſchlin -- ge
+  mich!
+  Um --
+  ſonſt, um -- %40
+  ſonſt iſt
+  die --
+  ſes
+  Fle --
+  %45
+  hen,
+  der Rich -- ter
+  läßt es
+  nicht ge --
+  ſche -- hen, %50
+  der Rich -- ter
+  läßt es
+  nicht ge --
+  ſche -- hen.
+  %55
+  E -- len -- der, __
+  du mußt e -- lend
+  ſeyn! ſo
+  waff -- ne, waff -- ne
+  dich, und %60
+  ſey es nicht al --
+  lein, ſo
+  waff -- ne,
+  waff -- ne
+  dich, %65
+  und
+  ſey es nicht al --
+  lein, und
+  ſey es nicht al --
+  lein, ſey es %70
+  nicht al --
+  lein!
+  ſo waff -- ne
+  dich,
+  ſey es nicht al -- %75
+  lein! %76 finis
 }

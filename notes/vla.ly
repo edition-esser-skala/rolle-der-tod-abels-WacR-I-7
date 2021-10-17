@@ -132,3 +132,88 @@ SieSingenViola = {
     es r4 d \bar "||" %49 finis
   }
 }
+
+IchElendViola = {
+  \relative c' {
+    \clef alto
+    \key c \minor \time 4/4 \tempoIchElend
+    c4\p g g' c,
+    f, c' g' c,
+    as as as2~
+    as4 as as as
+    g2. g'4 %5
+    fis2 g4 g, \noBreak
+    \partial 2 g4\fermata r
+    \twofourtime \time 2/4 \tempoIchElendB r8 c\p es c \noBreak
+    g' g, g'\f f
+    e g e\p c %10
+    f f, f' es
+    d f d b
+    f' f, f'\f es
+    d f d\p b
+    es es es\f es %15
+    g, g g g
+    as2~\p
+    as~
+    as~
+    as4 r %20
+    r g'8\f g
+    g4 r\fermata
+    b2~\p
+    b
+    b~ %25
+    b4 r
+    r es,8\f f
+    g g, r g\p
+    as b c g
+    as4 r8 es' %30
+    f g as b
+    c c c c
+    c,\f c c c
+    b b d f
+    b4 r %35
+    r8 b, d f
+    b4 r
+    R2\fermata
+    R
+    des,8\p des des des %40
+    des des des des
+    c c c c
+    c c c c
+    c c c c
+    c c c c %45
+    c c c c
+    c c c c
+    des des des des
+    des des des des
+    c c c c %50
+    c c c c
+    b b b b
+    b b b b
+    as as as as \noBreak
+    as'\f as g g %55
+    \time 4/4 \tempoIchElendC es4~ es2.~\pE \noBreak
+    es1 \noBreak
+    d2 r4 r8 g
+    \twofourtime \time 2/4 \tempoIchElendD c8 b! as g \noBreak
+    f \tuplet 3/2 8 { c16([\f d e)] } f8 \noBeam f\p %60
+    b as g f
+    es \tuplet 3/2 8 { b16([\f c d)] } es8 \noBeam es\p
+    f16 f8 f f f16
+    d d8 d d d16
+    c4 r %65
+    r r8 es
+    f g as es
+    f4 r8 es
+    f es f d
+    c4 es %70
+    f g
+    c,8 c\f es g
+    c4 r
+    r8 c, es g
+    c4 r %75
+    r8 c,\ff c c
+    c c c c
+    c,4 r\fermata \bar "|." %78 finis
+  }
+}

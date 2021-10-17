@@ -21,10 +21,10 @@
   %   \header {
   %     genre = "C O R O"
   %     number = "1.1"
-  %     title = "Lobgesang der Kinder Adams in ihrer Laube"
+  %     title = "Lobt den Herrn!"
   %   }
   %   \paper { indent = 3\cm }
-  %   \tocLabelLong "lobtden" "1.1" "Coro" "Lobgesang der Kinder Adams in ihrer Laube"
+  %   \tocLabelLong "lobtden" "1.1" "Coro" "Lobt den Herrn!"
   %   \score {
   %     <<
   %       \new StaffGroup <<
@@ -112,13 +112,64 @@
   %     \midi { \tempo 2 = 75 }
   %   }
   % }
+  % \bookpart {
+  %   \header {
+  %     genre = "A C C O M P A G N A T O"
+  %     number = "1.2"
+  %     title = "Sie ſingen!"
+  %   }
+  %   \tocLabelLong "siesingen" "1.2" "Accompagnato" "Sie ſingen!"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #30
+  %     system-system-spacing.minimum-distance = #30
+  %     systems-per-page = #2
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \SieSingenViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \SieSingenViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \SieSingenViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Kain"
+  %           \new Voice = "Basso" { \dynamicUp \SieSingenBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \SieSingenBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \SieSingenOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \SieSingenBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
     \header {
-      genre = "A C C O M P A G N A T O"
-      number = "1.2"
-      title = "Kain, der um Abels Laube [feindſelig] herumſchleicht"
+      genre = "A R I A"
+      number = "1.3"
+      title = "Ich elend!"
     }
-    \tocLabelLong "siesingen" "1.2" "Accompagnato" "Kain, der um Abels Laube [feindſelig] herumſchleicht"
+    \tocLabelLong "ichelend" "1.3" "Aria" "Ich elend!"
     \paper {
       system-system-spacing.basic-distance = #30
       system-system-spacing.minimum-distance = #30
@@ -131,36 +182,36 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \SieSingenViolinoI
+              \IchElendViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \SieSingenViolinoII
+              \IchElendViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \SieSingenViola
+            \IchElendViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \SieSingenBasso }
+            \set Staff.instrumentName = "Kain"
+            \new Voice = "Basso" { \dynamicUp \IchElendBasso }
           }
-          \new Lyrics \lyricsto Basso \SieSingenBassoLyrics
+          \new Lyrics \lyricsto Basso \IchElendBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \SieSingenOrgano
+            \IchElendOrgano
           }
         >>
-        \new FiguredBass { \SieSingenBassFigures }
+        \new FiguredBass { \IchElendBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 70 }
+      \midi { \tempo 4 = 60 }
     }
   }
 }
