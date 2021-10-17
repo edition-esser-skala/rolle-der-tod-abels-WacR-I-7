@@ -76,3 +76,59 @@ LobtDenViolinoI = {
     f2( es4) r\fermata \bar "|." %70 finis
   }
 }
+
+SieSingenViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSieSingen
+    g'1~
+    g
+    b2 f'~
+    f es4 \once \tieDashed g~
+    g1 %5
+    f2 des
+    c r4 e,!8. f32 g
+    f1
+    a2 c
+    b d~ %10
+    d d~
+    \once \tieDashed d1~
+    d2 c
+    \once \tieDashed es1~
+    es2 d %15
+    c c~
+    c( h!4) r
+    \time 2/4 r h8. c32 d
+    \time 4/4 c1~
+    c %20
+    \once \tieDashed e~
+    e2 \once \tieDashed d~
+    d1~
+    d~
+    d~ %25
+    d~
+    d2 c~
+    c( d4) r
+    r d8. es?32 f es16. es32 ges16. es32 c16. es32 a,!16. c32
+    b16. des32 f16. des32 b16. des32 g,!16. b32 as8 c4 c8 %30
+    c1~
+    c2 b~
+    b1~
+    b4 r as16. as32 c16. as32 es16. as32 c16. as32
+    f16. f32 as16. f32 c16. c32 f16. d!32 d'2~ %35
+    d1~
+    d2 \once \tieDashed c~
+    c1~
+    c~
+    c~ %40
+    c2 c~
+    c1~
+    c2 b~
+    b1
+    des2 f %45
+    es1~
+    es2 des~
+    des c
+    c r4 h! \bar "||" %49 finis
+  }
+}

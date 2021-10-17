@@ -126,3 +126,111 @@ LobtDenBassoLyrics = \lyricmode {
   Lob -- ge --
   ſang! __ %67 finis
 }
+
+SieSingenBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoSieSingen
+    r4 r8 es es b r4
+    es8 r16 es es8 f g g g b
+    b f r f16 f as4 r8 as
+    as as as g g4 r8 g
+    b4 b b8 b b as %5
+    f f r16 f f f ges4 r8 b
+    b e,! e f f c r4
+    r8 c c c c c f e
+    f f r a16 a c8 es, es d
+    d4 r16 f f g as4 as %10
+    as8 as as g g4 r16 g g d
+    f8 f f d h! h r16 f' f g
+    as8 as as g es es r4
+    g c8 h! c c c a
+    fis fis fis g g r16 g b8 r16 g %15
+    e!8 r16 e e8 f f4 r
+    as as8 f h! r16 h h8 c
+    \time 2/4 c g r4
+    \time 4/4 r8 c, c d e! e e f
+    g g r16 g c g b8 b b a %20
+    a8 r16 e e8 cis a4 r8 a'
+    g g a e f4 r16 a, d cis
+    d8 d d e f f r16 f f e
+    f8 f f a fis fis r16 fis fis a
+    a8 d, r fis16 g g4 r8 g %25
+    g d d4 r8 d f! e
+    f f g d es4 r8 es
+    as4. f8 d d d es
+    b4 r r2
+    R1 %30
+    r8 es as g as4 r8 as
+    as es ges f des des r16 b' b c
+    des8 des des b g g r b
+    b des, des c c4 r
+    r2 r4 r8 d %35
+    g r16 g g8 as f4 r8 f
+    f f f g es4 r16 g g g
+    g8. c,16 c4 r8 g' g g
+    c4 r8 c c g es g
+    g c, r c' c4 g %40
+    b8 b b as f f r as
+    as as as f c'4 r8 es,
+    ges ges ges f des4 r16 f f f
+    b4 r8 b b b b a!
+    b f f b, r as'16 as b8 f %45
+    ges ges r b b es, r es16 f
+    ges8 ges b ges e e r16 b' des b
+    g8 g r c16 g as8 r16 as as8 f
+    c'8 r c h!16 c g4 r \bar "||" %49 finis
+  }
+}
+
+SieSingenBassoLyrics = \lyricmode {
+  Sie ſin -- gen!
+  Ha, ge -- wiß ein neu -- es Lied des
+  Lieb -- lings, dem al -- lein die
+  hei -- tre Freu -- de blüht, der
+  mü -- ßig bey der Heer -- de %5
+  ſi -- tzet, wenn die -- ſe Stirn von
+  ſchwe -- rer Ar -- beit ſchwi -- tzet.
+  Seh ich nicht in der Laub auch
+  A -- dam? Wie ent -- zückt um -- armt er
+  ihn! Mit wel -- cher Lie -- be %10
+  blickt ihn E -- va an! Wie ih -- re
+  Her -- zen ſich er -- gie -- ßen! Wie ih -- re
+  Freu -- den -- thrä -- nen flie -- ßen!
+  Ach, im -- mer hel -- ler wird mein
+  dunk -- les Traum -- ge -- ſicht. Ich ſeh, ich %15
+  ſeh, es täuſcht mich nicht:
+  Mein iſt der Fluch und ſein der
+  See -- gen.
+  Sah ich im Traum auf Blu -- men --
+  we -- gen nicht al -- le Kin -- der A -- bels %20
+  gehn? In ih -- rem Thal war
+  die Na -- tur nur ſchön. In dunk -- len
+  Schat -- ten grü -- ner Lau -- ben, in Fei -- gen --
+  hay -- nen, un -- ter Trau -- ben, um -- kränzt mit
+  Ro -- ſen ſa -- ßen ſie, und %25
+  gold -- ne Frucht fiel oh -- ne
+  Müh in ih -- ren Schoos, nur
+  ſanf -- te Lie -- der ſan -- gen
+  ſie.
+  %30
+  Ein dor -- nicht Feld, ein
+  Thal, wo Ar -- muth woh -- net, und See -- gen
+  nie den Fleiß be -- loh -- net, war
+  mei -- ner Kin -- der Theil.
+  Und %35
+  ach! mit wel -- cher Quaal, er --
+  in -- nert ſichs mein Geiſt! in die -- ſes
+  Dor -- nen -- thal fiel in der
+  Nacht die Schaar von A -- bels
+  Söh -- nen. Noch ſeh ich %40
+  mei -- ne Kin -- der höh -- nen, noch
+  ſchal -- let ihr Ge -- ſchrey mir
+  ſchreck -- lich in mein Ohr, noch ſteigt vor
+  mir die Flam -- me hoch em --
+  por von Hüt -- ten, die der Feind ent -- %45
+  zün -- det, noch ſeh ich, wie man
+  ſie als Scla -- ven bin -- det, hört nicht ihr
+  Fle -- hen, nicht ihr Schreyn, und führt ſie
+  weg, dienſt -- bar zu ſeyn. %49 finis
+}

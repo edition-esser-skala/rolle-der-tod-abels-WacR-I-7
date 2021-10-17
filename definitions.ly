@@ -688,6 +688,7 @@ tocLabelLong = #(define-music-function
 
 
 tempoLobtDen = \tempoMarkup "[Tempo deest]"
+tempoSieSingen = \tempoMarkup "[Tempo deest]"
 
 
 % \include "notes/fl1.ly"
