@@ -551,3 +551,174 @@ SeyMirBassFigures = \figuremode {
   <7- _!>1
   r2 %59 finis
 }
+
+OWortOrgano = {
+  \relative c {
+    \clef bass
+    \key f \minor \time 3/4 \tempoOWort
+    \mvTr f,4\fE-\soloE f f\p
+    f f' c
+    des des b
+    c c c
+    f, c' c %5
+    c c c\f
+    c\p c c\f
+    b\p b es
+    as, as as
+    ges' ges ges %10
+    f f f
+    fes fes\f fes\p
+    es es es
+    es fes(\f es8) r
+    es4\p fes(\f es8) r %15
+    des4\pE es es
+    fes2\fermata r4
+    g, g g
+    as as as
+    des es es, %20
+    as as as\fE
+    b b des
+    es es g, \noBreak
+    as es' es,
+    \time 4/4 \tempoOWortB
+      as8[\fermata r16. as32] as16. as32 as16. as32 as8. as16 g16. g32 g16. g32 \noBreak %25
+    f8. f'16 f16. f32 f16. f32 es!8. es16 d16. d32 d16. d32
+    g,4 g\p g g
+    g g g g
+    g g g g \noBreak
+    g16. g'32\fE g,16. g32 g16. g'32 g,16. g32 g4\fermata r %30
+    c8\p d es f g as! b! g \noBreak
+    as b c d es es, g es
+    f g as b c c, es c
+    h' g c c, g' g, g' a
+    h g c c, g' g, g' a %35
+    h\f g c c, g'2\fermata\pE
+    g, r
+    e'8\f d e\p c f g as b
+    c c, c' b as g f es
+    d c d b es f g as %40
+    b b, b' as g f es g
+    b2 b,
+    es,\fermata r
+    c'8 d es f g4 g,8 g'
+    c, d es f g a h g %45
+    c, d es f g g, g g'
+    c c, es f g g, g g'
+    c b! as g f es f d?
+    g4 g, as r\fermata
+    \once \tieDashed f'1~ %50
+    f2 r4 r8 as-\unisonoE
+    g a16 h c8 f, g4 g,
+    c8. c16 d16. es32 f16. g32 as8. d,16 es16. f32 g16. a32 \noBreak
+    h8. g16 a16. h32 c16. d32 es16. h32 c16. es,32 f8 g
+    \time 3/4 \newSpacingSection \tempoOWortD c,4 c c \noBreak %55
+    c c c\pE
+    f, f' c
+    des des b
+    c c c
+    f, c' c %60
+    c c c\f
+    c\p c c\f
+    b\p b b
+    c16\f d32 e f g a h c16. c,32 c16. c32 c8 r
+    a4\p a a %65
+    b b b
+    des des des\f
+    c\p c c
+    c des(\f c8) r
+    c4\p des(\f c8) r %70
+    b4\p c c
+    des2\fermata r4
+    r8 f,16.\f f32 g16. g32 as16. as32 b16. b32 c16. c32
+    des8 b\p c4 c
+    f, f'\f f %75
+    f f f
+    f f f
+    f8 b, c4 c
+    f, f f
+    b b b \bar "||" %80 finis
+  }
+}
+
+OWortBassFigures = \figuremode {
+  r2.
+  r2 <7 _!>4
+  <\t \t> <5 3>2
+  <7 _!>2.
+  <4>8 <3> <_!>4 <8 6> %5
+  <7 5>2.
+  <6 4>
+  <6>2 <7>4
+  <7 4> <8 3>2
+  <2>2. %10
+  <6>
+  <6!>
+  <4>4 <3>2
+  <7 5>2 \bassFigureExtendersOn q8 r
+  <6- 4>2 q8 r \bassFigureExtendersOff %15
+  <6 _->4 <6- 4> <5 3>
+  <\t \t> <5- 3>2
+  <6 5>4 <7- 5> <6 5>
+  <5 _-> <6- 4> <5 _->
+  <6 _-> <6- 4> <5 3> %20
+  <_!>2.
+  <4>8 <3>4. <6>4
+  <4>8 <3>4. <6 5>4
+  r <4> <3>
+  r2 <4! 2>4 <6!> %25
+  r2 <6 4! 2+>4 <\t \t \t>
+  <_!>4 <6 4>8 <7+ 2!> <8 _!>4 <6 4>8 <7+ 2!>
+  <8 _!>4 <4 2>8 <5 _!> <6 4> <7 _!> <\t \t> <6 4>
+  <5 _!>4 <4 2>8 <5 _!> <6 4> <7 _!> <\t \t> <6 4>
+  <5 _!>1 %30
+  r4 <6> <5- 4> <6 __>
+  <9> <6> <4> <6>
+  <9> <6> <4> <6>
+  <6 5 _!>2 <6 4>4 <5! _!>
+  <6 5 _!>2 <6 4>4 <5! _!> %35
+  <6 5 _!>2 <6 4>
+  <5! _!>1
+  <6 5->2 <9>4 <6>
+  <4> <_!> <6>2
+  <6 5> <9>4 <6> %40
+  <4> <_!> <6>2
+  <6 4>2 <5 _!>4 <7 \t>
+  <9 4> <8 3>2.
+  r2 <5! 4>4 <\t _!>
+  r2 <7 6>4 <5 _!> %45
+  <9> <6> <5! 4> <\t _!>
+  <9> <6> <7 5! 4> <\t \t _!>
+  r <5>2 <6!>4
+  <6 4> <5! _!> <3>2
+  <6->1 %50
+  r
+  r
+  r
+  r
+  r4 <7 _!> <6 4> %55
+  <5 _!> <6 4> <5 _!>
+  r2 <7 _!>4
+  <\t \t> <5 3>2
+  <7 _!>2.
+  r4 <_!> <8 6> %60
+  <7 5>2.
+  <6 4>
+  <6>
+  <_!>
+  <6 5-> %65
+  <9>4 <8>2
+  <6! 5>2.
+  <\t \t>4 <8 _!>2
+  <7- _!>2 \bassFigureExtendersOn q8 r
+  <6 4>2 q8 r \bassFigureExtendersOff %70
+  <6->4 <6 4> <7 5! _!>
+  <\t \t \t> <5 3>2
+  r4 <7>8 <6> r <7 _!>
+  <5> <6> <6 4>4 <5 _!>
+  r2. %75
+  <8 4 2>8 <6! \t \t>4. <8 _!>8 <7- \t>
+  <7 4> <6 \t>4. <7! 4 2>4
+  <8 3>8 <6> <6 4>4 <5 _!>
+  r2.
+  <7 4->8 <\t _!> <\t \t>2 %80 finis
+}

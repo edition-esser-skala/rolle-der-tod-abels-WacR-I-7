@@ -214,13 +214,64 @@
   %     \midi { \tempo 4 = 60 }
   %   }
   % }
+  % \bookpart {
+  %   \header {
+  %     genre = "A C C O M P A G N A T O"
+  %     number = "1.4"
+  %     title = "Sey mir gegrüßt, mein erſtgebohrner Sohn!"
+  %   }
+  %   \tocLabelLong "seymir" "1.4" "Accompagnato" "Sey mir gegrüßt, mein erſtgebohrner Sohn!"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #30
+  %     system-system-spacing.minimum-distance = #30
+  %     systems-per-page = #2
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \SeyMirViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \SeyMirViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \SeyMirViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "Adam" "Kain" }
+  %           \new Voice = "Soli" { \dynamicUp \SeyMirSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \SeyMirSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \SeyMirOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \SeyMirBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
     \header {
-      genre = "A C C O M P A G N A T O"
-      number = "1.4"
-      title = "Sey mir gegrüßt, mein erſtgebohrner Sohn!"
+      genre = "A R I A"
+      number = "1.5"
+      title = "O Wort, dafür mein Geiſt erzittert"
     }
-    \tocLabelLong "seymir" "1.4" "Accompagnato" "Sey mir gegrüßt, mein erſtgebohrner Sohn!"
+    \tocLabelLong "owort" "1.5" "Aria" "O Wort, dafür mein Geiſt erzittert"
     \paper {
       system-system-spacing.basic-distance = #30
       system-system-spacing.minimum-distance = #30
@@ -233,33 +284,33 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \SeyMirViolinoI
+              \OWortViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \SeyMirViolinoII
+              \OWortViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \SeyMirViola
+            \OWortViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "Adam" "Kain" }
-            \new Voice = "Soli" { \dynamicUp \SeyMirSoli }
+            \set Staff.instrumentName = "Adam"
+            \new Voice = "Soli" { \dynamicUp \OWortSoli }
           }
-          \new Lyrics \lyricsto Soli \SeyMirSoliLyrics
+          \new Lyrics \lyricsto Soli \OWortSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \SeyMirOrgano
+            \OWortOrgano
           }
         >>
-        \new FiguredBass { \SeyMirBassFigures }
+        \new FiguredBass { \OWortBassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 70 }

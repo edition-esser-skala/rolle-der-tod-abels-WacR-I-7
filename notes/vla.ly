@@ -283,3 +283,92 @@ SeyMirViola = {
     \partial 2 r4 c, \bar "||" %59 finis
   }
 }
+
+OWortViola = {
+  \relative c' {
+    \clef alto
+    \key f \minor \time 3/4 \tempoOWort
+    f,4\fE f f\p
+    f f c'
+    des des b
+    g g g
+    f c c' %5
+    c c c\f
+    c\p c c\f
+    b\p b b
+    b as as
+    as as as %10
+    as as as
+    fes fes\f fes\p
+    es es es'
+    es, fes(\f es8) r
+    es4\p fes(\f es8) r %15
+    des4\pE es es
+    fes2\fermata r4
+    g' g, g'
+    as as, as'
+    fes? es des %20
+    c! c c\fE
+    des des f,
+    es g es' \noBreak
+    es es des
+    \time 4/4 \tempoOWortB \newSpacingSection
+      c8[\fermata r16. es,32] es16. es32 es16. es32 f8. f16 g16. g32 g16. g32 \noBreak %25
+    as8. as16 as16. as32 as16. as32 a8. a16 a16. a32 a16. a32
+    g4 g\p g g
+    g g g g
+    g g g g
+    g16. g'32\f g,16. g32 g16. g32 g16. g32 g4 r\fermata %30
+    \tempoOWortC c8\p d es f g as! b! g
+    as b c d es es, g es
+    f g as b c c, es c
+    h' g c c, g' g, g' a
+    h g c c, g' g, g' a %35
+    h\f g c c, g'2\p\fermata
+    g r
+    e8\f d e\p c f g as b
+    c c, c' b as g f es!
+    d c d b es f g as %40
+    b b, b' as g f es g
+    b,2 b
+    es,\fermata r
+    c'8 d es f g4 g,8 g'
+    c, d es f g a h g %45
+    c, d es f g g, f'4
+    es2 d4 d
+    c8 b! as g f es f d
+    g4 g as r\fermata
+    \once \tieDashed <f f'>1~ %50
+    q2 r4 r8 as'
+    g a16 h c8 f, g4 g,
+    c8. c16 d16. es32 f16. g32 as8. d,16 es16. f32 g16. a32 \noBreak
+    h8. g16 a16. h32 c16. d32 es16. h32 c16. es,32 f8 g
+    \time 3/4 \tempoOWortD \newSpacingSection
+      c,4 c c \noBreak %55
+    c c c\p
+    f, f' c
+    des des b
+    g g g
+    f c c' %60
+    c c c\f
+    c\p c c\f
+    b\p b b
+    c16\f d32 e f g a h c16. c,32 c16. c32 c8 r
+    r es!\p r es r es %65
+    r des r des r des
+    des4 des des\f
+    c\p c c
+    c r8 g16.\f g32 g8 r
+    c4\p r8 f,16.\f f32 f8 c'\p %70
+    r des r as r g!
+    \appoggiatura g4 as2\fermata r4
+    r8 f'16.\f f32 f16. f32 f16. f32 f16. f32 g,16. g32
+    as8 des\p r c r b
+    as4 f\f f %75
+    g g a
+    b b g
+    as8 b r as r g
+    f4 f' f
+    f b, b \bar "||" %80 finis
+  }
+}

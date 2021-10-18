@@ -283,3 +283,92 @@ SeyMirViolinoII = {
     \partial 2 r4 b, \bar "||" %59 finis
   }
 }
+
+OWortViolinoII = {
+  \relative c' {
+    \clef treble
+    \key f \minor \time 3/4 \tempoOWort
+    as4\fE r8 as r as\p
+    r c r c r b
+    r b r as r des
+    r b r b r b
+    r as r g r as' %5
+    r g r c,32(\f des c h) c8 g'\p
+    r f r c32(\f des c h) c8 f\p
+    r des r des r des
+    r des r c r c
+    r c r c r c %10
+    r des r des r des
+    r d r d4\f d8\p
+    r <es b> r q r g
+    r b r b,16.\f b32 b8 b'\p
+    r as r as,16.\f as32 as8 as'\p %15
+    r des, r ces r b
+    \appoggiatura b4 as2\fermata r4
+    r8 b' r b,16.\f b32 b8 b'\p
+    r as r des,16.\f des32 ces8 es\p
+    r des r ces r b %20
+    r as r c'!\f b16 as g f
+    es( c) des4 f8 es16( des) c( b)
+    \once \slurDashed as( g) g8~ g16 b( es g) b( des f es) \noBreak
+    des( c b as) as4 g\trill
+    \time 4/4 \tempoOWortB
+      as8[\fermata r16. as,32] as16. as32 as16. as32 b8. b16 b16. b32 b16. b32 \noBreak %25
+    as8. c16 c16. c32 c16. c32 c8. c16 c16. c32 c16. c32
+    h8 h\p c( a) h( h) c( a)
+    h-! h16( c) c( d) d( es) es8 d4 c8
+    h-! h16( c) c( d) d( es) es8 d4 c8 \noBreak
+    h16. g'32\f g,16. g32 g16. g32 g16. g32 g4\fermata r %30
+    \tempoOWortC es''2\p des!4 des \noBreak
+    c2 b4 b
+    as2 g4 g
+    f es es d
+    d' c c h %35
+    f'\f es c2\fermata\p
+    h r
+    b4\f b\p as as
+    g g f as~
+    as as g g %40
+    f f es es
+    es2 d4 f
+    f8( es) es4\fermata r2
+    c' c4 h
+    es2~ es4 d~ %45
+    d c2 h4
+    g2 f4 f
+    es es as as8 f
+    es4 d c r\fermata
+    as'1~ %50
+    as2 r4 r8 as
+    g a16 h c8 f, g4 g,
+    c8. c16 d16. es32 f16. g32 as8. d,16 es16. f32 g16. a32 \noBreak
+    h8. g16 a16. h32 c16. d32 es16. h32 c16. es,32 f8 g
+    \time 3/4 \tempoOWortD \newSpacingSection
+      c, e r g r f \noBreak %55
+    e16( g b8) r as r g\p
+    r f r c r b
+    r b r as r des
+    r b r b r b
+    r as r g r as' %60
+    r g r c,32(\f des c h) c8 g'\p
+    r f r c32(\f des c h) c8 f\p
+    r des r des r des
+    c16\f d32 e f g a h c16. c,32 c16. c32 c8 r
+    r f\p r f r f %65
+    r f r f r f
+    r f r f4\f f8\p
+    r f r e r e
+    r g r b,16.\f b32 b8 g'\p
+    r f r as,16.\f as32 as8 f'\p %70
+    r des r c r b
+    \appoggiatura b4 as2\fermata r8 f'16.\pocoF f32
+    g16. g32 as16. as32 b16. b32 c16. c32 des16. des32 b,16. b32
+    as8 g'\p r f r e
+    c4 as\f as %75
+    b b c
+    des des b
+    as8 b r c r b
+    as f' r as r as
+    as4 r8 d, r f \bar "||" %80 finis
+  }
+}

@@ -399,3 +399,156 @@ SeyMirSoliLyrics = \lyricmode {
   du das Pa -- ra -- dies ver --
   loh -- ren. %59 finis
 }
+
+OWortSoli = {
+  \relative c {
+    \clef bass
+    \key f \minor \time 3/4 \autoBeamOff \tempoOWort
+    r4 r c
+    as'4.. g16 f8. e16
+    \appoggiatura e4 f2 r8 des'
+    des4( c) r8 b
+    \appoggiatura b as4 g r8 c %5
+    c b16([ c)] des8 c, r b'
+    b as16([ b)] c8 c, r as'~
+    as g des'8. b16 b8. des,16
+    \appoggiatura es8 des4 c r8 as'
+    as([ es)] es4 r8 as %10
+    as([ des,)] des4 as'~
+    as8 ces ces4. b16([ as)]
+    \appoggiatura as4 g2 r8 b
+    des es, fes4( es8) des'
+    ces es, fes4( es8) ces' %15
+    b8.([ ces32 b)] as4( g)
+    \appoggiatura g as2\fermata r8 as
+    des es, fes4( es8) des'
+    ces es, fes4( es8) ces'
+    b4 as( g) %20
+    as2 r4
+    R2.*3
+    \time 4/4 \tempoOWortB \newSpacingSection R1*2 %26
+    r4 g2 g4
+    g2~ g8 h c fis,
+    g4 r8 g16 g g8 h c c, \noBreak
+    g'4 r r2\fermata %30
+    \tempoOWortC c,8 d es f g as! b!4 \noBreak
+    as c es es,
+    f as c c,
+    h' c g g,
+    h' c g g, %35
+    r c'8\fermata c, g'4~\fermata g16[ fis a g]
+    g2 r
+    r4 e8 c f([ g)] as([ b)]
+    c4. b8 as([ g)] f4
+    b b, es8([ f)] g([ as)] %40
+    b4 b, es es'~
+    es es, b' b,
+    es2\fermata r
+    c8 d es f g a h4
+    c es g, h %45
+    c es g, h
+    r c g h
+    c4. b8 as g as f
+    g2 c,4 r\fermata
+    as'2 des!4 as %50
+    as des, r r8 as'
+    g a16([ h)] c8 f, g2
+    c,4 r r2 \noBreak
+    R1
+    \time 3/4 \tempoOWortD \newSpacingSection R2. \noBreak %55
+    r4 r c
+    as'4.. g16 f8. e16
+    \appoggiatura e4 f2 r8 des'
+    des4( c) r8 b
+    \appoggiatura b as4 g r8 c %60
+    c b16([ c)] des8 c, r b'
+    b as16([ b)] c8 c, r as'~
+    as g des'8. c16 b([ as)] g([ f)]
+    c'8 c, r4 r8 c'
+    c([ es,!)] es4 r8 c' %65
+    c([ des,)] des4 f~
+    f8 as as4. g16([ f)]
+    \appoggiatura f4 e2 r8 g
+    b c, des4( c8) b'
+    as c, des4( c8) as' %70
+    ges8.([ b32 ges)] f4( e)
+    \appoggiatura e f2\fermata r8 f
+    g as b c des e,
+    f b c,4 e
+    \appoggiatura e f2 r4 %75
+    R2.*5 \bar "||" %80 finis
+  }
+}
+
+OWortSoliLyrics = \lyricmode {
+  O
+  Wort, da -- für mein
+  Geiſt, mein
+  Geiſt er --
+  zit -- tert, das %5
+  wie ein Don -- ner, das
+  wie ein Don -- ner, wie __
+  ein Don -- ner mich er --
+  ſchüt -- tert. O
+  Vor -- wurf, o %10
+  Vor -- wurf vol --
+  ler To -- des --
+  pein, mit
+  tau -- ſend Sta -- cheln
+  gräbt er in __ mein %15
+  Herz ſich __
+  ein, mit
+  tau -- ſend Sta -- cheln
+  gräbt er in __ mein
+  Herz ſich __ %20
+  ein!
+
+  Wel -- che %27
+  Ahn -- dung faſ -- ſet
+  mich! wel -- che Ahn -- dung faſ -- ſet
+  mich! %30
+  Al -- so wer -- den En -- kel dich
+  in der Er -- de
+  fern -- ſten Ta -- gen,
+  A -- dam, A -- dam,
+  laut ver -- kla -- gen, %35
+  laut ver -- kla --
+  gen,
+  Ret -- tung aus dem
+  E -- lend ſu -- chen,
+  a -- ber kei -- ne %40
+  Ret -- tung ſehn, kei --
+  ne Ret -- tung
+  ſehn!
+  ü -- ber dei -- nem Haup -- te ſtehn
+  und dir er -- ſten %45
+  Sün -- der flu -- chen,
+  dir er -- ſten,
+  und dir er -- ſten Sün -- der
+  flu -- chen,
+  dir er -- ſten %50
+  Sün -- der, dir
+  er -- ſten Sün -- der flu --
+  chen!
+
+  O %56
+  Wort, da -- für mein
+  Geiſt, mein
+  Geiſt er --
+  zit -- tert, das %60
+  wie ein Don -- ner, das
+  wie ein Don -- ner, wie __
+  ein Don -- ner mich er --
+  ſchüt -- tert. O
+  Vor -- wurf, o %65
+  Vor -- wurf vol --
+  ler To -- des --
+  pein, mit
+  tau -- ſend Sta -- cheln
+  gräbt er in __ mein %70
+  Herz __ ſich __
+  ein, mit
+  tau -- ſend Sta -- cheln gräbt er
+  in mein Herz ſich
+  ein! %75 finis
+}

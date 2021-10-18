@@ -698,6 +698,10 @@ tempoIchElend = \tempoMarkup "Poco lento"
   tempoIchElendC = \tempoMarkup "Poco lento"
   tempoIchElendD = \tempoMarkup "Allegro"
 tempoSeyMir = \tempoMarkup "Recitativo"
+tempoOWort = \tempoMarkup "Andante"
+  tempoOWortB = \tempoMarkup "Grave"
+  tempoOWortC = \tempoMarkup "Vivace ma non troppo"
+  tempoOWortD = \tempoMarkup "Andante"
 
 
 % \include "notes/fl1.ly"
