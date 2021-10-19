@@ -372,3 +372,29 @@ OWortViolinoI = {
     es!( d) r f, r as \bar "||" %80 finis
   }
 }
+
+WieSeufzetViolinoI = {
+  \relative c' {
+    \clef treble
+    \key f \minor \time 4/4 \tempoWieSeufzet
+    as'8( g) g2.~\p
+    g2 r
+    r \tempoWieSeufzetB r8 des'!16.( es32 des16) b(-. b-. b-.)
+    r8 b16.(\f c32 b16) g(-.\p g-. g-.) r8 g16.(\f as32 g16) e(-.\p e-. e-.)
+    \key c \major e4~\f e2.~\p %5
+    e1
+    r2 r8 a16.(\f b32 a16) f(-.\p f-. f-.)
+    r8 a16.(\f b32 a16) fis(-.\p fis-. fis-.) fis4~\f fis~\p
+    fis1~
+    fis %10
+    r2 r8 h16.(\f c32 h16) g(-.\p g-. g-.)
+    gis4~\f gis\p r2
+    \tempoWieSeufzetC r8 f'!16.(\p g!32 f16) d(-. d-. d-.) r8 d16.( e32 d16) h(-. h-. h-.)
+    r8 h16.( c32 h16) gis(-. gis-. gis-.) r8 gis16.( a32 gis16) d(-. d-. d-.)
+    r8 e'16.( f32 e16) c(-. c-. c-.) r8 des16.(\f es32 des16) des(-.\p des-. des-.) %15
+    r8 des16.(\f es32 des16) des(-.\p des-. des-.) r8 des16.(\f es32 des16) des(-. des-. des-.)
+    r8 c16.( des32) c16( as) as( es) es2
+    \tempoWieSeufzetD R1*3 %20
+    R1\fermata \bar "|." %21 finis
+  }
+}

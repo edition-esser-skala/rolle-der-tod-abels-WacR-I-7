@@ -372,3 +372,29 @@ OWortViola = {
     f b, b \bar "||" %80 finis
   }
 }
+
+WieSeufzetViola = {
+  \relative c' {
+    \clef alto
+    \key f \minor \time 4/4 \tempoWieSeufzet
+    b1~\p
+    b2 r
+    des! \tempoWieSeufzetB c
+    c4(\f c)\p c~\f c16 g(-.\p g-. g-.)
+    \key c \major g4~\f g2.~\p %5
+    g1
+    r2 d'4(\f d)\p
+    c!(\f c)\p a(\f a)\p~
+    a1~
+    a %10
+    r2 e'4(\f e)\p
+    h(\f h)\p r2
+    \tempoWieSeufzetC e2\p e
+    e e,
+    a g'!4(\f g)\p %15
+    f(\f f)\p es2\f
+    as,4 as8 as as2
+    \tempoWieSeufzetD R1*3 %20
+    R1\fermata \bar "|." %21 finis
+  }
+}

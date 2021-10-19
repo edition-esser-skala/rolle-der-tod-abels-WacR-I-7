@@ -265,17 +265,69 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \header {
+  %     genre = "A R I A"
+  %     number = "1.5"
+  %     title = "O Wort, dafür mein Geiſt erzittert"
+  %   }
+  %   \tocLabelLong "owort" "1.5" "Aria" "O Wort, dafür mein Geiſt erzittert"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #30
+  %     system-system-spacing.minimum-distance = #30
+  %     systems-per-page = #2
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \OWortViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \OWortViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \OWortViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Adam"
+  %           \new Voice = "Soli" { \dynamicUp \OWortSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \OWortSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \OWortOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \OWortBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
     \header {
-      genre = "A R I A"
-      number = "1.5"
-      title = "O Wort, dafür mein Geiſt erzittert"
+      genre = "A C C O M P A G N A T O"
+      number = "1.6"
+      title = "Wie ſeufzet er!"
     }
-    \tocLabelLong "owort" "1.5" "Aria" "O Wort, dafür mein Geiſt erzittert"
+    \tocLabelLong "wieseufzet" "1.6" "Accompagnato" "Wie ſeufzet er!"
     \paper {
       system-system-spacing.basic-distance = #30
       system-system-spacing.minimum-distance = #30
       systems-per-page = #2
+      page-count = #3
     }
     \score {
       <<
@@ -284,33 +336,33 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \OWortViolinoI
+              \WieSeufzetViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \OWortViolinoII
+              \WieSeufzetViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \OWortViola
+            \WieSeufzetViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "Adam"
-            \new Voice = "Soli" { \dynamicUp \OWortSoli }
+            \set Staff.instrumentName = "Kain"
+            \new Voice = "Soli" { \dynamicUp \WieSeufzetSoli }
           }
-          \new Lyrics \lyricsto Soli \OWortSoliLyrics
+          \new Lyrics \lyricsto Soli \WieSeufzetSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \OWortOrgano
+            \WieSeufzetOrgano
           }
         >>
-        \new FiguredBass { \OWortBassFigures }
+        \new FiguredBass { \WieSeufzetBassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 70 }

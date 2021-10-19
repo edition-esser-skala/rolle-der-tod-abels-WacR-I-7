@@ -702,6 +702,10 @@ tempoOWort = \tempoMarkup "Andante"
   tempoOWortB = \tempoMarkup "Grave"
   tempoOWortC = \tempoMarkup "Vivace ma non troppo"
   tempoOWortD = \tempoMarkup "Andante"
+tempoWieSeufzet = \tempoMarkup \markup \left-column { "Kain, der in der Entfernung ſtehen geblieben" "und ſeinen Vater jammern geſehen" }
+  tempoWieSeufzetB = \tempoMarkup "Poco largo"
+  tempoWieSeufzetC = \tempoMarkup "a tempo"
+  tempoWieSeufzetD = \tempoMarkup "Recitativo"
 
 
 % \include "notes/fl1.ly"

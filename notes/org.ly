@@ -722,3 +722,54 @@ OWortBassFigures = \figuremode {
   r2.
   <7 4->8 <\t _!> <\t \t>2 %80 finis
 }
+
+WieSeufzetOrgano = {
+  \relative c {
+    \clef bass
+    \key f \minor \time 4/4 \tempoWieSeufzet
+    es1~\p
+    es2 r
+    des!^\tenuto \tempoWieSeufzetB c
+    c4(\f c)\p c(\f c)\p
+    \key c \major cis4~\f cis2.~\p %5
+    cis1
+    r2 d4(\f d)\p
+    c!(\f c)\p h(\f h)~\p
+    h1~
+    h %10
+    r2 e4(\f e)\p
+    e(\f e)\p r2
+    \tempoWieSeufzetC e2\p e
+    e, e
+    a g'!4(\f g)\p %15
+    f(\f f)\p es2\f
+    as,4 as8 as as2
+    \tempoWieSeufzetD R1*2
+    as2 b %20
+    r4 b es,2\fermata \bar "|." %21 finis
+  }
+}
+
+WieSeufzetBassFigures = \figuremode {
+  <9 4>8 <8 3>2..
+  r1
+  <6>2 <7 _!>
+  <\t \t>1
+  <7-> %5
+  r
+  r
+  <4+ 2+>2 <7 5+ _+>
+  r1
+  r %10
+  r
+  <7! _+>
+  <\t \t>
+  q
+  r2 <5- _-> %15
+  <\t \t> <7- 5->
+  r1
+  <5->
+  r
+  <6>2 <7-> %20
+  r <5-> %21 finis
+}

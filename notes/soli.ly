@@ -552,3 +552,55 @@ OWortSoliLyrics = \lyricmode {
   in mein Herz ſich
   ein! %75 finis
 }
+
+WieSeufzetSoli = {
+  \relative c {
+    \clef bass
+    \key f \minor \time 4/4 \autoBeamOff \tempoWieSeufzet
+    r4 r8 b es8. es16 es4
+    r8 es g f g g g as
+    b b b g \tempoWieSeufzetB e e r4
+    R1
+    \key c \major r4 r8 g e8. e16 e4 %5
+    b' b8 g e e r4
+    g8 g a e f4 r
+    r2 r4 r8 fis
+    dis dis r h' h fis r4
+    fis8 fis16 fis fis8 g a16. a32 a8 r a %10
+    a a c h g4 r
+    r8 e e fis gis gis gis a
+    \tempoWieSeufzetC h4 r8 h a4( gis8) h
+    d,4. f!8 f4. e8
+    c c r a' b4. b8 %15
+    r b b b as16([ g)] g8 r b16 des,
+    c8 c r4 r2
+    \tempoWieSeufzetD es8 es as g as4 as8 as
+    as4. g8 as4 c8 r16 c
+    c8 as as f d!4 d8 es %20
+    b4 r r2\fermata \bar "|." %21 finis
+  }
+}
+
+WieSeufzetSoliLyrics = \lyricmode {
+  Wie ſeuf -- zet er!
+  wie kläg -- lich ringt er ü -- ber
+  ſei -- nem Haupt die Hän -- de!
+
+  Mein na -- gen -- der %5
+  qual -- vol -- ler Vor -- wurf
+  dringt ihm tief ins Herz.
+  Ach,
+  Ka -- in! ach, Ka -- in!
+  wen -- de von die -- sem Un -- ge -- ſtüm dich %10
+  zur Ver -- nunft zu -- rück.
+  Kannſt du des from -- men Va -- ters
+  Blick voll ſol -- cher
+  See -- len -- angſt er --
+  tra -- gen, ſein Seuf -- zen, %15
+  ſein Seuf -- zen hö -- ren, und ſein
+  Kla -- gen!
+  Noch biſt du nicht ganz dei -- nes
+  E -- lends Raub, eil, und
+  wirf dich vor ihm hin in den %20
+  Staub! %21 finis
+}
