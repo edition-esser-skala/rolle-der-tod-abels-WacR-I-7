@@ -316,56 +316,126 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \header {
+  %     genre = "A C C O M P A G N A T O"
+  %     number = "1.6"
+  %     title = "Wie ſeufzet er!"
+  %   }
+  %   \tocLabelLong "wieseufzet" "1.6" "Accompagnato" "Wie ſeufzet er!"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #30
+  %     system-system-spacing.minimum-distance = #30
+  %     systems-per-page = #2
+  %     page-count = #3
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \WieSeufzetViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \WieSeufzetViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \WieSeufzetViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Kain"
+  %           \new Voice = "Soli" { \dynamicUp \WieSeufzetSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \WieSeufzetSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \WieSeufzetOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \WieSeufzetBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
     \header {
-      genre = "A C C O M P A G N A T O"
-      number = "1.6"
-      title = "Wie ſeufzet er!"
+      genre = "A R I A"
+      number = "1.7"
+      title = "Mein Vater, ach! verzeihe"
     }
-    \tocLabelLong "wieseufzet" "1.6" "Accompagnato" "Wie ſeufzet er!"
-    \paper {
-      system-system-spacing.basic-distance = #30
-      system-system-spacing.minimum-distance = #30
-      systems-per-page = #2
-      page-count = #3
-    }
+    \tocLabelLong "meinvater" "1.7" "Aria" "Mein Vater, ach! verzeihe"
     \score {
       <<
+      \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "fl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \MeinVaterFlautoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \MeinVaterFlautoII
+            }
+          >>
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "fag"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \MeinVaterFagottoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \MeinVaterFagottoII
+            }
+          >>
+        >>
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \WieSeufzetViolinoI
+              \MeinVaterViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \WieSeufzetViolinoII
+              \MeinVaterViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \WieSeufzetViola
+            \MeinVaterViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "Kain"
-            \new Voice = "Soli" { \dynamicUp \WieSeufzetSoli }
+            \new Voice = "Soli" { \dynamicUp \MeinVaterSoli }
           }
-          \new Lyrics \lyricsto Soli \WieSeufzetSoliLyrics
+          \new Lyrics \lyricsto Soli \MeinVaterSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \WieSeufzetOrgano
+            \MeinVaterOrgano
           }
         >>
-        \new FiguredBass { \WieSeufzetBassFigures }
+        \new FiguredBass { \MeinVaterBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 70 }
+      \midi { \tempo 4 = 80 }
     }
   }
 }

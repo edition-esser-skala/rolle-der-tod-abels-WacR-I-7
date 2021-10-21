@@ -773,3 +773,115 @@ WieSeufzetBassFigures = \figuremode {
   <6>2 <7-> %20
   r <5-> %21 finis
 }
+
+MeinVaterOrgano = {
+  \relative c {
+    \clef bass
+    \key es \major \time 4/4 \tempoMeinVater
+    \mvTr es8\fE-\soloE es es es d d d d
+    c c c b as as as g
+    as4 b es r8 es,\pE
+    f f g g as as b b
+    es es g, g as as b b %5
+    r c as as b b b b
+    es,2~ es4 r
+    b' r r8 b(-. b-. b-.)
+    es,2~ es4 r
+    b' r r8 b(-. b-. b-.) %10
+    es,2~ es4 r8 es'
+    d d d d c c f, f
+    r b b b d16.\f d32 d8 r d\p
+    es es es es e16.\f e32 e8 r e\p
+    f8. \tuplet 3/2 16 { \mvTr f32\f-\unisonoE g a } b16. g32 f16. e32 f8 c'\p a f %15
+    r f, f f f f f f
+    r f f f f f f f
+    r f f f r f f f
+    b b b b b4 r8 b
+    b4 r8 b b4 r8 b %20
+    b b d d es16.-\unisonoE es32 e16. e32 f16. f32 fis16. fis32
+    g4 r8 d es r f r
+    b, b\fE b b a a a a
+    g g g' f es es es d
+    es4 f b, r %25
+    r8 b\pE b b b b b b
+    r b b b r b b b
+    b4 d8 es f f f, f
+    r b b b r as! as as
+    g g g g r g g g %30
+    r c c c r f f, g
+    as4 a b8 b' b16 as g f
+    es8 es es es d d d d
+    es es es es d d d d
+    es es as, as b b b b %35
+    c c c b as as as' g
+    f4 f,8 f f2
+    r8 b b b f'2
+    r8 b, b b r as! as as
+    r g g g r d' d d %40
+    r es es es r des des des
+    r c c c g g g g
+    as as as4 r8 as as as
+    r b c b as as b b
+    es es es es d d d d %45
+    c c c b as as g as
+    b2\fermata b
+    es8 es, es4 r8 es' es,4
+    r8 es' es,4 r8 es' es,4
+    r8 es' es,4 r8 es' es, es %50
+    es2 r\fermata \bar "|." %51 finis
+  }
+}
+
+MeinVaterBassFigures = \figuremode {
+  r2 <6>
+  <5>4 <6>8 <6 4> <6 5>4. <6>8
+  q4 <6 4>8 <5 3> r4. <5 3>8
+  <\t \t> <10 8> <6>4 <6 5>2
+  r4 <6>2 <9>8 <8> %5
+  r4. <6>8 <6 4>4 <7 3>
+  r1
+  <6 4>8 <5 3> <7 5> <6 4> <8 6>4 <7 5>
+  r1
+  <6 4>8 <5 3> <7 5> <6 4> <8 6>4 <7 5> %10
+  r1
+  <6>2 <7>4 <7 _!>
+  <4>8 <3>4. <6 5->2
+  <9 4>8 <8 3>4. <6 5>2
+  <_!>1 %15
+  <7 5 4>8 <\t \t _!>2..
+  <9 4>8 <8 _!> <7 \t>2.
+  <7 5 4>8 <\t \t _!>2 <8 _!>8 <7 \t>4
+  r2.. <7->8
+  <6 4>4. <\t \t>8 <7! 4 2>4. <\t \t \t>8 %20
+  <8 3>4 <6>2.
+  r4. <6> <_!>4
+  r2 <6>
+  <5>4 <6>8 <6 4> <6 5>4. <6>8
+  q4 <6 4>8 <5 _!> r2 %25
+  <7! 5>8 <6 4> <5 3>4 <6 4> <7! 4 2>
+  <8 3>2 <6 4>4 <7! 4 2>
+  <8 3>4 <6> <8 6 _!>4 <7 5 \t>
+  <9 4>8 <8 3>2 <6 4>4 <\t \t 3>8
+  <7 _!>1 %30
+  r2 <9 4->8 <\t \t> <8 _-> <6!>
+  <6>4 <6 5-> <9 4>8 <8 3>4.
+  r2 <6>
+  r q
+  r4 q <6 4>4 <5 \t>8 <\t 3> %35
+  <5>4 <6>8 <6 4> <6 5>4. <6>8
+  <7 4>8 <\t _!>2..
+  <9 4>8 <8 3>4. <7 _!>2
+  <9 4>8 <8 3>2 <2>4.
+  r8 <6>2 <6 5>4. %40
+  <9 4>8 <8 3>2 <2>4.
+  r8 <6>4. <6 5->2
+  r r8 <6>4.
+  <4->8 <3> <5 3> <\t \t> <6 5>4 <6 4>8 <5 3>
+  r2 <6> %45
+  <5>4 <6>8 <6 4> <6 5>4 <6>8 <5>
+  <6 4>2 <5 3>
+  r2 <7 4>8 <\t \t> <8 3>4
+  <7 4>8 <\t \t> <8 3>4 <7 4>8 <\t \t> <8 3>4
+  <7 4>8 <\t \t> <8 3>4 <7 4>8 <\t \t> <8 3>4 %50
+  r1 %51 finis
+}

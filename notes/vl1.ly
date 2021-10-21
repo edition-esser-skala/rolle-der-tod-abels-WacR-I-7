@@ -398,3 +398,61 @@ WieSeufzetViolinoI = {
     R1\fermata \bar "|." %21 finis
   }
 }
+
+MeinVaterViolinoI = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 4/4 \tempoMeinVater
+    es'4\fE d32( es16.) d32( es16.) b4 a32( b16.) a32( b16.)
+    es,8.( f32 g) as8 g f8.( as16) c8 b
+    c, as'32( f16.) g32( es16.) d32( f16.) es8 b b'4\p
+    b8 \appoggiatura b32 as( g as16) g4 f~ f8 g16 as
+    g16. f32 es8 r16 b' g es c'4. b32( as16.) %5
+    g4 \appoggiatura b16 as8 g16 f es4 f8.(\trill es32 f)
+    es4 b8.( c16) b8 g'(-. g-. g-.)
+    g( f) as( g) b4( as)\trill
+    g b,8.( c16) b8 g'(-. g-. g-.)
+    g( f) as( g) \once \slurDashed b4( as)\trill %10
+    g b,8.( c16) b8 es g es
+    b'4 r8 b b8.( a32 b c8) es,-!
+    \appoggiatura es d4 r8 b as'16.\f as32 as16. as32 c8.( b32\p as)
+    \appoggiatura as8 g4 r8 es b'16.\f b32 b16. b32 d8.( c32\p b)
+    a8. \tuplet 3/2 16 { f32\f g a } b16. g32 f16. e32 f4 c'\p %15
+    \once \slurDashed b8( a) a2 a8 g
+    g( f) f2 c'4
+    b8( a) a-! g-! f4( es)\trill
+    d r r8 f f8. as16
+    g8 g g8. b16 a8 a a8. c16 %20
+    b4 r8 d, es16. es32 e16. e32 f16. f32 fis16. fis32
+    g16. d'32 d16. d32 d16. d32 d16. f,32 g16. b32 a16 g \appoggiatura g32 f16 es \appoggiatura es32 d16 c
+    b8 b''\fE a32( b16.) a32( b16.) f4 e32( f16.) e32( f16.)
+    b,8.( c32 d) es8 d c8.( es16) g8 f
+    g, es'32( c16.) d32( b16.) a32( c16.) b8 b, b'4\pE %25
+    a8 \appoggiatura a32 g( f g16) f8 r g8. b16 a8. c16
+    b( f) f8 r4 g8.( a32 b) c8 a
+    b8( d) c16 b a g f4( es)\trill
+    \appoggiatura es8 d4-\critnote r8 b f'4. f8
+    f4. h8 h8.( c16 d8) f,-! %30
+    \appoggiatura f32 es16 d c8 r c' b4( as!8) g-!
+    f as16 b c8 es,! \appoggiatura es d4 r
+    es' d32( es16.) d32( es16.) b4. as8\turn
+    g16( es'8.) d32( es16.) es,8 b'4. c32( as16.)
+    g4 \appoggiatura b16 as8 g16 f es8.( f16) f8.(\trill es32 f) %35
+    es8.( f32 g) as8 g \once \slurDashed f8.( as16) c8 b
+    b a a4 a16( b) a( b) c8 es,
+    es d r4 a'16( c) c( es) es( c) a( es)
+    \appoggiatura f es8 d r b f'4. b16( d,)
+    es4. b'8 b4_( \grace b32 as16 g) as8 %40
+    \appoggiatura b16 as8 g r es g4. b16( g)
+    as4. c8 b4 \appoggiatura es,8 des4
+    c r8 c'16( as) f8. e16 f8 as16 f
+    \appoggiatura es8 d4 es8 r f8.( as16) \appoggiatura g8 f4\trill
+    es' d32( es16.) d32( es16.) b4 a32( b16.) b,8 %45
+    es8.( f32 g) as8 g f-! c'( b as)
+    g4 r\fermata f2\trill
+    es4 g,16( b) es( g) f4( es8) b'
+    \appoggiatura es, d4 es16-! b( es g) f4( es8) b'
+    \appoggiatura es, d4 es16-! b( es g) f4( es16) g b es %50
+    es2 r\fermata \bar "|." %51 finis
+  }
+}

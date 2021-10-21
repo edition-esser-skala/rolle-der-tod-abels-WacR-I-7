@@ -70,3 +70,55 @@ LobtDenFagottoI = {
     es1\fermata \bar "|." %70 fini
   }
 }
+
+MeinVaterFagottoI = {
+  \relative c {
+    \clef bass
+    \key es \major \time 4/4 \tempoMeinVater
+    es'4\fE d32( es16.) d32( es16.) b4 a32( b16.) a32( b16.)
+    es,8.( f32 g) as8 g \once \slurDashed f8.( as16) c8 b
+    as4( g8) f es4 r
+    R1*3 %6
+    r2 r4 g\p
+    g8( f) as( g) \once \slurDashed b4( as)\trill
+    g r r g8 g
+    g( f) as( g) \once \slurDashed b4( as)\trill %10
+    g r r2
+    R1
+    r4 r8 b, as'!16.\f as32 as16. as32 c8.( b32\p as)
+    \appoggiatura as8 g4 r8 es b'16.\f b32 b16. b32 d8.( c32\p b)
+    a8. \tuplet 3/2 16 { f32\f g a } b16. g32 f16. e32 f4 r %15
+    R1*3
+    r2 r4 f\pE
+    g2 a? %20
+    b4 r8 d, es16. es32 e16. e32 f16. f32 fis16. fis32
+    g16 d'8 d d f,16 g16.^\critnote b32 a16 g \appoggiatura g32 f16 es \appoggiatura es32 d16 c
+    b8 f''4\fE f8 f f4 f8
+    b,8.( c32 d) es8 d \once \slurDashed c8.( es16) g8 f
+    es4 d8 c b b, r4 %25
+    r2 g'4\pE a
+    \once \slurDashed b16( f) f8 r4 g a
+    \once \slurDashed b8( d) c16 b a g f4 es'\trill
+    \appoggiatura es8 d4 r r2
+    R1*3 %32
+    r2 r8 f, f16 g g as
+    g8 r r4 r8 f f16 g g as
+    g8 r r4 r2 %35
+    R1
+    r2 c(
+    d4) r es2
+    es8 d r4 r2
+    R1 %40
+    r2 b
+    c des
+    c4 r r2
+    R1
+    es8 es4 es8 b b4 b8 %45
+    es,1~
+    es4 r\fermata f2\trill
+    es4 r \once \slurDashed d'( es8) r
+    r2 \once \slurDashed d4( es8) r
+    r4 r8 es \once \slurDashed d4( \sbOn es16) g,32 as b as g f \sbOff %50
+    es2 r\fermata \bar "|." %51 finis
+  }
+}

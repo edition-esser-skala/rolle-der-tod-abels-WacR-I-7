@@ -398,3 +398,61 @@ WieSeufzetViolinoII = {
     R1\fermata \bar "|." %21 finis
   }
 }
+
+MeinVaterViolinoII = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 4/4 \tempoMeinVater
+    es'4\fE d32( es16.) d32( es16.) b4 a32( b16.) a32( b16.)
+    es,8.( f32 g) as8 g f8.( as16) c8 b
+    c, as'32( f16.) g32( es16.) d32( f16.) es8 b g'4\p
+    g8 \appoggiatura g32 f( es f16) es4 \once \slurDashed es( d8) es16 f
+    es16. d32 es8 es4. es8 d4 %5
+    es4 \appoggiatura d16 c8 b16 as g4 as8.(\trill g32 as)
+    g4 g8.( as16) g8 es'(-. es-. es-.)
+    es( d) f( es) \once \slurDashed g4( f)\trill
+    es g,8.( as16) g8 es'(-. es-. es-.)
+    es( d) f( es) \once \slurDashed g4( f)\trill %10
+    es g,8.( as16) g8 es' g es
+    b'4 r8 b b8.( a32 b c8) c,-!
+    \appoggiatura c8 b4 r8 b f'16.\f f32 f16. f32 as8.( g32\p f)
+    \appoggiatura f8 es4 r8 es g16.\f g32 g16. g32 b8.( a32\p g)
+    a8. \tuplet 3/2 16 { f32\f g a } b16. g32 f16. e32 f4 f\p %15
+    <c es> q2 c8 b
+    b( a) \appoggiatura a16 es'2 es4
+    <c es> c8 b \once \slurDashed a4( c)\trill
+    b r r8 d d8. f16
+    es8 es es8. d16 <c es>8 q q8. es16 %20
+    d4 r8 d es16. es32 e16. e32 f16. f32 fis16. fis32
+    g16. b32 b16. b32 b16. b32 b16. f32 g16. b32 a16 g \appoggiatura g32 f16 es \appoggiatura es32 d16 c
+    b8 b''\fE a32( b16.) a32( b16.) f4 e32( f16.) e32( f16.)
+    b,8.( c32 d) es8 d \once \slurDashed c8.( es16) g8 f
+    g, es'32( c16.) d32( b16.) a32( c16.) b8 b, g'4\pE %25
+    f8 \appoggiatura f32 es( d es16) d8 r es es <c es> q
+    d d d d es4. es8
+    d( b') a16 g f es \once \slurDashed d4( c)\trill
+    \appoggiatura c8 b4-\critnote r8 b d4. d8
+    d4. f8 f4. f8 %30
+    \appoggiatura f32 es16 d c8 r c' b!4( as!8) g-!
+    f as16 b c8 es,! \appoggiatura es d4 r
+    es' d32( es16.) d32( es16.) b4. as8\turn
+    g16( es'8.) d32( es16.) es,8 b'4. c32( as16.)
+    g4 \appoggiatura b16 as8 g16 f es8.( f16) f8.(\trill es32 f) %35
+    es8.( f32 g) as8 g \once \slurDashed f8.( as16) c8 b
+    <a es> q q q q q q es
+    es d r4 r8 a'16( c) c( a) es( c)
+    \appoggiatura d c8 b r4 r8 d d d
+    r es es es r f f f %40
+    \appoggiatura g16 f8 es r4 r8 es es es
+    r es es es es es b b
+    as as as \once \slurDashed c'16( as) f8. e16 f8 as16 f
+    \appoggiatura es8 d4 es2 \appoggiatura es8 d4\trill
+    \appoggiatura es16 es'4 d32( es16.) d32( es16.) b4 a32( b16.) b,8 %45
+    es2~ es4. es8
+    es4 r\fermata d2\trill
+    es4 g,8 \once \slurDashed g16( b) as4( g8) b'
+    \appoggiatura es, d4 es16-! b( es g) f4( es8) b'
+    \appoggiatura es, d4 es16-! b( es g) f4( es8) g %50
+    g2 r\fermata \bar "|." %51 finis
+  }
+}

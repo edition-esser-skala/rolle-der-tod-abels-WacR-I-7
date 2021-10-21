@@ -398,3 +398,61 @@ WieSeufzetViola = {
     R1\fermata \bar "|." %21 finis
   }
 }
+
+MeinVaterViola = {
+  \relative c' {
+    \clef alto
+    \key es \major \time 4/4 \tempoMeinVater
+    g'8\fE g g g f f f f
+    es es es es es es es es
+    es c b as g4 es'\p
+    es16( d8.) es8 es c c b b
+    g g g g as as b b %5
+    r c as as b b b b
+    es, es(-. es-. es-.) es4 r
+    b' r r8 b(-. b-. b-.)
+    es,-! es(-. es-. es-.) es4 r
+    b' r r8 b(-. b-. b-.) %10
+    es-! es,(-. es-. es-.) es4 r8 g'
+    f f f f es es f f,
+    r f f f b16.\f b32 b16. b32 b8 b\p
+    b b b b c16.\f c32 c16. c32 c8 c\p
+    c8. \tuplet 3/2 16 { f32\f g a } b16. g32 f16. e32 f4 r %15
+    r8 f,\p f f f f f f
+    r f a a a a f f
+    r f f f f f a a
+    b b b b b b b b
+    b b b b b4 r8 b %20
+    b b d d es16. es32 e16. e32 f16. f32 fis16. fis32
+    g4 r8 d es r f r
+    d d\fE d d c c c c
+    b b b' b b b b b
+    b g f es d4 r %25
+    r8 b\pE b b b b b b
+    r b b b r b b b
+    b4 f'8 g f f f, f
+    r b b b r d d c
+    h4. d8 d4. d8 %30
+    \appoggiatura d32 c16 h c8 c b r as as b
+    c4 c b8 b' b16 as g f
+    g8 g g g f f f f
+    g g g g f f f f
+    es es c c b b as as %35
+    g es' es es es es es es
+    <c es> q q q q q q c
+    c b b b f'2
+    r8 b, b b r b b b
+    r b b b r b b b %40
+    r b b b r b b b
+    r as as as g g g g
+    es es es4 r8 c' c c
+    r as g4 as8 as b b
+    g' g g g f f f f %45
+    g, g c b as as g as
+    b4 r\fermata as2\trill
+    g8 g g4 r8 b b4
+    f g8 r as4 g8 r
+    f4 g8 r as4 g8 b %50
+    b2 r\fermata \bar "|." %51 finis
+  }
+}
