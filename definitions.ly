@@ -687,6 +687,7 @@ tocLabelLong = #(define-music-function
 
 
 fC = \set Staff.forceClef = ##t
+fermataMark = \mark \markup { \musicglyph #"scripts.ufermata" }
 soloAbel = \markup \remark "Abel"
 soloAdam = \markup \remark "Adam"
 soloKain = \markup \remark "Kain"
@@ -709,6 +710,7 @@ tempoWieSeufzet = \tempoMarkup \markup \left-column { "Kain, der in der Entfernu
   tempoWieSeufzetD = \tempoMarkup "Recitativo"
 tempoMeinVater = \tempoMarkup "Andante poco di molti"
 tempoOGott = \tempoMarkup "Recitativo"
+tempoWennDerJunge = \tempoMarkup "Allegretto"
 
 
 \include "notes/fl1.ly"
@@ -719,8 +721,8 @@ tempoOGott = \tempoMarkup "Recitativo"
 % \include "notes/oba2.ly"
 \include "notes/fag1.ly"
 \include "notes/fag2.ly"
-% \include "notes/cor1.ly"
-% \include "notes/cor2.ly"
+\include "notes/cor1.ly"
+\include "notes/cor2.ly"
 % \include "notes/timp.ly"
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

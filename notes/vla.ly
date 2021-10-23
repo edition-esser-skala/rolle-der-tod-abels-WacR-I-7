@@ -496,3 +496,140 @@ OGottViola = {
     \partial 2 r4 a, \bar "||" %33 finis
   }
 }
+
+WennDerJungeViola = {
+  \relative c' {
+    \clef alto
+    \key g \major \time 3/8 \tempoWennDerJunge
+    g8\fE g g
+    g g g
+    g g g
+    g4 r8
+    c d d, %5
+    g g' r
+    c, d d,
+    g4 r8
+    g\p g g
+    g g g %10
+    g g g
+    g' g,16 a h c
+    d8 d d
+    d d d
+    d d d %15
+    g g,16 a h c
+    d8 d d
+    d d d
+    d d d
+    g g16 fis g a %20
+    h8 g e
+    r a fis
+    r g c,
+    d d c
+    h4\f g'8 %25
+    a a16( e) e( fis)
+    g8 h, cis
+    d8. cis16 d e
+    fis8\pE e d
+    e4 a8 %30
+    a g fis16 d
+    \appoggiatura d8 cis4 r8
+    a4 r8
+    a4 r8
+    a4 r8 %35
+    a cis e
+    a a, a'
+    a a a
+    a a a
+    cis4 \once \slurDashed cis16( e) %40
+    \once \slurDashed e16([ d) e8] a,
+    a a r
+    a4 a8
+    a4 a8
+    g a a, %45
+    d d d\f
+    d d d
+    d d\pE d
+    d4.
+    d4 d8\fE %50
+    d d d
+    d d16( e) e(\pE fis)
+    fis8( g) d-!
+    d4.
+    d %55
+    d8 d r
+    cis4 cis16 d
+    a8 a' a
+    g a a,
+    d\f d d %60
+    d d d
+    d d d
+    d d16 e fis g
+    a8 a a
+    a a a %65
+    a a a
+    fis4 a8
+    h d h
+    a a a
+    g a g %70
+    fis4 r8
+    r d\p c!
+    h a g
+    a h cis
+    d a\f h %75
+    a a a
+    a r h\p
+    a e' r
+    a4 r8
+    a4.( %80
+    h8) r r
+    e, a, d\fE
+    e fis! gis
+    a4\pE r8
+    a4.~ %85
+    a8 r r
+    d, g, c\fE
+    d e fis
+    g a, h\pE
+    c4. %90
+    c
+    c
+    c
+    c
+    cis %95
+    d~
+    d4 r8
+    g, g g
+    g g g
+    g g g'\f %100
+    g g, r
+    r g\pE g
+    g g g
+    g g g'\f
+    g g, g'\p %105
+    \tuplet 3/2 8 { c,16[ d e] } d8 c
+    h4 g8\fE
+    g g g
+    g4 g'8\p
+    g4 g8 %110
+    g4 g,8\f
+    g g g
+    g4 g'8\p
+    g4.~
+    g8 g r %115
+    g4.~^\critnote
+    g8 g r
+    r a g
+    fis a d, \fermataMark
+    r r c %120
+    d4.
+    c\trill
+    h4\fE \appoggiatura d16 \once \slurDashed c( h)
+    h8 g' g
+    g g g %125
+    g g g
+    c d d,
+    g4 r8
+    c, d d,
+    g4 r8\fermata \bar "|." %130 finis
+  }
+}

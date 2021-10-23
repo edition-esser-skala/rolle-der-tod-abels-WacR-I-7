@@ -787,3 +787,222 @@ OGottSoliLyrics = \lyricmode {
   rück in das ver -- gang -- ne
   Le -- ben. %33 finis
 }
+
+WennDerJungeSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \major \time 3/8 \autoBeamOff \tempoWennDerJunge
+    R4.*8 %8
+    g4 \appoggiatura h16 a([ g)]
+    g4 \appoggiatura d'16 c([ h)] %10
+    h4 e16([ d)]
+    d4 r8
+    a4 \appoggiatura c16 h([ a)]
+    a8.([ h16)] c([ d)]
+    e8([ d)] c %15
+    \appoggiatura d16 c8 h r
+    a4 \appoggiatura c16 h([ a)]
+    a8.([ h16)] c([ d)]
+    e8([ d)] c
+    \appoggiatura d16 c8 h r %20
+    d4 g32([ e16.)]
+    \appoggiatura d8 c4 e32([ d16.)]
+    \appoggiatura c8 h4 d32([ c16.)]
+    \appoggiatura h8 a4 r8
+    R4.*4 %28
+    a4 \appoggiatura e'16 d[( cis)]
+    cis4 \appoggiatura fis16 e([ d)] %30
+    d4 a'16([ fis)]
+    \appoggiatura fis8 e4 r8
+    a,16.([ h32 a8)] a
+    cis16.([ d32 cis8)] cis
+    e16.([ fis32 e8)] e %35
+    g16([ fis)] g8 r
+    a,4 a16([ cis)]
+    cis4 cis16([ e)]
+    e4 e16([ g)]
+    g([ fis)] g8 r %40
+    r g16([ e)] fis8
+    e16([ cis)] d8 r
+    r g16([ e)] fis8
+    e([ cis)] d
+    h16.([ e32)] \appoggiatura d8 cis4\trill %45
+    d r8
+    R4.
+    r8 d c!
+    c([ h)]d
+    h([ a)] r %50
+    R4.
+    r8 r c
+    c([ h)] d
+    h([ a)] r
+    c([ h)] d-! %55
+    \appoggiatura c16 h8 a r
+    a16([ h cis d)] e([ fis)]
+    g8([ e)] fis
+    h, \appoggiatura d cis4
+    d r8 %60
+    R4.*10 %70
+    r8 r d
+    a4.
+    h
+    a4( g8)
+    fis r r %75
+    R4.
+    r8 d' h
+    c! h r
+    a h16([ c)] d([ e)]
+    f4. %80
+    f8 e d
+    c16([ h)] a8 r
+    R4.
+    c8 a16([ h)] c([ d)]
+    e4. %85
+    e8 d c
+    h16([ a)] g8 r
+    R4.
+    r8 r g
+    e'4. %90
+    d
+    c
+    h
+    a
+    g %95
+    g(
+    fis8) r d'
+    g,4 \appoggiatura h16 a([ g)]
+    g4 \appoggiatura d'16 c([ h)]
+    h4 r8 %100
+    r r d
+    g,4 \appoggiatura h16 a([ g)]
+    g4 \appoggiatura d'16 c([ h)]
+    h4 r8
+    r r g' %105
+    e16([ c)] h8([ a)]\trill
+    g4 r8
+    R4.
+    r8 r f'
+    f([ e)] g %110
+    e d r
+    R4.
+    r8 r f
+    f([ e)] g
+    e([ d)] r %115
+    r r g
+    e d r
+    d d16([ e)] fis([ g)]
+    a8 c, h \fermataMark
+    r r e16([ c)] %120
+    h4.
+    a\trill
+    g4 r8
+    R4.*6 %129
+    R4.\fermata \bar "|." %130 finis
+  }
+}
+
+WennDerJungeSoliLyrics = \lyricmode {
+  Wenn der %9
+  jun -- ge %10
+  Tag er --
+  wacht,
+  ſo ver --
+  ſchwin -- den
+  al -- le %15
+  Sor -- gen,
+  die ein
+  leich -- ter
+  Traum am
+  Mor -- gen %20
+  auf dem
+  La -- ger
+  uns ge --
+  macht.
+
+  Wenn der %29
+  jun -- ge %30
+  Tag er --
+  wacht,
+  ſo __ ver --
+  ſchwin -- den
+  al -- le %35
+  Sor -- gen,
+  die ein
+  leich -- ter
+  Traum am
+  Mor -- gen %40
+  auf dem
+  La -- ger,
+  auf dem
+  La -- ger
+  uns ge -- %45
+  macht,
+
+  die ein
+  leich -- ter
+  Traum, %50
+
+  ein
+  leich -- ter
+  Traum
+  uns am %55
+  Mor -- gen
+  auf __ dem
+  La -- ger
+  uns ge --
+  macht. %60
+
+  O %71
+  Ka --
+  in,
+  Ka --
+  in! %75
+
+  mein Ent --
+  zü -- cken
+  ver -- mag ich
+  dir %80
+  nicht aus -- zu --
+  drü -- cken,
+
+  ver -- mag ich
+  dir %85
+  nicht aus -- zu --
+  drü -- cken,
+
+  der
+  Ton %90
+  er --
+  ſtirbt
+  für
+  ſü --
+  ße %95
+  Luſt; __
+  nur
+  drü -- cken
+  kann ich
+  dich, %100
+  nur
+  drü -- cken
+  kann ich
+  dich
+  an %105
+  die -- ſe
+  Bruſt,
+
+  dich
+  drü -- cken %110
+  kann ich
+
+  an
+  die -- ſe
+  Bruſt, %115
+  ach,
+  Ka -- in!
+  nur drü -- cken
+  kann ich dich
+  an %120
+  die --
+  ſe
+  Bruſt. %123 finis
+}

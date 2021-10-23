@@ -438,55 +438,122 @@
   %     \midi { \tempo 4 = 80 }
   %   }
   % }
+  % \bookpart {
+  %   \header {
+  %     genre = "A C C O M P A G N A T O"
+  %     number = "1.8"
+  %     title = "O Gott! mein Blick ſchaut dankbar zu dir auf!"
+  %   }
+  %   \tocLabelLong "ogott" "1.8" "Accompagnato" "O Gott! mein Blick ſchaut dankbar zu dir auf!"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #30
+  %     system-system-spacing.minimum-distance = #30
+  %     systems-per-page = #2
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \OGottViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \OGottViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \OGottViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "Abel" "Adam" "Kain" }
+  %           \new Voice = "Soli" { \dynamicUp \OGottSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \OGottSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \OGottOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \OGottBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
     \header {
-      genre = "A C C O M P A G N A T O"
-      number = "1.8"
-      title = "O Gott! mein Blick ſchaut dankbar zu dir auf!"
+      genre = "A R I A"
+      number = "1.9"
+      title = "Wenn der junge Tag erwacht"
     }
-    \tocLabelLong "ogott" "1.8" "Accompagnato" "O Gott! mein Blick ſchaut dankbar zu dir auf!"
-    \paper {
-      system-system-spacing.basic-distance = #30
-      system-system-spacing.minimum-distance = #30
-      systems-per-page = #2
-    }
+    \tocLabelLong "wennderjunge" "1.9" "Aria" "Wenn der junge Tag erwacht"
     \score {
       <<
+      \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "ob"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \WennDerJungeOboeI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \WennDerJungeOboeII
+            }
+          >>
+        >>
+        \new StaffGroup <<
+          \set StaffGroup.instrumentName = \markup \center-column { "cor (G)" "1, 2" }
+          \new Staff {
+            \set Staff.soloText = \markup \medium \remark "cor 1"
+            \transpose c g,
+            \partCombine \WennDerJungeCornoI \WennDerJungeCornoII
+          }
+        >>
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \OGottViolinoI
+              \WennDerJungeViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \OGottViolinoII
+              \WennDerJungeViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \OGottViola
+            \WennDerJungeViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "Abel" "Adam" "Kain" }
-            \new Voice = "Soli" { \dynamicUp \OGottSoli }
+            \set Staff.instrumentName = "Abel"
+            \new Voice = "Soli" { \dynamicUp \WennDerJungeSoli }
           }
-          \new Lyrics \lyricsto Soli \OGottSoliLyrics
+          \new Lyrics \lyricsto Soli \WennDerJungeSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \OGottOrgano
+            \WennDerJungeOrgano
           }
         >>
-        \new FiguredBass { \OGottBassFigures }
+        \new FiguredBass { \WennDerJungeBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 70 }
+      \midi { \tempo 4. = 60 }
     }
   }
 }

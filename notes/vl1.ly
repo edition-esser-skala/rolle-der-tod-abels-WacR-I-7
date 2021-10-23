@@ -496,3 +496,140 @@ OGottViolinoI = {
     \partial 2 r4 fis, \bar "||" %33 finis
   }
 }
+
+WennDerJungeViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/8 \tempoWennDerJunge
+    g'4\fE \appoggiatura h16 a( g)
+    g4 \appoggiatura d'16 c( h)
+    h4 e16( d)
+    d( g) g( h) h( d)
+    e,16. a32 \appoggiatura g8 fis4\trill %5
+    \tuplet 3/2 8 { g,16[ h d] } d d d d
+    \tuplet 3/2 8 { e[ d c] } h8 a\trill
+    g g, r
+    g'4\p \appoggiatura h16 a( g)
+    g4 \appoggiatura d'16 c( h) %10
+    h4 e16( d)
+    d4 r8
+    a4 \appoggiatura c16 h( a)
+    a8 a16 h c d
+    e8( d) c-! %15
+    \appoggiatura d16 c8 h r
+    a4 \appoggiatura c16 h( a)
+    a8 a16 h c d
+    e8 d c
+    \appoggiatura d16 c8 h r %20
+    d4 g32( e16.)
+    \appoggiatura d8 c4 e32( d16.)
+    \appoggiatura c8 h4 d32( c16.)
+    \appoggiatura h8 a4 r8
+    d16(\f g) g( h) h( d,) %25
+    d( c) c4
+    h16( d) d( g) g( h,)
+    \appoggiatura c h8 a r
+    a4\pE \appoggiatura e'16 d( cis)
+    cis4 \appoggiatura fis16 e( d) %30
+    d4 a'16( fis)
+    \appoggiatura fis8 e4 r8
+    a,16.[ h32 a8] a
+    cis16.[ d32 cis8] cis
+    e16.[ fis32 e8] e %35
+    g16( fis) g8 r
+    a,4 a16( cis)
+    cis4 \slurDashed cis16( e)
+    e4 e16( g)
+    g( fis) \slurSolid g8 r %40
+    r g16 e fis8
+    e16 cis d8 r
+    a g'16 e fis8
+    e cis d
+    h16.[ e32] d8 cis\trill %45
+    d4 fis16.(\trill\f e64 fis)
+    g8 e cis
+    d d\p c
+    c( h) d
+    h a fis'16.([\trill\f e64 fis)] %50
+    g16( e) e( cis) cis( d)
+    d4 c8\pE
+    c( h) d-!
+    h a c16.([ d32)]
+    c8( h) d %55
+    \appoggiatura c16 h8 a r
+    a16 h cis d e fis
+    g8 e fis
+    h,16.[ e32] d8 cis\trill
+    d4\f \appoggiatura fis16 e( d) %60
+    d4 \appoggiatura a'16 \once \slurDashed g( fis)
+    fis4 h16( a)
+    a4 r8
+    e4 \appoggiatura g16 fis( e)
+    e8~ e16 fis g a %65
+    h8 a g
+    \tuplet 3/2 8 { fis16[ a d] } d d d d
+    \tuplet 3/2 8 { g,16[ h d] } d d d d
+    \tuplet 3/2 8 { fis,16[ a d] } d d d d
+    \tuplet 3/2 8 { h[ a g] } fis8 e\trill %70
+    d4 d8\p
+    a4.
+    h
+    a4 g8\trill
+    fis d'8.([\f cis32 h)] %75
+    a4 g8\trill
+    fis d'\p h
+    c! h r
+    a h16 c d e
+    f4.\fp %80
+    f8 e d
+    c16 h a8 r
+    R4.
+    c8 a16 h c d
+    e4.\fp %85
+    e8 d c
+    h16 a g8 r
+    R4.
+    r8 r g
+    e'( g) e-! %90
+    d( f) d-\parenthesize-!
+    c( e) c-\parenthesize-!
+    h( d) h-\parenthesize-!
+    a( c) a-\parenthesize-!
+    g( h) g-\parenthesize-! %95
+    g4.(
+    fis8) r d'
+    g,4 \appoggiatura h16 a( g)
+    g4 \appoggiatura d'16 c( h)
+    h4 e16(\f d) %100
+    d4 d8\p
+    g,4 \appoggiatura h16 a( g)
+    g4 \appoggiatura d'16 c( h)
+    h4 e16(\f d)
+    d4 g8\p %105
+    \tuplet 3/2 8 { e16[ d c] } h8 a\trill
+    g4 h16.(\f a64 h)
+    c8 a fis
+    g4 f'8\p
+    f e g %110
+    e d h16.([\trill\fE a64 h)]
+    c16 a a fis fis g
+    g4 f'8\p
+    f( e) g-!
+    e[ d] f %115
+    f( e) g
+    e d r
+    d d16 e fis g
+    a8 c, h \fermataMark
+    r r e16( c) %120
+    h4.
+    a\trill
+    g4\fE \appoggiatura h16 a( g)
+    g4 \once \slurDashed e'16( d)
+    d4 \once \slurDashed c'16( h) %125
+    \tuplet 3/2 8 { h[ c d] } d d d d
+    e,16.[ a32] g8 fis\trill
+    \tuplet 3/2 8 { g,16[ h d] } d d d d
+    \tuplet 3/2 8 { e16[ d c] } h8 a\trill
+    g g, r\fermata \bar "|." %130 finis
+  }
+}

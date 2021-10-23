@@ -961,3 +961,273 @@ OGottBassFigures = \figuremode {
   <4+ 2>
   r4 <_+> %33 finis
 }
+
+WennDerJungeOrgano = {
+  \relative c {
+    \clef bass
+    \key g \major \time 3/8 \tempoWennDerJunge
+    \mvTr g8\fE-\soloE g g
+    g g g
+    g g g
+    g4 r8
+    c' d d, %5
+    g g, r
+    c d d,
+    g4 r8
+    g\p g g
+    g g g %10
+    g g g
+    g' g,16 a h c
+    d8 d d
+    d d d
+    d d d %15
+    g g,16 a h c
+    d8 d d
+    d d d
+    d d d
+    g, g'16 fis g a %20
+    h8 g e
+    r a fis
+    r g c,
+    d d' c
+    h4\f g8 %25
+    a a16( e) e( fis)
+    g8 h, cis
+    d8. cis16 d e
+    fis8\p e d
+    e a, g' %30
+    fis e d
+    a' a, a
+    a4 r8
+    a4 r8
+    a4 r8 %35
+    a cis e
+    a a, r
+    a' a, r
+    a' a, r
+    a cis e %40
+    a cis, d
+    g fis r
+    cis4 d8
+    g4 fis8
+    g a a, %45
+    d d d\f
+    d d d
+    d d,\p d'
+    d4.
+    d,4 d'8\f %50
+    d d d
+    d d, r
+    d'4.\p
+    d,
+    d' %55
+    d8 d, r
+    cis'4 cis16 d
+    e8 a, d
+    g a a,
+    d\f d d %60
+    d d d
+    d d d
+    d d16 e fis g
+    a8 a a
+    a a a %65
+    a, a a
+    d4 fis8
+    g h g
+    d fis d
+    g a a, %70
+    d d, r
+    r d'\p c!
+    h a g
+    a h cis
+    d fis\f g %75
+    a a, a
+    d4 gis8\p
+    a e r
+    c!4 r8
+    d d'16 c h a %80
+    gis4.
+    a8 c, d\f
+    e fis! gis
+    a4\p r8
+    a c16 h a g! %85
+    fis4 r8
+    g h, c\f
+    d e fis
+    g a h\p
+    c,4. %90
+    c
+    c
+    c
+    c
+    cis %95
+    d~
+    d4 r8
+    g, g g
+    g g g
+    g g g'\f %100
+    g g, r
+    r g\pE g
+    g g g
+    g g g'\f
+    g g, h\p %105
+    c d d
+    g g, g\f
+    g g g
+    g g' g,\p
+    g4. %110
+    g4 g'8\f
+    g, g g
+    g g' g,\pE
+    g4.
+    g %115
+    g'
+    g,4 r8
+    fis'4 e8
+    d fis g \fermataMark
+    r r c, %120
+    d4.
+    d,
+    g8\f g g
+    g g g
+    g g g %125
+    g4 r8
+    c' d d,
+    g4 r8
+    c, d d,
+    g4 r8\fermata \bar "|." %130 finis
+  }
+}
+
+WennDerJungeBassFigures = \figuremode {
+  r4 <7 4>8
+  <8 3>4 <9 4>8
+  <8 3>4 <6 4>8
+  <5 3>4.
+  <6>8 <6 4> <5 3> %5
+  r4.
+  <6>8 <6 4> <5 3>
+  r4.
+  r4 <7 4>8
+  <8 3>4 <9 4>8 %10
+  <8 3>4 <6 4>8
+  <5 3>4.
+  r4 <6 4>8
+  <5 3>4.
+  <9 7>8 <8 6> <7 5> %15
+  <9 4> <8 3>4
+  r <6 4>8
+  <5 3>4.
+  <9 7>8 <8 6> <7 5>
+  <9 4> <8 3>4 %20
+  <6>4 <5>8
+  <9 4> <8 3> <6>
+  <9 4> <8 3>4
+  <6 4>8 <5 3>4
+  <6>4. %25
+  <9 4>8 <8 3>4
+  r8 <6> <7>
+  <6 4> <5 3>4
+  <6>4 \bassFigureExtendersOn q8
+  <6\\>4 q8 %30
+  <6>4 q8 \bassFigureExtendersOff
+  <6 4> <5 _+>4
+  <_+>4.
+  <\t>
+  q %35
+  <7 _+>
+  <_+>
+  <\t>
+  q
+  <7 _+> %40
+  <\t \t>8 <6 5>4
+  <4+ 2>8 <6>4
+  <6 5>4.
+  <4+ 2>4 <6>8
+  q <6 4> <5 _+> %45
+  r4.
+  <6 4>8 <7+ \t>4
+  <8 3> <7! 5>8
+  <\t \t> <6 4>4
+  <\t \t>8 <5 3>4 %50
+  <6 4>8 <7+ \t>4
+  <8 3> <7! 5>8
+  <\t \t> <6 4>4
+  <\t \t>8 <5 3> <7 5>
+  <\t \t> <6 4>4 %55
+  <\t \t>8 <5 3>4
+  <6>4.
+  <6\\>8 <\t>4
+  <6>8 <6 4> <5 _+>
+  r4 <7+ 4>8 %60
+  <8 3>4 <9 4>8
+  <8 3>4 <6 4>8
+  <5 3>4.
+  <5 _+>4 <6 4>8
+  <5 _+>4. %65
+  <9 7 _+>8 \bassFigureExtendersOn <8 6 _+> <7 5 _+> \bassFigureExtendersOff
+  r4 <6>8
+  r4.
+  r
+  <6>8 <6 4> <5 _+> %70
+  r4.
+  r4 <2>8
+  <6>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff
+  <8 6 _+>8 <7> <6 5>
+  r <6>4 %75
+  <8 6 _+>4 <7 5 \t>8
+  r4 <6>8
+  <_!> <_+>4
+  <6>4.
+  <_!> %80
+  <7! 5>8 <6 4> <5 3>
+  r8 <6> <_!>
+  <8 6 _+> <\t \t 3> <6 5>
+  r4.
+  r %85
+  <7 5>8 <6 4> <5 3>
+  r8 <6>4
+  <8 6>8 <\t \t> <6 5>
+  r4.
+  r %90
+  <7 4!>
+  <8 3>
+  <9 7>
+  <8 6>
+  <7 5> %95
+  <6 4>
+  <5 3>
+  r4 <7 4>8
+  <8 3>4 <9 4>8
+  <8 3>4 <6 4>8 %100
+  <8 3>4.
+  r4 <7 4>8
+  <8 3>4 <9 4>8
+  <8 3>4 <6 4>8
+  <5 3>4 <6>8 %105
+  q <6 4> <5 3>
+  r4.
+  <6 4>8 <7 \t>4
+  <8 3> <7! 5>8
+  <\t \t> <6 4>4 %110
+  <\t \t>8 <5 3>4
+  <6 4>8 <7 \t>4
+  <8 3> <7! 5>8
+  <\t \t> <6 4>4
+  <\t \t>8 <5 3> <7! 5> %115
+  <\t \t> <6 4>4
+  <\t \t>8 <5 3>4
+  <6>4.
+  r8 <6 5>4
+  r4 <6>8 %120
+  <6 4>4.
+  <5 3>
+  r4 <7 4>8
+  <8 3>4 <6 4>8
+  <5 3>4 <9 4>8 %125
+  <8 3>4.
+  <6>8 <6 4> <5 3>
+  r4.
+  <6>8 <6 4> <5 3>
+  r4. %130 finis
+}
