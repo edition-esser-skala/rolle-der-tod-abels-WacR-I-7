@@ -885,3 +885,79 @@ MeinVaterBassFigures = \figuremode {
   <7 4>8 <\t \t> <8 3>4 <7 4>8 <\t \t> <8 3>4 %50
   r1 %51 finis
 }
+
+OGottOrgano = {
+  \relative c {
+    \clef bass
+    \key es \major \time 4/4 \tempoOGott
+    es1~
+    es2~ es~
+    es h
+    c1~
+    \once \tieDashed c2~ c %5
+    e1
+    f
+    a,
+    b2 r4 c
+    f,2 r %10
+    r h~
+    h c~
+    c a
+    h c~
+    c d4 r %15
+    r d \key c \major g,2~
+    g1
+    h
+    e1~
+    e2 d~ %20
+    d1~
+    d2 dis
+    e1
+    h
+    c2 cis %25
+    d d4 r
+    r e dis2~
+    dis1~
+    dis2 e4 h~
+    h1 %30
+    c
+    c2 r
+    \partial 2 r4 d \bar "||" %33 finis
+  }
+}
+
+OGottBassFigures = \figuremode {
+  r1
+  <7 4 2>2 <5 3>
+  r <7>
+  <5 3>1
+  r %5
+  <6>
+  <_!>
+  <6>
+  r2. <_!>4
+  q1 %10
+  r2 <6>
+  r <_!>
+  r <6\\>
+  <6> <_!>
+  r <7 [5!] _+> %15
+  r4 <[\t \t \t]> r2
+  r1
+  <6>
+  <6\\>
+  r2 <_+> %20
+  r1
+  r2 <6 5 [_+]>
+  r1
+  <[6] 5!>
+  <3>2 <7-> %25
+  <5 3> <[6!] 4+ 2>
+  r4 <_+> <6 _+>2
+  r1
+  r2. <6 [_!]>4
+  r2 <6 5!> %30
+  <3>1
+  <4+ 2>
+  r4 <_+> %33 finis
+}

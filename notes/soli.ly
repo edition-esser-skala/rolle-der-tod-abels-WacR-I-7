@@ -275,7 +275,6 @@ SeyMirSoli = {
   \relative c {
     \clef bass
     \key c \major \time 4/4 \autoBeamOff \tempoSeyMir
-
     r8 es^\soloAdam es f g4 r8 g
     c c c g es4 g
     g8 g g as fis8. fis16 fis4
@@ -711,4 +710,80 @@ MeinVaterSoliLyrics = \lyricmode {
   flehn, ver --
   zei -- he, mein
   Va -- ter! %50 finis
+}
+
+OGottSoli = {
+  \relative c {
+    \clef bass
+    \key es \major \time 4/4 \autoBeamOff \tempoOGott
+    r4 r8 es^\soloAdam g r16 g g8 b
+    b f g as g4 r
+    g g8 as f f f g
+    es es r g g c, r4
+    g'8 r16 g c8 h c4 r16 g g g %5
+    g8 c, r4 g'8 g b a
+    f f r16 f f g a8 a c a
+    f f r16 f f e f8 f a f
+    d d e f f c r4
+    r r8 f f f f g %10
+    a a a b g r16 g g8 d
+    f f f e e4 r8 c
+    g' r16 g g8 c c fis, fis a
+    g g r16 g g d e4 c'
+    r e,8 c fis fis fis g %15
+    g d r4 \key c \major \clef "treble_8" r r8 g^\soloAbel
+    h8. h16 h8 d d g, r g'
+    g d r4 d d8. e16
+    cis4 r8 cis cis cis cis d
+    e g, g a fis fis \clef bass r a^\soloKain %20
+    a8. d,16 d4 fis fis8 g
+    a4 a a8 a16 a h8 fis
+    g r16 e e8 fis g g g a
+    f r16 d f8 f a a a g
+    e r16 g g8 a b b b a %25
+    f f r16 f f d gis8 gis gis a
+    a e r4 r8 fis fis fis
+    h h h ais h r16 fis fis8 g
+    a a a g e4 r8 g
+    g d r4 f!8 f a g %30
+    e e r c g' g c a
+    fis4 r8 fis fis fis fis g
+    \partial 2 g d r4 \bar "||" %33 finis
+  }
+}
+
+OGottSoliLyrics = \lyricmode {
+  O Gott! mein Blick ſchaut
+  dank -- bar zu dir auf!
+  Heut, heut er -- hö -- reſt du mein
+  Seh -- nen. Mein Ka -- in!
+  o, mein Sohn, ſteh auf! Mit Wohl -- ge -- %5
+  fal -- len ſieht Gott die -- ſe
+  Thrä -- nen. Seyd mir ge -- ſeg -- net, fro -- he
+  Stun -- den! Ich ha -- be mei -- nen Erſt -- ge --
+  bohr -- nen wie -- der fun -- den.
+  Er bringt mit die -- ſem %10
+  thrä -- nen -- vol -- len Blick uns Freu -- den,
+  Fried und Ruh zu -- rück. O
+  Sohn! wie wird Gott dei -- ner ſich er --
+  bar -- men, dich zög -- re nicht, komm,
+  laß den Bru -- der dich um -- %15
+  ar -- men! Du
+  lie -- beſt mich, mein Bru -- der! du
+  liebſt mich! ach! ſag es
+  mir, daß ich von dei -- nen
+  Lip -- pen es ver -- neh -- me! Ich %20
+  lie -- be dich! ja, ich E --
+  len -- der ſchä -- me des Un -- rechts
+  mich, daß ich dir die -- ſes Herz ver --
+  ſagt, die Ruh ſo lang von euch ver --
+  jagt, mit Un -- muth eu -- re Tag er -- %25
+  fül -- let, und mich in Trüb -- ſinn ein -- ge --
+  hül -- let. Schnell hebt ſich
+  mei -- ne Seel em -- por, und geht aus
+  ih -- rer Nacht her -- vor. Mein
+  Bru -- der! du kannſt mir ver -- %30
+  ge -- ben, und ſie -- heſt nicht zu --
+  rück in das ver -- gang -- ne
+  Le -- ben. %33 finis
 }

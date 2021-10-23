@@ -687,6 +687,7 @@ tocLabelLong = #(define-music-function
 
 
 fC = \set Staff.forceClef = ##t
+soloAbel = \markup \remark "Abel"
 soloAdam = \markup \remark "Adam"
 soloKain = \markup \remark "Kain"
 
@@ -707,6 +708,7 @@ tempoWieSeufzet = \tempoMarkup \markup \left-column { "Kain, der in der Entfernu
   tempoWieSeufzetC = \tempoMarkup "a tempo"
   tempoWieSeufzetD = \tempoMarkup "Recitativo"
 tempoMeinVater = \tempoMarkup "Andante poco di molti"
+tempoOGott = \tempoMarkup "Recitativo"
 
 
 \include "notes/fl1.ly"

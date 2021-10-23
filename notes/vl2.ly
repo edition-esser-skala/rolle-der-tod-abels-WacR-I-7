@@ -456,3 +456,43 @@ MeinVaterViolinoII = {
     g2 r\fermata \bar "|." %51 finis
   }
 }
+
+OGottViolinoII = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 4/4 \tempoOGott
+    b'1
+    as2 b~
+    b as
+    g1~
+    g %5
+    g
+    f
+    f
+    f2 r4 g
+    a?2 r %10
+    r g~
+    g g~
+    g a
+    g \once \tieDashed g~
+    g a4 r %15
+    r c \key c \major h2~
+    h1
+    d
+    cis
+    g2 a~ %20
+    \once \tieDashed a1~
+    a2 h
+    h1
+    g
+    g2 b %25
+    a h4 r
+    r h h2~
+    h1~
+    h2 h4 g~
+    g1 %30
+    g
+    a2 r
+    \partial 2 r4 d, \bar "||" %33 finis
+  }
+}

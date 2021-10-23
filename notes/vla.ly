@@ -456,3 +456,43 @@ MeinVaterViola = {
     b2 r\fermata \bar "|." %51 finis
   }
 }
+
+OGottViola = {
+  \relative c' {
+    \clef alto
+    \key es \major \time 4/4 \tempoOGott
+    g'1
+    f2 g~
+    g f
+    es1~
+    es %5
+    c
+    c
+    c
+    b2 r4 c
+    c2 r %10
+    r d~
+    d e~
+    e c
+    d \once \tieDashed c~
+    c~ c4 r %15
+    r a' \key c \major \once \tieDashed d,2~
+    d1
+    g
+    g
+    g2 fis~ %20
+    \once \tieDashed fis1~
+    fis2 a
+    g1
+    f!
+    e2 g %25
+    f gis4 r
+    r gis fis2~
+    fis1~
+    fis2 g4 d!~
+    d2 f %30
+    e1
+    fis2 r
+    \partial 2 r4 a, \bar "||" %33 finis
+  }
+}

@@ -368,74 +368,125 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \header {
+  %     genre = "A R I A"
+  %     number = "1.7"
+  %     title = "Mein Vater, ach! verzeihe"
+  %   }
+  %   \tocLabelLong "meinvater" "1.7" "Aria" "Mein Vater, ach! verzeihe"
+  %   \score {
+  %     <<
+  %     \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "fl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \MeinVaterFlautoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \MeinVaterFlautoII
+  %           }
+  %         >>
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "fag"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \MeinVaterFagottoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \MeinVaterFagottoII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \MeinVaterViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \MeinVaterViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \MeinVaterViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Kain"
+  %           \new Voice = "Soli" { \dynamicUp \MeinVaterSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \MeinVaterSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \MeinVaterOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \MeinVaterBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 80 }
+  %   }
+  % }
   \bookpart {
     \header {
-      genre = "A R I A"
-      number = "1.7"
-      title = "Mein Vater, ach! verzeihe"
+      genre = "A C C O M P A G N A T O"
+      number = "1.8"
+      title = "O Gott! mein Blick ſchaut dankbar zu dir auf!"
     }
-    \tocLabelLong "meinvater" "1.7" "Aria" "Mein Vater, ach! verzeihe"
+    \tocLabelLong "ogott" "1.8" "Accompagnato" "O Gott! mein Blick ſchaut dankbar zu dir auf!"
+    \paper {
+      system-system-spacing.basic-distance = #30
+      system-system-spacing.minimum-distance = #30
+      systems-per-page = #2
+    }
     \score {
       <<
-      \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "fl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \MeinVaterFlautoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \MeinVaterFlautoII
-            }
-          >>
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "fag"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \MeinVaterFagottoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \MeinVaterFagottoII
-            }
-          >>
-        >>
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \MeinVaterViolinoI
+              \OGottViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \MeinVaterViolinoII
+              \OGottViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \MeinVaterViola
+            \OGottViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "Kain"
-            \new Voice = "Soli" { \dynamicUp \MeinVaterSoli }
+            \set Staff.instrumentName = \markup \center-column { "Abel" "Adam" "Kain" }
+            \new Voice = "Soli" { \dynamicUp \OGottSoli }
           }
-          \new Lyrics \lyricsto Soli \MeinVaterSoliLyrics
+          \new Lyrics \lyricsto Soli \OGottSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \MeinVaterOrgano
+            \OGottOrgano
           }
         >>
-        \new FiguredBass { \MeinVaterBassFigures }
+        \new FiguredBass { \OGottBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 80 }
+      \midi { \tempo 4 = 70 }
     }
   }
 }
