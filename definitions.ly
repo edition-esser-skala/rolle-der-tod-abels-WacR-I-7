@@ -693,6 +693,7 @@ soloAdam = \markup \remark "Adam"
 soloKain = \markup \remark "Kain"
 
 
+% 1.1
 tempoLobtDen = \tempoMarkup "Lobgesang der Kinder Adams in ihrer Laube"
 tempoSieSingen = \tempoMarkup "Kain, der um Abels Laube feindſelig herumſchleicht"
 tempoIchElend = \tempoMarkup "Poco lento"
@@ -704,6 +705,8 @@ tempoOWort = \tempoMarkup "Andante"
   tempoOWortB = \tempoMarkup "Grave"
   tempoOWortC = \tempoMarkup "Vivace ma non troppo"
   tempoOWortD = \tempoMarkup "Andante"
+
+% 1.6
 tempoWieSeufzet = \tempoMarkup \markup \left-column { "Kain, der in der Entfernung ſtehen geblieben" "und ſeinen Vater jammern geſehen" }
   tempoWieSeufzetB = \tempoMarkup "Poco largo"
   tempoWieSeufzetC = \tempoMarkup "a tempo"
@@ -711,6 +714,7 @@ tempoWieSeufzet = \tempoMarkup \markup \left-column { "Kain, der in der Entfernu
 tempoMeinVater = \tempoMarkup "Andante poco di molti"
 tempoOGott = \tempoMarkup "Recitativo"
 tempoWennDerJunge = \tempoMarkup "Allegretto"
+tempoOKinder = \tempoMarkup "Recitativo"
 
 
 \include "notes/fl1.ly"

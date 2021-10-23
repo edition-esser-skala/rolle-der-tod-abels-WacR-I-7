@@ -1006,3 +1006,40 @@ WennDerJungeSoliLyrics = \lyricmode {
   ſe
   Bruſt. %123 finis
 }
+
+OKinderSoli = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoOKinder
+    r4 r8 h' h e, r e16 fis
+    g8 g g e a a r16 a a h
+    g8 g g a fis fis r16 fis fis g
+    a8 a h c h r16 h h8 g
+    e e fis g \appoggiatura g d4 r %5
+    r r8 a' a4 e
+    e8 e e fis g g r16 g g fis
+    fis4 cis' r cis8 e,
+    g g g fis d4 r16 d d e
+    fis8 fis fis g a4 r8 d %10
+    d4 a r fis8 g
+    a a h c h h r16 h h g
+    e8 e g fis d d r4
+    \partial 2 r2\fermata \bar "|." %14 finis
+  }
+}
+
+OKinderSoliLyrics = \lyricmode {
+  O Kin -- der! ſeit das
+  Pa -- ra -- dies ver -- ſchwun -- den, hab ich nicht
+  ſol -- che Freud em -- pfun -- den, als die -- ſer
+  An -- blick mir ge -- währt, da Fried und
+  Ein -- tracht wie -- der -- kehrt. %5
+  Ach, A -- dam!
+  die, die wir er -- zeug -- ten, die lie -- ben
+  ſich! Nichts, nichts iſt
+  mei -- ner Won -- ne gleich. Um -- armt, ge --
+  lieb -- ten Kin -- der, euch. Die %10
+  Thrä -- nen, die aus
+  eu -- ren Au -- gen flie -- ßen, will ich von
+  eu -- ren Wan -- gen küßen. %13 finis
+}

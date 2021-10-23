@@ -489,71 +489,101 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \header {
+  %     genre = "A R I A"
+  %     number = "1.9"
+  %     title = "Wenn der junge Tag erwacht"
+  %   }
+  %   \tocLabelLong "wennderjunge" "1.9" "Aria" "Wenn der junge Tag erwacht"
+  %   \score {
+  %     <<
+  %     \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "ob"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \WennDerJungeOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \WennDerJungeOboeII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \set StaffGroup.instrumentName = \markup \center-column { "cor (G)" "1, 2" }
+  %         \new Staff {
+  %           \set Staff.soloText = \markup \medium \remark "cor 1"
+  %           \transpose c g,
+  %           \partCombine \WennDerJungeCornoI \WennDerJungeCornoII
+  %         }
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \WennDerJungeViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \WennDerJungeViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \WennDerJungeViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Abel"
+  %           \new Voice = "Soli" { \dynamicUp \WennDerJungeSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \WennDerJungeSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \WennDerJungeOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \WennDerJungeBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4. = 60 }
+  %   }
+  % }
   \bookpart {
     \header {
-      genre = "A R I A"
-      number = "1.9"
-      title = "Wenn der junge Tag erwacht"
+      genre = "R E C I T A T I V O"
+      number = "1.10"
+      title = "O Kinder! ſeit das Paradies verſchwunden"
     }
-    \tocLabelLong "wennderjunge" "1.9" "Aria" "Wenn der junge Tag erwacht"
+    \tocLabelLong "okinder" "1.10" "Recitativo" "O Kinder! ſeit das Paradies verſchwunden"
+    \paper { systems-per-page = #4 }
     \score {
       <<
-      \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "ob"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \WennDerJungeOboeI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \WennDerJungeOboeII
-            }
-          >>
-        >>
-        \new StaffGroup <<
-          \set StaffGroup.instrumentName = \markup \center-column { "cor (G)" "1, 2" }
-          \new Staff {
-            \set Staff.soloText = \markup \medium \remark "cor 1"
-            \transpose c g,
-            \partCombine \WennDerJungeCornoI \WennDerJungeCornoII
-          }
-        >>
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "vl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \WennDerJungeViolinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \WennDerJungeViolinoII
-            }
-          >>
-          \new Staff {
-            \set Staff.instrumentName = "vla"
-            \WennDerJungeViola
-          }
-        >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "Abel"
-            \new Voice = "Soli" { \dynamicUp \WennDerJungeSoli }
+            \set Staff.instrumentName = "Eva"
+            \new Voice = "Soli" { \dynamicUp \OKinderSoli }
           }
-          \new Lyrics \lyricsto Soli \WennDerJungeSoliLyrics
+          \new Lyrics \lyricsto Soli \OKinderSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \WennDerJungeOrgano
+            \OKinderOrgano
           }
         >>
-        \new FiguredBass { \WennDerJungeBassFigures }
+        \new FiguredBass { \OKinderBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4. = 60 }
+      \midi { \tempo 4 = 70 }
     }
   }
 }

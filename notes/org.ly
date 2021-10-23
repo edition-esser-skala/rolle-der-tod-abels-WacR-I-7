@@ -1231,3 +1231,58 @@ WennDerJungeBassFigures = \figuremode {
   <6>8 <6 4> <5 3>
   r4. %130 finis
 }
+
+OKinderOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoOKinder
+    << {
+      e4-\critnote r r2
+      r cis4 r
+      cis2( d4) r
+      d r g, r
+      c2 r4 d %5
+      cis r r2
+      r r4 cis
+      ais2 r
+      ais4 r h r
+      r2 fis'4 r %10
+      r2 fis4 r
+      r2 g4 r
+      g r r a
+      \partial 2 d,2\fermata
+    } \\ {
+      e1~
+      e2 cis~
+      cis d~
+      d g,
+      c r4 d %5
+      cis1~
+      cis
+      ais~
+      ais2 h~
+      h fis'~ %10
+      fis1~
+      fis2 g~
+      g4 r r a
+      d,2\fermata
+    } >> \bar "|." %14 finis
+  }
+}
+
+OKinderBassFigures = \figuremode {
+  r1
+  r2 <6>
+  <6 5> <_+>
+  q1
+  r2. q4 %5
+  <6>1
+  r2. <6 5>4
+  <6\\ [_+]>1
+  <7 [_+]>2 <5+ 3>
+  r <6> %10
+  r q
+  r1
+  <6>2. <[_+]>4
+  <_+>2
+}
