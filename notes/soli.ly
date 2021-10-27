@@ -1043,3 +1043,510 @@ OKinderSoliLyrics = \lyricmode {
   eu -- ren Au -- gen flie -- ßen, will ich von
   eu -- ren Wan -- gen küßen. %13 finis
 }
+
+AchSchwesterThirza = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key d \major \time 2/4 \autoBeamOff \tempoAchSchwester
+    \partial 8 r8 R2*21 %21
+    r4 r8 e'
+    e4 a,
+    h8 cis \appoggiatura e16 d8 cis16([ h)]
+    cis8.([ d16)] e8 r %25
+    h cis \appoggiatura e16 d8 cis16([ h)]
+    \appoggiatura d cis([ h)] a8 r a'
+    a4( fis8) a
+    a4( e8) a,
+    h cis \appoggiatura e d4\trill %30
+    cis r8 a
+    h cis \appoggiatura e d4\trillE
+    cis r
+    R2*3 %36
+    r4 r8 e,
+    d'!4. fis16([ d)]
+    h4. d16([ h)]
+    a4( gis8) d' %40
+    d4( cis8) r
+    R2*12 %53
+    r4 e,
+    e'2 %55
+    d
+    cis
+    h
+    e
+    d %60
+    cis
+    h4~ h8.[ d16]
+    cis2
+    h8[ cis] \appoggiatura e16 d8[ cis16 h]
+    cis2 %65
+    h8[ cis] \appoggiatura e16 d8[ cis16 h]
+    cis4. fis8
+    e d cis h
+    cis8.([ d16 e8)] fis
+    e([ d)] cis([ h)] %70
+    cis8.([ d16 e8)] fis
+    e([ d)] cis([ h)]
+    a4 r
+    R2*10 %83
+    r4 r8 e'
+    \repeat volta 2 {
+      e4 a, %85
+      h8 cis \appoggiatura e16 d8 cis16([ h)]
+      cis8.([ d16)] e8 r
+      R2
+      r4 r8 a,
+      h([ cis)] cis([ d)] %90
+      d([ e)] e([ fis)]
+      fis([ g!)] g([ e)]
+      fis([ g)] g e
+      \appoggiatura g16 fis8 e16([ d)] h8 cis
+      d4 r %95
+      R2*19 %114
+      r4 a %115
+      a'2
+      g
+      fis
+      e
+      d %120
+      cis
+      d
+      e
+      d
+      cis8[ d] e[ d16 cis] %125
+      d2
+      cis8[ d] e[ d16 cis]
+      d4. g8
+      fis([ e)] d([ cis)]
+      d4 r8 g %130
+      fis([ e)] d([ cis)]
+      d8.([ e16 fis8)] g
+      fis([ e)] d([ cis)]
+      d4 r
+      R2*2 %136
+    }
+    \alternative {
+      {
+        R2
+        r4 r8 e
+      }
+      { R2 }
+    }
+    R2*7 %146
+    R2\fermata \bar "|." %147 finis
+  }
+}
+
+AchSchwesterThirzaLyrics = \lyricmode {
+  Me -- %22
+  ha -- la!
+  wie der Lenz er --
+  qui -- cket, %25
+  wie der Lenz er --
+  qui -- cket, hat
+  die -- ſer
+  An -- blick
+  mich ent -- zü -- %30
+  cket, hat
+  mich ent -- zü --
+  cket!
+
+  Du %37
+  blühſt mir
+  lieb -- li --
+  cher, __ o %40
+  Flur! __
+
+  Nun %54
+  Ruh %55
+  in
+  un --
+  ſern
+  Hüt --
+  ten %60
+  wohnt, __
+  _
+  _
+  _ _
+  _ %65
+  _ _
+  _ in
+  un -- ſern Hüt -- ten
+  wohnt, nun
+  Ruh in %70
+  un -- ſern
+  Hüt -- ten
+  wohnt.
+
+  O %84
+  pa -- ra -- %85
+  die -- ſisch gro -- ße
+  Freu -- de,
+
+  die
+  be -- ſten %90
+  Blu -- men
+  laßt uns
+  bey -- de in
+  unſ -- re Lau -- be
+  ſtreun. %95
+
+  Und %115
+  die --
+  ſer
+  Tag
+  ein
+  Feſt %120
+  uns
+  ſeyn,
+  ein
+  Feſt __
+  _ _ %125
+  _
+  _ _
+  _ ein
+  Feſt uns
+  ſeyn, und %130
+  die -- ſer
+  Tag __ ein
+  Feſt uns
+  ſeyn. %134
+}
+
+AchSchwesterMehala = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key d \major \time 2/4 \autoBeamOff \tempoAchSchwester
+    \partial 8 r8 R2*8 %8
+    r4 r8 a'
+    a4 d, %10
+    e8 fis \appoggiatura a16 g8 fis16([ e)]
+    fis8.([ g16)] a8 r
+    e fis \appoggiatura a16 g8 fis16([ e)]
+    \appoggiatura g fis([ e)] d8 r d'
+    d4( h8) d %15
+    d4( a8) d
+    a( g4) fis8
+    \appoggiatura g16 fis8 e r a
+    a4( e8) fis
+    fis4( e8) a %20
+    a4( e8) fis
+    \appoggiatura g16 fis8 e r4
+    R2*10 %32
+    r4 r8 e
+    a4. cis16([ a)]
+    fis4. a16([ fis)] %35
+    e4( dis8) a'
+    a4( gis8) r
+    R2*4 %41
+    r8 a a a
+    h a r4
+    r8 a a a
+    h a r4 %45
+    a( g!16[ fis)] g8
+    g4( fis8) r
+    r h h h
+    cis h r4
+    r8 h h h %50
+    cis h r4
+    \once \stemUp h( a!16[ gis)] a8
+    a2(
+    gis8) r e4
+    cis'2 %55
+    h
+    a
+    e
+    cis'
+    h %60
+    a
+    gis4~ gis8.[ h16]
+    a2
+    gis8[ a] \appoggiatura cis16 h8[ a16 gis]
+    a2 %65
+    gis8[ a] \appoggiatura cis16 h8[ a16 gis]
+    a4. a8
+    cis h a gis
+    a8.([ h16 cis8)] d
+    cis([ h)] a([ gis)] %70
+    a8.([ h16 cis8)] d
+    cis([ h)] a([ gis)]
+    a4 r
+    R2*11 %84
+    \repeat volta 2 {
+      R2*9 %93
+      r4 r8 a
+      a4 d, %95
+      e8 fis \appoggiatura a16 g8 fis16([ e)]
+      fis8.([ g16)] a8 r
+      R2
+      r4 r8 d,
+      e([ fis)] fis([ g)] %100
+      g([ a)] a([ h)]
+      h([ c)] c[( a)]
+      h([ c)] c a
+      \appoggiatura c16 h8 a16([ g)] e8 fis
+      g4~ g16[ d e fis] %105
+      g[ a h c] d[ h a g]
+      a4~ a16[ d, e fis]
+      g[ a h cis!] d[ a g fis]
+      g4~ g8[ a16 h]
+      cis[ d e d] cis[ h a g] %110
+      fis[ d e fis] g[ a h cis]
+      d8 a g16([ fis)] e([ d)]
+      a'4 r
+      R2*3 %116
+      r4 a
+      a2
+      g
+      fis %120
+      e
+      fis
+      g
+      fis
+      e8[ fis] g[ fis16 e] %125
+      fis2
+      e8[ fis] g[ fis16 e]
+      fis4. h8
+      a([ g)] fis([ e)]
+      fis4 r8 h %130
+      a([ g)] fis([ e)]
+      fis8.([ g16 a8)] h
+      a([ g)] fis([ e)]
+      d4 r
+      R2*2 %136
+    }
+    \alternative {
+      {
+        R2*2
+      }
+      { R2 }
+    }
+    R2*7 %146
+    R2\fermata \bar "|." %147 finis
+  }
+}
+
+AchSchwesterMehalaLyrics = \lyricmode {
+  Ach %9
+  Schwe -- ſter! %10
+  ſing in mei -- ne
+  Lie -- der!
+  ſing in mei -- ne
+  Lie -- der! heut
+  kommt die %15
+  ſanf -- te
+  Ruh mir
+  wie -- der, die
+  ſanf -- te
+  Ruh __ kommt %20
+  heut __ mir
+  wie -- der.
+
+  Du %33
+  biſt mir
+  ſchö -- ner %35
+  nun, __ Na --
+  tur! __
+
+  Dein Licht iſt %42
+  hel -- ler,
+  dein Licht iſt
+  hel -- ler, %45
+  ſtil -- ler
+  Mond!
+  Dein Licht iſt
+  hel -- ler,
+  dein Licht iſt %50
+  hel -- ler,
+  ſtil -- ler
+  Mond! __
+  Nun
+  Ruh %55
+  in
+  un --
+  ſern
+  Hüt --
+  ten %60
+  wohnt, __
+  _
+  _
+  _ _
+  _ %65
+  _ _
+  _ in
+  un -- ſern Hüt -- ten
+  wohnt, nun
+  Ruh in %70
+  un -- ſern
+  Hüt -- ten
+  wohnt.
+
+  O %94
+  pa -- ra -- %95
+  die -- ſisch ſchö -- nes
+  Le -- ben!
+
+  die
+  be -- ſte %100
+  Frucht vom
+  Baum und
+  Re -- ben ſoll
+  un -- ſer Herz er --
+  freun, __ %105
+  _ _
+  _
+  _ _
+  _
+  _ _ %110
+  _ _
+  un -- ſer Herz er --
+  freun.
+
+  Und %117
+  die --
+  ſer
+  Tag %120
+  ein
+  Feſt,
+  ein
+  Feſt __
+  _ _ %125
+  _
+  _ _
+  _ ein
+  Feſt uns
+  ſeyn, und %130
+  die -- ſer
+  Tag __ ein
+  Feſt uns
+  ſeyn. %134 finis
+}
+
+MeinBruderSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoMeinBruder
+    r4 r8 fis,^\soloAbel h h r h16 ais
+    h8 h cis d cis r16 cis cis8 d
+    e4 e e8 e fis cis
+    d r16 d d8 h g g g a
+    fis fis r16 fis fis g a4 r8 a %5
+    d d d cis d d r16 d d h
+    e4 r8 h d d d cis
+    cis r16 cis cis8 d e e e cis
+    a r16 a cis8 a fis fis gis a
+    a e r4 r8 fis h r16 h %10
+    h8 fis r4 a8 a a h
+    gis gis16 h d!8 cis a8. a16 a4
+    r8 a cis d e e e fis
+    dis4 r8 dis dis dis dis e
+    fis a, a gis gis \clef bass e^\soloKain e dis %15
+    e r16 e gis8 a h h h cis
+    a a r a a4 e
+    g!8 g g a fis fis r16 fis fis g
+    a8 a a d, g \clef "treble_8" g^\soloAbel h d
+    d g, r g16 a h8 h h c %20
+    c4 r8 c c g g b
+    a r16 a a8 b c4 c8 a
+    d d d a b b r4
+    d b8 g c4 r8 c
+    c c d es d4 r8 d %25
+    g4 e cis8 cis cis a
+    cis cis cis d a4 r
+    r2 r4 \clef treble r8 h'^\soloMehala
+    h4 d, r f8 e
+    c r16 e e8 e a a16 a a8 a %30
+    b8. g16 e8 e g g g f
+    d d a'4 a8 d, r4
+    d'8 a r a16 a c8 c c b
+    g g r4 as8 as c b
+    g4 \clef bass r8 b,^\soloKain b es, r es16 f %35
+    g8 g g as f f r f
+    f c c d es es g f
+    d d r4 f f8 f
+    b b b c a8. a16 a4
+    r8 a a b c c c b %40
+    g g r g g8. d16 d4
+    r8 f! g d es4 r8 c
+    fis fis fis g d4 r
+    r e! a8 a a b
+    g g r a f!8. f16 f4 %45
+    r8 f f f b b b c
+    a4 r8 f a a c es,
+    d4 r8 d e e e f
+    c4 r r r8 d
+    g g16 fis g4 d8 d e f %50
+    e e r16 e a e f4 r8 f
+    d d d c a a r4
+    \fC r8 e'^\soloAdam a4 r8 a a h
+    c c c h g4 d
+    g8 g g a h4 r8 fis %55
+    a a h fis g4 r8 h
+    h4 e, e8 dis e g
+    fis fis fis cis d d r16 fis h fis
+    g8 e ais h h fis r4
+    \partial 2 r2\fermata \bar "|." %60 finis
+  }
+}
+
+MeinBruderSoliLyrics = \lyricmode {
+  Mein Bru -- der! un -- ſerm
+  Got -- te, der uns liebt, der mei -- nen
+  Bru -- der heut mir wie -- der --
+  giebt, will ich an mei -- nem Al -- tar
+  dan -- ken. Haſt du nicht auch, Ge -- %5
+  lieb -- ter, den Ge -- dan -- ken? Willſt du nicht
+  auch zu dei -- nem Al -- tar
+  gehn? Das ſchön -- ſte Lamm hab ich er --
+  ſehn, dem Herrn zum O -- pfer an -- zu --
+  zün -- den. Auch du, mein %10
+  Bru -- der, wirſt ein O -- pfer
+  fin -- den, dem Her -- ren an -- ge -- nehm.
+  Ver -- ſieg -- le beym Al -- tar den
+  Bund, der ſtets der Wunſch von
+  mei -- nem Her -- zen war. Ich will es %15
+  thun, und auch dem Herrn ein O -- pfer
+  brin -- gen. Zwar we -- nig
+  kann ich nur er -- zwin -- gen, das, was des
+  Fel -- des Ar -- muth giebt. Du weißt, Ge --
+  lieb -- ter, daß Gott nicht das O -- pfer %20
+  liebt, den O -- pfern -- den liebt
+  er; er ach -- tet nicht auf das
+  Lamm, das man ihm ſchlach -- tet,
+  nicht auf die Frucht, die
+  ei -- ne Flamm ver -- zehrt, wenn %25
+  Lieb und An -- dacht nur im
+  Her -- zen ihn ver -- ehrt.
+  Ge --
+  lieb -- ter, zür -- ne
+  nicht! Ich ſeh die Zei -- chen des fin -- ſtern %30
+  Grams zu -- rück auf dei -- ne Stir -- ne
+  ſchlei -- chen, ach, käm -- pfe,
+  käm -- pfe, daß er nicht dein Herz er --
+  fül -- le, uns aufs neu zum
+  Schmerz! Sey ru -- hig; er ſoll %35
+  nicht mein Herz er -- fül -- len, mit
+  Dun -- kel eu -- re Ta -- ge nicht um --
+  hül -- len. Zwar ihr be --
+  lei -- digt mich ins An -- ge -- ſicht
+  mit eu -- rem Ue -- ber -- mas von %40
+  Freu -- den: So la -- ſter -- haft
+  war Ka -- in nicht, als
+  ihr da -- durch mich macht.
+  Doch, ſchon ge -- wohnt zu
+  lei -- den, er -- duld ich es. %45
+  Wer mit des Fel -- des Ar -- beit
+  ringt, be -- zwingt auch leich -- ten
+  Gram, der zu dem Her -- zen
+  dringt. Mein
+  O -- pfer ſoll auf zu dem Her -- ren %50
+  wal -- len, er thu mit mir nach
+  ſei -- nem Wohl -- ge -- fal -- len.
+  Mein Sohn! laß es ein
+  fro -- hes O -- pfer ſeyn. Schau,
+  al -- les ruft dich auf, dich %55
+  mit uns zu er -- freun. Mit Un --
+  muth iſt vor Gott von
+  uns nie -- mand er -- ſchie -- nen; wir ſol -- len
+  ihm mit Freu -- den die -- nen. %59 finis
+}

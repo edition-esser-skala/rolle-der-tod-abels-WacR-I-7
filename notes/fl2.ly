@@ -55,3 +55,112 @@ MeinVaterFlautoII = {
     g2 r\fermata \bar "|." %51 finis
   }
 }
+
+AchSchwesterFlautoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key d \major \time 2/4 \tempoAchSchwester
+    \partial 8 fis'8\fE fis4 d
+    cis8 d \appoggiatura fis16 e8 d16 cis
+    d8. e16 fis8 r
+    cis d \appoggiatura fis16 e8 d16 cis
+    \appoggiatura h a g fis8 r d' %5
+    \once \tieDashed d2~
+    d
+    e4. d8
+    \appoggiatura e16 d8 cis r4
+    R2*3 %12
+    cis8\p d \appoggiatura fis16 e8 d16 cis
+    \appoggiatura e16 d cis d8 r4
+    R2*2 %16
+    fis8 e4 d8
+    \appoggiatura e16 d8 cis r a
+    a2~
+    a~ %20
+    a~
+    a4 r
+    R2*3 %25
+    gis8 a \appoggiatura cis16 h8 a16 gis
+    \appoggiatura h a gis a8 r4
+    R2
+    r4 r8 a
+    gis a \appoggiatura cis h4 %30
+    a8 cis16 e a8 a,
+    gis a \appoggiatura cis h4
+    a8 cis16 e a8 r
+    R2*22 %55
+    r4 e,
+    cis'2
+    h
+    a
+    e %60
+    cis'
+    h
+    a8 cis cis4
+    gis8 a \appoggiatura cis16 h8 a16 gis
+    a8 cis cis4 %65
+    gis8 a \appoggiatura cis16 h8 a16 gis
+    a8 cis4 d8
+    cis h a gis
+    a8. h16 cis8 d
+    cis( h) a( gis) %70
+    a8. h16 cis8 d
+    cis( h) a( gis)
+    a4 r
+    R2*3 %76
+    a8.\f cis16 cis4
+    gis8\p a \appoggiatura cis16 h8 a16 gis
+    a8.\f cis16 cis4
+    gis8\p a \appoggiatura cis16 h8 a16 gis %80
+    a(\fE cis) cis( e) d4
+    e4 d\trill
+    cis r
+    R2
+    \repeat volta 2 {
+      R2*2 %86
+      r4 r8 cis16\f a
+      gis8 a \appoggiatura cis16 h8 a16 gis
+      a8.\trill h16 cis8 r
+      R2*2 %91
+      a2~\p
+      a~
+      a4 r
+      R2*2 %96
+      r4 r8 fis'16\f d
+      cis8 d \appoggiatura fis16 e8 d16 cis
+      d8. e16 fis8 r
+      R2*13 %112
+      r4 a8.(\f h32 cis)
+      d8 a g16 fis e d
+      a'4 r %115
+      R2*9 %124
+      e,8\pE fis \appoggiatura a16 g8 fis16 e %125
+      fis4 r
+      e8 fis \appoggiatura a16 g8 fis16 e
+      fis4. h8
+      \slurDashed a( g) fis( e)
+      fis8. g16 a8 h %130
+      a( g) fis( e)
+      fis8. g16 a8 h
+      a( g) fis( e) \slurSolid
+      fis4 r
+      r8 cis'\fE a cis16 e %135
+      d4 r8 fis
+    }
+    \alternative {
+      {
+        h16 a g fis e8 d
+        \appoggiatura e16 d8 cis r4
+      }
+      { e8.( fis32 g) d8 cis\trill }
+    }
+    d a'16 fis fis4 %140
+    cis8\p d \appoggiatura fis16 e8 d16 cis
+    d\f fis a fis fis4
+    cis8\p d \appoggiatura fis16 e8 d16 cis
+    d\f fis a fis g h, a g
+    fis8 d'4 cis8 %145
+    d fis16 a fis d a fis
+    d4 r\fermata \bar "|." %147 finis
+  }
+}

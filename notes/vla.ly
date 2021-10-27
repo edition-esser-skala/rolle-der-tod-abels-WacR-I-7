@@ -633,3 +633,230 @@ WennDerJungeViola = {
     g4 r8\fermata \bar "|." %130 finis
   }
 }
+
+AchSchwesterViola = {
+  \relative c' {
+    \clef alto
+    \twofourtime \key d \major \time 2/4 \tempoAchSchwester
+    \partial 8 r8 r d16.\fE e32 fis8 d
+    a4 a'
+    r8 d, d16. e32 fis16. g32
+    a4 a,
+    r8 d16. e32 fis8 d %5
+    r h' h h
+    r a a a
+    a4 a
+    a a,
+    r8 fis16.\pE g32 a4~ %10
+    a a
+    r8 fis fis16. g32 a16. h32
+    a4 a
+    r8 fis16. g32 a8 fis
+    r d' d d %15
+    r d d d
+    a4 a
+    a8 a r4
+    r8 a a a
+    r a a a %20
+    r a a a
+    a a r4
+    r8 cis16. d32 e4~
+    e e,
+    r8 cis' cis16. d32 e16. fis32 %25
+    e4 e,
+    r8 cis'16. d32 e8 cis
+    r a' a a
+    r a a e
+    e e fis gis %30
+    a4 r8 e
+    e e fis gis
+    a4 r
+    r8 cis, cis cis
+    r cis cis cis %35
+    r h h dis
+    dis4( e8) r
+    r gis gis gis
+    r gis gis gis
+    r h, h gis' %40
+    gis4( a8) r
+    r4 r8 cis,
+    d cis r4
+    r r8 cis
+    d cis r cis %45
+    h4 cis
+    cis( d8) r
+    r4 r8 dis
+    e dis r4
+    r r8 dis %50
+    e dis r dis
+    cis4 dis
+    dis2(
+    e8) r r4
+    r8 a(-. a-. a-.) %55
+    r gis(-. gis-. gis-.)
+    r a(-. a-. a-.)
+    r e(-. e-. e-.)
+    r a(-. a-. a-.)
+    r gis(-. gis-. gis-.) %60
+    r a(-. a-. a-.)
+    r e(-. e-. e-.)
+    a a a a
+    a a a a
+    a a a a %65
+    a a a a
+    a a a a
+    e4 e
+    a, r8 d
+    e4 e %70
+    a r8 d,
+    e4 e,
+    r8 cis'\fE e cis
+    r gis' h gis
+    r cis e cis %75
+    d h a gis
+    a a a a
+    a\p a a a
+    a\f a a a
+    a\p a a a %80
+    a\fE a,4 h8
+    cis4 d\trill
+    cis8 cis cis cis
+    cis4 r
+    \repeat volta 2 {
+      r8 a'16.\pE h32 cis8 a %85
+      e'4 e,
+      r8 a a,16. h32 cis16.\f d32
+      e8 e e e
+      a a, a r
+      r a'\pE a( h) %90
+      h( cis) cis( d)
+      d( e) e( cis)
+      d( e) e-! cis-!
+      d fis, g a
+      r d,16. e32 fis8 d %95
+      cis d \appoggiatura fis16 e8 d16 cis
+      d8. e16 fis8. g16\fE
+      a4 a,
+      d8 d d r
+      R2 %100
+      r4 d~\pE
+      d d
+      d d
+      d8 d c a
+      g d'(-. d-. d-.) %105
+      d(-. d-. d-. d-.)
+      d(-. d-. d-. d-.)
+      d(-. d-. d-. d-.)
+      d(-. d-. d-. d-.)
+      cis(-. cis-. cis-. cis-.) %110
+      d(-. d-. d-. d-.)
+      d d d d
+      a4 a'8.(\f h32 cis)
+      d8 a g16 fis e d
+      a'8 a, r4 %115
+      r8 d'(-.\p d-. d-.)
+      r cis(-. cis-. cis-.)
+      r a(-. a-. a-.)
+      r g(-. g-. g-.)
+      r fis(-. fis-. fis-.) %120
+      r e(-. e-. e-.)
+      r fis(-. fis-. fis-.)
+      r g(-. g-. g-.)
+      a4 r
+      d,8 d d d %125
+      d d d d
+      d d d d
+      d d h' g
+      a4 a,
+      d fis8 g %130
+      a4 a,
+      d r8 g
+      a4 a,
+      r8 fis'\fE a fis
+      r cis e cis %135
+      r fis a fis
+    }
+    \alternative {
+      {
+        h4. h8
+        a4 a,
+      }
+      { h'8 g a a, }
+    }
+    d d d d %140
+    d\p d d d
+    d\f d d d
+    d\p d d d
+    d'\fE d d, d
+    d d4 cis8\trill %145
+    d d d d
+    d4 r\fermata \bar "|." %147 finis
+  }
+}
+
+MeinBruderViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoMeinBruder
+    d1~
+    d2 e~
+    e ais
+    fis g
+    fis1~ %5
+    fis
+    e
+    e
+    a,2 d
+    r4 h h2~ %10
+    h1
+    e2 cis
+    e1
+    fis~
+    fis2 gis~ %15
+    gis1
+    e~
+    e2 fis~
+    fis \once \tieDashed d~
+    d g %20
+    c,1
+    f
+    d2 g~
+    g f!~
+    f f %25
+    d e
+    r r4 e
+    f8 f4 f8 \once \tieDashed f2~
+    f1
+    e %30
+    e
+    f2 d
+    a' a
+    b4 as2.
+    g1~ %35
+    g2 c,~
+    c1
+    d~
+    d2 d~
+    d1 %40
+    d~
+    d2 es
+    d4 r r d
+    a1~
+    a2 a~ %45
+    a b
+    c1
+    b2 c
+    r4 c d2~
+    d1 %50
+    e2 f
+    d r4 h
+    c1
+    d2 d~
+    d fis~ %55
+    fis g~
+    g1
+    fis2 fis
+    g4 fis r fis
+    \partial 2 fis2\fermata \bar "|." %60 finis
+  }
+}

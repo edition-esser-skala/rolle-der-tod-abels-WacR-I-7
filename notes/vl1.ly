@@ -633,3 +633,230 @@ WennDerJungeViolinoI = {
     g g, r\fermata \bar "|." %130 finis
   }
 }
+
+AchSchwesterViolinoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key d \major \time 2/4 \tempoAchSchwester
+    \partial 8 a''8\fE a4 d,
+    e8 fis \appoggiatura a16 g8 fis16 e
+    fis8. g16 a8 r
+    e fis \appoggiatura a16 g8 fis16 e
+    \appoggiatura g fis e d8 r d' %5
+    d4( h8) d
+    d4( a8) d
+    a g4 fis8
+    \appoggiatura g16 fis8 e r a,\pE
+    a4 d, %10
+    e8 fis \appoggiatura a16 g8 fis16 e
+    fis8. g16 a8 r
+    e fis \appoggiatura a16 g8 fis16 e
+    \appoggiatura g fis e d8 r d'
+    d4( h8) d %15
+    d4( a8) d
+    a g4 fis8
+    \appoggiatura g16 fis8 e r a
+    a4 e8 fis
+    fis4 e8 a %20
+    a4 e8 fis
+    \appoggiatura g16 fis8 e r e'
+    e4 a,
+    h8 cis \appoggiatura e16 d8 cis16 h
+    cis8. d16 e8 r %25
+    h cis \appoggiatura e16 d8 cis16 h
+    \appoggiatura d cis h a8 r a'
+    a4( fis8) a
+    \once \slurDashed a4( e8) a,
+    h cis \appoggiatura e d4\trill %30
+    cis16 a cis e a8 a,
+    h cis \appoggiatura e d4\trillE
+    cis16 a cis e a8 e,
+    a4. cis16( a)
+    fis4. a16( fis) %35
+    e4( dis8) a'
+    a4( gis8) e
+    d'!4. fis16( d)
+    h4. d16( h)
+    a4( gis8) d' %40
+    \once \slurDashed d4( cis8) e16 cis
+    a8 a(-. a-. a-.)
+    h a a16\f cis e a
+    a,8 a[\p a a]
+    h a r a %45
+    a4( g!16) fis g8
+    \once \slurDashed g4( fis8) fis'16\f d
+    h8 h[\p h h]
+    cis h h16\fE dis fis h
+    h,8 h[\p h h] %50
+    cis h r h
+    \once \slurDashed h4( a!16) gis a8
+    a2(
+    gis8) r e4
+    r8 e'(-. e-. e-.) %55
+    r d(-. d-. d-.)
+    r cis(-. cis-. cis-.)
+    r h(-. h-. h-.)
+    r e(-. e-. e-.)
+    r d(-. d-. d-.) %60
+    r cis(-. cis-. cis-.)
+    r h(-. h-. h-.)
+    cis16 e a e e4
+    h8 cis \appoggiatura e16 d8 cis16 h
+    cis e a e e4 %65
+    h8 cis \appoggiatura e16 d8 cis16 h
+    cis e a e e8 fis
+    e d cis h
+    cis8. d16 e8 fis
+    e( d) cis( h) %70
+    cis8. d16 e8 fis
+    e( d) cis( h)
+    a4 a,16(\f cis) e( a)
+    gis8.( a32 h) e,16( gis) h( d)
+    cis8.( d32 e) a,16( cis) e( a) %75
+    gis( fis) e( d) cis8 h
+    cis16 e a e e4
+    h8\p cis \appoggiatura e16 d8 cis16 h
+    cis\f e a e e4
+    h8\p cis \appoggiatura e16 d8 cis16 h %80
+    cis\f e a e fis a, d h
+    e,4 h'\trill
+    a8 cis16 e cis a e cis
+    a4 r8 e''\p
+    \repeat volta 2 {
+      e4 a, %85
+      h8 cis \appoggiatura e16 d8 cis16 h
+      cis8. d16 e8 a\fE
+      h, cis \appoggiatura e16 d8 cis16 h
+      cis8.\trill d16 e8 a,\pE
+      h( cis) cis( d) %90
+      d( e) e( fis)
+      fis( g!) g( e)
+      fis( g) g-! e-!
+      \appoggiatura g16 fis8 e16 d h8 cis
+      d4 r %95
+      R2
+      r4 r8 d'\fE
+      e, fis \appoggiatura a16 g8 fis16 e
+      fis8. g16 \kneeBeam a8 d,,\pE
+      e( fis) fis( g) %100
+      g( a) a( h)
+      h( c) c( a)
+      h( c) c-! a-!
+      \appoggiatura c16 h8 a16 g e8 fis
+      g-! h(-. h-. h-.) %105
+      h(-. h-. h-. h-.)
+      a(-. a-. a-. a-.)
+      a(-. a-. a-. a-.)
+      g(-. g-. g-. g-.)
+      g(-. g-. g-. g-.) %110
+      fis(-. fis-. fis-. fis-.)
+      fis a g16 fis e d
+      a'4 a8.(\f h32 cis)
+      d8 a g16 fis e d
+      a'4 r %115
+      r8 a'(-.\p a-. a-.)
+      r g(-. g-. g-.)
+      r fis(-. fis-. fis-.)
+      r e(-. e-. e-.)
+      r d(-. d-. d-.) %120
+      r cis(-. cis-. cis-.)
+      r d(-. d-. d-.)
+      r e(-. e-. e-.)
+      fis16 a d a a4
+      R2 %125
+      fis16 a d a a4
+      R2
+      r4 r8 g
+      \slurDashed fis( e) d( cis)
+      d16 fis a d a8 g %130
+      fis( e) d( cis)
+      d8. e16 fis8 g
+      fis( e) d( cis) \slurSolid
+      d4 d,16\f fis a d
+      cis8.( d32 e) a,16 cis e a %135
+      fis8.( g32 a) d,16 fis a d
+    }
+    \alternative {
+      {
+        d cis h a g8 fis
+        \appoggiatura g16 fis8 e r e\pE
+      }
+      { cis'16 h a g fis8 e\trill }
+    }
+    d d'16 a a4 %140
+    e8\p fis \appoggiatura a16 g8 fis16 e
+    fis16\f a d a a4
+    e8\p fis \appoggiatura a16 g8 fis16 e
+    fis16\f a d a h g fis e
+    a,4 e'\trill %145
+    d8 fis16 a fis d a fis
+    d4 r\fermata \bar "|." %147 finis
+  }
+}
+
+MeinBruderViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoMeinBruder
+    h'1~
+    h2 cis~
+    cis e
+    d e
+    d1~ %5
+    d
+    e
+    cis
+    a2 a
+    r4 gis h2~ %10
+    h1
+    h2 a
+    e'1
+    dis~
+    dis2 e~ %15
+    e1
+    e~
+    e2 d~
+    d \once \tieDashed d~
+    d d %20
+    c1
+    c
+    d2 d~
+    d f!~
+    f d %25
+    d cis
+    r r4 cis
+    d8 d4 d8 \once \tieDashed d2~
+    d1
+    c %30
+    cis
+    d2 d4~ d32 d, e fis g a h! cis
+    d4~ d32 a h cis d e fis g a2
+    g4 f2.
+    es1~ %35
+    es2 c~
+    c1
+    b~
+    b2 d~
+    d1 %40
+    d~
+    d2 c
+    a4 r r a
+    a1
+    e'2 d~ %45
+    d e
+    f1
+    d2 e!
+    r4 e d2~
+    d1 %50
+    c2 a~
+    a r4 gis
+    a1
+    c2 h~
+    h fis'~ %55
+    fis e~
+    e1
+    fis2 d!
+    e4 cis r cis
+    \partial 2 dis2\fermata \bar "|." %60 finis
+  }
+}

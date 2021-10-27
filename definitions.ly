@@ -691,6 +691,7 @@ fermataMark = \mark \markup { \musicglyph #"scripts.ufermata" }
 soloAbel = \markup \remark "Abel"
 soloAdam = \markup \remark "Adam"
 soloKain = \markup \remark "Kain"
+soloMehala = \markup \remark "Mehala"
 
 
 % 1.1
@@ -715,6 +716,10 @@ tempoMeinVater = \tempoMarkup "Andante poco di molti"
 tempoOGott = \tempoMarkup "Recitativo"
 tempoWennDerJunge = \tempoMarkup "Allegretto"
 tempoOKinder = \tempoMarkup "Recitativo"
+
+% 1.11
+tempoAchSchwester = \tempoMarkup "Allegretto"
+tempoMeinBruder = \tempoMarkup "Recitativo"
 
 
 \include "notes/fl1.ly"

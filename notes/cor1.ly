@@ -86,3 +86,110 @@ WennDerJungeCornoI = {
     c4 r8\fermata \bar "|." %130 finis
   }
 }
+
+AchSchwesterCornoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \tempoAchSchwester
+    \partial 8 g''8\fE g4 \pao c,
+    d8 e \appoggiatura g16 f8 e16 d
+    e8. f16 g8 r
+    d e \appoggiatura g16 f8 e16 d
+    \appoggiatura f e[ d c8] r4 %5
+    c2~
+    c
+    g'8 f4 e8
+    \appoggiatura f16 e8[ d] r4
+    R2*5 %14
+    c2~\p %15
+    c
+    g'8 f4 e8
+    \appoggiatura f16 e8[ d] r4
+    R2*8 %26
+    g2~
+    g~
+    g4~ g8 r
+    R2 %30
+    r8 g g r
+    R2
+    r8 g g r
+    R2*29 %62
+    r8 d d r
+    r \pa d d \pd r
+    r d d4 %65
+    r8 \pa d d \pd r
+    d r r e
+    \pa d4 d \pd
+    d r8 e
+    \pa d4 d \pd %70
+    d r8 e
+    d4 d
+    g,4 r8 g\f
+    d'4 r8 d
+    g,4 g'8 g %75
+    e4 \pa d8 d \pd
+    g,2~
+    g4 r
+    g2~
+    g4 r %80
+    g'8. g16 e8. e16
+    \pa d4 d\trill \pd
+    d r
+    R2
+    \repeat volta 2 {
+      R2*2 %86
+      r4 r8 g\f
+      \pa d4 d \pd
+      d r
+      R2*7 %96
+      r4 r8 g\f
+      d e \appoggiatura g16 f8 e16 d
+      e8. f16 g8 r
+      R2 %100
+      r4 c,~\p
+      c2~
+      c~
+      c4 r
+      R2*8 %112
+      r4 g'\f
+      \pa c8 g f16 e d c \pd
+      g'4 r %115
+      g2\p
+      f
+      e
+      d
+      c %120
+      \pao g
+      c
+      d
+      e4 r
+      R2 %125
+      r8 e e4
+      R2
+      e4 r
+      R2
+      e4 r %130
+      R2
+      e4 r
+      e d
+      c r8 c\fE
+      d4 r8 f %135
+      e4 r8 g
+    }
+    \alternative {
+      {
+        c16 h a g f8 e
+        \appoggiatura f16 e8 d r4
+      }
+      { f4 e8 d\trill }
+    }
+    e2 %140
+    d4\p r
+    e2\f
+    d4\p r
+    g\trill\fE a8 f
+    \pa g,4 d'\trill \pd %145
+    c8 r c r
+    c4 r\fermata \bar "|." %147 finis
+  }
+}

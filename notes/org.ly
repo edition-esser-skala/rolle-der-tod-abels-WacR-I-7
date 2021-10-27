@@ -1286,3 +1286,435 @@ OKinderBassFigures = \figuremode {
   <6>2. <[_+]>4
   <_+>2
 }
+
+AchSchwesterOrgano = {
+  \relative c {
+    \clef bass
+    \twofourtime \key d \major \time 2/4 \tempoAchSchwester
+    \partial 8 r8 r \mvTr d16.\fE e32 fis8 d
+    a'4 a,
+    r8 d d16. e32 fis16. g32
+    a4 a,
+    r8 d16. e32 fis8 d %5
+    r g g g
+    r fis fis fis
+    cis4 d
+    a' a,
+    r8 d16.\pE e32 fis8 d %10
+    a'4 a,
+    r8 d d16. e32 fis16. g32
+    a4 a,
+    r8 d16. e32 fis8 d
+    r g g g %15
+    r fis fis fis
+    cis4 d
+    a' a,
+    r8 a a a
+    r a a a %20
+    r a' a a
+    a4 a,
+    r8 a'16. h32 cis8 a
+    e'4 e,
+    r8 a a16. h32 cis16. d32 %25
+    e4 e,
+    r8 a16. h32 cis8 a
+    r d d d
+    r cis cis cis,
+    d e fis gis %30
+    a4 r8 cis
+    d e, fis gis
+    a4 r
+    r8 a, a a
+    r a a a %35
+    r h h h
+    r e e,4
+    r8 e' e e
+    r e e e
+    r e e e %40
+    r a a,4
+    R2*3
+    r4 a~ %45
+    a2
+    d4 r
+    R2*3 %50
+    r4 h~
+    h2
+    e,~
+    e4 r
+    r8 e' e, e' %55
+    r e e, e'
+    r e e, e'
+    r e e, e'
+    r e e, e'
+    r e e, e' %60
+    r e e, e'
+    r e e, e'
+    a, a a a
+    a a a a
+    a a a a %65
+    a a a a
+    a a a d
+    e4 e,
+    a r8 d
+    e4 e %70
+    a r8 d,
+    e4 e,
+    r8 a\f cis a
+    r e' gis e
+    r a cis a %75
+    d d, e e,
+    a a a a
+    a\p a a a
+    a\f a a a
+    a\p a a a %80
+    a\f cis d d
+    e4 e,
+    a8 a a a
+    a4 r
+    \repeat volta 2 {
+      r8 a'16.\pE h32 cis8 a %85
+      e'4 e,
+      r8 a a,16. h32 cis16.\fE d32
+      e8 e e e
+      a a, a r
+      r a'-!\pE a( h) %90
+      h( cis) cis( d)
+      d( e) e( cis)
+      d( e) e( cis)
+      d fis, g a
+      r d,16. e32 fis8 d %95
+      a'4 a,
+      r8 d d16. e32 fis16.\fE g32
+      a4 a,
+      d8 d, d r
+      r d'-!\pE d( e) %100
+      e( fis) fis( g)
+      g( a) a( fis)
+      g( a) a( fis)
+      g h, c d
+      g, g' g g %105
+      g g g g
+      fis fis fis fis
+      fis fis fis fis
+      e e e e
+      a, a a a %110
+      a a a a
+      a a a a
+      a4 a'8.(\f^\unisonoE h32 cis)
+      d8 a g16 fis e d
+      a'8 a, r4 %115
+      r8 a'\p a, a'
+      r a a, a'
+      r a a, a'
+      r a a, a'
+      r a a, a' %120
+      r a a, a'
+      r a a, a'
+      r a a, a'
+      d, d d d
+      d d d d %125
+      d d d d
+      d d d d
+      d d h' g
+      a4 a,
+      d fis8 g %130
+      a4 a,
+      d r8 g
+      a4 a,
+      r8 d\f fis d
+      r a' cis a %135
+      r d fis d
+    }
+    \alternative {
+      {
+        g,4. gis8
+        a4 a,
+      }
+      { g'8 e a a, }
+    }
+    d d d d %140
+    d\p d d d
+    d\f d d d
+    d\p d d d
+    d\f fis g h
+    a4 a, %145
+    d8 d d d
+    d4 r\fermata \bar "|." %147 finis
+  }
+}
+
+AchSchwesterBassFigures = \figuremode {
+  r8 r2
+  r
+  r
+  r
+  r %5
+  r
+  r8 <6>4.
+  <6 4>8 <5 3> <\t \t> <3>
+  <6 4> <5 3>4.
+  r2 %10
+  r
+  r
+  r
+  r
+  r %15
+  r8 <6>4.
+  <6 4>8 <5 3> <\t \t> <3>
+  <6 4> <5 3>4.
+  r8 <5 3>4 <6 4>8
+  r <\t \t> <5 3>4 %20
+  r8 <5 3>4 <6 4>8
+  <\t \t> <5 3>4.
+  r2
+  <_+>
+  r %25
+  q
+  r
+  r
+  r8 <6>4.
+  <4+ 2>8 <6 4> <7> <6 5> %30
+  r4. <6>8
+  <4+ 2>8 <6 4> <7> <6 5>
+  r2
+  r
+  r8 <6>4. %35
+  <4>8 <\t> <_+>4
+  <7+ 4 2>8 <\t \t \t> <8 _+>4
+  r8 <7! _+>4.
+  r8 <\t \t>4.
+  <4>8 <\t> <_+>4 %40
+  <7+ 4 2>8 <\t \t> <8 3>4
+  r2*3
+  r4 <8 5 3> %45
+  <\t 4 2> <7! 5 3>
+  <\t \t \t> <5 3>
+  r2*3 %50
+  r4 <8 5 _+>
+  <\t 4 2> <7 5 3>
+  <\t \t \t>2
+  <5 _+>
+  r8 <6 4>2 %55
+  <7 _+>
+  <6 4>
+  <5 _+>
+  <6 4>
+  <7 _+> %60
+  <6 4>
+  <5 _+>4.
+  r2
+  <7+ 4 2>
+  <8 3> %65
+  <7+ 4 2>
+  <8 3>
+  <8 6>8 <7 5> <6 4> <5 _+>
+  r2
+  <8 6>8 <7 5> <6 4> <5 _+> %70
+  r2
+  <8 6>8 <7 5> <6 4> <5 _+>
+  r2
+  r8 <_+>4.
+  r2 %75
+  r8 <6> <6 4> <5 _+>
+  r2
+  <7+ 4 2>
+  <8 3>
+  <7+ 4 2> %80
+  <8 3>8 <6> <5> <6>
+  <6 4>4 <5 _+>
+  r2
+  r
+  r %85
+  <_+>
+  r
+  <_+>
+  r
+  r8 <3> q q %90
+  q q q q
+  q <3!> q <3>
+  q q q q
+  q <6>4 <7>8
+  r2 %95
+  r
+  r
+  r
+  r
+  r8 <3> q q %100
+  q q q q
+  q <3!> q <3>
+  q <3!> q <3>
+  q <6>4 <7!>8
+  r2 %105
+  r
+  <6>
+  q
+  <7>
+  <7 _+> %110
+  <6 4>
+  <\t \t>
+  <5 3>
+  r
+  r %115
+  r8 <6 4>2
+  <7 5>
+  <6 4>
+  <7 5>
+  <6 4> %120
+  <7 5>
+  <6 4>
+  <7 5>4.
+  r2
+  <7 4 2> %125
+  <8 3>
+  <7 4 2>
+  <8 3>
+  <8 6>8 <7 5> <6 4> <5 3>
+  r4 <6> %130
+  <8 6>8 <7 5> <6 4> <5 3>
+  r2
+  <8 6>8 <7 5> <6 4> <5 3>
+  r2
+  r %135
+  r
+  r4 <8 6>8 <7 5>
+  <6 4> <5 3>4.
+  <6>4 <6 4>8 <5 3>
+  r2 %140
+  <7 4 2>
+  <8 3>
+  <7 4 2>
+  <8 3>8 <6>4 q8
+  <6 4>4 <5 \t>8 <\t 3> %145
+  r2
+  r %147 finis
+}
+
+MeinBruderOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoMeinBruder
+    h1~
+    h2 h~
+    h1~
+    h2 cis
+    d1~ %5
+    d2 fis
+    gis1
+    a
+    cis,2 d
+    r4 e dis2~ %10
+    dis1
+    d2 cis~
+    cis1
+    fis~
+    fis2 e~ %15
+    e1
+    cis~
+    cis2 c~
+    c h~
+    h f'! %20
+    e1
+    f
+    fis2 g~
+    g a~
+    a b %25
+    b a
+    r r4 a
+    d,16 a'( f d) h! f'( d h) gis2~
+    gis1
+    a %30
+    g'!
+    f2 fis~
+    fis1
+    b,
+    es~ %35
+    es2 a,!~
+    a1
+    b~
+    b2 fis'~
+    fis1 %40
+    b,2 h~
+    h c~
+    c4 r r d
+    cis1~
+    cis2 d~ %45
+    d g
+    f1
+    b,
+    r4 c h2~
+    h1 %50
+    c2 d~
+    d r4 e
+    a,1
+    fis'2 g~
+    g dis~ %55
+    dis e~
+    e1
+    ais,2 h
+    e r4 fis
+    \partial 2 h,2\fermata \bar "|." %60 finis
+  }
+}
+
+MeinBruderBassFigures = \figuremode {
+  <[5+]>1
+  r2 <7+ 4 2>
+  r1
+  <5+>2 <6 5>
+  <_+>1 %5
+  r2 <6>
+  q1
+  <_+>
+  <6>2 <_+>
+  r4 q <6 _+>2 %10
+  r1
+  <4+ 2>2 <6>
+  r1
+  <6\\>
+  r2 <_+> %15
+  r1
+  <6>
+  r2 <4+ 2>
+  r <6>
+  r <4 2> %20
+  <6>1
+  r
+  <6>2 <_->
+  r <6!>
+  r1 %25
+  <6>2 <7 _+>
+  r2. <[7 _+]>4
+  r <[7]> <7>2
+  r1
+  <5 3> %30
+  <4+ _->
+  <6>2 q
+  r1
+  <6>4 <7->2.
+  <[5-]>1 %35
+  r2 <6>
+  r1
+  r
+  r2 <6>
+  r1 %40
+  <6>2 <[\t]>
+  r <_->
+  <4+ 2>2. <[_+]>4
+  <6>1
+  <6 5>2 <_!> %45
+  r <6 _->
+  <3>1
+  r2 <4! 2>
+  r <6>
+  r1 %50
+  <5>4 <6>2.
+  r <[7] _+>4
+  r1
+  <6 5>2 <3>
+  r <6 _+> %55
+  r <3>
+  r1
+  <6\\ [_+]>2 <5+ _!>
+  <3>4 <[6+] 4+ 2+>2 <[5+ _+]>4
+  <[5+] _+>2 %60 finis
+}

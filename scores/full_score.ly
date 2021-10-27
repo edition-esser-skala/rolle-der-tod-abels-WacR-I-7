@@ -515,7 +515,7 @@
   %         \set StaffGroup.instrumentName = \markup \center-column { "cor (G)" "1, 2" }
   %         \new Staff {
   %           \set Staff.soloText = \markup \medium \remark "cor 1"
-  %           \transpose c g,
+  %           % \transpose c g,
   %           \partCombine \WennDerJungeCornoI \WennDerJungeCornoII
   %         }
   %       >>
@@ -556,31 +556,155 @@
   %     \midi { \tempo 4. = 60 }
   %   }
   % }
+  % \bookpart {
+  %   \header {
+  %     genre = "R E C I T A T I V O"
+  %     number = "1.10"
+  %     title = "O Kinder! ſeit das Paradies verſchwunden"
+  %   }
+  %   \tocLabelLong "okinder" "1.10" "Recitativo" "O Kinder! ſeit das Paradies verſchwunden"
+  %   \paper { systems-per-page = #4 }
+  %   \score {
+  %     <<
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Eva"
+  %           \new Voice = "Soli" { \dynamicUp \OKinderSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \OKinderSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \OKinderOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \OKinderBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
+  % \bookpart {
+  %   \header {
+  %     genre = "D U E T T O"
+  %     number = "1.11"
+  %     title = "Ach Schweſter! ſing in meine Lieder!"
+  %   }
+  %   \tocLabelLong "achschwester" "1.1" "Aria" "Wenn der junge Tag erwacht"
+  %   \score {
+  %     <<
+  %     \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "fl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \AchSchwesterFlautoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \AchSchwesterFlautoII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \set StaffGroup.instrumentName = \markup \center-column { "cor (D)" "1, 2" }
+  %         \new Staff {
+  %           \set Staff.soloText = \markup \medium \remark "cor 1"
+  %           % \transpose c d
+  %           \partCombine \AchSchwesterCornoI \AchSchwesterCornoII
+  %         }
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \AchSchwesterViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \AchSchwesterViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \AchSchwesterViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Thirza"
+  %           \new Voice = "Thirza" { \dynamicUp \AchSchwesterThirza }
+  %         }
+  %         \new Lyrics \lyricsto Thirza \AchSchwesterThirzaLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Mehala"
+  %           \new Voice = "Mehala" { \dynamicUp \AchSchwesterMehala }
+  %         }
+  %         \new Lyrics \lyricsto Mehala \AchSchwesterMehalaLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \AchSchwesterOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \AchSchwesterBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 100 }
+  %   }
+  % }
   \bookpart {
     \header {
-      genre = "R E C I T A T I V O"
-      number = "1.10"
-      title = "O Kinder! ſeit das Paradies verſchwunden"
+      genre = "A C C O M P A G N A T O"
+      number = "1.12"
+      title = "Mein Bruder!"
     }
-    \tocLabelLong "okinder" "1.10" "Recitativo" "O Kinder! ſeit das Paradies verſchwunden"
-    \paper { systems-per-page = #4 }
+    \tocLabelLong "meinbruder" "1.12" "Accompagnato" "Mein Bruder!"
+    \paper {
+      system-system-spacing.basic-distance = #30
+      system-system-spacing.minimum-distance = #30
+      systems-per-page = #2
+    }
     \score {
       <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \MeinBruderViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \MeinBruderViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "vla"
+            \MeinBruderViola
+          }
+        >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "Eva"
-            \new Voice = "Soli" { \dynamicUp \OKinderSoli }
+            \set Staff.instrumentName = \markup \center-column { "Abel" "Adam" "Kain" "Mehala" }
+            \new Voice = "Soli" { \dynamicUp \MeinBruderSoli }
           }
-          \new Lyrics \lyricsto Soli \OKinderSoliLyrics
+          \new Lyrics \lyricsto Soli \MeinBruderSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \OKinderOrgano
+            \MeinBruderOrgano
           }
         >>
-        \new FiguredBass { \OKinderBassFigures }
+        \new FiguredBass { \MeinBruderBassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 70 }
