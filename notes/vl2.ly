@@ -859,3 +859,248 @@ MeinBruderViolinoII = {
     \partial 2 h2\fermata \bar "|." %60 finis
   }
 }
+
+FrohGehtViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key e \major \time 2/4 \tempoFrohGeht
+    gis'8([\fE e')] \appoggiatura fis16 e8([ dis)]
+    dis([ fis)] \appoggiatura gis16 fis8([ e)]
+    e([ a)] a([ gis)]
+    gis2
+    gis,8([\p e')] \appoggiatura fis16 e8([ dis)]
+    dis([ fis)] \appoggiatura gis16 fis8([ e)]
+    e([ a)] a([ gis)]
+    gis2
+    gis8([\f e)] e([ gis)]
+    \appoggiatura a16 gis8([ fis)] fis4 %10
+    fis8([ dis)] dis([ fis)]
+    \appoggiatura gis16 fis8([ e)] e4
+    h16 e dis e gis e dis e
+    cis e dis e gis e dis e
+    e,( fis gis8) fis16( e dis8) %15
+    dis4( e8) r
+    R2*4 %20
+    h'16\f e dis e gis e dis e
+    cis e dis e gis e dis e
+    e,( fis gis8) fis16( e dis8)
+    e4-! gis'8.(\trill fis32 gis)
+    h8 gis-! a-! gis-! %25
+    gis4. fis8
+    e16( fis gis8) fis16( e dis8)
+    e4-! gis8.(\trill fis32 gis)
+    h8 gis-! a-! gis-!
+    gis4. fis8 %30
+    e16( fis gis8) fis,16( gis a8)
+    gis2 \bar "S-S"
+    e4\p \appoggiatura fis16 e8([ dis)]
+    dis([ fis)] \appoggiatura gis16 fis8([ e)]
+    e([ a)] \appoggiatura h16 a8([ gis)] %35
+    gis2
+    e4\pE \appoggiatura fis16 e8([ dis)]
+    dis([ fis)] \appoggiatura gis16 fis8([ e)]
+    e([ a)] a([ gis)]
+    gis2 %40
+    gis8([ e)] e([ gis)]
+    \appoggiatura a16 gis8([ fis)] fis4
+    fis8([ dis)] dis([ fis)]
+    \appoggiatura gis16 fis8([ e)] e4
+    gis8([ e)] e([ gis)] %45
+    fis([ dis)] dis([ fis)]
+    e4 gis8([ e)]
+    e8.( gis32 e) dis4
+    fis8(-. fis-. fis-. fis-.)
+    gis(-. gis-. gis-. gis-.) %50
+    e(-. e-. e-. e-.)
+    \slurDashed fis(-. fis-. fis-. fis-.)
+    fis(-. fis-. fis-. fis-.)
+    e(-. e-. e-. e-.)
+    e(-. e-. e-. e-.) %55
+    dis(-. dis-. dis-. dis-.) \slurSolid
+    dis dis dis16( e) e( fis)
+    e4-! e8 e
+    e e eis eis
+    fis r ais8.(\trill\f gis32 ais) %60
+    cis8 ais-! h-! ais-!
+    ais r cis4~\p
+    cis h
+    ais ais8.(\trill\fE gis32 ais)
+    cis8 ais-! h-! ais-! %65
+    ais r cis4~\pE
+    cis h
+    ais ais8.(\trill\fE gis32 ais)
+    ais8 ais h ais
+    h([\pE fis)] fis([ h)] %70
+    h([ gis)] gis([ h)]
+    h([ fis)] fis([ h)]
+    h([ gis)] gis([ e)]
+    r cis cis cis
+    r gis' gis gis %75
+    ais ais ais ais
+    h4 gis
+    fis2
+    ais\trill
+    h4\f \appoggiatura cis16 h8([ ais)] %80
+    ais([ cis)] cis([ h)]
+    h([ e)] \appoggiatura fis16 e8([ dis)]
+    dis2
+    h4\p \appoggiatura cis16 h8([ ais)]
+    ais([ cis)] cis([ h)] %85
+    h([ e)] \appoggiatura fis16 e8([ dis)]
+    dis2
+    dis8([\f h)] h([ dis)]
+    \appoggiatura e16 dis8([ cis)] cis4
+    cis8([ ais)] ais([ cis)] %90
+    cis([ h)] h4
+    h16 fis' e fis h fis e fis
+    h, gis' fis gis h gis fis e
+    dis( e fis8) \once \slurDashed ais,16( h cis8)
+    h fis h,4 %95
+    r dis8([\pE fis)]
+    fis([ dis)] dis([ e)]
+    e([ cis)] cis([ dis)]
+    dis2
+    h8([ dis)] dis([ fis)] %100
+    fis([ dis)] dis([ e)]
+    e([ cis)] cis([ dis)]
+    dis2
+    r4 h'
+    a2~ %105
+    a
+    gis
+    gis8 gis4 h8
+    a a4 cis8
+    gis h4 d8 %110
+    cis(-. cis-. cis-. cis-.)
+    cis(-. cis-. cis-. cis-.)
+    h(-. h-. h-. h-.)
+    e(-. e-. e-. e-.)
+    r16 e dis e fis e dis cis %115
+    dis8(-. dis-. dis-. dis-.)
+    e(-. e-. e-. e-.)
+    e(-. e-. e-. e-.)
+    \slurDashed dis(-. dis-. dis-. dis-.)
+    h(-. h-. h-. h-.) %120
+    cis(-. cis-. cis-. cis-.)
+    cis(-. cis-. cis-. cis-.) \slurSolid
+    h4 dis8.(\trill\fE cis32 dis)
+    fis8 dis-! e-! dis-!
+    dis r fis4~\pE %125
+    fis e
+    dis8 r dis8.(\trill\fE cis32 dis)
+    fis8 dis-! e-! dis-!
+    dis r fis4~\pE
+    fis e %130
+    dis8 r dis8.(\trill\fE cis32 dis)
+    fis8 dis-! e-! dis-!
+    h2\pE
+    cis
+    cis %135
+    dis
+    dis4 h
+    h2~
+    h8 e4 dis8
+    h2~ %140
+    h8 e4 dis8
+    e e4 e8~
+    e e4 e8
+    h2
+    dis\trill %145
+    e4 r
+    h16\f e dis e gis e dis e
+    cis e dis e gis e dis e
+    e,4 \once \slurDashed fis16( e dis8)
+    dis4( e8) r %150
+    h'\mf h4 h8
+    cis cis4 cis8
+    gis(\p e) fis( dis)
+    e e h'\cresc h
+    a a cis, cis %155
+    h2\fermata
+    dis'\trill
+    e4\f \appoggiatura fis16 e8([ dis)]
+    dis([ fis)] \appoggiatura gis16 fis8([ e)]
+    e([ a)] a[( gis)] %160
+    gis2
+    gis8([ e)] e([ gis)]
+    \appoggiatura a16 gis8([^\critnote fis)] fis4
+    fis8([ dis)] dis([ fis)]
+    \appoggiatura gis16 fis8([^\critnote e)] e4 %165
+    h16 e dis e gis e dis e
+    cis e dis e gis e dis e
+    e,( fis gis8) fis16( e dis8)
+    e4-! gis'8.(\trill fis32 gis)
+    h8 gis-! a-! gis-! %170
+    gis4. fis8
+    e16( fis gis8) fis16( e dis8)
+    e4-! gis8.(\trill fis32 gis)
+    h8 gis-! a-! gis-!
+    gis4. fis8 %175
+    e16( fis gis8) fis,16( gis a8) \noBreak
+    gis4 r\fermata \bar "||"
+    \key e \minor e\pE \appoggiatura fis16 e8([ dis)] \noBreak
+    dis([ fis)] fis([ e)]
+    e([ a)] a([ g)] %180
+    g([ fis)] fis4
+    fis8([ dis)] dis([ fis)]
+    fis([ e)] e([ fis16 g)]
+    a4 g
+    g( fis8) r %185
+    g2~
+    g
+    a
+    a8([ fis)] fis4
+    r8 fis g a %190
+    h16( a g8) c16( h a8)
+    g4 fis\trill
+    g2
+    d'16\f g fis g h g fis g
+    e g fis g h g fis g %195
+    g,( a h8) fis16( g a8)
+    a4( g8) r
+    d([\pE h)] h([ d)]
+    d([ c)] c4
+    c8([ a)] a([ c)] %200
+    \once \slurDashed c([ h)] h4
+    h h
+    h h
+    e d8 h'
+    h4( ais8) r %205
+    ais([ e)] e([ cis)]
+    ais4 ais
+    ais'8([ e)] e([ cis)]
+    ais4 ais
+    e'4. cis8 %210
+    h4 d
+    g fis\trill
+    fis d'8.(\trill\f cis32 d)
+    fis8 d-! e-! d-!
+    d^\critnote r r4 %215
+    R2
+    r4 d8.(\trill\f cis32 d)
+    fis8 d-! e-! d-!
+    d r r4
+    R2 %220
+    r4 e16\ff dis e g
+    g fis g h e, g e cis
+    d4 r
+    R2*2 %225
+    \key e \major R2 \noBeam
+    gis,8([\f e')] \appoggiatura fis16 e8([ dis)]
+    dis([ fis)] \appoggiatura gis16 fis8([ e)]
+    e([ a)] \appoggiatura h16 a8([ gis)]
+    gis2 %230
+    gis,8([\p e')] \appoggiatura fis16 e8([ dis)]
+    dis([ fis)] \appoggiatura gis16 fis8([ e)]
+    e([ a)] \appoggiatura h16 a8([^\critnote gis)]
+    gis2
+    gis8([\f e)] e([ gis)] %235
+    \appoggiatura a16 gis8([ fis)] fis4
+    fis8([ dis)] dis([ fis)]
+    \appoggiatura gis16 fis8([ e)] e4
+    h16 e dis e gis e dis e
+    cis e dis e gis e dis e %240
+    gis,( a h8) dis,16( e fis8)
+    e h e4 \markDaCapo \bar "S-S" %242 finis
+  }
+}

@@ -659,13 +659,64 @@
   %     \midi { \tempo 4 = 100 }
   %   }
   % }
+  % \bookpart {
+  %   \header {
+  %     genre = "A C C O M P A G N A T O"
+  %     number = "1.12"
+  %     title = "Mein Bruder!"
+  %   }
+  %   \tocLabelLong "meinbruder" "1.12" "Accompagnato" "Mein Bruder!"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #30
+  %     system-system-spacing.minimum-distance = #30
+  %     systems-per-page = #2
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \MeinBruderViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \MeinBruderViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \MeinBruderViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "Abel" "Adam" "Kain" "Mehala" }
+  %           \new Voice = "Soli" { \dynamicUp \MeinBruderSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \MeinBruderSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \MeinBruderOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \MeinBruderBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
     \header {
-      genre = "A C C O M P A G N A T O"
-      number = "1.12"
-      title = "Mein Bruder!"
+      genre = "A R I A"
+      number = "1.13"
+      title = "Froh geht dir die Sonne auf"
     }
-    \tocLabelLong "meinbruder" "1.12" "Accompagnato" "Mein Bruder!"
+    \tocLabelLong "frohgeht" "1.13" "Aria" "Froh geht dir die Sonne auf"
     \paper {
       system-system-spacing.basic-distance = #30
       system-system-spacing.minimum-distance = #30
@@ -678,36 +729,43 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \MeinBruderViolinoI
+              \FrohGehtViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \MeinBruderViolinoII
+              \FrohGehtViolinoII
             }
           >>
-          \new Staff {
-            \set Staff.instrumentName = "vla"
-            \MeinBruderViola
-          }
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "vla"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \FrohGehtViolaI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \FrohGehtViolaII
+            }
+          >>
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "Abel" "Adam" "Kain" "Mehala" }
-            \new Voice = "Soli" { \dynamicUp \MeinBruderSoli }
+            \set Staff.instrumentName = "Mehala"
+            \new Voice = "Soli" { \dynamicUp \FrohGehtSoli }
           }
-          \new Lyrics \lyricsto Soli \MeinBruderSoliLyrics
+          \new Lyrics \lyricsto Soli \FrohGehtSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \MeinBruderOrgano
+            \FrohGehtOrgano
           }
         >>
-        \new FiguredBass { \MeinBruderBassFigures }
+        \new FiguredBass { \FrohGehtBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 70 }
+      \midi { \tempo 4 = 110 }
     }
   }
 }

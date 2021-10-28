@@ -1550,3 +1550,325 @@ MeinBruderSoliLyrics = \lyricmode {
   uns nie -- mand er -- ſchie -- nen; wir ſol -- len
   ihm mit Freu -- den die -- nen. %59 finis
 }
+
+FrohGehtSoli = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key e \major \time 2/4 \autoBeamOff \tempoFrohGeht
+    R2*32 \bar "S-S" %32
+    e8([ gis)] \appoggiatura a16 gis8([ fis)]
+    fis([ a)] \appoggiatura h16 a8([ gis)]
+    gis([ cis)] \appoggiatura dis16 cis8([ h)] %35
+    h2
+    e,8([ gis)] \appoggiatura a16 gis8([ fis)]
+    fis([ a)] \appoggiatura h16 a8([ gis)]
+    gis([ cis)] cis([ h)]
+    h2 %40
+    h8([ gis)] gis([ h)]
+    \appoggiatura cis16 h8([ a)] a4
+    a8([ fis)] fis([ a)]
+    \appoggiatura h16 a8([ gis)] gis4
+    h8([ gis)] gis([ h)] %45
+    a([ fis)] fis([ a)]
+    gis([ e)] h'([ gis)]
+    gis8.([ h32 gis)] fis8 r
+    fis16[ h ais h] cis[ h ais h]
+    gis2 %50
+    gis16[ h ais h] cis[ h ais h]
+    fis2
+    fis16[ h ais h] cis[ h ais h]
+    e,2
+    cis'16[ h ais gis] fis8[ e] %55
+    dis16[ e fis gis] fis4
+    fis16[ gis a! h] a4-!
+    e16[ fis gis a] gis4-!
+    gis16[ ais h cis] \appoggiatura cis h8[ ais16 gis]
+    ais[ gis fis8] fis4 %60
+    R2
+    fis4. gis16([ ais)]
+    h8 fis dis h
+    fis'4 r
+    R2 %65
+    fis4. gis16([ ais)]
+    h8 fis dis h
+    fis'4 r
+    R2
+    h8([ fis)] fis([ h)]  %70
+    h([ gis)] gis([ h)]
+    h([ fis)] fis([ h)]
+    h([ gis)] gis([ e)]
+    cis2
+    h' %75
+    ais16([ gis fis8)] cis'16([ h ais8)]
+    h4 gis
+    fis2
+    cis'\trill
+    h4 r %80
+    R2*15 %95
+    dis,8([ fis)] fis([ a!)]
+    a([ fis)] fis([ gis)]
+    gis([ ais)] ais([ h)]
+    h2
+    dis,8([ fis)] fis([ a!)] %100
+    a([ fis)] fis([ gis)]
+    gis([ ais)] ais([ h)]
+    h2
+    h8([ gis)] gis([ h)]
+    \appoggiatura cis16 h8([ a!)] a4 %105
+    a8([ fis)] fis([ a)]
+    \appoggiatura h16 a8([ gis)] gis4
+    gis8([ e)] e([ gis)]
+    a([ e)] e4
+    h'8([ e,)] e4 %110
+    cis'16[ d cis h] a4
+    e16[ a gis a] cis[ a gis a]
+    h2
+    e,16[ gis fis gis] h[ gis fis gis]
+    a2 %115
+    dis,16[ fis e fis] a[ fis e fis]
+    gis[ e fis gis] a[ h cis dis]
+    e4 gis,
+    fis16[ dis e fis] gis[ ais h cis]
+    dis4 fis, %120
+    e16[ cis dis e] fis[ gis ais h]
+    cis4 e,
+    dis16[ cis h8] h4
+    R2
+    h'4. dis,8 %125
+    e fis gis ais
+    h4 r
+    R2
+    h4. dis,8
+    e fis gis ais %130
+    h4 r
+    R2
+    h8([ gis)] gis([ e)]
+    e([ cis)] cis4
+    cis'8([ a)] a([ fis)] %135
+    fis([ dis)] dis4
+    h' dis,
+    e4. fis16[ gis]
+    a8 gis4 fis8
+    e4. fis16[ gis] %140
+    a8 gis4 fis8
+    gis16[ fis e8] h'16([ a gis8)]
+    cis16([ h a8)] gis16([ fis e8)]
+    h2
+    fis'\trill %145
+    e4 r
+    R2*4 %150
+    e4 e
+    e4. cis'8
+    h([ gis)] a([ fis)]
+    e2~
+    e~ %155
+    e\fermata
+    fis\trill
+    e4 r
+    R2*18 \noBeam %176
+    R2\fermata \bar "||"
+    \key e \minor e8([ g)] \appoggiatura a16 g8([ fis)] \noBreak
+    fis([ a)] a([ g)]
+    g([ c)] c([ h)] %180
+    h([ a)] a4
+    a8([ fis)] fis([ a)]
+    a([ g)] g([ a16 h)]
+    c4 h
+    h( a8) r %185
+    g([ h)] h([ g)]
+    g([ e)] e4
+    a8([ c)] c([ a)]
+    a([ fis)] fis4
+    d'4. c8 %190
+    h16([ a g8)] c16([ h a8)]
+    g4 a\trill
+    g2
+    R2*4 %197
+    h8([ g)] g([ h)]
+    h([ a)] a4
+    a8([ fis)] fis([ a)] %200
+    a([ g)] g4
+    g8([ e)] e([ g)]
+    g([ fis)] fis([ h)]
+    ais4 h
+    h( cis8) r %205
+    cis8([ ais)] ais([ fis)]
+    fis([ e)] e4
+    cis'8([ ais)] ais([ fis)]
+    fis([ e)] e4
+    cis'4. e,8 %210
+    d4 h'
+    \appoggiatura d8 cis4 h8([ ais)]
+    h4 r
+    R2
+    r4 h~ %215
+    h16.[ d32 cis8] h([ ais)]
+    h4 fis8 r
+    R2
+    r4 h~
+    h16.[ d32 cis8] h([ ais)] %220
+    h4 r
+    R2
+    h
+    ais\trill
+    h %225
+    \key e \major R2*17 \markDaCapo \bar "S-S" %242 finis
+  }
+}
+
+FrohGehtSoliLyrics = \lyricmode {
+  Froh geht %33
+  dir die
+  Son -- ne %35
+  auf,
+  froh voll --
+  en -- det
+  ſie den
+  Lauf! %40
+  Feld und
+  Flur im
+  Blu -- men --
+  klei -- de
+  und ſelbſt %45
+  Ar -- beit
+  giebt uns
+  Freu -- _
+  _ _
+  _ %50
+  _ _
+  _
+  _ _
+  _
+  _ _ %55
+  _ _
+  _ _
+  _ _
+  _ _
+  _ de. %60
+
+  Froh geht
+  dir die Son -- ne
+  auf,
+  %65
+  froh voll --
+  en -- det ſie den
+  Lauf!
+
+  Feld und %70
+  Flur im
+  Blu -- men --
+  klei -- de
+  und
+  ſelbſt %75
+  Ar -- beit
+  giebt uns
+  Freu --
+  _
+  de. %80
+
+  Froh geht %96
+  dir die
+  Son -- ne
+  auf,
+  froh voll -- %100
+  en -- det
+  ſie den
+  Lauf!
+  Feld und
+  Flur im %105
+  Blu -- men --
+  klei -- de
+  und ſelbſt
+  Ar -- beit
+  giebt uns %110
+  Freu -- _
+  _ _
+  _
+  _ _
+  _ %115
+  _ _
+  _ _
+  _ _
+  _ _
+  _ _ %120
+  _ _
+  _ _
+  _ de.
+
+  Froh geht %125
+  dir die Son -- ne
+  auf,
+
+  froh voll --
+  en -- det ſie den %130
+  Lauf!
+
+  Feld und
+  Flur im
+  Blu -- men -- %135
+  klei -- de
+  und ſelbſt
+  Ar -- _
+  _ _ _
+  _ _ %140
+  _ _ _
+  _ beit
+  giebt uns
+  Freu --
+  _ %145
+  de,
+
+  und ſelbſt %151
+  Ar -- beit
+  giebt uns
+  Freu --
+
+  _ %157
+  de.
+
+  O -- pfert %178
+  mit dem
+  froh -- ſten %180
+  Trie -- be,
+  und ver --
+  ſie -- gelt
+  vor dem
+  Herrn %185
+  eu -- ren
+  neu -- en
+  Bund der
+  Lie -- be,
+  fro -- he %190
+  Her -- zen
+  hört er
+  gern.
+
+  O -- pfert %198
+  mit dem
+  froh -- ſten %200
+  Trie -- be,
+  und ver --
+  ſie -- gelt
+  vor dem
+  Herrn %205
+  eu -- ren
+  neu -- en
+  Bund der
+  Lie -- be,
+  fro -- he %210
+  Her -- zen
+  hört er
+  gern,
+
+  fro -- %215
+  he
+  Her -- zen
+
+  hört __
+  er %220
+  gern,
+
+  hört
+  er
+  gern. %225 finis
+}

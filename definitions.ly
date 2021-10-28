@@ -720,6 +720,7 @@ tempoOKinder = \tempoMarkup "Recitativo"
 % 1.11
 tempoAchSchwester = \tempoMarkup "Allegretto"
 tempoMeinBruder = \tempoMarkup "Recitativo"
+tempoFrohGeht = \tempoMarkup "Allegro ma non troppo"
 
 
 \include "notes/fl1.ly"
@@ -735,7 +736,7 @@ tempoMeinBruder = \tempoMarkup "Recitativo"
 % \include "notes/timp.ly"
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"
-\include "notes/vla.ly"
+\include "notes/vla.ly" % 1+2
 \include "notes/soli.ly"
 \include "notes/S.ly"
 \include "notes/A.ly"
