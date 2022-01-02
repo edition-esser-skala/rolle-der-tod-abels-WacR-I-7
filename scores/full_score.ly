@@ -1,30 +1,14 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-
-\paper {
-  #(define (page-post-process layout pages) (ly:create-ref-file layout pages))
-}
-
-#(set-global-staff-size 15.87)
+\include "score_settings/full-score.ly"
 
 \book {
+  % \part "erstertheil" "1" "Erster Theil"
   % \bookpart {
-  %   \paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-  %   \partTitle "1" "E R S T E R   T H E I L"
-  %   \tocLabel "erstertheil" "1" "Erster Theil"
-  %   \partMark
-  %   \pageBreak
-  %   \markup \null
-  % }
-  % \bookpart {
-  %   \header {
-  %     genre = "C O R O"
-  %     number = "1.1"
-  %     title = "Lobt den Herrn!"
-  %   }
+  %   \section "1.1" "Coro" "Lobt den Herrn!"
+  %   \addTocLabel "lobtden"
   %   \paper { indent = 3\cm }
-  %   \tocLabelLong "lobtden" "1.1" "Coro" "Lobt den Herrn!"
   %   \score {
   %     <<
   %       \new StaffGroup <<
@@ -70,25 +54,19 @@
   %       >>
   %       \new ChoirStaff <<
   %         \new Staff {
-  %           \set Staff.instrumentName = \SopranoIncipit
-  %           \override Staff.InstrumentName.self-alignment-Y = ##f
-  %           \override Staff.InstrumentName.self-alignment-X = #RIGHT
+  %           \incipitSoprano
   %           \new Voice = "Soprano" { \dynamicUp \LobtDenSoprano }
   %         }
   %         \new Lyrics \lyricsto Soprano \LobtDenSopranoLyrics
   %
   %         \new Staff {
-  %           \set Staff.instrumentName = \AltoIncipit
-  %           \override Staff.InstrumentName.self-alignment-Y = ##f
-  %           \override Staff.InstrumentName.self-alignment-X = #RIGHT
+  %           \incipitAlto
   %           \new Voice = "Alto" { \dynamicUp \LobtDenAlto }
   %         }
   %         \new Lyrics \lyricsto Alto \LobtDenAltoLyrics
   %
   %         \new Staff {
-  %           \set Staff.instrumentName = \TenoreIncipit
-  %           \override Staff.InstrumentName.self-alignment-Y = ##f
-  %           \override Staff.InstrumentName.self-alignment-X = #RIGHT
+  %           \incipitTenore
   %           \new Voice = "Tenore" { \dynamicUp \LobtDenTenore }
   %         }
   %         \new Lyrics \lyricsto Tenore \LobtDenTenoreLyrics
@@ -113,12 +91,8 @@
   %   }
   % }
   % \bookpart {
-  %   \header {
-  %     genre = "A C C O M P A G N A T O"
-  %     number = "1.2"
-  %     title = "Sie ſingen!"
-  %   }
-  %   \tocLabelLong "siesingen" "1.2" "Accompagnato" "Sie ſingen!"
+  %   \section "1.2" "Accompagnato" "Sie ſingen!"
+  %   \addTocLabel "siesingen"
   %   \paper {
   %     system-system-spacing.basic-distance = #30
   %     system-system-spacing.minimum-distance = #30
@@ -164,12 +138,8 @@
   %   }
   % }
   % \bookpart {
-  %   \header {
-  %     genre = "A R I A"
-  %     number = "1.3"
-  %     title = "Ich elend! elend meine Kinder!"
-  %   }
-  %   \tocLabelLong "ichelend" "1.3" "Aria" "Ich elend! elend meine Kinder!"
+  %   \section "1.3" "Aria" "Ich elend! elend meine Kinder!"
+  %   \addTocLabel "ichelend"
   %   \paper {
   %     system-system-spacing.basic-distance = #30
   %     system-system-spacing.minimum-distance = #30
@@ -215,12 +185,8 @@
   %   }
   % }
   % \bookpart {
-  %   \header {
-  %     genre = "A C C O M P A G N A T O"
-  %     number = "1.4"
-  %     title = "Sey mir gegrüßt, mein erſtgebohrner Sohn!"
-  %   }
-  %   \tocLabelLong "seymir" "1.4" "Accompagnato" "Sey mir gegrüßt, mein erſtgebohrner Sohn!"
+  %   \section "1.4" "Accompagnato" "Sey mir gegrüßt, mein erſtgebohrner Sohn!"
+  %   \addTocLabel "seymir"
   %   \paper {
   %     system-system-spacing.basic-distance = #30
   %     system-system-spacing.minimum-distance = #30
@@ -266,12 +232,8 @@
   %   }
   % }
   % \bookpart {
-  %   \header {
-  %     genre = "A R I A"
-  %     number = "1.5"
-  %     title = "O Wort, dafür mein Geiſt erzittert"
-  %   }
-  %   \tocLabelLong "owort" "1.5" "Aria" "O Wort, dafür mein Geiſt erzittert"
+  %   \section "1.5" "Aria" "O Wort, dafür mein Geiſt erzittert"
+  %   \addTocLabel "owort"
   %   \paper {
   %     system-system-spacing.basic-distance = #30
   %     system-system-spacing.minimum-distance = #30
@@ -317,12 +279,8 @@
   %   }
   % }
   % \bookpart {
-  %   \header {
-  %     genre = "A C C O M P A G N A T O"
-  %     number = "1.6"
-  %     title = "Wie ſeufzet er!"
-  %   }
-  %   \tocLabelLong "wieseufzet" "1.6" "Accompagnato" "Wie ſeufzet er!"
+  %   \section "1.6" "Accompagnato" "Wie ſeufzet er!"
+  %   \addTocLabel "wieseufzet"
   %   \paper {
   %     system-system-spacing.basic-distance = #30
   %     system-system-spacing.minimum-distance = #30
@@ -369,12 +327,8 @@
   %   }
   % }
   % \bookpart {
-  %   \header {
-  %     genre = "A R I A"
-  %     number = "1.7"
-  %     title = "Mein Vater, ach! verzeihe"
-  %   }
-  %   \tocLabelLong "meinvater" "1.7" "Aria" "Mein Vater, ach! verzeihe"
+  %   \section "1.7" "Aria" "Mein Vater, ach! verzeihe"
+  %   \addTocLabel "meinvater"
   %   \score {
   %     <<
   %     \new StaffGroup <<
@@ -439,12 +393,8 @@
   %   }
   % }
   % \bookpart {
-  %   \header {
-  %     genre = "A C C O M P A G N A T O"
-  %     number = "1.8"
-  %     title = "O Gott! mein Blick ſchaut dankbar zu dir auf!"
-  %   }
-  %   \tocLabelLong "ogott" "1.8" "Accompagnato" "O Gott! mein Blick ſchaut dankbar zu dir auf!"
+  %   \section "1.8" "Accompagnato" "O Gott! mein Blick ſchaut dankbar zu dir auf!"
+  %   \addTocLabel "ogott"
   %   \paper {
   %     system-system-spacing.basic-distance = #30
   %     system-system-spacing.minimum-distance = #30
@@ -490,12 +440,8 @@
   %   }
   % }
   % \bookpart {
-  %   \header {
-  %     genre = "A R I A"
-  %     number = "1.9"
-  %     title = "Wenn der junge Tag erwacht"
-  %   }
-  %   \tocLabelLong "wennderjunge" "1.9" "Aria" "Wenn der junge Tag erwacht"
+  %   \section "1.9" "Aria" "Wenn der junge Tag erwacht"
+  %   \addTocLabel "wennderjunge"
   %   \score {
   %     <<
   %     \new StaffGroup <<
@@ -512,7 +458,7 @@
   %         >>
   %       >>
   %       \new StaffGroup <<
-  %         \set StaffGroup.instrumentName = \markup \center-column { "cor (G)" "1, 2" }
+  %         \set StaffGroup.instrumentName = \markup \center-column { \transposedNameShort "cor" "G" "" "1, 2" }
   %         \new Staff {
   %           \set Staff.soloText = \markup \medium \remark "cor 1"
   %           % \transpose c g,
@@ -557,12 +503,8 @@
   %   }
   % }
   % \bookpart {
-  %   \header {
-  %     genre = "R E C I T A T I V O"
-  %     number = "1.10"
-  %     title = "O Kinder! ſeit das Paradies verſchwunden"
-  %   }
-  %   \tocLabelLong "okinder" "1.10" "Recitativo" "O Kinder! ſeit das Paradies verſchwunden"
+  %   \section "1.10" "Recitativo" "O Kinder! ſeit das Paradies verſchwunden"
+  %   \addTocLabel "okinder"
   %   \paper { systems-per-page = #4 }
   %   \score {
   %     <<
@@ -587,12 +529,8 @@
   %   }
   % }
   % \bookpart {
-  %   \header {
-  %     genre = "D U E T T O"
-  %     number = "1.11"
-  %     title = "Ach Schweſter! ſing in meine Lieder!"
-  %   }
-  %   \tocLabelLong "achschwester" "1.1" "Aria" "Wenn der junge Tag erwacht"
+  %   \section "1.11" "Aria" "Ach Schweſter! ſing in meine Lieder!"
+  %   \addTocLabel "achschwester"
   %   \score {
   %     <<
   %     \new StaffGroup <<
@@ -609,7 +547,7 @@
   %         >>
   %       >>
   %       \new StaffGroup <<
-  %         \set StaffGroup.instrumentName = \markup \center-column { "cor (D)" "1, 2" }
+  %         \set StaffGroup.instrumentName = \markup \center-column { \transposedNameShort "cor" "D" "" "1, 2" }
   %         \new Staff {
   %           \set Staff.soloText = \markup \medium \remark "cor 1"
   %           % \transpose c d
@@ -660,12 +598,8 @@
   %   }
   % }
   % \bookpart {
-  %   \header {
-  %     genre = "A C C O M P A G N A T O"
-  %     number = "1.12"
-  %     title = "Mein Bruder!"
-  %   }
-  %   \tocLabelLong "meinbruder" "1.12" "Accompagnato" "Mein Bruder!"
+  %   \section "1.12" "Accompagnato" "Mein Bruder!"
+  %   \addTocLabel "meinbruder"
   %   \paper {
   %     system-system-spacing.basic-distance = #30
   %     system-system-spacing.minimum-distance = #30
@@ -711,12 +645,8 @@
   %   }
   % }
   \bookpart {
-    \header {
-      genre = "A R I A"
-      number = "1.13"
-      title = "Froh geht dir die Sonne auf"
-    }
-    \tocLabelLong "frohgeht" "1.13" "Aria" "Froh geht dir die Sonne auf"
+    \section "1.13" "Aria" "Froh geht dir die Sonne auf"
+    \addTocLabel "frohgeht"
     \paper {
       system-system-spacing.basic-distance = #30
       system-system-spacing.minimum-distance = #30

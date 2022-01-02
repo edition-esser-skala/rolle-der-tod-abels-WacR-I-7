@@ -1,30 +1,40 @@
-composer: Rolle, Johann Heinrich
+composer:
+  last: Rolle
+  first: Johann Heinrich
 title: Der Tod Abels
-id: WacR I:7
+id: WacR I:7, MH 271
 genre: oratorio
-scoring:
+scoring: org
+license: cc-by-nc-sa-4.0
 sources:
-  1:
+  A1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 3736
+    date: 1778
+    rism: 455016820
+    url: https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00084995-7
+    license: CC BY-NC-SA 4.0
+  B1:
     siglum: A-Wn
     shelfmark: Mus.Hs.15529
-    type: manuscript copy
-    date: unknown
-    rism:
-    url: http://data.onb.ac.at/rec/AC14290384
-  2:
+    url: https://data.onb.ac.at/rec/AC14290384
+    license: public domain
+    principal: true
+  C1:
+    siglum: D-Mbs
+    shelfmark: 4 Mus.pr. 1078
+    date: 1771
+    rism: 990055403
+    url: https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb11140540-5
+    license: CC BY-NC-SA 4.0
+    notes: Breitkopf, Leipzig
+  D1:
     siglum: D-BNu
     shelfmark: Ec 149.12
-    type: manuscript copy
     date: 1770–1800
     rism: 450064107
     url: https://digitale-sammlungen.ulb.uni-bonn.de/urn/urn:nbn:de:hbz:5:1-298443
-  3:
-    siglum: D-Mbs
-    shelfmark: Mus.ms. 3736
-    type: autograph manuscript
-    date: unknown
-    rism: 455016820
-    url: https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00084995-7
-github: rolle-der-tod-abels-WacR-I-7
+    license: public domain
 imslp:
-notes:
+parts:
+  cor12: Corno I, II in G
