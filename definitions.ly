@@ -42,6 +42,7 @@ tempoAchSchwester = \tempoMarkup "Allegretto"
 tempoMeinBruder = \tempoMarkup "Recitativo"
 tempoFrohGeht = \tempoMarkup "Allegro ma non troppo"
 tempoSoKomm = \tempoMarkup "Recitativo"
+tempoAchLiebe = \tempoMarkup "Larghetto e grazioso"
 
 
 \include "notes/fl1.ly"

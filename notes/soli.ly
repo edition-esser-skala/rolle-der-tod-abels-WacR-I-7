@@ -1898,5 +1898,136 @@ SoKommSoliLyrics = \lyricmode {
   die -- ſer treu -- en Zäh -- re, dir
   e -- wig mei -- ne Zärt -- lich -- keit,
   die nichts als dei -- ne Lieb er --
-  freut. %9 finisw
+  freut. %9 finis
+}
+
+AchLiebeSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \key a \major \time 3/4 \autoBeamOff \tempoAchLiebe
+    R2.*10 %10
+    \mvTr a4\pE^\soloE h cis8.([ d32 e)]
+    e4( d8) cis \appoggiatura cis8 h8 a16([ gis)]
+    a4 r r
+    R2.*2 %15
+    r8 a' e4. fis16([ d)]
+    d8([ cis)] r4 r
+    r8 a' cis,4. d16([ h)]
+    h4( a8) r r4
+    a e'8 e e e %20
+    \appoggiatura d cis4\trill h2
+    a4 e'8 e e e
+    \appoggiatura d cis4\trill h2
+    r8 e dis e h4~
+    h8 gis' fis e h4~ %25
+    h8 e dis e h4~
+    h8 gis' fis e h4
+    r8 h h h h h
+    cis cis cis8.([\trill h16)] cis4
+    r8 dis dis dis dis dis %30
+    e4( dis) cis
+    h2.~
+    h2 h8 h
+    cis a'16([ fis)] e4( fis)\trill
+    e r r %35
+    R2.*3
+    a,4 h cis8.([ d32 e)]
+    e4( d8) cis \appoggiatura cis16 h8 a16([ gis)] %40
+    a4 r r
+    a e'8 e e e
+    \appoggiatura d cis4\trill h2
+    h8.([ cis16)] d8 d d d
+    cis([ h)] a2 %45
+    r8 a' gis a e4~
+    e8 cis h a e'4~
+    e8 a gis a e4~
+    e8 cis h a e'4
+    r8 e e e e e %50
+    fis fis fis8.([\trill e16)] fis4
+    r8 d d d d d
+    cis16[ h a8]~ a16[ h a gis] a[ h] cis([ d)]
+    e2.~
+    e2 d16([ cis)] h([ a)] %55
+    \appoggiatura g' fis8 e16([ d)] cis4( h)\trill
+    a r r
+    r8 cis cis8.([ d32 e] d8) cis
+    h4 r r
+    r8 d d8.([ e32 fis] e8) d %60
+    cis16[ h a8]~ a16[ h a gis] a[ h] cis([ d)]
+    e2.~
+    e2 d16[( cis]) h([ a)]
+    fis'8 a a,4( h)\trill
+    a r r %65
+    R2.
+    a4 h cis8.([ d32 e)]
+    e4( d8) cis \appoggiatura cis16 h8 a16([ gis)]
+    a2 r4
+    r8 a' e4. fis16([ d)] %70
+    \appoggiatura d8 cis4 r r
+    r8 a' cis,4. d16([ h)]
+    h4( a8) r r4\fermata \bar "|." %73 finis
+  }
+}
+
+AchLiebeSoliLyrics = \lyricmode {
+  Ach, lie -- be __ %11
+  mich __ ſo wie ich
+  dich!
+
+  Ach, lie -- be %16
+  mich
+  ſo wie ich
+  dich!
+  Laß mit den rein -- ſten %20
+  Trie -- ben
+  uns ſo wie En -- gel
+  lie -- ben!
+  ſo wer -- den En --
+  gel mit uns gehn, __ %25
+  mit uns bey dem __
+  Al -- ta -- re ſtehn:
+  ſo wird ſelbſt Gott uns
+  da be -- geg -- nen,
+  und uns all -- da ſein %30
+  Ant -- litz
+  ſe --
+  gnen, ſein
+  Ant -- litz ſe --
+  gnen. %35
+
+  Ach, lie -- be __ %39
+  mich __ ſo wie ich %40
+  dich!
+  Laß mit den rein -- ſten
+  Trie -- ben
+  uns __ ſo wie En -- gel
+  lie -- ben! %45
+  ſo wer -- den En --
+  gel mit uns gehn, __
+  mit uns bey dem __
+  Al -- ta -- re ſtehn:
+  ſo wird Gott ſelbſt uns %50
+  da be -- geg -- nen,
+  und uns all -- da ſein
+  Ant -- _ litz
+  ſe --
+  gnen, ſein %55
+  Ant -- litz ſe --
+  gnen,
+  und uns __ all --
+  da,
+  all -- da __ ſein %60
+  Ant -- _ litz
+  ſe --
+  gnen, ſein
+  Ant -- litz ſe --
+  gnen. %65
+
+  Ach, lie -- be __
+  mich ſo wie ich
+  dich,
+  ach, lie -- be %70
+  mich
+  ſo wie ich
+  dich! __ %73 finis
 }

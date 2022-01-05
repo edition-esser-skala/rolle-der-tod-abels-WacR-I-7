@@ -688,9 +688,52 @@ paperEightStaves = \paper {
   %     \midi { \tempo 4 = 110 }
   %   }
   % }
+  % \bookpart {
+  %   \section "1.14" "Recitativo" "So komm und reiche mir die Hand!"
+  %   \addTocLabel "sokomm"
+  %   \paperFiveStaves
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \SoKommViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \SoKommViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \SoKommViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Abel"
+  %           \new Voice = "Soli" { \dynamicUp \SoKommSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \SoKommSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \SoKommOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \SoKommBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
-    \section "1.14" "Recitativo" "So komm und reiche mir die Hand!"
-    \addTocLabel "sokomm"
+    \section "1.15" "Aria" "Ach, liebe mich ſo wie ich dich!"
+    \addTocLabel "achliebe"
     \paperFiveStaves
     \score {
       <<
@@ -699,33 +742,33 @@ paperEightStaves = \paper {
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \SoKommViolinoI
+              \AchLiebeViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \SoKommViolinoII
+              \AchLiebeViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \SoKommViola
+            \AchLiebeViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "Abel"
-            \new Voice = "Soli" { \dynamicUp \SoKommSoli }
+            \new Voice = "Soli" { \dynamicUp \AchLiebeSoli }
           }
-          \new Lyrics \lyricsto Soli \SoKommSoliLyrics
+          \new Lyrics \lyricsto Soli \AchLiebeSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \SoKommOrgano
+            \AchLiebeOrgano
           }
         >>
-        \new FiguredBass { \SoKommBassFigures }
+        \new FiguredBass { \AchLiebeBassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 70 }

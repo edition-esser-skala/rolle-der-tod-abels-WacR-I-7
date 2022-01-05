@@ -1364,3 +1364,83 @@ SoKommViola = {
     r e fis2\fermata \bar "|." %9 finis
   }
 }
+
+AchLiebeViola = {
+  \relative c' {
+    \clef alto
+    \key a \major \time 3/4 \tempoAchLiebe
+    a4\fE e' a
+    e r8 a d, e
+    a,4 a r
+    a' a a
+    e e, r %5
+    gis gis gis
+    a fis8 gis a4
+    a fis8 gis a4~
+    a8 h a4 gis
+    a2 r4 %10
+    e'\pE e e
+    e4. e8 d e
+    a,4\fE e' e
+    e4. e8 d e
+    a,4 a r %15
+    a\pE r8 a cis e
+    a4 a, r
+    a8 r e'4. d8
+    d4( cis8) r r4
+    R2. %20
+    a8.( cis16) e8 e e e
+    cis8.\trill h16 a4 r
+    a8.( cis16) e8 e e fis
+    gis4 a8 gis fis gis
+    h,4~ h8 h' a gis %25
+    h,4~ h8 gis' fis gis
+    h,4~ h8 h' a gis
+    h,4 e8 e e e
+    e e e e fis4
+    r8 fis fis fis fis fis %30
+    e2 e4
+    e dis8 h e4
+    e dis8 h e e~
+    e fis gis4 a\trill
+    gis8 e\f dis h e4 %35
+    e dis8 h e4~
+    e8 fis gis4 a\trill
+    gis8 gis16.([ fis32)] fis4( e8) r
+    e4\p e e
+    e4. e8 d e %40
+    a,4 r8 a cis e
+    a4 r r
+    a,8.( cis16) e8 e e e
+    d h gis4 r
+    a8. e16 a8 a a h %45
+    cis4 d8 cis h cis
+    e4~ e8 e d cis
+    e,4~ e8 cis' h cis
+    e4~ e8 e d cis
+    e4 cis a %50
+    d d'8 d h h
+    h e, e e e e
+    fis fis e e d d
+    e2.~
+    e %55
+    d4 e d\trill
+    cis a r
+    a a a
+    e' e, r
+    e' e e %60
+    a fis e8 d
+    e2.~
+    e
+    d4 cis( d)\trill
+    cis\fE e e %65
+    e4. e8 d e
+    a,4\pE e' e
+    e4. e8 fis e
+    a,4 a r
+    a r8 a cis e %70
+    a4 a, r
+    a8 r e'4. d8
+    d4( cis8) r r4\fermata \bar "|." %73 finis
+  }
+}

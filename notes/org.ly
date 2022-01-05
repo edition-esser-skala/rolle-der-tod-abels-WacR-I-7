@@ -2240,3 +2240,159 @@ SoKommBassFigures = \figuremode {
   r2 <4+>
   r4 <_+> q2 %9 finis
 }
+
+AchLiebeOrgano = {
+  \relative c {
+    \clef bass
+    \key a \major \time 3/4 \tempoAchLiebe
+    \mvTr a'4\fE-\soloE e a,
+    e' r8 a d, e
+    a,4 a r
+    a a a
+    e' e, r %5
+    e' e e
+    a, h8 e a, h
+    cis4 h8 e a, cis
+    d4 e e,
+    a2 r4 %10
+    cis8\pE a e' e, a a'
+    e e, r a d e
+    a,4\fE e' a
+    e r8 a d, e
+    a4 a, r %15
+    a\pE r8 a cis e
+    a4 a, r
+    a r8 e' e,4
+    a2 r4
+    R2. %20
+    a8. cis16 e8 e e e
+    cis8.\trill h16 a4 r
+    a8. cis16 e8 e e fis
+    gis4 fis8 e dis e
+    h4~ h8 gis' fis e %25
+    h4~ h8 e dis e
+    h4~ h8 gis' fis e
+    h4 gis' e
+    a, a'8 a fis fis
+    h4 h, h' %30
+    cis8 cis h h a a
+    gis4 fis8 h e,4
+    gis fis8 h e, gis
+    a4 h h,
+    gis' fis8\f h e, fis %35
+    gis4 fis8 h e, gis
+    a4 h h,
+    e2 e8 d!
+    cis\p a e' e, a a'
+    e e, r a d e %40
+    a,4 r8 a' e cis
+    a4 r r
+    a8. cis16 e8 e e e
+    d h gis4 r
+    a8. e'16 a8 a a h %45
+    cis4 h8 a gis a
+    e4~ e8 cis' h a
+    e4~ e8 a gis a
+    e4~ e8 cis' h a
+    e4 cis' a %50
+    d, d'8 d h h
+    e,4 e, e'
+    fis8 fis e e d d
+    cis4 h8 e a,4
+    cis h8 e a, cis %55
+    d4 e e
+    a a, r
+    a a a
+    e' e, r
+    e' e e %60
+    a fis e8 d
+    cis4 h8 e a,4
+    cis h8 e a, cis
+    d4 e e,
+    a\fE e' a %65
+    e r8 a d, e
+    a,4\pE e' a
+    e r8 a d, e
+    a4 a, r
+    a r8 a cis e %70
+    a4 a, r
+    a r8 e' e,4
+    a2 r4\fermata \bar "|." %73 finis
+  }
+}
+
+AchLiebeBassFigures = \figuremode {
+  r2.
+  <8 6>4 <7 5>8 <5> <6 5>4
+  r2.
+  r
+  r %5
+  r2 <8 6>8 <7 5>
+  r4 <7>8 q r4
+  <6> <7>8 q r <6>
+  <5> <6> <6 4>4 <5 3>
+  <8 3>4 <7 4> <8 3> %10
+  <6>2.
+  <8 6>4 <7 5>8 <5> <6 5>4
+  r2.
+  <8 6>4 <7 5>8 <5> <6 5>4
+  r2. %15
+  r2 <6>8 <7>
+  <9 4> <8 3> r2
+  r4. <6 4>8 <\t \t> <5 3>
+  <7 4>4 <8 3>2
+  r2. %20
+  r
+  <6>
+  r
+  <6>4 <6\\> <6>
+  <5 _+>8 <6 4> <5 _+> <6> <6\\>4 %25
+  <5 _+>8 <6 4> <5 _+>4 <6>
+  <5 _+>8 <6 4> <5 _+> <6> <6\\>4
+  <_+> <6>2
+  <9>4 <8> <5>
+  <7 _+>2. %30
+  <8 3>2. \bassFigureExtendersOn
+  q4 \bassFigureExtendersOff <6\\>8 <7 _+>4.
+  <6>4 <6\\>8 <7 _+>4 <6>8
+  <5> <6> <6 4>4 <7 _+>
+  <6> <6\\>8 <7 _+>4 <7>8 %35
+  <6>4 <6\\>8 <7 _+>4 <6>8
+  <5> <6> <6 4>4 <7 _+>
+  <8 3> <7+ 4> <8 3>8 <\t \t>
+  <6>2.
+  <8 6>4 <7 5>8 <5> <6 5>4 %40
+  r2.
+  r
+  r
+  <6>8 <\t> <7>2
+  r2. %45
+  <6>4 q q
+  <5 3>8 <6 4> <5 3> <6> q4
+  <5 3>8 <6 4> <5 3>4 <6>
+  <5 3>8 <6 4> <5 3> <6> q4
+  r4 <6>2 %50
+  <9>4 <8> <5>
+  <7>2.
+  <8 3> \bassFigureExtendersOn
+  q4 \bassFigureExtendersOff <6>8 <7> r4
+  <6> q8 <7>4 <6>8 %55
+  <5> <6> <6 4>4 <7 3>
+  r2.
+  r
+  r
+  r2 <8 6>8 <7 5> %60
+  r4 <8 3>2 \bassFigureExtendersOn
+  q4 \bassFigureExtendersOff <6>8 <7> r4
+  <6> q8 <7>4 <6>8
+  <5> <6> <6 4>4 <7 3>
+  r2. %65
+  <8 6>4 <7 5>8 <5> <6 5>4
+  r2.
+  <8 6>4 <7 5>8 <5> <6 5>4
+  r2.
+  r2 <6>8 <7> %70
+  r2.
+  r4. <6 4>8 <\t \t> <5 3>
+  <7 4>4 <8 3>2 %73 finis
+}
