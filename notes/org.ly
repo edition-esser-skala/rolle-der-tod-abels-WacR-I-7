@@ -2212,3 +2212,31 @@ FrohGehtBassFigures = \figuremode {
   <6 4>4 <5 3>
   r2 %242 finis
 }
+
+SoKommOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoSoKomm
+    gis'1
+    a~
+    a2 g!
+    fis1~
+    fis~ %5
+    fis2 fis~
+    fis g~
+    g~ g4 r
+    r a d,2\fermata \bar "|." %9 finis
+  }
+}
+
+SoKommBassFigures = \figuremode {
+  <6>1
+  <_+>
+  r2 <4+ 2>
+  <6>1
+  r %5
+  r2 <[6]>
+  r1
+  r2 <4+>
+  r4 <_+> q2 %9 finis
+}

@@ -41,6 +41,7 @@ tempoOKinder = \tempoMarkup "Recitativo"
 tempoAchSchwester = \tempoMarkup "Allegretto"
 tempoMeinBruder = \tempoMarkup "Recitativo"
 tempoFrohGeht = \tempoMarkup "Allegro ma non troppo"
+tempoSoKomm = \tempoMarkup "Recitativo"
 
 
 \include "notes/fl1.ly"

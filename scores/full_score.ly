@@ -3,6 +3,24 @@
 \include "../definitions.ly"
 \include "score_settings/full-score.ly"
 
+paperFiveStaves = \paper {
+  system-system-spacing.basic-distance = #30
+  system-system-spacing.minimum-distance = #30
+  systems-per-page = #2
+}
+
+paperEightStaves = \paper {
+  top-system-spacing.basic-distance = #10
+  top-system-spacing.minimum-distance = #10
+  top-markup-spacing.basic-distance = #0
+  top-markup-spacing.minimum-distance = #0
+  markup-system-spacing.basic-distance = #10
+  markup-system-spacing.minimum-distance = #10
+  system-system-spacing.basic-distance = #17
+  system-system-spacing.minimum-distance = #17
+  systems-per-page = #2
+}
+
 \book {
   % \part "erstertheil" "1" "Erster Theil"
   % \bookpart {
@@ -93,11 +111,7 @@
   % \bookpart {
   %   \section "1.2" "Accompagnato" "Sie ſingen!"
   %   \addTocLabel "siesingen"
-  %   \paper {
-  %     system-system-spacing.basic-distance = #30
-  %     system-system-spacing.minimum-distance = #30
-  %     systems-per-page = #2
-  %   }
+  %   \paperFiveStaves
   %   \score {
   %     <<
   %       \new StaffGroup <<
@@ -140,11 +154,7 @@
   % \bookpart {
   %   \section "1.3" "Aria" "Ich elend! elend meine Kinder!"
   %   \addTocLabel "ichelend"
-  %   \paper {
-  %     system-system-spacing.basic-distance = #30
-  %     system-system-spacing.minimum-distance = #30
-  %     systems-per-page = #2
-  %   }
+  %   \paperFiveStaves
   %   \score {
   %     <<
   %       \new StaffGroup <<
@@ -187,11 +197,7 @@
   % \bookpart {
   %   \section "1.4" "Accompagnato" "Sey mir gegrüßt, mein erſtgebohrner Sohn!"
   %   \addTocLabel "seymir"
-  %   \paper {
-  %     system-system-spacing.basic-distance = #30
-  %     system-system-spacing.minimum-distance = #30
-  %     systems-per-page = #2
-  %   }
+  %   \paperFiveStaves
   %   \score {
   %     <<
   %       \new StaffGroup <<
@@ -234,11 +240,7 @@
   % \bookpart {
   %   \section "1.5" "Aria" "O Wort, dafür mein Geiſt erzittert"
   %   \addTocLabel "owort"
-  %   \paper {
-  %     system-system-spacing.basic-distance = #30
-  %     system-system-spacing.minimum-distance = #30
-  %     systems-per-page = #2
-  %   }
+  %   \paperFiveStaves
   %   \score {
   %     <<
   %       \new StaffGroup <<
@@ -281,12 +283,7 @@
   % \bookpart {
   %   \section "1.6" "Accompagnato" "Wie ſeufzet er!"
   %   \addTocLabel "wieseufzet"
-  %   \paper {
-  %     system-system-spacing.basic-distance = #30
-  %     system-system-spacing.minimum-distance = #30
-  %     systems-per-page = #2
-  %     page-count = #3
-  %   }
+  %   \paperFiveStaves
   %   \score {
   %     <<
   %       \new StaffGroup <<
@@ -395,11 +392,7 @@
   % \bookpart {
   %   \section "1.8" "Accompagnato" "O Gott! mein Blick ſchaut dankbar zu dir auf!"
   %   \addTocLabel "ogott"
-  %   \paper {
-  %     system-system-spacing.basic-distance = #30
-  %     system-system-spacing.minimum-distance = #30
-  %     systems-per-page = #2
-  %   }
+  %   \paperFiveStaves
   %   \score {
   %     <<
   %       \new StaffGroup <<
@@ -442,10 +435,11 @@
   % \bookpart {
   %   \section "1.9" "Aria" "Wenn der junge Tag erwacht"
   %   \addTocLabel "wennderjunge"
+  %   \paperEightStaves
   %   \score {
   %     <<
   %     \new StaffGroup <<
-  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %         \new GrandStaff \with { \setGroupDistance #11 #11 } <<
   %           \set GrandStaff.instrumentName = "ob"
   %           \new Staff {
   %             \set Staff.instrumentName = "1"
@@ -457,7 +451,7 @@
   %           }
   %         >>
   %       >>
-  %       \new StaffGroup <<
+  %       \new StaffGroup \with { \setGroupDistance #11 #11 } <<
   %         \set StaffGroup.instrumentName = \markup \center-column { \transposedNameShort "cor" "G" "" "1, 2" }
   %         \new Staff {
   %           \set Staff.soloText = \markup \medium \remark "cor 1"
@@ -465,8 +459,8 @@
   %           \partCombine \WennDerJungeCornoI \WennDerJungeCornoII
   %         }
   %       >>
-  %       \new StaffGroup <<
-  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %       \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+  %         \new GrandStaff \with { \setGroupDistance #11 #11 } <<
   %           \set GrandStaff.instrumentName = "vl"
   %           \new Staff {
   %             \set Staff.instrumentName = "1"
@@ -482,7 +476,7 @@
   %           \WennDerJungeViola
   %         }
   %       >>
-  %       \new ChoirStaff <<
+  %       \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
   %         \new Staff {
   %           \set Staff.instrumentName = "Abel"
   %           \new Voice = "Soli" { \dynamicUp \WennDerJungeSoli }
@@ -505,7 +499,11 @@
   % \bookpart {
   %   \section "1.10" "Recitativo" "O Kinder! ſeit das Paradies verſchwunden"
   %   \addTocLabel "okinder"
-  %   \paper { systems-per-page = #4 }
+  %   \paper {
+  %     system-system-spacing.basic-distance = #20
+  %     system-system-spacing.minimum-distance = #20
+  %     systems-per-page = #4
+  %   }
   %   \score {
   %     <<
   %       \new ChoirStaff <<
@@ -600,11 +598,7 @@
   % \bookpart {
   %   \section "1.12" "Accompagnato" "Mein Bruder!"
   %   \addTocLabel "meinbruder"
-  %   \paper {
-  %     system-system-spacing.basic-distance = #30
-  %     system-system-spacing.minimum-distance = #30
-  %     systems-per-page = #2
-  %   }
+  %   \paperFiveStaves
   %   \score {
   %     <<
   %       \new StaffGroup <<
@@ -644,14 +638,60 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \section "1.13" "Aria" "Froh geht dir die Sonne auf"
+  %   \addTocLabel "frohgeht"
+  %   \paperFiveStaves
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \FrohGehtViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \FrohGehtViolinoII
+  %           }
+  %         >>
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "vla"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \FrohGehtViolaI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \FrohGehtViolaII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Mehala"
+  %           \new Voice = "Soli" { \dynamicUp \FrohGehtSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \FrohGehtSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \FrohGehtOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \FrohGehtBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 110 }
+  %   }
+  % }
   \bookpart {
-    \section "1.13" "Aria" "Froh geht dir die Sonne auf"
-    \addTocLabel "frohgeht"
-    \paper {
-      system-system-spacing.basic-distance = #30
-      system-system-spacing.minimum-distance = #30
-      systems-per-page = #2
-    }
+    \section "1.14" "Recitativo" "So komm und reiche mir die Hand!"
+    \addTocLabel "sokomm"
+    \paperFiveStaves
     \score {
       <<
         \new StaffGroup <<
@@ -659,43 +699,36 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \FrohGehtViolinoI
+              \SoKommViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \FrohGehtViolinoII
+              \SoKommViolinoII
             }
           >>
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "vla"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \FrohGehtViolaI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \FrohGehtViolaII
-            }
-          >>
+          \new Staff {
+            \set Staff.instrumentName = "vla"
+            \SoKommViola
+          }
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "Mehala"
-            \new Voice = "Soli" { \dynamicUp \FrohGehtSoli }
+            \set Staff.instrumentName = "Abel"
+            \new Voice = "Soli" { \dynamicUp \SoKommSoli }
           }
-          \new Lyrics \lyricsto Soli \FrohGehtSoliLyrics
+          \new Lyrics \lyricsto Soli \SoKommSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \FrohGehtOrgano
+            \SoKommOrgano
           }
         >>
-        \new FiguredBass { \FrohGehtBassFigures }
+        \new FiguredBass { \SoKommBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 110 }
+      \midi { \tempo 4 = 70 }
     }
   }
 }

@@ -1348,3 +1348,19 @@ FrohGehtViolaII = {
     gis r \markDaCapo \bar "S-S" %242 finis
   }
 }
+
+SoKommViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoSoKomm
+    e1
+    e~
+    e~
+    d~
+    d~ %5
+    d2 d~
+    d d~
+    d e4 r
+    r e fis2\fermata \bar "|." %9 finis
+  }
+}

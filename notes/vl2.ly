@@ -1104,3 +1104,19 @@ FrohGehtViolinoII = {
     e h e4 \markDaCapo \bar "S-S" %242 finis
   }
 }
+
+SoKommViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSoKomm
+    h'1
+    a~
+    a
+    a~
+    a~ %5
+    a2 a~
+    a g~
+    g a4 r
+    r a a2\fermata \bar "|." %9 finis
+  }
+}

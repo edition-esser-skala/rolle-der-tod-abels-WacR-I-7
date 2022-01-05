@@ -1872,3 +1872,31 @@ FrohGehtSoliLyrics = \lyricmode {
   er
   gern. %225 finis
 }
+
+SoKommSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoSoKomm
+    r8 h h h e e e h
+    cis4 r8 e e4 a,
+    cis8 cis cis d e4 g8 g16 fis
+    d4 r8 a d4 d8 d
+    d d d8. a16 a4 r8 a %5
+    fis fis fis g a a r d
+    d a h c! h8. h16 h4
+    r8 h h g cis cis cis d
+    \appoggiatura d a4 r r2\fermata \bar "|." %9 finis
+  }
+}
+
+SoKommSoliLyrics = \lyricmode {
+  So komm und rei -- che mir die
+  Hand! dieß O -- pfer
+  knü -- pfe un -- ſer Band feſt vor dem
+  Herrn. Ich ſchwö -- re beym
+  Blut des O -- pfer -- lamms, bey %5
+  die -- ſer treu -- en Zäh -- re, dir
+  e -- wig mei -- ne Zärt -- lich -- keit,
+  die nichts als dei -- ne Lieb er --
+  freut. %9 finisw
+}
