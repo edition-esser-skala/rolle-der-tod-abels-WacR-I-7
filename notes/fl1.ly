@@ -164,3 +164,95 @@ AchSchwesterFlautoI = {
     d4 r\fermata \bar "|." %147 finis
   }
 }
+
+FrommIstFlautoI = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 3/8 \tempoFrommIst
+    \pao f'4.\fE
+    g
+    a8 \slurDashed a16( f) g( e)
+    f8.[ g16 a b]
+    c8 c16( a) a( c) %5
+    c8 c16( a) a( c)
+    c4( b8)\trill
+    a4 r8 \slurSolid
+    \pa d4.
+    c8 a g %10
+    f a16( f) g( e) \pd
+    f4 r8
+    \pao f4.\pE
+    g
+    \slurDashed a8 a16( f) g( e) %15
+    f8.[ g16 a b]
+    c8 c16( a) a( c)
+    c8 c16( a) a( c)
+    c4( b8)\trill
+    a4 r8 %20
+    \pao g4 \tuplet 3/2 8 { h16( c d) }
+    c8 e, f
+    g4 \pa \tuplet 3/2 8 { h16( c d) }
+    c8 e, f
+    g4 \tuplet 3/2 8 { h16( c d) } %25
+    c8 \pd g16( f) e( d)
+    c4 r8
+    R4.
+    \pao f
+    g %30
+    a8 a16( f) g( e)
+    f8.[ g16 a b]
+    c8 c16( a) a( c) \slurSolid
+    c8 c16( a) a( c)
+    \slurDashed c4( b8)\trill %35
+    a4 r8
+    \pao g4 \tuplet 3/2 8 { h16( c d) }
+    c8 e, f
+    g4 \pa \tuplet 3/2 8 { h16( c d) } \slurDashed
+    c8 e, f \pd %40
+    g4 e'8
+    d16( c) h( a) g( f)
+    e8 e'16( c) d( h)
+    c4 r8
+    R4.*26 %70
+    es,8 g16( es) es( g)
+    f8 f16( d) d( f)
+    es4 r8
+    R4.
+    c8 es16( c) d( h) %75
+    \pao c4 r8
+    R4.*10 %86
+    r8 a'16( f) f( a)
+    g8 g16( e) e( g)
+    f4 r8 \slurSolid
+    R4.*13 %102
+    d'4.
+    c
+    b~ %105
+    b
+    c8 r r
+    R4.
+    r8 \slurDashed c16( a) a( c)
+    b8 a g %110
+    \pao f4 r8
+    R4.*2
+    r4 b8
+    a c16( a) a( c) %115
+    b8 a g
+    \pao f4 r8
+    r4 b8
+    a16 b c a g f
+    b8 a g %120
+    \pao f4.\fE
+    g
+    a8 a16( f) g( e)
+    f8.[ g16 a b]
+    c8 c16( a) a( c) %125
+    c8 c16( a) a( c)
+    c4( b8)\trill
+    a4 r8
+    \pa d4.
+    c8 a g %130
+    f a16( f) g( e) \slurSolid \pd
+    f4 r8\fermata \bar "|." %132 finis
+  }
+}

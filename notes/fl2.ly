@@ -164,3 +164,95 @@ AchSchwesterFlautoII = {
     d4 r\fermata \bar "|." %147 finis
   }
 }
+
+FrommIstFlautoII = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 3/8 \tempoFrommIst
+    f'4.\fE
+    e
+    f8 \slurDashed c16( a) b( g)
+    a4 f'16 g
+    a8 a16( f) f( a) %5
+    a8 a16( f) f( a)
+    a4( g8)\trill \slurSolid
+    f4 r8
+    f4.~
+    f8 f e %10
+    f c16( a) b( g)
+    a4 r8
+    f'4.\pE
+    e
+    \slurDashed f8 c16( a) b( g) %15
+    a4 f'16 g
+    a8 a16( f) f( a)
+    a8 a16( f) f( a)
+    a4( g8)\trill
+    f4 r8 %20
+    g4 f8
+    e c d
+    e4 r8
+    r c d
+    e4 r8 %25
+    e g16( f) e( d)
+    c4 r8
+    R4.
+    f
+    e %30
+    f8 c16( a) b( g)
+    a4 f'16 g
+    a8 a16( f) f( a)
+    a8 a16( f) f( a)
+    a4( g8)\trill %35
+    f4 r8
+    g4 f8
+    e c d
+    e4 r8
+    r c d %40
+    e4 c'8
+    h16( a) g( f) e( d)
+    c8 g'16( e) f( d)
+    e4 r8
+    R4.*26 %70
+    c8 es16( c) c( es)
+    d8 d16( h) h( d)
+    c4 r8
+    R4.
+    c4 h8 %75
+    c4 r8
+    R4.*10 %86
+    r8 f16( d) d( f)
+    e8 e16( cis) cis( e)
+    d4 r8
+    R4.*13 %102
+    f4.
+    f
+    f~ %105
+    f4 e8
+    a r r
+    R4.
+    r8 a16( f) f( a)
+    g8 f e %110
+    f4 r8
+    R4.*2
+    r4 g8
+    f a16( f) f( a) %115
+    g8 f e
+    f4 r8
+    r4 g8
+    f4 f8
+    g f e %120
+    f4.\fE
+    e
+    f8 c16( a) b( g)
+    a4 f'16 g
+    a8 a16( f) f( a) %125
+    a8 a16( f) f( a)
+    a4( g8)\trill
+    f4 r8
+    f4.~
+    f4 e8 %130
+    f c16( a) b( g) \slurSolid
+    a4 r8\fermata \bar "|." %132 finis
+  }
+}

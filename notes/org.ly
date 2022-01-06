@@ -2572,3 +2572,250 @@ MehalaBassFigures = \figuremode {
   <6>2 <5>4 <4 2>
   r1 %17 fiis
 }
+
+FrommIstOrgano = {
+  \relative c {
+    \clef bass
+    \key f \major \time 3/8 \tempoFrommIst
+    \mvTr f8\fE-\soloE f f
+    c c c
+    f, c' c
+    f, f f
+    f' f f %5
+    f f f
+    c c c
+    d f16 e d c
+    b8 b b
+    c c c %10
+    f, f' c
+    f,4 r8
+    f'\pE f f
+    c c c
+    f, c' c %15
+    f, f f
+    f' f f
+    f f f
+    c c c
+    f f,16 g a b %20
+    c8 c c
+    c c c
+    c c c
+    c c c
+    c c c %25
+    c e g
+    c, c c
+    c c'16 b! a g
+    f8 f f
+    c' c c %30
+    f, c' c
+    f, f f
+    f f f
+    f f f
+    c' c c %35
+    f, f16 g a b
+    c8 c c
+    c c c
+    c c c
+    c c c %40
+    c c c
+    g g g
+    c c c
+    c g16 f e d
+    c8 c c %45
+    a a d
+    g, d' d
+    g, g g
+    g' g g
+    g g g %50
+    d d d
+    g g,16 a b c
+    d8 d d
+    d d d
+    d d d %55
+    d d d
+    b b b
+    c d d
+    g, g g
+    g16 g' f! es d c %60
+    b4 r8
+    R4.*14 %75
+    r8 g'16 f es d
+    c8 c c
+    h h h
+    c g g
+    c c, c %80
+    c'4.
+    b!
+    a!8 a a
+    a a a
+    a a a %85
+    a a a
+    d d d
+    a' a a
+    d, d d
+    d f a %90
+    d, d d
+    d16 d' c! b a g
+    f8 f f
+    e e e
+    f c' c %95
+    f, f f
+    f f f
+    f f f
+    f f f
+    f f f %100
+    f f f
+    f f f
+    b b b
+    a a a
+    g g g %105
+    c c c
+    f, f f
+    c' c c
+    f, r r
+    R4. %110
+    f8 f f
+    c' c c
+    r f, g
+    a a b
+    c c c %115
+    c, c c
+    r f g
+    a a b
+    c4.
+    c, %120
+    f8\fE f f
+    c c c
+    f c c
+    f, f f
+    f' f f %125
+    f f f
+    c c c
+    d f16 e d c
+    b8 b b
+    c c c %130
+    f f, f
+    f4 r8\fermata \bar "|." %132 finis
+  }
+}
+
+FrommIstBassFigures = \figuremode {
+  r4.
+  r
+  r8 <6 4> <5 3>
+  r4.
+  r %5
+  r
+  <8 6>4 <7 5>8
+  r4.
+  r
+  <6 4>4 <5 3>8 %10
+  r4.
+  r
+  r
+  r
+  r8 <6 4> <5 3> %15
+  r4.
+  r
+  r
+  <8 6>4 <7 5>8
+  r4. %20
+  r4 <7! 4>8
+  <8 3>4.
+  r4 <7! 4>8
+  <8 3>4.
+  r4 <7! 4>8 %25
+  <8 3> <6> <6 4>16 <5 _!>
+  r4 <7! 4>8
+  <8 3>4.
+  r
+  r %30
+  r8 <6 4> <5 3>
+  r4.
+  r
+  r
+  <8 6>4 <7 5>8 %35
+  r4.
+  r4 <7! 4>8
+  <8 3>4.
+  r4 <7! 4>8
+  <8 3>4. %40
+  r
+  <_!>
+  r4 <7! 4>8
+  <8 3>4.
+  r %45
+  <6\\>4 <_+>8
+  <_-> <6 4> <5 _+>
+  r4.
+  r
+  r %50
+  <8 6 _+>4 <7 5 \t>8
+  r4.
+  <_+>4 <4 2>8
+  <5 _+>4 <6 4>8
+  <7 _+>4 <6 4>8 %55
+  <7 _+> <6 4> <5 _+>
+  <6>4.
+  <4+ _->8 <6 4> <5 _+>
+  r4 <7+ 4>8
+  <8 3>4. %60
+  r4.*15 %75
+  r4.
+  <_->
+  <6>
+  <_->8 <6- 4> <5 _!>
+  r4. %80
+  r
+  <4! 3>
+  <7 5! _+>4 <8 6 \t>8
+  <7 5 \t>4.
+  <6 4> %85
+  <7 _+>
+  r
+  <7 _+>
+  r4 <7+ 4>8
+  <8 3> <6> <6 4>16 <5 _+> %90
+  r4 <7+ 4>8
+  <8 3>4.
+  r
+  <6>
+  r8 <6 4> <5 3> %95
+  r4.
+  r
+  r
+  r
+  <6 4>8 <5 3>4 %100
+  r4.
+  <6 4>8 <5 3>4
+  r4.
+  <6>
+  <7> %105
+  <7 4>4 <\t 3>8
+  r4.
+  <7 5>8 <6 4> <5 3>
+  r4.
+  r %110
+  r
+  <7 5>8 <6 4> <5 3>
+  r4 <7>8
+  <6>4.
+  <6 4> %115
+  <7 5>8 <6 4> <5 3>
+  r4 <7>8
+  <6>4.
+  <6 4>
+  <7 5>8 <6 4> <5 3> %120
+  r4.
+  r
+  r8 <6 4> <5 3>
+  r4.
+  r %125
+  r
+  <8 6>4 <7 5>8
+  r4.
+  r
+  <6 4>4 <5 3>8 %130
+  r4 <7 4>8
+  <8 3>4. %132 finis
+}

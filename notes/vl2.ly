@@ -1282,3 +1282,142 @@ MehalaViolinoII = {
     r e f2\fermata \bar "|." %17 finis
   }
 }
+
+FrommIstViolinoII = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 3/8 \tempoFrommIst
+    f4.\fE
+    e
+    f8 f e
+    f8. g16 f g
+    a8 a16( f) f( a) %5
+    a8 a16( f) f( a)
+    \once \slurDashed a4( g8)\trill
+    f4 r8
+    f4.~
+    f8 f e\trill %10
+    f c16( a) b( g)
+    a4 r8
+    f'4.\pE
+    e
+    f8 f e %15
+    f4 f16 g
+    a8 a16( f) f( a)
+    a8 a16( f) f( a)
+    \once \slurDashed a4( g8)\trill
+    f4 r8 %20
+    g g f
+    e c d
+    e4 r8
+    r c d
+    e4 r8 %25
+    e \slurDashed g16( f) e( d) \slurSolid
+    c8 g'16( e) f( d)
+    e4 r8
+    f4.
+    e %30
+    f8 f e
+    f4 f16 g
+    a8 \slurDashed a16( f) f( a) \slurSolid
+    a8 a16( f) f( a)
+    \once \slurDashed a4( g8)\trill %35
+    f4 r8
+    g g f
+    e c d
+    e4 r8
+    r c d %40
+    e4 c'8
+    h16( a) g( f) e( d)
+    c8 g'16( e) f( d)
+    e4 r8
+    e4. %45
+    fis
+    g8 g fis
+    g4 g16 a
+    b8 b16( g) g( b)
+    b8 b16( g) g( b) %50
+    \once \slurDashed b4( a8)\trill
+    g4 r8
+    R4.
+    d8 \tuplet 3/2 8 { d16( e fis) e([ fis g)] }
+    fis8 \tuplet 3/2 8 { fis16( g a) g([ a b)] } %55
+    a8( g fis)
+    g4 g8
+    fis \slurDashed g16( a) g( fis) \slurSolid
+    g8 b16( g) a( fis)
+    g4 r8 %60
+    d4.
+    a'
+    b4 a8
+    b4 b16 c
+    d8 d d %65
+    d8. h16 d8
+    d4( c8)\trill
+    h4 r8
+    es4 es8
+    d d16( h) h( d) %70
+    c4 r8
+    R4.
+    c4.~
+    c16 f \slurDashed es( d) c( h)
+    c8 g16( es) f( d) \slurSolid %75
+    es4 r8
+    es4.
+    d
+    c8 \slurDashed es16( c) d( h) \slurSolid
+    c4 r8 %80
+    g' g g
+    g g g
+    g8. b!16 a!8
+    g4 r8
+    f4 f8 %85
+    e e16( cis) cis( e)
+    d4 r8
+    R4.
+    a'4 \tuplet 3/2 8 { \once \slurDashed cis16( d e) }
+    d8 a16( g) f( e) %90
+    d8 a'16( f) g( e)
+    f4 r8
+    a4.
+    g
+    f8 a16( f) g( e) %95
+    f4 f16 g
+    a8 a16( f) f( a)
+    a8 a16( f) f( a)
+    a8 a a
+    b a16 f a c %100
+    a8 a a
+    b a r
+    f4.~
+    f4 r8
+    b8 \tuplet 3/2 8 { d16( c b) a([ g f)] } %105
+    f4( e8)
+    f8 a16( f) f( a)
+    g8 f e
+    f4 r8
+    R4. %110
+    f8 a16( f) f( a)
+    g8 f e
+    f4.~
+    f4 g8
+    f4 f16( g32 a) %115
+    g8( f) e-!
+    f4.~
+    f4 g8
+    f4 f8
+    g( f) e-! %120
+    f4.\fE
+    e
+    f8 f e
+    f4 f16 g
+    a8 a16( f) f( a) %125
+    a8 a16( f) f( a)
+    \once \slurDashed a4( g8)\trill
+    f4 r8
+    f4.~
+    f4 e8\trill %130
+    f8 f e
+    f4 r8\fermata \bar "|." %131 finis
+  }
+}

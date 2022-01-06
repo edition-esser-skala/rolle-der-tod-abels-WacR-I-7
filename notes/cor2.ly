@@ -3,7 +3,7 @@
 WennDerJungeCornoII = {
   \relative c' {
     \clef treble
-    \key c \major \time 3/8 \tempoWennDerJunge  % in G
+    \key c \major \time 3/8 \tempoWennDerJunge % in G
     R4.
     c'4\fE \appoggiatura e16 \once \slurDashed d( c)
     c4 \once \slurDashed f16( e)
@@ -87,7 +87,7 @@ WennDerJungeCornoII = {
 AchSchwesterCornoII = {
   \relative c' {
     \clef treble
-    \twofourtime \key c \major \time 2/4 \tempoAchSchwester
+    \twofourtime \key c \major \time 2/4 \tempoAchSchwester % in D
     \partial 8 e'8\fE e4 c
     g8 c d4
     c8. d16 e8 r
@@ -188,5 +188,89 @@ AchSchwesterCornoII = {
     g,4 r8 g %145
     e r e r
     e4 r\fermata \bar "|." %147 finis
+  }
+}
+
+FrommIstCornoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/8 \tempoFrommIst % in F
+    \slurDashed e4.\fE
+    g
+    c8 g g
+    e4 c'16 d
+    e8 e16( c) c( e) %5
+    e8 e16( c) c( e)
+    e4( d8)\trill
+    c4 r8
+    f4.
+    e8 c g\trill %10
+    e g g
+    e4 r8
+    R4.*4 %16
+    c4.~\pE
+    c
+    e'4( d8)\trill
+    c4 r8 %20
+    R4.*2
+    d4 d8
+    d4 r8
+    d4 r8 %25
+    d d d
+    g,4.~
+    g4 r8
+    c4.
+    g %30
+    c4 g8
+    e4 r8
+    e'4.~
+    e~
+    e4 d8\trill %35
+    c4 r8
+    R4.*2
+    g8 r r
+    g r r %40
+    g r r
+    d' r r
+    g,4.~
+    g8 r r
+    R4.*48 %92
+    e'4.
+    d
+    c4 g8\trill %95
+    e4 r8
+    e' e16( c) c( e)
+    e8 e16( c) c( e)
+    e4 e8
+    f\trill e r %100
+    e4 e8
+    f\trill e r
+    R4.*4 %106
+    c8 e16( c) c( e)
+    d8 c g
+    e4 r8
+    R4. %110
+    c'8 e16( c) c( e)
+    d8 c g
+    e4 r8
+    r r d'
+    c4 c8 %115
+    d c g
+    e4 r8
+    r r d'
+    c4 c8
+    d c g %120
+    e4.\fE
+    g
+    c4 g8
+    e4 c'16 d
+    e8 e16( c) c( e) %125
+    e8 e16( c) c( e)
+    e4( d8)\trill
+    c4 r8
+    f4.
+    e8 c g %130
+    e4 g8\trill
+    e4 r8\fermata \bar "|." %132 finis
   }
 }

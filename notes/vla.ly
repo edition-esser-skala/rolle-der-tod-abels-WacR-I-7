@@ -1537,3 +1537,142 @@ MehalaViola = {
     r c c2\fermata \bar "|." %17 finis
   }
 }
+
+FrommIstViola = {
+  \relative c' {
+    \clef alto
+    \key f \major \time 3/8 \tempoFrommIst
+    a8\fE a a
+    c c c
+    c c16( a) b( g)
+    a4 r8
+    f' f f %5
+    f f f
+    c c c
+    d f16 e d c
+    b8 b b
+    a c b\trill %10
+    a c c
+    c4 r8
+    a\pE a a
+    c c c
+    c c16( a) b( g) %15
+    a4 r8
+    f' f f
+    f f f
+    c c c
+    c4 r8 %20
+    e e d
+    c c c
+    c c c
+    c c c
+    c c c %25
+    c e g
+    c, c c
+    c8. b!16 a g
+    a8 a a
+    c c c %30
+    c c16( a) b( g)
+    a4 r8
+    f' f f
+    f f f
+    c c c %35
+    c4 r8
+    e e d
+    c c c
+    c c c
+    c c c %40
+    c c c
+    g' g g
+    c, c c
+    c g'16 f e d
+    c8 c c %45
+    c c c
+    d4 c8
+    b!4 d8
+    g g g
+    g g g %50
+    d d d
+    g g,16 a b c
+    d8 d d
+    d d d
+    d d d %55
+    d d d
+    b b b
+    c d d
+    g, g g
+    g16 g' f! es d c %60
+    b8 b' b
+    f f f
+    b f f
+    b b b
+    b4 as8 %65
+    g g g
+    c, c c
+    g' g16 f es d
+    c8 c c
+    g g g %70
+    c c c
+    g g g
+    c4 es8
+    f g g,
+    c c c %75
+    c g'16 f es d
+    c8 c c
+    h h h
+    c g g
+    c,4 r8 %80
+    es'8 es es
+    e e e
+    e8. g16 f8
+    e4 r8
+    d4 d8 %85
+    a a a
+    d d d
+    a' a a
+    d, d d
+    d f a %90
+    d, d d
+    d16 d' c! b a g
+    f8 f f
+    e e e
+    f c c %95
+    f f f
+    f f f
+    f f f
+    f f f
+    f f f %100
+    f f f
+    f f f
+    b b b
+    a a a
+    g g g %105
+    c, c c
+    f r r
+    R4.
+    f8 f f
+    c' c c %110
+    f, f f
+    c c b
+    a a b
+    c c d
+    c c c %115
+    c c b
+    a a b
+    c c d
+    c c c
+    c c b %120
+    a\fE a a
+    c c c
+    c c16( a) b( g)
+    a4 r8
+    f' f f %125
+    f f f
+    c c c
+    d f16 e d c
+    b8 b b
+    a c b\trill %130
+    a c16( a) b( g)
+    a4 r8\fermata \bar "|." %132 finis
+  }
+}

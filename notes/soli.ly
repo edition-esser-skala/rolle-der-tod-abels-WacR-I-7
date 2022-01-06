@@ -2099,3 +2099,245 @@ MehalaSoliLyrics = \lyricmode {
   From -- men, bis bey -- de Hand in Hand zu -- rü -- cke
   kom -- men. %17 finis
 }
+
+FrommIstThirza = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 3/8 \autoBeamOff \tempoFrommIst
+    R4.*28 %28
+    \mvTr f4.\pE^\soloE
+    g %30
+    a8 a16([ f)] g([ e)]
+    f4 r8
+    c' c16([ a)] a([ c)]
+    c8 c16([ a)] a([ c)]
+    c4( b8)\trill %35
+    a4 r8
+    g4 \tuplet 3/2 8 { h16([ c d)] }
+    c8 e, f
+    g4 r8
+    R4. %40
+    g4 e'8
+    d16([ c)] h([ a)] g([ f)]
+    e4 r8
+    R4.*17 %60
+    b'4.
+    c
+    d8 d16([ b)] c([ a)]
+    b4 r8
+    f' f f %65
+    f8. d16 f8
+    f4( es8)\trill
+    d4 r8
+    g4 g8
+    f f16([ d)] d([ f)] %70
+    es4 r8
+    R4.
+    es16.([ f32 g8)] c,
+    as' g16([ f)] es([ d)]
+    c4 r8 %75
+    R4.*17 %92
+    f4.
+    c!
+    a8 c16([ a)] b([ g)] %95
+    f4 r8
+    f4 a16([ c)]
+    c4 c8
+    f c c
+    d c r %100
+    f c c
+    d c r
+    d4 \tuplet 3/2 8 { b16([ c d)] }
+    c8 f16([ c)] a([ f)]
+    b4.~ %105
+    b4 r8
+    a c16([ a)] a([ c)]
+    b8 a g
+    f4 r8
+    R4. %110
+    a8 c16([ a)] a([ c)]
+    b8 a g
+    f'4.~
+    f4 d16([ b)]
+    a4~ a16[ b32 c] %115
+    b8([ a)] g
+    f'4.~
+    f4 b,8
+    a16[( b c a g f])
+    b8([ a)] g %120
+    f4 r8
+    R4.*10 %131
+    R4.\fermata \bar "|." %132 finis
+  }
+}
+
+FrommIstThirzaLyrics = \lyricmode {
+  Weiſ’ %29
+  iſt %30
+  A -- bel, der
+  Hirt,
+  ins ſanf -- te
+  Lä -- cheln der
+  Au -- %35
+  gen
+  miſcht ſich
+  den -- ken -- der
+  Ernſt,
+  %40
+  See -- le
+  re -- det im
+  Blick.
+
+  Fromm %61
+  iſt
+  A -- bel, der
+  Hirt,
+  wenn er vom %65
+  E -- wi -- gen
+  ſin --
+  get;
+  o, dann
+  wal -- let mein %70
+  Herz
+
+  von __ Em --
+  pfin -- dun -- gen
+  voll. %75
+
+  Schön %93
+  iſt
+  A -- bel, der %95
+  Hirt,
+  lang iſt
+  er und
+  rei -- zend ge --
+  bil -- det, %100
+  rei -- zend ge --
+  bil -- det.
+  Aus der __
+  ſchlan -- ken Ge --
+  ſtalt __ %105
+
+  ſchim -- mert der
+  En -- gel her --
+  vor,
+  %110
+  ſchim -- mert der
+  En -- gel her --
+  vor, __
+  der
+  En -- %115
+  gel her --
+  vor, __
+  der
+  En --
+  gel her -- %120
+  vor! %121 finis
+}
+
+FrommIstMehala = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 3/8 \autoBeamOff \tempoFrommIst
+    R4.*12 %12
+    \mvTr f4.\pE^\soloE
+    g
+    a8 a16([ f)] g([ e)] %15
+    f4 r8
+    c'8 c16([ a)] a([ c)]
+    c8 c16([ a)] a([ c)]
+    c4( b8)\trill
+    a4 r8 %20
+    g4 \tuplet 3/2 8 { h16([ c d)] }
+    c8 e, f
+    g4 r8
+    R4.
+    g4 \tuplet 3/2 8 { h16([ c d)] } %25
+    c8 g16([ f)] e([ d)]
+    c4 r8
+    R4.*17 %44
+    g'4. %45
+    a
+    b!8 b16([ g)] a([ fis)]
+    g4.
+    d'8 d16([ b)] b([ d)]
+    d8 d16([ b)] b([ d)] %50
+    d4( c8)\trill
+    b4 r8
+    d,8[~ \tuplet 3/2 8 { d16 e fis] e([ fis g)] }
+    fis8 \tuplet 3/2 8 { fis16([ g a)] g([ a b)] }
+    a4 r8 %55
+    R4.
+    d8 c16([ b)] a([ g)]
+    a([ c)] b([ a)] g([ fis)]
+    g4 r8
+    R4.*17 %76
+    c4.
+    g
+    es8 g16([ es)] f([ d)]
+    c4 r8 %80
+    g' g g
+    g g g
+    g8.([ b!16 a!8)]
+    g4 r8
+    f4 a8 %85
+    g g16([ e)] e([ g)]
+    f4 r8
+    R4.
+    a4 \tuplet 3/2 8 { cis16([ d e)] }
+    d8 a16([ g)] f([ e)] %90
+    d4 r8
+    R4.*40 %131
+    R4.\fermata \bar "|." %132 finis
+  }
+}
+
+FrommIstMehalaLyrics = \lyricmode {
+  Fromm %13
+  iſt
+  A -- bel, der %15
+  Hirt,
+  führt er im
+  Tha -- le die
+  Heer --
+  den, %20
+  ſo iſt __
+  Gott ſein Ge --
+  dank
+
+  und der __ %25
+  Schö -- pfer ſein
+  Lied.
+
+  Schön %45
+  iſt
+  A -- bel, der
+  Hirt,
+  ſieh, brau -- ne
+  ſchat -- tig -- te %50
+  Lo --
+  cken
+  kräu -- ſeln __
+  ſich um __ die __
+  Stirn, %55
+
+  flie -- ßen die
+  Schul -- tern he --
+  rab.
+
+  Weiſ’ %77
+  iſt
+  A -- bel, der
+  Hirt, %80
+  ſind Got -- tes
+  We -- ge mir
+  dun --
+  kel,
+  wie ent -- %85
+  hül -- let er
+  ſie,
+
+  wie zer --
+  ſtreut er die %90
+  Nacht! %91 finis
+}
