@@ -1214,3 +1214,47 @@ SieGehnViolinoI = {
     r cis \bar "||" %7 finis
   }
 }
+
+WeltrichterViolinoI = {
+  \relative c' {
+    \clef treble
+    \key h \minor \time 4/4 \tempoWeltrichter
+    r4 d'(\p cis h)
+    ais-! cis( h ais)
+    h\f g( fis eis)
+    fis fis fis fis
+    fis2 fis4\p fis %5
+    g g ais ais
+    h h h h\f
+    e e e e
+    d cis h a!
+    g fis r2 %10
+    R1*6 %16
+    r4 fis\fE fis fis
+    a a a a
+    d d d d
+    d fis, \appoggiatura a8 g4 \appoggiatura fis8 e4 %20
+    d2 r4 a'
+    a2. a,16( cis e g)
+    g4 fis2 a4
+    a2. a,16( cis e g)
+    g4 fis2 r4 %25
+    R1*10 %35
+    r4 fis\fE fis' e
+    e2 d4 cis
+    cis2 \appoggiatura cis16 h8([ ais)] h4
+    \appoggiatura h ais2\fermata r4 e'
+    d cis h ais %40
+    h r r e
+    d cis h ais
+    h r r d,
+    fis fis fis fis
+    h h h h %45
+    h2 ais
+    h r4 fis'
+    fis2. fis,16( ais cis e)
+    e4 d2 fis,4\p
+    fis fis fis fis
+    fis1\fermata \bar "|."
+  }
+}

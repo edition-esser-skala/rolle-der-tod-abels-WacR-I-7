@@ -1458,3 +1458,58 @@ SieGehnViola = {
     r fis \bar "||" %7 finis
   }
 }
+
+WeltrichterViola = {
+  \relative c' {
+    \clef alto
+    \key h \minor \time 4/4 \tempoWeltrichter
+    h2\pE r
+    r fis
+    g\f g
+    r4 h ais ais
+    ais2 ais4\p ais %5
+    h h cis cis
+    d d d d\f
+    d d cis cis
+    d d d a!
+    a a r2 %10
+    R1*2
+    r2 r4 d\fE
+    d g, a a
+    d2 r4 a %15
+    d g, a a
+    h d d d
+    d d d d
+    d d d d
+    d d cis g %20
+    fis2 r4 d'
+    cis h a a
+    a2~ a4 d
+    cis h a a
+    a2~ a4 r %25
+    d2\pE r
+    r4 d d, d'
+    g,2 a
+    <d d,> r
+    R1*2 %31
+    r2 r4 e
+    dis2. dis4
+    e2 r
+    R1*2 %36
+    r4 fis,\fE fis' ais,
+    ais2 h4 h
+    cis2\fermata r4 ais
+    h e fis fis, %40
+    h r r ais
+    h e fis fis,
+    g h h h
+    h h h h
+    h h h h %45
+    d2 cis
+    h r4 h'
+    ais gis fis fis
+    \once \tieDashed fis2~ fis4 h,\p
+    h h ais ais %50
+    h1\fermata \bar "|." %51 finis
+  }
+}

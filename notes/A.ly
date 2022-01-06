@@ -126,3 +126,102 @@ LobtDenAltoLyrics = \lyricmode {
   Lob -- ge --
   ſang! __ %67 finis
 }
+
+WeltrichterAlto = {
+  \relative c' {
+    \clef treble
+    \key h \minor \time 4/4 \autoBeamOff \tempoWeltrichter
+    R1*2
+    r2 \mvTr h'\fE^\tuttiE
+    d, cis~
+    cis4 r \mvTr cis\pE^\soloE cis %5
+    d2 e
+    fis4 fis2 \mvTr fis4\fE^\tuttiE
+    h2 fis
+    fis4 fis g d
+    cis d r2 %10
+    R1*2
+    r2 r4 fis
+    fis( e) d( cis)
+    d2 r4 g %15
+    fis( e) d( cis)
+    d2 r
+    r r4 a'
+    h2 fis4 fis
+    d2( e4) cis %20
+    d2~ d4 r
+    R1*4 %25
+    \mvTr fis4\pE^\soloE fis h a
+    \appoggiatura a16 g8([ fis)] fis2.
+    g4 e cis d8([ e)]
+    \appoggiatura e4 d2 r
+    R1*2 %31
+    r4 fis fis fis8 fis
+    fis4 fis8 a a4 g8 fis
+    e2 r
+    R1 %35
+    r4 \mvTr fis\fE^\tuttiE d' cis
+    cis2( h4) e,
+    e2 eis4 eis
+    fis2\fermata r4 fis
+    fis( e) d( cis) %40
+    h2 r4 fis'
+    fis( e) d( cis)
+    h2 r
+    r r4 fis'
+    h2 h4 h %45
+    fis2. e4
+    d2 r
+    R1
+    r2 r4 d\p
+    cis2 cis %50
+    d1\fermata \bar "|." %51 finis
+  }
+}
+
+WeltrichterAltoLyrics = \lyricmode {
+  Welt -- %3
+  rich -- ter! __
+  der du %5
+  uns ge --
+  rich -- tet, doch
+  nicht den
+  Sün -- der ganz ver --
+  nich -- tet, %10
+
+  er -- %13
+  bar -- me
+  dich, er -- %15
+  bar -- me
+  dich,
+  Welt --
+  rich -- ter, er --
+  bar -- me %20
+  dich. __
+
+  Groß iſt die Ver -- %26
+  hei -- ßung,
+  die du uns ge --
+  than.
+
+  Nimm da -- rum, Er -- %32
+  bar -- mer, die O -- pfern -- den
+  an,
+  %35
+  Er -- bar -- mer,
+  nimm __ die
+  O -- pfern -- den
+  an! Er --
+  bar -- me %40
+  dich, er --
+  bar -- me
+  dich,
+  Welt --
+  rich -- ter, er -- %45
+  bar -- me
+  dich,
+
+  er --
+  bar -- me %50
+  dich! %51 finis
+}

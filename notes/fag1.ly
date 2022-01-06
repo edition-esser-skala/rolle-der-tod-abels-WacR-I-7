@@ -122,3 +122,55 @@ MeinVaterFagottoI = {
     es2 r\fermata \bar "|." %51 finis
   }
 }
+
+WeltrichterFagottoI = {
+  \relative c {
+    \clef bass
+    \key h \minor \time 4/4 \tempoWeltrichter
+    h2\pE r
+    r fis
+    g\fE g
+    fis fis
+    fis r4 fis'\p %5
+    fis2 fis
+    fis fis4 fis\f
+    gis gis ais ais
+    h a g fis
+    e d r a'\pE %10
+    fis' e d cis
+    h a \appoggiatura a g2
+    fis8. g16 a2 r4
+    r2 r4 a\fE
+    a( g) fis( e) %15
+    d2 r4 \afterGrace a' { h16[ cis] }
+    d2 d4 d
+    fis2 fis4 fis
+    fis2 d4 h
+    a2. g4 %20
+    fis2~ fis4 r
+    R1*7 %28
+    a4\pE a d cis
+    \appoggiatura cis16 h8([ a)] a2. %30
+    h4 g e fis8( g)
+    \appoggiatura g4 fis2 r
+    R1
+    r4 h h h
+    h8 ais h d d4 cis8 h %35
+    \appoggiatura h4 ais2 r
+    r4 fis\fE fis' ais,
+    ais2 h4 h
+    cis2\fermata r
+    r r4 e %40
+    d cis h ais
+    h r r fis
+    h2 h4 h
+    d2 d4 d
+    d2 d4 d %45
+    d2 e4 cis
+    h2 r
+    R1
+    r2 r4 h\p
+    h2 ais %50
+    h1\fermata \bar "|." %51 finis
+  }
+}

@@ -14,7 +14,7 @@ soloKain = \markup \remark "Kain"
 soloMehala = \markup \remark "Mehala"
 
 
-% 1.1
+% 1
 tempoLobtDen = \tempoMarkup "Lobgesang der Kinder Adams in ihrer Laube"
 tempoSieSingen = \tempoMarkup "Kain, der um Abels Laube feindſelig herumſchleicht"
 tempoIchElend = \tempoMarkup "Poco lento"
@@ -27,7 +27,7 @@ tempoOWort = \tempoMarkup "Andante"
   tempoOWortC = \tempoMarkup "Vivace ma non troppo"
   tempoOWortD = \tempoMarkup "Andante"
 
-% 1.6
+% 6
 tempoWieSeufzet = \tempoMarkup \markup \left-column { "Kain, der in der Entfernung ſtehen geblieben" "und ſeinen Vater jammern geſehen" }
   tempoWieSeufzetB = \tempoMarkup "Poco largo"
   tempoWieSeufzetC = \tempoMarkup "a tempo"
@@ -37,23 +37,24 @@ tempoOGott = \tempoMarkup "Recitativo"
 tempoWennDerJunge = \tempoMarkup "Allegretto"
 tempoOKinder = \tempoMarkup "Recitativo"
 
-% 1.11
+% 11
 tempoAchSchwester = \tempoMarkup "Allegretto"
 tempoMeinBruder = \tempoMarkup "Recitativo"
 tempoFrohGeht = \tempoMarkup "Allegro ma non troppo"
 tempoSoKomm = \tempoMarkup "Recitativo"
 tempoAchLiebe = \tempoMarkup "Larghetto e grazioso"
 
-% 1.16
+% 16
 tempoSieGehn = \tempoMarkup "Recitativo"
+tempoWeltrichter = \tempoMarkup "Chor der Kinder Adams"
 
 
 \include "notes/fl1.ly"
 \include "notes/fl2.ly"
 \include "notes/ob1.ly"
 \include "notes/ob2.ly"
-% \include "notes/oba1.ly"
-% \include "notes/oba2.ly"
+\include "notes/oba1.ly"
+\include "notes/oba2.ly"
 \include "notes/fag1.ly"
 \include "notes/fag2.ly"
 \include "notes/cor1.ly"

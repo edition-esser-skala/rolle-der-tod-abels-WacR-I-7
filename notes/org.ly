@@ -2420,3 +2420,111 @@ SieGehnBassFigures = \figuremode {
   <3> <[6+] 4+ 2>
   r4 <[5+] _+> %7 finis
 }
+
+WeltrichterOrgano = {
+  \relative c {
+    \clef bass
+    \key h \minor \time 4/4 \tempoWeltrichter
+    \mvTr h2\pE-\solo r
+    r fis
+    g\fE g-\tuttiE
+    fis fis
+    fis r4 \mvTr fis'\p-\soloE %5
+    fis2 fis
+    fis fis4 \mvTr fis\f-\tuttiE
+    gis gis ais ais
+    h a g fis
+    e d d, r %10
+    \mvTr d'2\pE-\soloE r
+    d a
+    d,4 d' d,2
+    r r4 \mvTr a'\fE-\tuttiE
+    d g, a a %15
+    d g a a,
+    h h' a g
+    fis a d, cis
+    h d h gis
+    a2 a %20
+    d4 d, d2
+    a'-\soloE r4 a
+    d a d, d'
+    a2 r4 a
+    d2 d, %25
+    R1*3
+    d'2\pE r
+    r4 d d, d' %30
+    g,2 a
+    d, r4 c'
+    h2 h
+    e r4 d!
+    cis2 cis %35
+    fis, r
+    r r4 \mvTr fis'\fE-\tuttiE
+    g2 g4 g
+    fis2\fermata r
+    r r4 fis, %40
+    h e fis fis,
+    h r r fis
+    g g' fis e
+    d fis h, a
+    g g' fis eis %45
+    fis2 fis,
+    h4 h' h,2
+    fis' fis,
+    h4 fis' h h,\p
+    fis'2 fis, %50
+    h1\fermata \bar "|." %51 finis
+  }
+}
+
+WeltrichterBassFigures = \figuremode {
+  r1
+  r2 <6 4>4 <5 _+>
+  <8 3>2 \bassFigureExtendersOn <7 3>4 <6\\ 3> \bassFigureExtendersOff
+  <6 4>2 <5 _+>
+  <\t \t>1 %5
+  <6 4 2!>2 <7 5 _+>
+  <6 4>1
+  <6 5>2 q
+  r4 <6>2 q4
+  q1 %10
+  r
+  <6 4>4 <5 3> <8 6> <7 5>
+  r1
+  r2. <7>4
+  r <6> <6 4> <5 3> %15
+  r <6> <6 4> <5 3>
+  <8 3>1 \bassFigureExtendersOn
+  q
+  q2 q4 \bassFigureExtendersOff <7>
+  <6 4>2 <5 3> %20
+  r1
+  r2. <7>4
+  <9 4> <6 4>2.
+  r2. <7>4
+  <9 4>4 <8 3>2. %25
+  r1*3
+  <9 4>4 <8 3>2.
+  r1 %30
+  <6>2 <7>
+  <9 4>4 <8 3>2 <4 3>4
+  <7 5 _+>2 \bassFigureExtendersOn <9! 7\! _+>4 <8 6 _+>8 <7 5 _+> \bassFigureExtendersOff
+  r2. <6>4
+  <7 5+ _+>2 \bassFigureExtendersOn <9 7\! _+>4 <8 6 _+>8 <7 5+ _+> \bassFigureExtendersOff %35
+  <4>4 <_+>2.
+  r <7 5 _+>4
+  <\t \t \t>2 <6\\>
+  <4>4 <_+>2.
+  r <7 _+>4 %40
+  r <6> <6 4> <5 _+>
+  r2. <_+>4
+  <8 3>1 \bassFigureExtendersOn
+  q
+  q2. q4 \bassFigureExtendersOff %45
+  <6 4>2 <7 _+>
+  r1
+  <_+>
+  <9 4>4 <6 4>2.
+  <4>2 <_+> %50
+  r1 %51 finis
+}

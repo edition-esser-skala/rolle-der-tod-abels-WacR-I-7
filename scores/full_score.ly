@@ -22,9 +22,8 @@ paperEightStaves = \paper {
 }
 
 \book {
-  % \part "erstertheil" "1" "Erster Theil"
   % \bookpart {
-  %   \section "1.1" "Coro" "Lobt den Herrn!"
+  %   \section "1" "Coro" "Lobt den Herrn!"
   %   \addTocLabel "lobtden"
   %   \paper { indent = 3\cm }
   %   \score {
@@ -109,7 +108,7 @@ paperEightStaves = \paper {
   %   }
   % }
   % \bookpart {
-  %   \section "1.2" "Accompagnato" "Sie ſingen!"
+  %   \section "2" "Accompagnato" "Sie ſingen!"
   %   \addTocLabel "siesingen"
   %   \paperFiveStaves
   %   \score {
@@ -152,7 +151,7 @@ paperEightStaves = \paper {
   %   }
   % }
   % \bookpart {
-  %   \section "1.3" "Aria" "Ich elend! elend meine Kinder!"
+  %   \section "3" "Aria" "Ich elend! elend meine Kinder!"
   %   \addTocLabel "ichelend"
   %   \paperFiveStaves
   %   \score {
@@ -195,7 +194,7 @@ paperEightStaves = \paper {
   %   }
   % }
   % \bookpart {
-  %   \section "1.4" "Accompagnato" "Sey mir gegrüßt, mein erſtgebohrner Sohn!"
+  %   \section "4" "Accompagnato" "Sey mir gegrüßt, mein erſtgebohrner Sohn!"
   %   \addTocLabel "seymir"
   %   \paperFiveStaves
   %   \score {
@@ -238,7 +237,7 @@ paperEightStaves = \paper {
   %   }
   % }
   % \bookpart {
-  %   \section "1.5" "Aria" "O Wort, dafür mein Geiſt erzittert"
+  %   \section "5" "Aria" "O Wort, dafür mein Geiſt erzittert"
   %   \addTocLabel "owort"
   %   \paperFiveStaves
   %   \score {
@@ -281,7 +280,7 @@ paperEightStaves = \paper {
   %   }
   % }
   % \bookpart {
-  %   \section "1.6" "Accompagnato" "Wie ſeufzet er!"
+  %   \section "6" "Accompagnato" "Wie ſeufzet er!"
   %   \addTocLabel "wieseufzet"
   %   \paperFiveStaves
   %   \score {
@@ -324,7 +323,7 @@ paperEightStaves = \paper {
   %   }
   % }
   % \bookpart {
-  %   \section "1.7" "Aria" "Mein Vater, ach! verzeihe"
+  %   \section "7" "Aria" "Mein Vater, ach! verzeihe"
   %   \addTocLabel "meinvater"
   %   \score {
   %     <<
@@ -390,7 +389,7 @@ paperEightStaves = \paper {
   %   }
   % }
   % \bookpart {
-  %   \section "1.8" "Accompagnato" "O Gott! mein Blick ſchaut dankbar zu dir auf!"
+  %   \section "8" "Accompagnato" "O Gott! mein Blick ſchaut dankbar zu dir auf!"
   %   \addTocLabel "ogott"
   %   \paperFiveStaves
   %   \score {
@@ -433,7 +432,7 @@ paperEightStaves = \paper {
   %   }
   % }
   % \bookpart {
-  %   \section "1.9" "Aria" "Wenn der junge Tag erwacht"
+  %   \section "9" "Aria" "Wenn der junge Tag erwacht"
   %   \addTocLabel "wennderjunge"
   %   \paperEightStaves
   %   \score {
@@ -497,7 +496,7 @@ paperEightStaves = \paper {
   %   }
   % }
   % \bookpart {
-  %   \section "1.10" "Recitativo" "O Kinder! ſeit das Paradies verſchwunden"
+  %   \section "10" "Recitativo" "O Kinder! ſeit das Paradies verſchwunden"
   %   \addTocLabel "okinder"
   %   \paper {
   %     system-system-spacing.basic-distance = #20
@@ -527,7 +526,7 @@ paperEightStaves = \paper {
   %   }
   % }
   % \bookpart {
-  %   \section "1.11" "Aria" "Ach Schweſter! ſing in meine Lieder!"
+  %   \section "11" "Aria" "Ach Schweſter! ſing in meine Lieder!"
   %   \addTocLabel "achschwester"
   %   \score {
   %     <<
@@ -596,7 +595,7 @@ paperEightStaves = \paper {
   %   }
   % }
   % \bookpart {
-  %   \section "1.12" "Accompagnato" "Mein Bruder!"
+  %   \section "12" "Accompagnato" "Mein Bruder!"
   %   \addTocLabel "meinbruder"
   %   \paperFiveStaves
   %   \score {
@@ -639,7 +638,7 @@ paperEightStaves = \paper {
   %   }
   % }
   % \bookpart {
-  %   \section "1.13" "Aria" "Froh geht dir die Sonne auf"
+  %   \section "13" "Aria" "Froh geht dir die Sonne auf"
   %   \addTocLabel "frohgeht"
   %   \paperFiveStaves
   %   \score {
@@ -689,7 +688,7 @@ paperEightStaves = \paper {
   %   }
   % }
   % \bookpart {
-  %   \section "1.14" "Recitativo" "So komm und reiche mir die Hand!"
+  %   \section "14" "Recitativo" "So komm und reiche mir die Hand!"
   %   \addTocLabel "sokomm"
   %   \paperFiveStaves
   %   \score {
@@ -732,7 +731,7 @@ paperEightStaves = \paper {
   %   }
   % }
   % \bookpart {
-  %   \section "1.15" "Aria" "Ach, liebe mich ſo wie ich dich!"
+  %   \section "15" "Aria" "Ach, liebe mich ſo wie ich dich!"
   %   \addTocLabel "achliebe"
   %   \paperFiveStaves
   %   \score {
@@ -774,47 +773,133 @@ paperEightStaves = \paper {
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \section "16" "Recitativo" "Sie gehn – doch Kain nicht erfreut"
+  %   \addTocLabel "siegehn"
+  %   \paperFiveStaves
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \SieGehnViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \SieGehnViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \SieGehnViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Adam"
+  %           \new Voice = "Soli" { \dynamicUp \SieGehnSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \SieGehnSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \SieGehnOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \SieGehnBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
-    \section "1.16" "Recitativo" "Sie gehn – doch Kain nicht erfreut"
-    \addTocLabel "siegehn"
-    \paperFiveStaves
+    \section "17" "Coro" "Weltrichter! der du uns gerichtet"
+    \addTocLabel "weltrichter"
     \score {
       <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = \markup \center-column { "ob" "d’amore" }
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              % \transpose c a,
+              \WeltrichterOboeAmoreI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              % \transpose c a,
+              \WeltrichterOboeAmoreII
+            }
+          >>
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "fag"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \WeltrichterFagottoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \WeltrichterFagottoII
+            }
+          >>
+        >>
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \SieGehnViolinoI
+              \WeltrichterViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \SieGehnViolinoII
+              \WeltrichterViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \SieGehnViola
+            \WeltrichterViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "Adam"
-            \new Voice = "Soli" { \dynamicUp \SieGehnSoli }
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \WeltrichterSoprano }
           }
-          \new Lyrics \lyricsto Soli \SieGehnSoliLyrics
+          \new Lyrics \lyricsto Soprano \WeltrichterSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \WeltrichterAlto }
+          }
+          \new Lyrics \lyricsto Alto \WeltrichterAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \WeltrichterTenore }
+          }
+          \new Lyrics \lyricsto Tenore \WeltrichterTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \WeltrichterBasso }
+          }
+          \new Lyrics \lyricsto Basso \WeltrichterBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \SieGehnOrgano
+            \WeltrichterOrgano
           }
         >>
-        \new FiguredBass { \SieGehnBassFigures }
+        \new FiguredBass { \WeltrichterBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 70 }
+      \midi { \tempo 2 = 65 }
     }
   }
 }

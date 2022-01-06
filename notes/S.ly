@@ -126,3 +126,102 @@ LobtDenSopranoLyrics = \lyricmode {
   Lob -- ge --
   ſang! __ %67 finis
 }
+
+WeltrichterSoprano = {
+  \relative c' {
+    \clef treble
+    \key h \minor \time 4/4 \autoBeamOff \tempoWeltrichter
+    R1*2
+    r2 \mvTr h'\fE^\tutti
+    fis' fis,~
+    fis4 r \mvTr fis\pE^\solo fis %5
+    g2 ais
+    h8([ ais)] h2 \mvTr h4\fE^\tutti
+    e2. cis4
+    d cis h a!
+    g fis r2 %10
+    R1*2
+    r2 r4 a
+    a( g) fis( e)
+    d2 r4 a' %15
+    a( g) fis( e)
+    d2 r
+    r r4 a'
+    d2 d4 d
+    fis,2( g4) e %20
+    d2~ d4 r
+    R1*4 %25
+    \mvTr a'4\pE^\solo a d cis
+    \appoggiatura cis16 h8([ a)] a2.
+    h4 g e fis8([ g)]
+    \appoggiatura g4 fis2 r
+    R1*2 %31
+    r4 a a a8 a
+    a([ gis)] a c c4 h8 a
+    g2 r
+    R1 %35
+    r4 \mvTr fis\fE^\tuttiE fis' e
+    e2( d4) cis
+    cis2 \appoggiatura cis16 h8([ ais)] h4
+    \appoggiatura h4 ais2\fermata r4 e'
+    d( cis) h( ais) %40
+    h2 r4 e
+    d( cis) h( ais)
+    h2 r
+    r r4 fis
+    h2 h4 h %45
+    h2( cis4) ais
+    h2 r
+    R1
+    r2 r4 fis\p
+    fis2 fis %50
+    fis1\fermata \bar "|." %51 finis
+  }
+}
+
+WeltrichterSopranoLyrics = \lyricmode {
+  Welt -- %3
+  rich -- ter! __
+  der du %5
+  uns ge --
+  rich -- tet, doch
+  nicht den
+  Sün -- der ganz ver --
+  nich -- tet, %10
+
+  er -- %13
+  bar -- me
+  dich, er -- %15
+  bar -- me
+  dich,
+  Welt --
+  rich -- ter, er --
+  bar -- me %20
+  dich. __
+
+  Groß iſt die Ver -- %26
+  hei -- ßung,
+  die du uns ge --
+  than.
+
+  Nimm da -- rum, Er -- %32
+  bar -- mer, die O -- pfern -- den
+  an,
+  %35
+  Er -- bar -- mer,
+  nimm __ die
+  O -- pfern -- den
+  an! Er --
+  bar -- me %40
+  dich, er --
+  bar -- me
+  dich,
+  Welt --
+  rich -- ter, er -- %45
+  bar -- me
+  dich,
+
+  er --
+  bar -- me %50
+  dich! %51 finis
+}
