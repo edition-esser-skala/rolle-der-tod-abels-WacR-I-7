@@ -1513,3 +1513,27 @@ WeltrichterViola = {
     h1\fermata \bar "|." %51 finis
   }
 }
+
+MehalaViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoMehala
+    d1~
+    d
+    d2 d~
+    d d~
+    d e %5
+    r4 e e2~
+    e1
+    e2 e
+    g f
+    f e4 c %10
+    c2 r4 d
+    e1~
+    e
+    r2 c
+    c1 %15
+    c2 d4 c
+    r c c2\fermata \bar "|." %17 finis
+  }
+}

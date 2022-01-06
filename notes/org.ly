@@ -2528,3 +2528,47 @@ WeltrichterBassFigures = \figuremode {
   <4>2 <_+> %50
   r1 %51 finis
 }
+
+MehalaOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoMehala
+    h1~
+    h
+    h2 fis'~
+    fis h,~
+    h a %5
+    r4 a' gis2~
+    gis1
+    c,!2 cis~
+    cis d
+    h c4 e %10
+    f2 r4 g
+    c,1~
+    c
+    r2 e
+    f1 %15
+    a,2 b
+    r4 c f,2\fermata \bar "|." %17 finis
+  }
+}
+
+MehalaBassFigures = \figuremode {
+  <[5+]>1
+  r
+  r2 <6>
+  <[6 5!]> <6>
+  r <7 _+> %5
+  r4 <_+> <6>2
+  r1
+  <6>2 <\t>
+  <6 5>1
+  <6 5>2 <3>4 <6> %10
+  r1
+  r
+  r
+  r2 <6 5->
+  <3>1 %15
+  <6>2 <5>4 <4 2>
+  r1 %17 fiis
+}

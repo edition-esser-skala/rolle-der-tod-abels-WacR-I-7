@@ -816,90 +816,133 @@ paperEightStaves = \paper {
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \section "17" "Coro" "Weltrichter! der du uns gerichtet"
+  %   \addTocLabel "weltrichter"
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = \markup \center-column { "ob" "d’amore" }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             % \transpose c a,
+  %             \WeltrichterOboeAmoreI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             % \transpose c a,
+  %             \WeltrichterOboeAmoreII
+  %           }
+  %         >>
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "fag"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \WeltrichterFagottoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \WeltrichterFagottoII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \WeltrichterViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \WeltrichterViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \WeltrichterViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \WeltrichterSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \WeltrichterSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \WeltrichterAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \WeltrichterAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \WeltrichterTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \WeltrichterTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \WeltrichterBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \WeltrichterBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \WeltrichterOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \WeltrichterBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 2 = 65 }
+  %   }
+  % }
   \bookpart {
-    \section "17" "Coro" "Weltrichter! der du uns gerichtet"
-    \addTocLabel "weltrichter"
+    \section "18" "Recitativo" "Mehala! Thirza! alle meine Kinder!"
+    \addTocLabel "mehala"
+    \paperFiveStaves
     \score {
       <<
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = \markup \center-column { "ob" "d’amore" }
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              % \transpose c a,
-              \WeltrichterOboeAmoreI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              % \transpose c a,
-              \WeltrichterOboeAmoreII
-            }
-          >>
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "fag"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \WeltrichterFagottoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \WeltrichterFagottoII
-            }
-          >>
-        >>
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \WeltrichterViolinoI
+              \MehalaViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \WeltrichterViolinoII
+              \MehalaViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \WeltrichterViola
+            \MehalaViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \WeltrichterSoprano }
+            \set Staff.instrumentName = "Eva"
+            \new Voice = "Soli" { \dynamicUp \MehalaSoli }
           }
-          \new Lyrics \lyricsto Soprano \WeltrichterSopranoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \WeltrichterAlto }
-          }
-          \new Lyrics \lyricsto Alto \WeltrichterAltoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \WeltrichterTenore }
-          }
-          \new Lyrics \lyricsto Tenore \WeltrichterTenoreLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \WeltrichterBasso }
-          }
-          \new Lyrics \lyricsto Basso \WeltrichterBassoLyrics
+          \new Lyrics \lyricsto Soli \MehalaSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \WeltrichterOrgano
+            \MehalaOrgano
           }
         >>
-        \new FiguredBass { \WeltrichterBassFigures }
+        \new FiguredBass { \MehalaBassFigures }
       >>
       \layout { }
-      \midi { \tempo 2 = 65 }
+      \midi { \tempo 4 = 70 }
     }
   }
 }

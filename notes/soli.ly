@@ -2055,3 +2055,47 @@ SieGehnSoliLyrics = \lyricmode {
   mer -- ken! viel -- leicht wird ihn ſein O -- pfer
   ſtär -- ken. %7 finis
 }
+
+MehalaSoli = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoMehala
+    r4 r8 fis d d r4
+    h'8 fis r4 d'8 h h ais
+    h h r16 fis fis g a!4 r8 a
+    c! c c h g g r16 g g fis
+    g8 g g h g g g fis %5
+    d4 r r8 e gis a
+    h4 r8 h h h h c!
+    a r16 a a8 gis a e e f
+    g g g a f f r d
+    f f a g e e r c' %10
+    a a h c g4 r
+    r r8 c, e16 e e f g8 c
+    c g r g e e e f
+    g g g a b r16 b d8 c
+    a8. a16 a4 r8 a a c %15
+    c f, r16 f a f d8 d e16 e e f
+    f8 c r4 r2\fermata \bar "|." %17 finis
+  }
+}
+
+MehalaSoliLyrics = \lyricmode {
+  Me -- ha -- la!
+  Thir -- za! al -- le mei -- ne
+  Kin -- der! ge -- recht iſt Gott, doch
+  gnä -- dig auch dem Sün -- der; er wirds auch
+  Ka -- in, mei -- nem Erſt -- ge -- bohr -- nen, %5
+  ſeyn. Das O -- pfer
+  ſelbſt wird ſei -- nen Gram zer --
+  ſtreun. Des Her -- ren Gna -- de wird ſein
+  en -- ges Herz er -- wei -- tern, und
+  ſei -- ne Seel er -- hei -- tern. Auch %10
+  A -- dam hof -- fet noch.
+  Er -- hei -- tert das Ge -- müth, ihr
+  Töch -- ter, und ſin -- get mir in --
+  deſ -- ſen eu -- er Lied, das A -- bels
+  Lob er -- zählt, das Lob des %15
+  From -- men, bis bey -- de Hand in Hand zu -- rü -- cke
+  kom -- men. %17 finis
+}

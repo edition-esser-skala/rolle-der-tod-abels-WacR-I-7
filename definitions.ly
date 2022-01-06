@@ -47,6 +47,7 @@ tempoAchLiebe = \tempoMarkup "Larghetto e grazioso"
 % 16
 tempoSieGehn = \tempoMarkup "Recitativo"
 tempoWeltrichter = \tempoMarkup "Chor der Kinder Adams"
+tempoMehala = \tempoMarkup "Recitativo"
 
 
 \include "notes/fl1.ly"

@@ -1258,3 +1258,27 @@ WeltrichterViolinoII = {
     d1\fermata \bar "|." %51 finis
   }
 }
+
+MehalaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoMehala
+    fis1~
+    fis
+    fis2 a~
+    a g~
+    g g %5
+    r4 a h2~
+    h1
+    a2 a~
+    a a
+    g g %10
+    f r4 g
+    g1~
+    g
+    r2 g
+    f1 %15
+    f2 d4 e
+    r e f2\fermata \bar "|." %17 finis
+  }
+}
