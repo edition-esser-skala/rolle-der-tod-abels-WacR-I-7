@@ -2031,3 +2031,27 @@ AchLiebeSoliLyrics = \lyricmode {
   ſo wie ich
   dich! __ %73 finis
 }
+
+SieGehnSoli = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoSieGehn
+    r4 r8 cis fis4 r8 fis
+    a! a a gis e4 r
+    h' h8 d,! cis4 r8 e
+    g!4 r8 g g g h a
+    fis r16 fis fis8 g a a h fis %5
+    g g r16 h h e, ais8 ais ais h
+    h fis r4 \bar "||" %7 finis
+  }
+}
+
+SieGehnSoliLyrics = \lyricmode {
+  Sie gehn_– doch
+  Ka -- in nicht er -- freut.
+  Bang, bang iſt mir! ach!
+  fleht, daß Gott den Gram zer --
+  ſtreut, den wir in ſei -- nem Her -- zen %5
+  mer -- ken! viel -- leicht wird ihn ſein O -- pfer
+  ſtär -- ken. %7 finis
+}

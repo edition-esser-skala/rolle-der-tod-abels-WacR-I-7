@@ -2396,3 +2396,27 @@ AchLiebeBassFigures = \figuremode {
   r4. <6 4>8 <\t \t> <5 3>
   <7 4>4 <8 3>2 %73 finis
 }
+
+SieGehnOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoSieGehn
+    fis1~
+    fis2 gis~
+    gis a,~
+    a cis
+    d dis %5
+    e e4 r
+    r fis \bar "||" %7 finis
+  }
+}
+
+SieGehnBassFigures = \figuremode {
+  <[5+ _+]>1
+  <6\\ [_!]>2 <6>
+  <5!> <_+>
+  <7! [_+]> <6 5>
+  <_+> <6 5 [_+]> %5
+  <3> <[6+] 4+ 2>
+  r4 <[5+] _+> %7 finis
+}

@@ -1444,3 +1444,17 @@ AchLiebeViola = {
     d4( cis8) r r4\fermata \bar "|." %73 finis
   }
 }
+
+SieGehnViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoSieGehn
+    fis1
+    fis2 e
+    e e
+    e g
+    fis a %5
+    g fis4 r
+    r fis \bar "||" %7 finis
+  }
+}

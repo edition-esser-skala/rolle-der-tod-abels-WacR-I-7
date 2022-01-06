@@ -44,6 +44,9 @@ tempoFrohGeht = \tempoMarkup "Allegro ma non troppo"
 tempoSoKomm = \tempoMarkup "Recitativo"
 tempoAchLiebe = \tempoMarkup "Larghetto e grazioso"
 
+% 1.16
+tempoSieGehn = \tempoMarkup "Recitativo"
+
 
 \include "notes/fl1.ly"
 \include "notes/fl2.ly"

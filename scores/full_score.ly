@@ -731,9 +731,52 @@ paperEightStaves = \paper {
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \section "1.15" "Aria" "Ach, liebe mich ſo wie ich dich!"
+  %   \addTocLabel "achliebe"
+  %   \paperFiveStaves
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \AchLiebeViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \AchLiebeViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \AchLiebeViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Abel"
+  %           \new Voice = "Soli" { \dynamicUp \AchLiebeSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \AchLiebeSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \AchLiebeOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \AchLiebeBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
-    \section "1.15" "Aria" "Ach, liebe mich ſo wie ich dich!"
-    \addTocLabel "achliebe"
+    \section "1.16" "Recitativo" "Sie gehn – doch Kain nicht erfreut"
+    \addTocLabel "siegehn"
     \paperFiveStaves
     \score {
       <<
@@ -742,33 +785,33 @@ paperEightStaves = \paper {
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \AchLiebeViolinoI
+              \SieGehnViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \AchLiebeViolinoII
+              \SieGehnViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \AchLiebeViola
+            \SieGehnViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "Abel"
-            \new Voice = "Soli" { \dynamicUp \AchLiebeSoli }
+            \set Staff.instrumentName = "Adam"
+            \new Voice = "Soli" { \dynamicUp \SieGehnSoli }
           }
-          \new Lyrics \lyricsto Soli \AchLiebeSoliLyrics
+          \new Lyrics \lyricsto Soli \SieGehnSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \AchLiebeOrgano
+            \SieGehnOrgano
           }
         >>
-        \new FiguredBass { \AchLiebeBassFigures }
+        \new FiguredBass { \SieGehnBassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 70 }

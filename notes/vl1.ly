@@ -1200,3 +1200,17 @@ AchLiebeViolinoI = {
     h4( a8) e16.([ d32)] cis8 r\fermata \bar "|." %73 finis
   }
 }
+
+SieGehnViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSieGehn
+    cis'1
+    dis2 e
+    d cis
+    cis e
+    d fis %5
+    e cis4 r
+    r cis \bar "||" %7 finis
+  }
+}
