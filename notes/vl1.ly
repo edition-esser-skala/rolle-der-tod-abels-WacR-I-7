@@ -1526,3 +1526,87 @@ SehtDortViolinoI = {
     d,8.[ d'16 a8. f16] d4 r\fermata \bar "|." %99 finis
   }
 }
+
+WieEineViolinoI = {
+  \relative c' {
+    \clef treble
+    \key f \minor \time 3/8 \tempoWieEine
+    \mvTr f8(\fE-\markup \remark "con sordino" e) f-!
+    as4 g8
+    f16( c) c4
+    as'8( g) f
+    b4 as8 %5
+    as\trill g r16 b
+    \appoggiatura b as( g) g8 r16 g\p
+    f( e) e8 r16 des'\f
+    c( b) b8 r16 b\p
+    \appoggiatura b as( g) g8 r16 e'\f %10
+    f( des c h) \once \slurDashed c[( e,])
+    f( des) c( h) c[ b']
+    as([ f)] \once \slurDashed f8( e16.)\trill f32
+    f4 r8
+    f\p e f %15
+    as4 g8
+    f16( c) c4
+    as'8 g f
+    b4 as8
+    as[ g] c~ %20
+    c b16 as g f
+    \appoggiatura f8 e4 c'8~
+    c16( b32 c) \tuplet 3/2 8 { des16([ c) b]-! as([ g) f]-! }
+    \appoggiatura f8 e4 r8
+    as as16( g) g( f) %25
+    es4 as16( f)
+    es( des) des8 r
+    b' as32([ g16.)] f32( es16.)
+    des8 des'4
+    \tuplet 3/2 8 { c16( b as) } as8 r16 es %30
+    \appoggiatura es8 f8. as16 g b
+    \appoggiatura b8 as4 es8
+    f16[ des'] c( b) as( g)
+    \appoggiatura g8 as4 r16 es'\f
+    \appoggiatura des c( b) b8 r16 b\p %35
+    as( g) g8 r16 f'\f
+    \appoggiatura f es( des) des8 r16 des\p
+    \appoggiatura des c( b) b8 r16 g'\f
+    as( f es d) \once \slurDashed es[( g,])
+    as( f) es( d) es[ des'] %40
+    c([ as)] as8 b\trill
+    as4 r8
+    f\p e f
+    as4 g8
+    f16([ c)] c4 %45
+    as'8 g f
+    b4 as8
+    as[ g] c~
+    c b16 as g f
+    \appoggiatura f8 e4 r8 %50
+    c' c16( b) b( a)
+    <a es>4 c16( es,)
+    es( des) des8 r
+    b' \slurDashed as!32([ g16.)] f32( e16.) \slurSolid
+    c'8 des f, %55
+    \appoggiatura g16 f8\trill e r16 f
+    \appoggiatura f8 g8. b16 as e
+    \appoggiatura e8 f4 f8
+    f16 des' c b as g
+    \appoggiatura g8 f4 r16 c'\f %60
+    \appoggiatura b as( g) g8 r16 g\p
+    \once \slurDashed f[( e) e8] c'
+    as16[ g] g16.( as32 b16) g-!
+    f( e) e8 r16 c'
+    as[ g] g16.( as32 b16) g-! %65
+    \once \slurDashed f( e) e8 r
+    r r r16 e'
+    f( des) c( h) c[ e,]
+    f[ des'] c( b) as( g)
+    \appoggiatura g8 f4 r16 c'\f %70
+    \appoggiatura b as( g) g8 r16 g\p
+    f( e) e8 r16 des'\f
+    \appoggiatura des c( b) b8 r16 b\p
+    \appoggiatura b as( g) g8 r16 e'\f
+    f( des c h) \once \slurDashed c[( e,]) %75
+    f( des) c( h) c[ b']
+    as[ f] f8( e16.)\trill f32 \bar "||" %77 finis
+  }
+}

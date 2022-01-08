@@ -1782,3 +1782,87 @@ SehtDortViola = {
     f8.[ d'16 a8. f16] d4 r\fermata \bar "|." %99 finis
   }
 }
+
+WieEineViola = {
+  \relative c' {
+    \clef alto
+    \key f \minor \time 3/8 \tempoWieEine
+    \mvTr f,4.\fE-\markup \remark "con sordino"
+    r8 f' e
+    f f, r
+    f'4.
+    g4 f8 %5
+    c c c
+    c c c\p
+    c c c\f
+    c c c\p
+    c c b\f %10
+    as f g
+    f4 e8
+    f as g
+    f4 r8
+    f4.\p %15
+    r8 f' e
+    f f, r
+    f4 f'8
+    g4 f8
+    c c r %20
+    c f, g
+    \appoggiatura as g4 r8
+    f4~ \tuplet 3/2 8 { f16 g as }
+    \appoggiatura as8 g4 r8
+    as4 r8 %25
+    as4 as8
+    f8. f16 g as
+    g4 g8
+    as es'4
+    as, as8~ %30
+    as b4
+    f' as,8
+    as as16( b) c( des)
+    \appoggiatura des8 c4 r8
+    es\f es es\p %35
+    es es es\f
+    es es es\p
+    es es des\fE
+    c as b
+    as4 g8 %40
+    as16[ c] c8 des\trill
+    c4 r8
+    f,4.\p
+    r8 f' e
+    f f, r %45
+    f4 f'8
+    g4 f8
+    c c r
+    f,4.
+    \appoggiatura as8 g4^\critnote r8 %50
+    c4 c8
+    f, f16( g) g( a)
+    a( b) b8 r
+    des4 des8
+    c b4 %55
+    c8 c16. b32 as8
+    b4 c8
+    des4 as8
+    b c c
+    c4 f,8\f %60
+    c' c c\p
+    c c c
+    c c c
+    c c c
+    c c c %65
+    c c c
+    des4 c16 b
+    as8 f g
+    as16[ b] c8 b\trill
+    \appoggiatura b as4 f8\f %70
+    c' c c\p
+    c c c\f
+    c c c\p
+    c c b\fE
+    as f g %75
+    f4 e8
+    f as g \bar "||" %77 finis
+  }
+}

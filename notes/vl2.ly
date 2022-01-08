@@ -1527,3 +1527,87 @@ SehtDortViolinoII = {
     d8.[ d'16 a8. f16] d4 r\fermata \bar "|." %99 finis
   }
 }
+
+WieEineViolinoII = {
+  \relative c' {
+    \clef treble
+    \key f \minor \time 3/8 \tempoWieEine
+    \mvTr as8(\fE-\markup \remark "con sordino" g) as-!
+    c4 b8
+    as as4
+    c8( b) as
+    des4 c16( f) %5
+    f8\trill e r16 g
+    \appoggiatura g f( e) e8 r16 b\p
+    as( g) g8 r16 b'\f
+    as( g) g8 r16 g\p
+    \appoggiatura g \once \slurDashed f( e) e8 r16 g\f %10
+    <f as,>4 <e g,>16( b)
+    as4 g8
+    c4 b8\trill
+    as4 r8
+    as\p g as %15
+    c4 b8
+    as as4
+    c8 b as
+    des4 c16( f)
+    f8 e r %20
+    f4 des8
+    c4 r8
+    f4~ f16. h,32
+    c4 r8
+    c f16( es) es( des) %25
+    c4 c8
+    c16( b) b8 r
+    des4 b8
+    b b'4
+    as8 des, es %30
+    des4 des8
+    \appoggiatura des c4 es8
+    des16[ f] es( des) c( b)
+    \appoggiatura b8 c4 r16 c'\f
+    \appoggiatura b as( g) g8 r16 des\p %35
+    c( b) b8 r16 des'\f
+    \appoggiatura des c( b) b8 r16 b\p
+    \appoggiatura b as( g) g8 r16 b\f
+    <as c,>4 <g b,>16( des)
+    c8 b4 %40
+    es8 es[ g]\trill
+    as4 r8
+    as,\p g as
+    c4 b8
+    as as4 %45
+    c8 b as
+    des4 c16( f)
+    f8 e r
+    f4 h,8
+    c4 r8 %50
+    es!4 es8
+    a, a16( b) b( c)
+    \slurDashed c( b) b8 r
+    b' as!32([ g16.)] f32( e16.) \slurSolid
+    f4 g,8 %55
+    as\trill g r16 c
+    des8. des16 c b
+    \appoggiatura b8 as4 c8
+    des16 b' as g f e
+    \appoggiatura e8 f4 r16 as\f %60
+    \appoggiatura g f( e) e8 r16 b\p
+    as([ g) g8] as'
+    f16[ e] e8. b16
+    as( g) g8 r16 as'
+    f[ e] e16.( f32 g16) b,-! %65
+    as( g) g8 r16 f'
+    \appoggiatura f8 g8. b16 as g
+    <f as,>4 <e g,>8
+    f16[ b] as( g) f( e)
+    \appoggiatura e8 f4 r16 as\f %70
+    \appoggiatura g f( e) e8 r16 b\p
+    as( g) g8 r16 b'\f
+    \appoggiatura b as( g) g8 r16 g\p
+    \appoggiatura g f( e) e8 r16 g\f
+    <f as,>4 <e g,>16( b) %75
+    as4 g8
+    c4 b8\trill \bar "||" %77 finis
+  }
+}

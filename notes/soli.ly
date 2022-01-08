@@ -2464,3 +2464,113 @@ AchMeineSoliLyrics = \lyricmode {
   zieht_– ge -- recht iſt Gott_– wer %55
   weiß, wo -- hin ſein Fuß ent -- flieht! %56 finis
 }
+
+WieEineSoli = {
+  \relative c' {
+    \clef treble
+    \key f \minor \time 3/8 \autoBeamOff \tempoWieEine
+    R4.*14 %14
+    \mvTr f8\pE^\soloE e f %15
+    as4 g8
+    f16([ c)] c4
+    as'8 g f
+    b4 as8
+    as g c~ %20
+    c b16 as g f
+    \appoggiatura f8 e4 c'8~
+    c16[ b32 c] \tuplet 3/2 8 { des16[( c)] b as([ g)] f }
+    \appoggiatura f8 e4 r8
+    as as16([ g)] g([ f)] %25
+    es4 as16([ f)]
+    es([ des)] des8 r
+    b' as32([ g16.)] f32([ es16.)]
+    des8 des'4
+    \tuplet 3/2 8 { c16([ b as)] } as8 r16 es %30
+    \appoggiatura es8 f8. as16 g b
+    \appoggiatura b8 as4 es8
+    f16 des' c([ b)] as([ g)]
+    \appoggiatura g8 as4 r8
+    R4.*8 %42
+    f8 e f
+    as4 g8
+    f16([ c)] c4 %45
+    as'8 g f
+    b4 as8
+    as g c~
+    c b16 as g f
+    \appoggiatura f8 e4 r8 %50
+    c' c16([ b)] b([ a)]
+    a4 c16([ es,)]
+    es([ des)] des8 r
+    b'8 as!32([ g16.)] f32([ e16.)]
+    c'8([ des)] f, %55
+    \appoggiatura g16 f8 e r16 f
+    \appoggiatura f8 g8. b16 as e
+    \appoggiatura e8 f4 f8
+    f16 des' c([ b)] as([ g)]
+    \appoggiatura g8 f4 r8 %60
+    R4.
+    r8 r c'
+    as16 g g16.([ as32 b16)] g
+    f16([ e)] e8 r16 c'
+    as g g16.([ as32 b16)] g %65
+    f([ e)] e8 r16 f
+    \appoggiatura f8 g8. b16 as g
+    f4 e8
+    f16 des' c16([ b)] as([\trill g)]
+    \appoggiatura g8 f4 r8 %70
+    R4.*7 \bar "||" %77 finis
+  }
+}
+
+WieEineSoliLyrics = \lyricmode {
+  Wie ei -- ne %15
+  Blu -- me
+  ſin -- ket,
+  die kei -- nen
+  Thau mehr
+  trin -- ket, kein __ %20
+  Son -- nen -- ſtrahl er --
+  quickt, kein __
+  Son -- nen -- ſtrahl er --
+  quickt;
+  ſo ſink ich %25
+  un -- ter
+  Schmer -- zen,
+  die dem be --
+  klemm -- ten
+  Her -- zen der %30
+  Hoff -- nung Troſt ent --
+  rückt, der
+  Hoff -- nung Troſt ent --
+  rückt.
+
+  Wie ei -- ne %43
+  Blu -- me
+  ſin -- ket, %45
+  die kei -- nen
+  Thau mehr
+  trin -- ket, kein __
+  Son -- nen -- ſtrahl er --
+  quickt; %50
+  ſo ſink ich
+  un -- ter
+  Schmer -- zen,
+  die dem be --
+  klemm -- ten %55
+  Her -- zen der
+  Hoff -- nung Troſt ent --
+  rückt, der
+  Hoff -- nung Troſt ent --
+  rückt; %60
+
+  ſo
+  ſink ich un -- ter
+  Schmer -- zen, die
+  dem be -- klemm -- ten %65
+  Her -- zen der
+  Hoff -- nung Troſt ent --
+  rückt, der
+  Hoff -- nung Troſt ent --
+  rückt. %70 finis
+}

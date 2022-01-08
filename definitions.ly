@@ -56,6 +56,7 @@ tempoFrommIst = \tempoMarkup "Allegretto"
 tempoSehtDort = \tempoMarkup "Allegro ma non troppo"
   tempoSehtDortB = \tempoMarkup "Poco più allegro"
 tempoAchMeine = \tempoMarkup "Recitativo"
+tempoWieEine = \tempoMarkup "Poco largo, cantabile"
 
 
 \include "notes/fl1.ly"

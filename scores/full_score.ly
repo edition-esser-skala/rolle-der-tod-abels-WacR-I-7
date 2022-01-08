@@ -1093,34 +1093,77 @@ paperEightStaves = \paper {
   %     \midi { \tempo 4 = 100 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2.2" "Recitativo" "Ach, meine Eva!"
+  %   \addTocLabel "achmeine"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #21
+  %     system-system-spacing.minimum-distance = #21
+  %     systems-per-page = #5
+  %   }
+  %   \score {
+  %     <<
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column {  "Adam" "Eva" "Thirza" "Mehala" }
+  %           \new Voice = "Soli" { \dynamicUp \AchMeineSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \AchMeineSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \AchMeineOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \AchMeineBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
-    \section "2.2" "Recitativo" "Ach, meine Eva!"
-    \addTocLabel "achmeine"
-    \paper {
-      system-system-spacing.basic-distance = #21
-      system-system-spacing.minimum-distance = #21
-      systems-per-page = #5
-    }
+    \section "2.3" "Aria" "Wie eine Blume ſinket"
+    \addTocLabel "wieeine"
+    \paperFiveStaves
     \score {
       <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \WieEineViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \WieEineViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "vla"
+            \WieEineViola
+          }
+        >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column {  "Adam" "Eva" "Thirza" "Mehala" }
-            \new Voice = "Soli" { \dynamicUp \AchMeineSoli }
+            \set Staff.instrumentName = "Mehala"
+            \new Voice = "Soli" { \dynamicUp \WieEineSoli }
           }
-          \new Lyrics \lyricsto Soli \AchMeineSoliLyrics
+          \new Lyrics \lyricsto Soli \WieEineSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \AchMeineOrgano
+            \WieEineOrgano
           }
         >>
-        \new FiguredBass { \AchMeineBassFigures }
+        \new FiguredBass { \WieEineBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 70 }
+      \midi { \tempo 4. = 45 }
     }
   }
 }
