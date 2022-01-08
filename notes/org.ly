@@ -3027,3 +3027,127 @@ SehtDortBassFigures = \figuremode {
   q4. q8 \bassFigureExtendersOff <6 5 _->4 <7 _+>
   r1 %99 finis
 }
+
+AchMeineOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoAchMeine
+    d1~
+    d2 c~
+    c r
+    b1
+    as2~ as4 r %5
+    r2 as~
+    as a~
+    a b~
+    b1~
+    b2 d! %10
+    es f~
+    f ges
+    r8 ces,16. ces32 ces4 r8 b16. b32 b16. b32 as16. as32
+    g!1~
+    g2 as %15
+    des r4 c
+    h!2 c
+    f r4 g
+    c,1
+    a!2 b %20
+    h c~
+    c~ c4 cis~
+    cis2 d~
+    d c
+    b1~ %25
+    b2 h
+    c dis
+    r4 e f2~
+    f1~
+    f2 es %30
+    r d~
+    d fis
+    g1
+    gis2 a~
+    a c,~ %35
+    c1
+    f2 e~
+    e4 gis,~ gis2
+    a h
+    c1 %40
+    b2 as~
+    as1
+    a~
+    a
+    b~ %45
+    b2 ges'
+    f r4 f
+    e!1
+    f
+    g %50
+    as,~
+    as
+    a2 b~
+    b1
+    b2 h~ %55
+    h r4 c
+    f,2\fermata \bar "|." %57 finis
+  }
+}
+
+AchMeineBassFigures = \figuremode {
+  <6!>1
+  r
+  r
+  <4 _->
+  <6> %5
+  r2 <6>
+  r <7- [5-]>
+  r <_->
+  r1
+  r2 <6> %10
+  <_-> <6- [_-]>
+  <5- [\t]> <[5- _-]>
+  r8 <6- [_-]>2. <\t>8
+  <6! 5- _->1
+  r2 <6> %15
+  <[6-] 4 2!>1
+  <6>2 <_->
+  q <4! 2>
+  <_->1
+  <6\\>2 <6> %20
+  <7-> <_->
+  r2. <7->4
+  r2 <3>
+  r <4+ 2>
+  <6>1 %25
+  r2 <6\\>
+  <6> <7 [_+]>
+  r4 <7 _+> <5 3>2
+  r1
+  <7 4- 2>2 <4 2> %30
+  r <7 _+>
+  r <6 5>
+  <_->1
+  <6 5 [_!]>2 <3>
+  r <6> %35
+  r1
+  <6>2 <_+>
+  r4 <7!>2.
+  <3>2 <6 5>
+  <3>1 %40
+  <4 _->2 <6>
+  <7- [5-]>1
+  <6>
+  r
+  <_-> %45
+  r2 <6- [_-]>
+  <7- _!>1
+  <6>2 <5->
+  <_->1
+  <6- [_-]> %50
+  <5- 3>
+  r2 <7- [5-]>
+  <6 5-> <_->
+  r1
+  <4! 2>2 <7-> %55
+  r1
+  <_->2 %57 finis
+}

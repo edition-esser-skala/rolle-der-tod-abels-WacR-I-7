@@ -500,8 +500,8 @@ paperEightStaves = \paper {
   %   \section "1.10" "Recitativo" "O Kinder! ſeit das Paradies verſchwunden"
   %   \addTocLabel "okinder"
   %   \paper {
-  %     system-system-spacing.basic-distance = #20
-  %     system-system-spacing.minimum-distance = #20
+  %     system-system-spacing.basic-distance = #21
+  %     system-system-spacing.minimum-distance = #21
   %     systems-per-page = #4
   %   }
   %   \score {
@@ -1009,88 +1009,118 @@ paperEightStaves = \paper {
   %   }
   % }
   % \part "zweytertheil" "2" "Zweyter Theil"
+  % \bookpart {
+  %   \section "2.1" "Coro" "Seht! dort ſteigt der Opferrauch herauf!"
+  %   \addTocLabel "sehtdort"
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "ob"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \SehtDortOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \SehtDortOboeII
+  %           }
+  %         >>
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "fag"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \SehtDortFagottoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \SehtDortFagottoII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \SehtDortViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \SehtDortViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \SehtDortViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \SehtDortSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \SehtDortSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \SehtDortAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \SehtDortAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \SehtDortTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \SehtDortTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \SehtDortBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \SehtDortBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \SehtDortOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \SehtDortBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 100 }
+  %   }
+  % }
   \bookpart {
-    \section "2.1" "Coro" "Seht! dort ſteigt der Opferrauch herauf!"
-    \addTocLabel "sehtdort"
+    \section "2.2" "Recitativo" "Ach, meine Eva!"
+    \addTocLabel "achmeine"
+    \paper {
+      system-system-spacing.basic-distance = #21
+      system-system-spacing.minimum-distance = #21
+      systems-per-page = #5
+    }
     \score {
       <<
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "ob"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \SehtDortOboeI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \SehtDortOboeII
-            }
-          >>
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "fag"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \SehtDortFagottoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \SehtDortFagottoII
-            }
-          >>
-        >>
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "vl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \SehtDortViolinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \SehtDortViolinoII
-            }
-          >>
-          \new Staff {
-            \set Staff.instrumentName = "vla"
-            \SehtDortViola
-          }
-        >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \SehtDortSoprano }
+            \set Staff.instrumentName = \markup \center-column {  "Adam" "Eva" "Thirza" "Mehala" }
+            \new Voice = "Soli" { \dynamicUp \AchMeineSoli }
           }
-          \new Lyrics \lyricsto Soprano \SehtDortSopranoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \SehtDortAlto }
-          }
-          \new Lyrics \lyricsto Alto \SehtDortAltoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \SehtDortTenore }
-          }
-          \new Lyrics \lyricsto Tenore \SehtDortTenoreLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \SehtDortBasso }
-          }
-          \new Lyrics \lyricsto Basso \SehtDortBassoLyrics
+          \new Lyrics \lyricsto Soli \AchMeineSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \SehtDortOrgano
+            \AchMeineOrgano
           }
         >>
-        \new FiguredBass { \SehtDortBassFigures }
+        \new FiguredBass { \AchMeineBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 100 }
+      \midi { \tempo 4 = 70 }
     }
   }
 }

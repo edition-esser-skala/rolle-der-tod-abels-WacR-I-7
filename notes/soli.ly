@@ -2341,3 +2341,126 @@ FrommIstMehalaLyrics = \lyricmode {
   ſtreut er die %90
   Nacht! %91 finis
 }
+
+AchMeineSoli = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoAchMeine
+    r2 f4^\soloAdam f8 a
+    f f r f16 e e4 r8 c
+    g'4 g b8 b b g
+    e4 e r g8 as
+    f4 r f f8 g %5
+    as as b c c f, r4
+    r8 f f ges es4 r8 es
+    ges ges ges f des des r4
+    b' f8 f f des es f
+    b,4 b' f8 f as f %10
+    ges4 r16 ges ges es as4 r8 des,
+    as' as b ces b b r16 b b ges
+    es4 r16 es es d f8 f r4
+    r8 b b g e! e r4
+    g8 g g as f f r f16 f %15
+    b8. e,!16 e8 f c4 r
+    g' g8 d es es r g16 g
+    as8^\markup \remark "(Adam geht Kain zu ſuchen.)" f16 f h!8 c c g r4
+    \clef treble r8 g'^\soloEva c h! c4 r8 c
+    fis, fis a b g r16 g b8 d %20
+    d f,! as g es4 r8 g
+    g c, r4 c'8 g r4
+    b8 b b a f f r d
+    f f f a a d, r16 a' a b
+    g8 g r4 b r8 b %25
+    b b b a gis4 h8 h16 e,
+    a4^\markup \remark "(Eva folgt ihm nach.)" c a8 a r gis16 a
+    e4 r r \fC \clef treble r8 c'^\soloThirza
+    c f, r4 f'4. a,8
+    b b d c a a r16 a a b %30
+    c8 c c a fis fis r a
+    c4 es c8 c d a
+    b4 r8 d d g, r b16 g
+    d'8 d e! h c4 r16 a a h
+    c8 c c e e a, r16 a a gis %35
+    a4 r8 a a a c a
+    d d16 d d8 h gis \fC \clef treble gis^\soloMehala gis h
+    h e, r4 d'8 r16 d d8 c
+    a r16 c c8 a f f a g
+    e e r g g g b4~ %40
+    b8 des b as f f r16 f f f
+    ges8 ges r es16 f ges8 ges ges f
+    f4 c' f,8 f f e
+    f4 r8 c es es f c
+    des r16 f b8 a b4 r8 b %45
+    b f f ges es es r16 ges ges es
+    a!8 a a b b f r4
+    r8 g g g b b des c
+    as4 c8 f, r4 as8 g16 f
+    b4 r8 b b des, des es %50
+    c4 r8 es as as as g
+    as es16 es es8 f ges8 r16 ges ges8 ges
+    es es f c des des r16 f f f
+    b4 des b8 b b g!
+    e! r16 g g8 as f4 r8 f %55
+    as8 r16 f f f e f \appoggiatura f8 c4 r
+    r2\fermata \bar "|." %57 finis
+  }
+}
+
+AchMeineSoliLyrics = \lyricmode {
+  Ach, mei -- ne
+  E -- va! welch ein Schmerz, Be --
+  ſorg -- nis, ſchreck -- li -- che Be --
+  ſorg -- nis füllt mein
+  Herz. Er, den ſein %5
+  Zu -- ſtand ſtets be -- trü -- bet,
+  der ſtets ge -- glaubt, nur
+  A -- bel ſey ge -- lie -- bet,
+  ihm läch -- le der All -- mächt -- ge
+  nur, ihm blüh al -- lein die %10
+  Flur, der nicht ver -- mocht, dem
+  Arg -- wohn zu ge -- bie -- ten: was wird er
+  thun? wie wird er wü -- then?
+  O Sün -- de, Sün -- de!
+  wel -- che Nacht von E -- lend haſt du %15
+  ü -- ber uns ge -- bracht.
+  Ach, ich muß ge -- hen, ich muß
+  ſelbſt den Ver -- worf -- nen ſe -- hen.
+  Ich fol -- ge dir; voll
+  Ahn -- dung iſt dies Herz, voll ban -- ger %20
+  Ahn -- dung und voll Schmerz! Me --
+  ha -- la! Thir -- za!
+  blei -- bet, mei -- ne Kin -- der, und
+  be -- tet für den Sün -- der! Ich will ihn
+  ſu -- chen! Ach, er %25
+  iſt viel -- leicht ent -- flohn, fern von uns
+  weg, ach Ka -- in! ach mein
+  Sohn! Me --
+  ha -- la! Angſt ſitzt
+  tief in un -- ſern Her -- zen. Ich leſ’ in %30
+  dei -- nem Au -- ge Schmer -- zen; und
+  ich, nie fühlt ich ſol -- che
+  Pein. Ihr Freu -- den, ſoll -- tet
+  ihr ſo kurz nur ſeyn! Ach hät -- te
+  Ka -- in uns be -- tro -- gen, und ſein Ge -- %35
+  ſicht die Lie -- be nur ge --
+  lo -- gen, die er ver -- ſprach? Ich fürcht es,
+  Schwe -- ſter! ach, ich fürcht es
+  nun! mein Herz ſang der Ver -- ſöh -- nung
+  Lie -- der. Nun kehrt mein lan -- %40
+  ger Kum -- mer wie -- der. Der ſchwar -- ze
+  Un -- muth ſitzt zu tief in ſei -- ner
+  Bruſt. Nichts war in der Na --
+  tur für ihn ein Quell der
+  Luſt. Doch hofft ich noch, er %45
+  wür -- de wie -- der -- keh -- ren, und Gott würd
+  un -- ſer Flehn er -- hö -- ren.
+  Da er vor A -- dam thrä -- nend
+  lag, dach ich: Heut iſt der
+  Tag, der mei -- nen Wunſch er -- %50
+  füllt! Doch bald ſah ich die
+  Zei -- chen des fin -- ſtern Grams zu -- rück auf
+  ſei -- ne Stir -- ne ſchlei -- chen. Nun ihm der
+  Herr ganz ſei -- ne Gnad ent --
+  zieht_– ge -- recht iſt Gott_– wer %55
+  weiß, wo -- hin ſein Fuß ent -- flieht! %56 finis
+}

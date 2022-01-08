@@ -10,8 +10,10 @@ fC = \set Staff.forceClef = ##t
 fermataMark = \mark \markup { \musicglyph #"scripts.ufermata" }
 soloAbel = \markup \remark "Abel"
 soloAdam = \markup \remark "Adam"
+soloEva = \markup \remark "Eva"
 soloKain = \markup \remark "Kain"
 soloMehala = \markup \remark "Mehala"
+soloThirza = \markup \remark "Thirza"
 
 
 % 1.1
@@ -53,6 +55,7 @@ tempoFrommIst = \tempoMarkup "Allegretto"
 %2.1
 tempoSehtDort = \tempoMarkup "Allegro ma non troppo"
   tempoSehtDortB = \tempoMarkup "Poco più allegro"
+tempoAchMeine = \tempoMarkup "Recitativo"
 
 
 \include "notes/fl1.ly"
