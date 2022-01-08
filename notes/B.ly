@@ -223,3 +223,170 @@ WeltrichterBassoLyrics = \lyricmode {
   bar -- me %50
   dich! %51 finis
 }
+
+SehtDortBasso = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \autoBeamOff \tempoSehtDort
+    R1*5 %5
+    \mvDl d'2\fE^\tuttiE r
+    d r
+    r8 d, e fis g a h cis
+    d2 r
+    r8 d, e fis g a h cis %10
+    d2 r
+    R1*3
+    a,2\p a4 a %15
+    a2 a
+    d1
+    r2 h
+    fis' fis
+    fis fis %20
+    h, h
+    R1*3
+    r4 h'^\soloE h h %25
+    h e,8 e e4 h'
+    a2 r
+    R1
+    r2 r4 cis
+    cis8([ h)] h([ a)] a([ gis)] a4 %30
+    e2 r4 cis'
+    cis8([ h)] h([ a)] a([ gis)] a4
+    e8 e e e e4 e
+    e r8 e e4 e
+    e2 r %35
+    r r4 r8 \mvTr a\fE^\tuttiE
+    a h cis h a([ h)] cis([ h)]
+    a([ h)] cis([ h)] a([ h)] cis([ h)]
+    a4 a8 a e2
+    a,4 r e'2 %40
+    fis4 d8 d e2
+    a,4 r r2
+    r8 a' a a e2
+    a,4 r e'2
+    fis4 d8 d e2 %45
+    a,4 r r2
+    R1*4 \bar "||" %50
+    \key a \minor R1*8 %58
+    r2 r4 f'4\pE
+    e2\fpE r8 e e e %60
+    e2\fpE r8 e e e
+    e2\fpE r4 e
+    c' c8([ h)] c4 a
+    e2 r
+    R1 %65
+    r4 e\fE f f
+    e2 e4 r
+    R1
+    e4 e e e
+    a2 r %70
+    R1
+    \tempoSehtDortB R
+    r2 r8 a a a
+    d4 r r2
+    r r8 d d d %75
+    g,4 r r8 g g g
+    c4 c r8 c c c
+    f,4 r r2
+    r4 f\pE f f
+    fis4.\fE fis8 fis4\pE fis %80
+    g\fE r r g\pE
+    gis4.\fE gis8 gis4\pE gis
+    a a\fE b b
+    a2 r
+    r4 a a a %85
+    a2 r
+    r4 b b b
+    b2 r
+    r r4 a
+    g2 r4 g %90
+    f2 r4 f
+    e e r e
+    d2 r
+    r8 g g g a a a a
+    b2 r %95
+    r8 d c b a g f e
+    d4 r r2
+    R1
+    R\fermata \bar "|." %99 finis
+  }
+}
+
+SehtDortBassoLyrics = \lyricmode {
+  Seht! %6
+  Seht!
+  dort ſteigt der O -- pfer -- rauch her --
+  auf!
+  von A -- bels Al -- tar ſteigt er %10
+  auf!
+
+  Still fey -- ert %15
+  die Na --
+  tur,
+  als
+  wä -- re
+  Gott zu -- %20
+  ge -- gen.
+
+  es re -- gen %25
+  ſich die Ge -- bü -- ſche
+  nicht!
+
+  Ein %29
+  an -- ge -- neh -- mer %30
+  Duft ſtrömt
+  von dem Al -- tar
+  her, und füllt die gan -- ze
+  Luft, die gan -- ze
+  Luft. %35
+  Der
+  Rich -- ter hat das O -- pfer
+  von dem From -- men,
+  er hat es gnä --
+  dig, gnä -- %40
+  dig auf -- ge -- nom --
+  men,
+  er hat es gnä --
+  dig, gnä --
+  dig auf -- ge -- nom -- %45
+  men.
+
+  Ach %59
+  weh! in wel -- che %60
+  Nacht ver -- ſinkt die
+  Flur, wo
+  Ka -- ins Al -- tar
+  ſteht!
+  %65
+  Ein ängſt -- lich
+  Rau -- ſchen
+
+  tönt durch die Na --
+  tur! %70
+
+  Ein Sturm -- wind %73
+  heult,
+  ein Sturm -- wind %75
+  heult und weht das
+  O -- pfer, das O -- pfer
+  weg,
+  um -- hüllt den
+  O -- pfern -- den mit %80
+  Rauch, und
+  füllt die Flur um --
+  her mit ſchwar -- zem
+  Dampf,
+  und füllt die %85
+  Flur
+  mit ſchwar -- zem
+  Dampf.
+  Ach
+  weh! ach %90
+  weh! ver --
+  wor -- fen, ach
+  weh!
+  ver -- wor -- fen iſt der Haſ -- ſen --
+  de, %95
+  ver -- wor -- fen iſt der Haſ -- ſen --
+  de. %97 finis
+}

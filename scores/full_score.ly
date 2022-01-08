@@ -946,66 +946,151 @@ paperEightStaves = \paper {
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \section "1.19" "Wechselgesang" "Fromm iſt Abel"
+  %   \addTocLabel "frommist"
+  %   \paperEightStaves
+  %   \score {
+  %     <<
+  %       \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+  %         \set StaffGroup.instrumentName = \markup \center-column { "fl" "1, 2" }
+  %         \new Staff {
+  %           \partCombine \FrommIstFlautoI \FrommIstFlautoII
+  %         }
+  %       >>
+  %       \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+  %         \set StaffGroup.instrumentName = \markup \center-column { \transposedNameShort "cor" "F" "" "1, 2" }
+  %         \new Staff {
+  %           % \transpose c f,
+  %           \partCombine \FrommIstCornoI \FrommIstCornoII
+  %         }
+  %       >>
+  %       \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+  %         \new GrandStaff \with { \setGroupDistance #11 #11 } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \FrommIstViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \FrommIstViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \FrommIstViola
+  %         }
+  %       >>
+  %       \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Thirza"
+  %           \new Voice = "Thirza" { \dynamicUp \FrommIstThirza }
+  %         }
+  %         \new Lyrics \lyricsto Thirza \FrommIstThirzaLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Mehala"
+  %           \new Voice = "Mehala" { \dynamicUp \FrommIstMehala }
+  %         }
+  %         \new Lyrics \lyricsto Mehala \FrommIstMehalaLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \FrommIstOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \FrommIstBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4. = 60 }
+  %   }
+  % }
+  % \part "zweytertheil" "2" "Zweyter Theil"
   \bookpart {
-    \section "1.19" "Wechselgesang" "Fromm iſt Abel"
-    \addTocLabel "frommist"
-    \paperEightStaves
+    \section "2.1" "Coro" "Seht! dort ſteigt der Opferrauch herauf!"
+    \addTocLabel "sehtdort"
     \score {
       <<
-        \new StaffGroup \with { \setGroupDistance #11 #11 } <<
-          \set StaffGroup.instrumentName = \markup \center-column { "fl" "1, 2" }
-          \new Staff {
-            \partCombine \FrommIstFlautoI \FrommIstFlautoII
-          }
-        >>
-        \new StaffGroup \with { \setGroupDistance #11 #11 } <<
-          \set StaffGroup.instrumentName = \markup \center-column { \transposedNameShort "cor" "F" "" "1, 2" }
-          \new Staff {
-            % \transpose c f,
-            \partCombine \FrommIstCornoI \FrommIstCornoII
-          }
-        >>
-        \new StaffGroup \with { \setGroupDistance #11 #11 } <<
-          \new GrandStaff \with { \setGroupDistance #11 #11 } <<
-            \set GrandStaff.instrumentName = "vl"
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "ob"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \FrommIstViolinoI
+              \SehtDortOboeI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \FrommIstViolinoII
+              \SehtDortOboeII
+            }
+          >>
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "fag"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \SehtDortFagottoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \SehtDortFagottoII
+            }
+          >>
+        >>
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \SehtDortViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \SehtDortViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \FrommIstViola
+            \SehtDortViola
           }
         >>
-        \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
+        \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "Thirza"
-            \new Voice = "Thirza" { \dynamicUp \FrommIstThirza }
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \SehtDortSoprano }
           }
-          \new Lyrics \lyricsto Thirza \FrommIstThirzaLyrics
+          \new Lyrics \lyricsto Soprano \SehtDortSopranoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = "Mehala"
-            \new Voice = "Mehala" { \dynamicUp \FrommIstMehala }
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \SehtDortAlto }
           }
-          \new Lyrics \lyricsto Mehala \FrommIstMehalaLyrics
+          \new Lyrics \lyricsto Alto \SehtDortAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \SehtDortTenore }
+          }
+          \new Lyrics \lyricsto Tenore \SehtDortTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \SehtDortBasso }
+          }
+          \new Lyrics \lyricsto Basso \SehtDortBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \FrommIstOrgano
+            \SehtDortOrgano
           }
         >>
-        \new FiguredBass { \FrommIstBassFigures }
+        \new FiguredBass { \SehtDortBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4. = 60 }
+      \midi { \tempo 4 = 100 }
     }
   }
 }

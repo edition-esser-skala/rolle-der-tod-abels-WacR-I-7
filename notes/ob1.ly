@@ -186,3 +186,85 @@ WennDerJungeOboeI = {
     g4 r8\fermata \bar "|." %130 finis
   }
 }
+
+SehtDortOboeI = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoSehtDort
+    fis'4\fE fis fis r
+    d1\p
+    e
+    fis\pocoF
+    g\piuFE %5
+    fis~\fE
+    fis~
+    fis8 d, e fis g a h cis
+    \appoggiatura d16 fis1~
+    fis8 fis, g a h cis d e %10
+    fis1~
+    fis8 \slurDashed d,16( fis) fis( a) a( d) \slurSolid d( fis) fis( a) a( d) d( fis,)
+    e2 r
+    R1*8 %21
+    r2 fis,\pE
+    h h
+    h1
+    R1*3 %27
+    r4 e,8( a) a( cis) cis( e)
+    e( d) d( cis) cis( h) cis( a)
+    e2 r4 e' %30
+    e8( d) d( cis) cis( h) cis( a)
+    e2 r
+    r dis'(\fp
+    e4) r dis2(\fp
+    e4) r r h\fE %35
+    a2( gis4) r
+    R1*2
+    r8 e' fis e e4( d)\trill
+    cis fis8 e \slurDashed e4( d)\trill %40
+    cis \appoggiatura e16 d8 cis16 h a4( h)\trill \slurSolid
+    a a'8 e e4( d)\trill
+    cis r r2
+    cis4 a'8 e \slurDashed e4( d)\trill
+    cis \appoggiatura e16 d8 cis16 h a4( h)\trill \slurSolid %45
+    a4 d16 cis h a e'( dis) fis( e) e( dis) fis( e)
+    e8 r a16 gis fis e a( gis) h( a) a( gis) h( a)
+    a4. d,8 cis4 h\trill
+    a \slurDashed cis16( a) e'( cis) a4 cis16( a) e'( cis) \slurSolid \noBreak
+    a4 cis cis r \bar "||" %50
+    \key a \minor R1*13 %63
+    r4 e\fE dis d
+    cis c h a %65
+    gis r r2
+    r4 e' dis d
+    cis c h a
+    gis r r2
+    r4 a' gis g %70
+    fis f e d
+    \tempoSehtDortB cis a'2 a4~
+    a r r2
+    d,4 d2 d4
+    d2~ d4 r %75
+    g2~ g4 r
+    c,2~ c4 r
+    c2~\f c\p
+    c~\f c\p
+    c~\f c\p %80
+    b~\f b\p
+    d~\f d\p
+    cis4 r r2
+    r g(\f
+    f4) r r2 %85
+    r f~
+    f4 r r2
+    R1*3 %90
+    r4 d'2 d4
+    r g2 g4
+    \once \tieDashed f1~
+    f2~ f4 e
+    d d'2 d4 %95
+    d-! r cis-! r
+    d,4 d2 d4~
+    d d2 cis4
+    d d d r\fermata \bar "|." %99 finis
+  }
+}

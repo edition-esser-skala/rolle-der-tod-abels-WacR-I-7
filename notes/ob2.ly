@@ -182,3 +182,85 @@ WennDerJungeOboeII = {
     g4 r8\fermata \bar "|." %130 finis
   }
 }
+
+SehtDortOboeII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoSehtDort
+    d'4\fE d d r
+    d1\p
+    cis
+    d\pocoF
+    e\piuFE %5
+    d~\fE
+    d~
+    d8 d, e fis g a h cis
+    d1~
+    d8 fis, g a h a a a %10
+    a2 d~
+    d8 \slurDashed d,16( fis) fis( a) a( d) \slurSolid d( fis) fis( a) a( d) d( fis,)
+    cis2 r
+    R1*8 %21
+    r2 d,\pE
+    g g
+    g1
+    R1*3 %27
+    r2 e8( a) a( cis)
+    cis( h) h( a) a( gis) a4
+    e2 r4 cis' %30
+    cis8( h) h( a) a( gis) a4
+    e2 r
+    r a(\fp
+    gis4) r a2(\fp
+    gis4) r r gis\fE %35
+    fis2( e4) r
+    R1*2
+    r8 cis' d cis cis4( h)\trill
+    a d8 cis \once \slurDashed cis4( h)\trill %40
+    a fis8 fis e4( gis)\trill
+    a4. cis8 cis4( h)\trill
+    a r r2
+    a4. cis8 cis4( h)\trill
+    a fis e( gis)\trill \slurSolid %45
+    a d16 cis h a e'( dis) fis( e) e( dis) fis( e)
+    e8 r a16 gis fis e a( gis) h( a) a( gis) h( a)
+    a,4. h8 a4 gis\trill
+    a \slurDashed cis16( a) e'( cis) a4 cis16( a) e'( cis) \slurSolid \noBreak
+    a4 a a r \bar "||" %50
+    \key a \minor R1*13 %63
+    r4 gis\fE fis f
+    e dis d c %65
+    e r r2
+    r4 gis fis f
+    e dis d c
+    e r r2
+    r4 cis' h b %70
+    a gis g f
+    \tempoSehtDortB a a2 a4~
+    a r r2
+    d,4 d2 d4
+    d2~ d4 r %75
+    g2~ g4 r
+    c,2~ c4 r
+    es2~\f es\p
+    es2~\f es\p
+    es2~\f es\p %80
+    d2~\f d\p
+    f!2~\f f\p
+    e4 r r2
+    r e(\f
+    f4) r r2 %85
+    r d~
+    d4 r r2
+    R1*3 %90
+    r4 a'2 a4
+    r cis2 cis4
+    \once \tieDashed d1~
+    d2~ d4 cis
+    d f2 f4 %95
+    e-! r e-! r
+    f, f2 f4
+    f2 e
+    d4 f f r\fermata \bar "|." %99 finis
+  }
+}

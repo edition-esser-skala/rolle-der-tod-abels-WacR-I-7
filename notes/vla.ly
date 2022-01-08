@@ -1676,3 +1676,109 @@ FrommIstViola = {
     a4 r8\fermata \bar "|." %132 finis
   }
 }
+
+SehtDortViola = {
+  \relative c' {
+    \clef alto
+    \key d \major \time 4/4 \tempoSehtDort
+    <d a d,>4\fE q q r
+    d1\p
+    d
+    d\pocoF
+    d\piuF %5
+    d8\f d d d d d d d
+    d d d d d d d d
+    d d e fis g a h cis
+    d^\critnote d, d d d d d d
+    d d d d d a h cis %10
+    d d d d d d d d
+    d d,16( fis) fis( a) a( d) d8 d d d
+    a a a a a a a a
+    r a(-.\p a-. a-.) a(-. a-. a-. a-.)
+    a(-. a-. a-. a-.) a(-. a-. a-. a-.) %15
+    r a(-. a-. a-.) a(-. a-. a-. a-.)
+    a(-. a-. a-. a-.) a(-. a-. a-. a-.)
+    r a(-. a-. a-.) h(-. h-. h-. h-.)
+    ais(-. ais-. ais-. ais-.) ais(-. ais-. ais-. ais-.)
+    r ais(-. ais-. ais-.) ais(-. ais-. ais-. ais-.) %20
+    h(-. h-. h-. h-.) h(-. h-. h-. h-.)
+    r h(-. h-. h-.) h(-. h-. h-. h-.)
+    r h(-. h-. h-.)-. h(-. h-. h-. h-.)
+    h(-. h-. h-. h-.) h(-. h-. h-. h-.)
+    d(-. d-. d-. d-.) d(-. d-. d-. d-.) %25
+    r d(-. d-. d-.) d(-. d-. d-. d-.)
+    r cis(-. cis-. cis-.) r cis(-. cis-. cis-.)
+    a(-. a-. a-. a-.) a(-. a-. a-. a-.)
+    e'(-. e-. e-. e-.) e(-. e-. e-. e-.)
+    e(-. e-. e-. e-.) e(-. e-. e-. e-.) %30
+    e(-. e-. e-. e-.) e(-. e-. e-. e-.)
+    e(-. e-. e-. e-.) e(-. e-. e-. e-.)
+    r e e e fis fis fis fis
+    gis gis gis gis fis fis fis fis
+    e e\f e e e e e e %35
+    dis2( e4) r8 cis
+    cis d e d cis d e d
+    cis d e d cis d e d
+    cis4 a8 a e' e e e
+    a, a a a e' e e e %40
+    a,4 h8 d cis4( d)\trill
+    cis4 r8 a e' e e e
+    e4 r8 a, e' e e e
+    e4 r8 a, e' e e e
+    a,4 h8 d cis4( d)\trillE %45
+    cis cis8 cis h h' a a
+    gis gis h h cis cis d d
+    cis a4 h8 cis,4 d\trill
+    cis8 cis cis cis cis cis cis cis \noBreak
+    cis2 r\bar "||" %50
+    \key a \minor r8 a(-.\p a-. a-.) a(-. a-. a-. a-.) \noBreak
+    r a(-. a-. a-.) a(-. a-. a-. a-.)
+    r a(-. a-. a-.) a(-. a-. a-. a-.)
+    r a(-. a-. a-.) a(-. a-. a-. a-.)
+    r a(-. a-. a-.) a(-. a-. a-. a-.) %55
+    r a(-.\f a-. a-.) a(-.\p a-. a-. a-.)
+    r a(-. a-. a-.) a(-. a-. a-. a-.)
+    r a(-.\f a-. a-.) r g(-.\p g-. g-.)
+    r f(-. f-. f-.) r f(-. f-. f-.)
+    r e(-.\f e-. e-.) r e(-.\p e-. e-.) %60
+    r e(-.\f e-. e-.) e(-.\p e-. e-. e-.)
+    r e(-.\f e-. e-.) e(-.\p e-. e-. e-.)
+    r e(-. e-. e-.) e(-. e-. e-. e-.)
+    e' e gis16\fE gis gis gis fis fis fis fis f f f f
+    e e e e dis dis dis dis d d d d c c c c %65
+    h4 r h2
+    r4 gis'16 gis gis gis fis fis fis fis f f f f
+    e e e e dis dis dis dis d d d d c c c c
+    h4 r gis'2
+    a8 a cis16 cis cis cis h h h h b b b b %70
+    a a a a gis gis gis gis g g g g f f f f
+    \tempoSehtDortB <e a,>8 h16 cis d e fis gis a8 g16 f e d cis h
+    a8 h16 cis d e fis gis a4 r
+    d,8 e16 f g a h cis d8 c16 b a g f e
+    d8 e16 f g a h cis d4 r %75
+    g,,8 a16 b c d e fis g4 r
+    c,8 d16 e f g a h! c4 r
+    es,16\f es es es es es es es es\p es es es es es es es
+    es\f es es es es es es es es\p es es es es es es es
+    es\f es es es es es es es es\p es es es es es es es %80
+    d\f d d d d d d d d\p d d d d d d d
+    f!\f f f f f f f f f\p f f f f f f f
+    e8 a,\f \once \slurDashed cis( e) g( b) g( e)
+    cis( a) cis( e) g( b) g( e)
+    d( a) d( f) a( d) a( f) %85
+    d( a) d( f) a( d) a( f)
+    d( b) d( f) b( d) b( f)
+    d( b) d( f) b( d) b( f)
+    d4 f8. f16 f8.[ f16 f8. f16]
+    g8.[ g16 g8. g16] g4 g %90
+    r8. a16[ a8. a16] a4 a
+    r8. g16[ g8. g16] g4 g
+    r8. a16[ a8. a16] a8.[ a16 a8. a16]
+    b4 r a r
+    d8.[ d16 d8. d16] d8.[ d16 d8. d16] %95
+    <b g>4-! r <a g>-! r
+    <a f>16 f f f f f f f f f f f f f f f
+    f f f f f f f f g g g g g g g g
+    f8.[ d'16 a8. f16] d4 r\fermata \bar "|." %99 finis
+  }
+}

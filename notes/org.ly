@@ -2819,3 +2819,211 @@ FrommIstBassFigures = \figuremode {
   r4 <7 4>8
   <8 3>4. %132 finis
 }
+
+SehtDortOrgano = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \tempoSehtDort
+    \mvTr d4\fE-\soloE d d r
+    <d d,>1\p
+    q
+    q\pocoF
+    q\piuF %5
+    \mvTr d8\f-\tuttiE d d d d d d d
+    d d d d d d d d
+    d d e fis g a h cis
+    d d, d d d d d d
+    d d e fis g a h cis %10
+    d d,-\soloE d d d d d d
+    d d16( fis) fis( a) a( d) d8 d d, d
+    a a a a a a a a
+    <a a,>2\p q
+    q-\tuttiE q %15
+    q q
+    <d d,> q
+    q h
+    fis fis
+    fis fis %20
+    h h
+    h-\soloE a
+    g g
+    g g
+    g g %25
+    gis gis
+    a a
+    a8(-. a-. a-. a-.) a(-. a-. a-. a-.)
+    e'(-. e-. e-. e-.) e(-. e-. e-. e-.)
+    e(-. e-. e-. e-.) e(-. e-. e-. e-.) %30
+    e(-. e-. e-. e-.) e(-. e-. e-. e-.)
+    e(-. e-. e-. e-.) e(-. e-. e-. e-.)
+    e e e e e e e e
+    e e e e e e e e
+    e e\f e e e e e e %35
+    e2~ e4 r8 a-\tuttiE
+    a h cis h a h cis h
+    a h cis h a h cis h
+    a4 a8 a e e e e
+    a, a a a e' e e e %40
+    fis fis d d e e e, e
+    a4 r r8 e' e e
+    a4 r r8 e e e
+    a,4 r r8 e' e e
+    fis fis d d e e e, e %45
+    a4 a'8-\soloE a gis gis fis fis
+    e e d d cis cis h h
+    cis cis d d e e e, e
+    a a a a a a a a \noBreak
+    a2 r \bar "||" %50
+    \key a \minor a4\p r r2 \noBreak
+    a4 r r2
+    a4 r r2
+    a4 r r2
+    a1~\fp %55
+    a4 r r2
+    a1\fp
+    a2\f g\p
+    f f
+    e\f e\p %60
+    e\f e\p
+    e\f e\p
+    e1
+    r8 \mvTr e'\f-\tastoE e e e4 r
+    r4 e8 e e e e e %65
+    e e e e f f f f
+    e e-\tastoE e e e4 r
+    r e8 e e e e e
+    e e e e e e e e
+    a a,-\tastoE a a a4 r %70
+    r a8 a a a a a
+    \tempoSehtDortB a h16 cis d e fis gis a8 g16 f e d cis h
+    a8 h16 cis d e fis gis a4 r
+    d,8 e16 f g a h cis d8 c16 b a g f e
+    d8 e16 f g a h cis d4 r %75
+    g,,8 a16 b c d e fis g4 r
+    c,8 d16 e f g a h! c4 r
+    f,,8\f f' f f, f\p f' f f,
+    f\f f' f f, f2\p
+    fis8\f fis' fis fis, fis2\p %80
+    g8\f g' g g, g2\p
+    gis8\f gis' gis gis, gis2\p
+    r8 a\f cis( e) g( b) g( e)
+    cis( a) cis( e) g( b) g( e)
+    d( a) d( f) a( d) a( f) %85
+    d( a) d( f) a( d) a( f)
+    d( b) d( f) b( d) b( f)
+    d( b) d( f) b( d) b( f)
+    d( b) b'8. b16 b8.[ b16 a8. a16]
+    g8.[ g16 g8. g16] g8.[ g16 g8. g16] %90
+    f8.[ f16 f8. f16] f8.[ f16 f8. f16]
+    e8.[ e16 e8. e16] e8.[ e16 e8. e16]
+    d8.[ d16 d8. d16] f8.[ f16 f8. f16]
+    g4 r a r
+    b8.[ b16 b8. b16] a8.[ a16 a8. a16] %95
+    g4-! r a-! r
+    d,8-! d'-! c-! b-! a-! g-! f-! e-!
+    d-! c-! b-! a-! g4 a
+    d8.[ d16 d8. d16] d4 r\fermata \bar "|." %99 finis
+  }
+}
+
+SehtDortBassFigures = \figuremode {
+  r1
+  r
+  <7 4>
+  <8 3>
+  <7 4> %5
+  <8 3>
+  r
+  r8 <1> q q q q q q
+  <5 3>1
+  r4 <7>8 <6> r4 <7>8 <6> %10
+  <8 3>1 \bassFigureExtendersOn
+  q2.. q8 \bassFigureExtendersOff
+  r1
+  r
+  r %15
+  r
+  r
+  r
+  <_+>
+  <7 _+> %20
+  r
+  <5 3>2 <\t \t>
+  r1
+  r
+  r %25
+  <6 5>
+  r
+  r
+  <8 6>4 <7 5> <6 4>2
+  <5 _+>4 <7 5> <6 4>2 %30
+  <5 _+>4 <7 5> <6 4>2
+  <5 _+>4 <7 5> <6 4>2
+  <5 _+> <7+ 4 2>
+  <8 _+> <7+ 4 2>
+  <8 _+>1 %35
+  <7+ 4 2>2 <8 _+>
+  r8 <6\\> <6> <6\\> <8 3>2 \bassFigureExtendersOn
+  q1
+  q4 \bassFigureExtendersOff <6 4>8 <5 3> <8 6 _+>4 <7 5 \t>
+  r <6 4>8 <5 3> <8 6 _+>4 <7 5 \t> %40
+  <5> <6> <6 4> <7 _+>
+  r2 <8 6 _+>4 <7 5 \t>
+  r4 <6 4>8 <5 3> <8 6 _+>4 <7 5 \t>
+  r2 <8 6 _+>4 <7 5 \t>
+  <5> <6> <6 4> <7 _+> %45
+  r2 <6>4 <7>
+  <_+> <\t> <6> <7>
+  <6> <5>8 <6> <6 4>4 <5 _+>
+  r1
+  r %50
+  <_!>
+  r
+  r
+  r
+  r %55
+  r
+  r
+  r2 <2>
+  <5> <6>
+  <5 _+>1 %60
+  <7+ 6 4 2+>
+  <8 _+>
+  <6 4>
+  <5 _+>4 r2.
+  r1 %65
+  <7 5 _+>2 <\t \t \t>
+  <\t \t \t>1
+  r
+  <7 _+>
+  <_+> %70
+  r
+  r
+  r
+  <_!>
+  r %75
+  <7 _->
+  <7->
+  q
+  <\t>
+  <\t> %80
+  <_->
+  <7! _!>
+  <7 5 _+> \bassFigureExtendersOn
+  q2.. q8
+  <8 3>1 %85
+  q2.. q8
+  <6- 3\!>1
+  <6- 3>
+  q8 q \bassFigureExtendersOff <5 3>2 <\t \t>4
+  <6- _->1 %90
+  <6>
+  <6\\ 5->
+  r2 <6>
+  <7 _-> <6 4>4 <5 _+>
+  <5 3>2 <\t \t> %95
+  <6 5 _->2 <7 _+>
+  <8 3>1 \bassFigureExtendersOn
+  q4. q8 \bassFigureExtendersOff <6 5 _->4 <7 _+>
+  r1 %99 finis
+}

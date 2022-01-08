@@ -1421,3 +1421,109 @@ FrommIstViolinoII = {
     f4 r8\fermata \bar "|." %131 finis
   }
 }
+
+SehtDortViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoSehtDort
+    <a fis' d'>4\fE q q r
+    d8\p d16( fis) fis( a) a( d) d( a) a( fis) fis( d) d( a)
+    cis( e) e( g) g( cis) cis( e) e( cis) cis( g) g( e) e( cis)
+    d(\pocoF fis) fis( a) a( d) d( fis) fis( d) d( a) a( fis) fis( d)
+    e(\piuF g) g( cis) cis( e) e( g) g( e) e( cis) g( e) e( g) %5
+    fis8\f fis16( a) a( d) d( fis) fis( a,) a( d) d( fis) fis( a)
+    fis( fis,) fis( a) a( d) d( fis) fis( a,) a( d) d( fis) fis( a)
+    fis8 \tuplet 3/2 8 { d,16( e fis) \sbOn e( fis g) fis( g a) g( a h) a( h cis) h( cis d) cis( d e) \sbOff }
+    d( fis,) fis( a) a( d) d( fis) fis( a,) a( d) d( fis) fis( a)
+    fis8 \tuplet 3/2 8 { fis,16( g a) \sbOn g( a h) a( h c) \sbOff } h8 a a a %10
+    a a16( d) d( fis) fis( a) fis( a,) a( d) d( fis) fis( a)
+    fis8 d,16( fis) fis( a) a( d) d( fis) fis( a) a( d) d( fis,)
+    cis4-! cis-! cis-! a-!
+    r8 cis,(-.\p cis-. cis-.) cis(-. cis-. cis-. cis-.)
+    cis(-. cis-. cis-. cis-.) cis(-. cis-. cis-. cis-.) %15
+    r cis(-. cis-. cis-.) cis(-. cis-. cis-. cis-.)
+    d(-. d-. d-. d-.) d(-. d-. d-. d-.)
+    r d(-. d-. d-.) d(-. d-. d-. d-.)
+    cis(-. cis-. cis-. cis-.) cis(-. cis-. cis-. cis-.)
+    r <cis e>(-. q-. q-.) q(-. q-. q-. q-.) %20
+    d(-. d-. d-. d-.) d(-. d-. d-. d-.)
+    r d(-. d-. d-.) d(-. d-. d-. d-.)
+    r d(-. d-. d-.) d(-. d-. d-. d-.)
+    d(-. d-. d-. d-.) d(-. d-. d-. d-.)
+    g(-. g-. g-. g-.) g(-. g-. g-. g-.) %25
+    r e(-. e-. e-.) e(-. e-. e-. e-.)
+    r e(-. e-. e-.) r e(-. e-. e-.)
+    a,4 cis8( e) e( a) a(-\dolce cis)
+    cis( h) h( a) a( gis) a4
+    e2 r4 cis' %30
+    cis8( h) h( a) a( gis) a4
+    e2 r
+    r8 gis gis gis a16 a8 a a a16
+    h h8 h h h16 a a8 a a a16
+    gis8 h,16(\f e) e( gis) gis( h) h( e) e( gis) gis( e) h( gis) %35
+    fis2( e4) r8 a
+    e' e e e a,16 cis e a e4~
+    e8 e e e a,16 cis e a e4~
+    e8 cis d cis \once \slurDashed cis4( h)\trill
+    a d8 cis \once \slurDashed cis4( h)\trill %40
+    a fis8. fis16 e4( gis)\trill
+    a4. cis8 cis4( h)\trill
+    a d8 cis cis4( h)\trill
+    a4. cis8 cis4( h)\trill
+    a fis8. fis16 \once \slurDashed e4( gis)\trill %45
+    a d16 cis h a e'( dis) fis( e) e( dis) fis( e)
+    e8 r a16 gis fis e a( gis) h( a) a( gis) h( a)
+    a( gis) fis( e) fis( d) cis( h) a4 gis\trill
+    a cis16( a) e'( cis) a4 cis16( a) e'( cis) \noBreak
+    a8 e16 a cis a cis e a4 r \bar "||" %50
+    \key a \minor R1 \noBreak
+    r2 a,\p
+    e c
+    a1~
+    a8 f' e d c h a gis %55
+    a2~\f a~\p
+    a8 f' e d c h a gis
+    a2~\f a2~\p
+    a1
+    gis2\f gis\p %60
+    a\f a\p
+    gis\f <h d>\p
+    c4 c8 h c4 a'
+    gis h16\fE h h h a a a a gis gis gis gis
+    g g g g fis fis fis fis f f f f e e e e %65
+    e4 r d2
+    r4 h'16 h h h a a a a gis gis gis gis
+    g g g g fis fis fis fis f f f f e e e e
+    e4 r h'2
+    r4 e16 e e e d d d d cis cis cis cis %70
+    c c c c h h h h b b b b a a a a
+    \tempoSehtDortB a8 h16 cis d e fis gis a8 g16 f e d cis h
+    a8 h16 cis d e fis gis a4 r
+    d,,8 e16 f! g! a h cis d8 c16 b a g f e
+    d8 e16 f g a h cis d4 r %75
+    g,,8 a16 b c d e fis g4 r
+    c,8 d16 e f g a h! c4 r
+    a16\f a a a a a a a a\p a a a a a a a
+    a\f a a a a a a a a\p a a a a a a a
+    a\f a a a a a a a a\p a a a a a a a %80
+    g\f g g g g g g g g\p g g g g g g g
+    h!\f h h h h h h h h\p h h h h h h h
+    a4 a,\f g'8( b) g( e)
+    cis4 a cis8 cis cis cis
+    d4 d8( f) a( d) a( f) %85
+    d4 a d d8 d
+    d4 d8( f) b( d) b( f)
+    d4 b d8 d d d
+    f4 b8. b16 b8.[ b16 b8. b16]
+    b8.[ b16 b8. b16] b4 b %90
+    r8. a16[ a8. a16] a4 a
+    r8. cis16[ cis8. cis16] cis4 cis
+    r8. f16[ f8. f16] f8.[ f16 f8. f16]
+    f8 d d d d d cis cis
+    d8.[ f16 f8. f16] f8.[ f16 f8. f16] %95
+    <e g>4-! r q-! r
+    d16 d, d d d d d d d d d d d d d d
+    d d d d d d d d e e e e e e e e
+    d8.[ d'16 a8. f16] d4 r\fermata \bar "|." %99 finis
+  }
+}

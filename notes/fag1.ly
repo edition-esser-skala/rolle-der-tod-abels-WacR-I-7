@@ -174,3 +174,74 @@ WeltrichterFagottoI = {
     h1\fermata \bar "|." %51 finis
   }
 }
+
+SehtDortFagottoI = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \tempoSehtDort
+    d8\fE d'16 a fis8 a16 fis d4 r
+    d1\p
+    d
+    d\pocoF
+    d\piuF %5
+    d8\f d d d d d d d
+    d d d d d d d d
+    d d e fis g a h cis
+    d d, d d d d d d
+    d d e fis g a h cis %10
+    d d, d d d d d d
+    d d16( fis) fis( a) a( d) d8 d d, d
+    a a a a a a a a
+    a2 r
+    R1*10 %24
+    r4 d'\pE d d %25
+    d e,8 e e4 d'
+    cis2 r
+    R1
+    r2 r4 e
+    e8( d) d( cis) cis( h) cis( a) %30
+    e2 r4 e'
+    e8( d) d( cis) cis( h) cis( a)
+    r2 a(\fp
+    gis4) r a2(\fp
+    gis4) r r2 %35
+    r r4 r8 a\fE
+    a h cis h a h cis h
+    a h cis h a h cis h
+    a4 a8 a e e e e
+    a, a a a e' e e e %40
+    fis fis d d e e e, e
+    a4 r r2
+    cis'4 fis8 e \once \slurDashed e4( d)\trill
+    cis r r2
+    r4 d cis( h)\trill %45
+    a a8 a gis gis fis fis
+    e e d d cis cis h h
+    cis cis d d e e e, e
+    a a a a a a a a \noBreak
+    a2 r \bar "||" %50
+    \key a \minor R1*13 %63
+    r8 e'\f e e e4 r
+    r4 e8 e e e e e %65
+    e e e e f f f f
+    e e e e e4 r
+    r e8 e e e e e
+    e e e e e e e e
+    a a, a a a4 r %70
+    r a8 a a a a a
+    \tempoSehtDortB a h16 cis d e fis gis a8 g16 f e d cis h
+    a8 h16 cis d e fis gis a4 r
+    d,8 e16 f g a h cis d8 c16 b a g f e
+    d8 e16 f g a h cis d4 r %75
+    g,,8 a16 b c d e fis g4 r
+    c,8 d16 e f g a h! c4 r
+    R1*15 %93
+    d,2 f
+    g4 r a r
+    b8.[ b16 b8. b16] a8.[ a16 a8. a16] %95
+    g4-! r a-! r
+    d,8-! d'-! c-! b-! a-! g-! f-! e-!
+    d-! c-! b-! a-! g4 a
+    d8 d'16 a f8 a16 f d4 r\fermata \bar "|." %99 finis
+  }
+}

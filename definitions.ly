@@ -14,7 +14,7 @@ soloKain = \markup \remark "Kain"
 soloMehala = \markup \remark "Mehala"
 
 
-% 1
+% 1.1
 tempoLobtDen = \tempoMarkup "Lobgesang der Kinder Adams in ihrer Laube"
 tempoSieSingen = \tempoMarkup "Kain, der um Abels Laube feindſelig herumſchleicht"
 tempoIchElend = \tempoMarkup "Poco lento"
@@ -27,7 +27,7 @@ tempoOWort = \tempoMarkup "Andante"
   tempoOWortC = \tempoMarkup "Vivace ma non troppo"
   tempoOWortD = \tempoMarkup "Andante"
 
-% 6
+% 1.6
 tempoWieSeufzet = \tempoMarkup \markup \left-column { "Kain, der in der Entfernung ſtehen geblieben" "und ſeinen Vater jammern geſehen" }
   tempoWieSeufzetB = \tempoMarkup "Poco largo"
   tempoWieSeufzetC = \tempoMarkup "a tempo"
@@ -37,18 +37,22 @@ tempoOGott = \tempoMarkup "Recitativo"
 tempoWennDerJunge = \tempoMarkup "Allegretto"
 tempoOKinder = \tempoMarkup "Recitativo"
 
-% 11
+% 1.11
 tempoAchSchwester = \tempoMarkup "Allegretto"
 tempoMeinBruder = \tempoMarkup "Recitativo"
 tempoFrohGeht = \tempoMarkup "Allegro ma non troppo"
 tempoSoKomm = \tempoMarkup "Recitativo"
 tempoAchLiebe = \tempoMarkup "Larghetto e grazioso"
 
-% 16
+% 1.16
 tempoSieGehn = \tempoMarkup "Recitativo"
 tempoWeltrichter = \tempoMarkup "[Tempo deest]"
 tempoMehala = \tempoMarkup "Recitativo"
 tempoFrommIst = \tempoMarkup "Allegretto"
+
+%2.1
+tempoSehtDort = \tempoMarkup "Allegro ma non troppo"
+  tempoSehtDortB = \tempoMarkup "Poco più allegro"
 
 
 \include "notes/fl1.ly"
