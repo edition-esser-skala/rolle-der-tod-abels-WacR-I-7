@@ -2032,3 +2032,81 @@ EntsetzenViola = {
     g1\fermata \bar "|." %75 finis
   }
 }
+
+FliesstViola = {
+  \relative c' {
+    \clef alto
+    \twofourtime \key g \minor \time 2/4 \tempoFliesst
+    \mvTr g'8\fE-\markup \remark "con sordino" g g g
+    g g g g
+    g g g g
+    es es es es
+    d d d d %5
+    d8. d16\p e fis g cis,
+    d8[ d,] <fis' a,>\f q~
+    q[ d] <fis a,> q~
+    q d r d
+    g c, d d %10
+    g,4 r
+    g'8\p g g g
+    g g g g
+    g g g g
+    es es es es %15
+    d d\f r d
+    d8. d16\p e fis g cis,
+    d8\f d16. es32 d16 c b a
+    g8\p g' g g
+    g g g g %20
+    g g g g
+    g g g g
+    a4 r8 d,\fE
+    d8. d16 e fis g g,
+    d'8 d4 r8 %25
+    d\pE d d d
+    d d c c
+    b d c f
+    f f f, r
+    r4 b'-\tenuto %30
+    c r8 f,
+    f f r16 b, d b
+    f'4 f16( es) es( d)
+    c8 c es es
+    es es d d %35
+    c g' g g
+    g g g g
+    g g r d16 d
+    c4 r
+    r8 g' g g %40
+    fis4 c
+    \appoggiatura c8 d4\fermata_\critnote r
+    g8 g g g
+    a a a a
+    f f f f %45
+    es es g4
+    a r8 d~
+    d g,16 es d8 c\trill
+    b b16.\f c32 d8 d
+    d[ d,] <fis' a,> q~ %50
+    q[ d] <fis a,> q~
+    q d r e
+    d\pE d r r16 d
+    d( c) c( b) b( a) a( g)
+    d'8 d, r d' %55
+    d d, r d'
+    d c b c
+    d d, d d'
+    es4 r8 c(
+    b4) r8 es %60
+    d4 r8 d
+    d b c d
+    es b c cis
+    d d d c
+    b g'\fE f! es %65
+    r <g h,> r <g c,>
+    r g,\pE g g
+    r g g c\fE
+    d d c c
+    b4 r16 c\p c( b) %70
+    b4 r\fermata \bar "|."
+  }
+}

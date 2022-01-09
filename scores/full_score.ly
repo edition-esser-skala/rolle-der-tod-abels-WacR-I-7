@@ -1252,9 +1252,52 @@ paperEightStaves = \paper {
   %     \midi { \tempo 4 = 110 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2.6" "Accompagnato" "Entſetzen – Kain – mein Mann – erſchlug ihn!"
+  %   \addTocLabel "entsetzen"
+  %   \paperFiveStaves
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \EntsetzenViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \EntsetzenViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \EntsetzenViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "Mehala" "Adam" "Eva" "Thirza" }
+  %           \new Voice = "Soli" { \dynamicUp \EntsetzenSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \EntsetzenSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \EntsetzenOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \EntsetzenBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
-    \section "2.6" "Accompagnato" "Entſetzen – Kain – mein Mann – erſchlug ihn!"
-    \addTocLabel "entsetzen"
+    \section "2.7" "Aria" "Fließt unaufhaltſam hin, ihr Zähren!"
+    \addTocLabel "fliesst"
     \paperFiveStaves
     \score {
       <<
@@ -1263,36 +1306,36 @@ paperEightStaves = \paper {
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \EntsetzenViolinoI
+              \FliesstViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \EntsetzenViolinoII
+              \FliesstViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \EntsetzenViola
+            \FliesstViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "Mehala" "Adam" "Eva" "Thirza" }
-            \new Voice = "Soli" { \dynamicUp \EntsetzenSoli }
+            \set Staff.instrumentName = "Thirza"
+            \new Voice = "Soli" { \dynamicUp \FliesstSoli }
           }
-          \new Lyrics \lyricsto Soli \EntsetzenSoliLyrics
+          \new Lyrics \lyricsto Soli \FliesstSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \EntsetzenOrgano
+            \FliesstOrgano
           }
         >>
-        \new FiguredBass { \EntsetzenBassFigures }
+        \new FiguredBass { \FliesstBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 70 }
+      \midi { \tempo 4 = 65 }
     }
   }
 }

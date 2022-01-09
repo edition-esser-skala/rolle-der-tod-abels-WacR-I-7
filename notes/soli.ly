@@ -2926,3 +2926,116 @@ EntsetzenSoliLyrics = \lyricmode {
   dan -- ke, hei -- ßes Seh -- nen! er -- weich, er --
   weich dieß Herz zu Thrä -- nen. %74 finis
 }
+
+FliesstSoli = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key g \minor \time 2/4 \autoBeamOff \tempoFliesst
+    R2*11 %11
+    \mvTr d'4\pE^\soloE g,16([ b)] d([ g)]
+    g8. d16 d8 es
+    \appoggiatura { d16[ f] } es8 d r d16([ b)]
+    \appoggiatura a8 g8. a16 b h c cis %15
+    d2
+    R2*2
+    d4 g,16([ b)] d([ g)]
+    g8. d16 d8 es %20
+    \appoggiatura { d16[ f] } es8 d r d16([ b)]
+    \appoggiatura a8 g8. a16 b h c cis
+    d4~ d8 r
+    R2*2 %25
+    b4 b16([ d)] d([ f)]
+    f8 d16([ b)] f8 es'
+    d c16 b f8 es'
+    d c r f,
+    b8. a16 b c d e %30
+    f4 r
+    f r16 f, b d
+    \appoggiatura d8 c4 r
+    c c16([ es)] es([ g)]
+    g8 es16([ c)] g8 f' %35
+    es d r g
+    g8. g,16 g8 es'
+    \appoggiatura f16 es([ d)] d8 r g
+    g16([ fis)] fis8 c16 r32 c c16 h
+    d4 r8 g %40
+    c,16.([ h32)] c8 c16. c32 c16 h
+    \appoggiatura c8 d4\fermata r
+    es4 g16([ es)] es([ c)]
+    \appoggiatura b!8 a8. g'16 g8([ f16)] es
+    es8 d r d16([ b)] %45
+    \appoggiatura a8 g8. a16 b h c cis
+    d4 es16[ e f fis]
+    g8 es16([ c)] b8([ a)]\trill
+    g4 r
+    R2*3 %52
+    d'4 d16([ fis)] fis([ g)]
+    g8. d16 d([ c)] c([ b)]
+    b([ a)] a8 r g'16([ d)] %55
+    d4 r8 g16([ d)]
+    d8. d16 d8([ es16)] g,
+    g8\trill fis r d'16([ b)]
+    \appoggiatura a8 g8. g16 g g g g
+    g8.[ a16] b[ h c cis] %60
+    d4 es16[ e f fis]
+    g8.([\trill fis32 g)] g,4
+    r r8 g16 g
+    g4~ g8[ \appoggiatura b16 \tuplet 3/2 8 { a g a] }
+    g4 r %65
+    R2*5 %70
+    R2\fermata \bar "|." %71 finis
+  }
+}
+
+FliesstSoliLyrics = \lyricmode {
+  Fließt un -- auf -- %12
+  halt -- ſam hin, ihr
+  Zäh -- ren! fließt
+  hin in mei -- nen Jam -- mer -- %15
+  ton.
+
+  Nicht ſei -- nen %19
+  Ab -- ſchied ſollt ich %20
+  hö -- ren, ſo
+  ſchnell iſt mir ſein Geiſt ent --
+  flohn! __
+
+  Ihr grü -- nen %26
+  Lau -- ben wer -- det
+  fra -- gen, ihr wer -- det
+  fra -- gen: wo
+  iſt dein treu -- er Jüng -- ling %30
+  hin?
+  wo, wo iſt er
+  hin?
+  Ihr Quel -- len
+  wer -- det um ihn %35
+  kla -- gen, ihr
+  wer -- det um ihn
+  kla -- gen, und
+  ſeuf -- zen, ach, wo iſt er
+  hin, und %40
+  ſeuf -- zen, ach, wo iſt er
+  hin?
+  Er wird nicht
+  mehr bey euch er --
+  ſchei -- nen, und %45
+  ich nur ein -- ſam bey euch
+  wei -- _
+  _ nen, wei --
+  nen.
+
+  Er wird nicht %53
+  mehr bey euch er --
+  ſchei -- nen, nicht %55
+  mehr, nicht
+  mehr bey euch er --
+  ſchei -- nen, und
+  ich nur ein -- ſam bey euch
+  wei -- _ %60
+  _ _
+  _ nen!
+  ein -- ſam
+  wei --
+  nen! %65 finis
+}

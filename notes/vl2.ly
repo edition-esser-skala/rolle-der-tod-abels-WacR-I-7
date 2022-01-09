@@ -1777,3 +1777,81 @@ EntsetzenViolinoII = {
     b1\fermata \bar "|." %75 finis
   }
 }
+
+FliesstViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key g \minor \time 2/4 \tempoFliesst
+    \mvTr b'4\fE-\markup \remark "con sordino" b8 b
+    b8. b16 b8 c
+    c\trill b r4
+    r8 g4\rfz g8
+    fis d' cis16 c b g %5
+    g8 fis g16(\p a) g8
+    g( fis16.) g32 <a es>8\f q~
+    q fis16. g32 <a es>8 q~
+    q c16( b) a( c) b( a)
+    g[ fis32( g)] \appoggiatura f32 es16 d32( c) b8 c\trill %10
+    b \once \slurDashed d16( b) \appoggiatura a8 g4
+    b'8\p b b b
+    b b b c
+    \appoggiatura { b16[ d] } c8 b r4
+    r8 g4-\tenuto g8 %15
+    fis d'~\f d16 c b g
+    g8 fis g16\p a g8
+    g\f fis \once \slurDashed fis( g16 a)
+    b8\p b b b
+    b b b c %20
+    \appoggiatura { b16[ d] } c8^\critnote b r d16( b)
+    \appoggiatura a8 g8. a16 b( h c cis)
+    d4~ d16 c\fE b g
+    g8 fis g16 a g8
+    g fis4 r8 %25
+    f8\pE f f f
+    f f f f
+    f f f c'
+    b\trill a r f
+    b8. a16 b c d e %30
+    f4~ f16 es d b
+    b8\trill a b16 d, f b
+    \appoggiatura b8 a4 a8 a16 h
+    c4 g8 g
+    g g g g %35
+    g h16 h h( c) c-! c-!
+    c( d) d-! d-! d( c) c-! c-!
+    \appoggiatura d \once \slurDashed c( h) h8 r h16 h
+    c4 r
+    r16 h h h h h h h %40
+    c4 c
+    \appoggiatura c8 h4\fermata r
+    c8 c c c
+    c c c c
+    c b b d16 b %45
+    \appoggiatura a8 g8. a16 b h c cis
+    d4 c8 a
+    g8. a16 \once \slurDashed g8( fis)\trill
+    g4 r16 b\f b( g)
+    \appoggiatura a g( fis) fis16.( g32) <a es>8 q~ %50
+    q \once \slurDashed fis16.( g32) <a es>8 q~
+    q c16( a) a( g) b g
+    g(\pE fis) fis d' d( c) c( b)
+    b( a) a( g) g( fis) fis( g)
+    g( fis) fis b b( a) a( g) %55
+    g( fis) fis b b( a) a( g)
+    g fis fis8 g8. b,16
+    b8\trill a r4
+    r r8 es'(
+    d4) r8 g %60
+    fis4 r
+    r16 g( g g) r g( g g)
+    r g( g g) g( g) g g
+    g4~ g8 \appoggiatura g16 \tuplet 3/2 8 { fis( e fis) }
+    g8 h16\fE h h( c) c c %65
+    c( d) d d d( c) c c
+    c([ h)] h,\p h h( c) c c
+    c( d) d d d c c'[\f a]
+    g4 fis8.(\trillE e32 fis)
+    g4 r16 es\p es( d) %70
+    d4 r\fermata \bar "|." %71 finis
+  }
+}

@@ -1776,3 +1776,81 @@ EntsetzenViolinoI = {
     g1\fermata \bar "|." %75 finis
   }
 }
+
+FliesstViolinoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key g \minor \time 2/4 \tempoFliesst
+    \mvTr d'4\fE-\markup \remark "con sordino" g,16( b) d( g)
+    g8. d16 d8 es
+    es\trill d r d16( b)
+    a8( g16) a b( h c cis)
+    d8. d16 e( fis g) b, %5
+    b8( a16) d\p cis( c h b)
+    b8( a16.) b32 c8\f c~
+    c a16. b32 c8 c~
+    c a'16( g) fis( es!) d( c)
+    b[ a32( b)] \appoggiatura d c16 b32( a) g8 a\trill %10
+    g d16( b) \appoggiatura a8 g4
+    d''4\p g,16( b) d( g)
+    g8. d16 d8 es
+    \appoggiatura { d16[ f] } es8 d r d16( b)
+    \appoggiatura a8 g8. a16 b( h c cis) %15
+    d8. d16\f e( fis g) b,
+    b8( a16) d\p cis( c h b)
+    b8\trill\f a a( b16 c)
+    d4\p g,16( b) d( g)
+    g8. d16 d8 es %20
+    \appoggiatura { d16[ f] } es8 d r4
+    r g~
+    g8 fis16 d\fE e( fis g) b,
+    b8( a16) d cis( c h b)
+    b8 a4 r8 %25
+    b4\pE b16( d) d( f)
+    f8 d16 b f8 es'
+    d c16 b f8 es'
+    d\trill c r4
+    r b'~^\tenuto %30
+    b8 a16 f g a b d,
+    d8\trill c b16 f b d
+    \appoggiatura d8 c4 c8 c16 d
+    es4 c16( es) es( g)
+    g8 es16( c) g8 f' %35
+    es d16 d d( es) es-! es-!
+    es( f) f-! f-! f( es) es-! es-!
+    \appoggiatura f es( d) d8 r g
+    g16( fis) fis8 r4
+    r16 d d d d d g g %40
+    c,16.( h32) c8 fis4
+    \appoggiatura fis8 g4\fermata r
+    es8 es es es
+    es es es es
+    es d d d %45
+    d d g4~
+    g8 fis16 d es( e f fis)
+    g8 es16( c) b8( a)\trill
+    g4 r16 d'\f d( b)
+    \appoggiatura c b( a) a16.( b32) c8 c~ %50
+    c a16.( b32) c8 c~
+    c a'16( c,) c( b) g' b,
+    b(\pE a) a8 d16( fis) fis( g)
+    g8. d16 d( c) c( b)
+    b( a) a d d( c) c( b) %55
+    b( a) a d d( c) c( b)
+    b( a) a d d8( es16) g,
+    g8\trill fis r4
+    r r8 g~
+    g4 r8 g %60
+    a4 r
+    r16 b( b b) r b( b b)
+    r b( b b) b( b) b b
+    b4~ b8 \appoggiatura b16 \tuplet 3/2 8 { a g a }
+    g8 d'16\fE d \once \slurDashed d( es) es es %65
+    es( f) f f f( es) es es
+    es([ d)] d,\p d d( es) es es
+    es( f) f f f( es) es'[\f c]
+    b8. g16 a8.(\trill g32 a)
+    g8 d'16(\p fis,) g8 g %70
+    g4 r\fermata \bar "|." %71 finis
+  }
+}
