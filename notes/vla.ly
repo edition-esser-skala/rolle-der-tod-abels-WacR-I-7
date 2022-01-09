@@ -1866,3 +1866,59 @@ WieEineViola = {
     f as g \bar "||" %77 finis
   }
 }
+
+AchGottViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoAchGott
+    as1\pE
+    R
+    \tempoAchGottB b4\fE r r2
+    r g4 r
+    r2 \tempoAchGottC es'4~\p es8 r %5
+    g,4 as8( g) g4 r
+    r2 es'4~ es8 r
+    g,4 as8( g) g2~
+    g a!
+    \tempoAchGottD d4\f r r2 %10
+    r g4 r
+    r2 es4 r
+    r2 g4\pE r
+    fis\fE r r16 a, d a fis' d a' fis
+    d16. fis32 fis16. fis32 fis4~ \tempoAchGottE fis2~\pE %15
+    fis d
+    r d~
+    d e~
+    e d
+    d r4 h %20
+    a2 r
+    \tempoAchGottF R1*3
+    r2 \tempoAchGottG b4.-\tenuto b8 %25
+    b1~
+    b4 r r8 h(-. h-. h-.)
+    h1
+    \tempoAchGottH c4\fE r r2
+    c4 r r2 %30
+    r2 \tempoAchGottI c\pE
+    b1~
+    b4 r r a'\fE
+    \tempoAchGottJ g4~ g8 r b,4 c8( b)
+    <b es>4~ q8 r g4 \once \slurDashed as8( g) %35
+    g4 r r2
+    es'4~\p es8 r g,4 as8( g)
+    g2 r
+    f'4~ f8 r as,4 b8( as)
+    a1 %40
+    r2 g'4~ g8 r
+    d2 c4 r
+    r a g2
+    R1*4 %47
+    \tempoAchGottK r16. d'32\ff d16. d32 d16. a32 a16. a32 a16. a'32 a16. a32 a16. d,32 d16. d32
+    d4 r r16. d32 d16. d32 d16. a32 a16. a32
+    a16. a'32 a16. a32 a16. d,32 d16. d32 a4 r %50
+    \time 2/4 R2
+    \time 4/4 r16. d32 d16. d32 d16. g,32 g16. g32 g4 r
+    r2 r16. a32 a16. a32 a16. a32 a16. a32
+    d16. a32 d16. d32 d16. a32 d16. d32 d4-! r\fermata \bar "|." %54 finis
+  }
+}

@@ -1610,3 +1610,59 @@ WieEineViolinoI = {
     as[ f] f8( e16.)\trill f32 \bar "||" %77 finis
   }
 }
+
+AchGottViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoAchGott
+    f1\pE
+    r8 f( as c) f4 r
+    \tempoAchGottB r16 f,\fE b f d' b f' d b'4 r
+    r2 r16 b,, es b g' es b' g
+    es'4 r \tempoAchGottC es8\p b16( g) es8 g16( es) %5
+    b4 c8( b) b4 r
+    r2 es'8 b16( g) es8 g16( es)
+    b4 c8( b) b2~
+    b es
+    \tempoAchGottD r16 f\f b f d' b f' d b'4 r %10
+    r2 r16 d,, g d h'! g d' h
+    g'4 r r16 g,, c g es' c g' es
+    c'4 r r2
+    r16 a,\fE d a fis' d a' fis d'4 r
+    r16. es32 es16. es32 es4~ \tempoAchGottE es2~\pE %15
+    es d
+    r d~
+    d c~
+    c h
+    h r4 gis %20
+    a2 r
+    \tempoAchGottF R1*3
+    r2 \tempoAchGottG r16 f' d( b) a( c) b( f) %25
+    f1~
+    f4 r r8 f(-. f-. f-.)
+    f1
+    \tempoAchGottH r16 g,\fE c g es' c g' es c'4 r
+    r16 g, c g es' c g' es c'4 r %30
+    r2 \tempoAchGottI a\pE
+    g1~
+    g4 r r fis'\fE
+    \tempoAchGottJ g8 d16( b) g8 b16( g) d4 es8( d)
+    g b16( g) es8 g16( es) b4 \once \slurDashed c8( b) %35
+    b4 r r2
+    es'8\p b16( g) es8 g16( es) b4 c8( b)
+    b2 r
+    f''8 c16( as) f8 as16( f) c4 des8( c)
+    es1 %40
+    r2 g'8 d16( b) g8 b16( g)
+    g2 g4 r
+    r fis g2
+    R1*4 %47
+    \tempoAchGottK r16. d32\ff d16. d32 d16. a32 a16. a32 a16. a'32 a16. a32 a16. d,32 d16. d32
+    d4 r r16. d32 d16. d32 d16. a32 a16. a32
+    a16. a'32 a16. a32 a16. d,32 d16. d32 fis4 r %50
+    \time 2/4 R2
+    \time 4/4 r16. d32 d16. d32 d16. g,32 g16. g32 g4 r
+    r2 r16. a32 a16. a32 a16. a32 a16. a32
+    d16. a32 d16. d32 d16. a32 d16. d32 d4-! r\fermata \bar "|." %54 finis
+  }
+}

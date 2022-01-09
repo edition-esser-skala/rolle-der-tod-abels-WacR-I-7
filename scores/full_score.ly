@@ -1123,9 +1123,52 @@ paperEightStaves = \paper {
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2.3" "Aria" "Wie eine Blume ſinket"
+  %   \addTocLabel "wieeine"
+  %   \paperFiveStaves
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \WieEineViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \WieEineViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \WieEineViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Mehala"
+  %           \new Voice = "Soli" { \dynamicUp \WieEineSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \WieEineSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \WieEineOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \WieEineBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4. = 45 }
+  %   }
+  % }
   \bookpart {
-    \section "2.3" "Aria" "Wie eine Blume ſinket"
-    \addTocLabel "wieeine"
+    \section "2.4" "Accompagnato" "Ach Gott! ach Abel!"
+    \addTocLabel "achgott"
     \paperFiveStaves
     \score {
       <<
@@ -1134,36 +1177,36 @@ paperEightStaves = \paper {
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \WieEineViolinoI
+              \AchGottViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \WieEineViolinoII
+              \AchGottViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \WieEineViola
+            \AchGottViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "Mehala"
-            \new Voice = "Soli" { \dynamicUp \WieEineSoli }
+            \set Staff.instrumentName = \markup \center-column { "Adam" "Eva" "Thirza" "Mehala" "Kain" }
+            \new Voice = "Soli" { \dynamicUp \AchGottSoli }
           }
-          \new Lyrics \lyricsto Soli \WieEineSoliLyrics
+          \new Lyrics \lyricsto Soli \AchGottSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \WieEineOrgano
+            \AchGottOrgano
           }
         >>
-        \new FiguredBass { \WieEineBassFigures }
+        \new FiguredBass { \AchGottBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4. = 45 }
+      \midi { \tempo 4 = 70 }
     }
   }
 }

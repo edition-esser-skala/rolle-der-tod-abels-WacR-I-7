@@ -2574,3 +2574,119 @@ WieEineSoliLyrics = \lyricmode {
   Hoff -- nung Troſt ent --
   rückt. %70 finis
 }
+
+AchGottSoli = {
+  \relative c' {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoAchGott
+    \once \override TextScript.outside-staff-priority = #500
+    r4^\markup \remark { \override #'(baseline-skip . 2) \left-column { "(Adam und Eva, die zurück kommen, nachdem ſie" "den erſchlagenen Leichnam Abels geſehen.)" } } r8 c,^\soloAdam f4 r8 as
+    f f r4 \clef treble r as'8^\soloEva as16 f
+    \tempoAchGottB b8 b r4 r b8 b16 f
+    as8 as as g g4 r
+    r r8 b16([ g)] \tempoAchGottC es8 es r4 %5
+    r2 r4 es8 es
+    g g g b b es, r4
+    r2 r4 r8 es
+    g g r b16 g es4 r16 a! a f
+    \tempoAchGottD b8 b r4 r2 %10
+    b8 f r16 f f d g4 r
+    r8 g g d es4 r
+    r c' g8 g g fis
+    a4 r r2
+    \clef bass r \tempoAchGottE a,4^\soloAdam a8 b %15
+    c c c b g g r g
+    b4. a8 gis gis gis r16 gis
+    h8 h h c a a r e
+    a4 r8 a d4 d8 d16 h
+    gis8 gis gis a e4 r %20
+    \clef treble r4 r8 e''^\soloThirza c c \fC a^\soloMehala e
+    \tempoAchGottF \fC c'^\soloEva a r c16 h c4 \fC r8 c^\soloThirza
+    c g r g16 g e16. e32 e8 r16 g a b
+    a4 f8 a16 b c8 c16 c c8 c
+    es16. es32 es16 es es8 d \tempoAchGottG b^\markup \remark "(Sie geht.)" b r4 %25
+    \clef bass r8 b,^\soloAdam b f d4 d
+    f r8 f h4 r
+    r8 d d f, f4 r8 g
+    \tempoAchGottH es4 r r8. g16 g g g g
+    c4 r r g %30
+    c8 c c a \tempoAchGottI fis fis r d
+    b'8. b16 b4 r8 b b b
+    g g fis g g d r4
+    \tempoAchGottJ R1*2 %35
+    \clef treble r8 es'^\soloEva es d es es es f
+    g4 r r2
+    r8 g g as b r16 b b8 as
+    \appoggiatura g f4 r r2
+    r8 a! a b c4 r8 c %40
+    es c c b g g r4
+    r8 d g b a c fis, g
+    g d r4 r2
+    g8. g16 g4 r b
+    r8 b b g c4 r8\fermata c, %45
+    b'8. b16 b8 a a4 r8 a
+    a e! r4 g8. g16 g8 r16 f
+    \tempoAchGottK d8 d r4 r2
+    \clef bass d4^\markup \remark "Kain (der in wilder Verzweiflung mitten unter ſie tritt.)" d16 a a a a8 d, r4
+    r2 r4 r8 d %50
+    \time 2/4 c'! c d a
+    \time 4/4 b4 r r r8 b
+    d g, g f! d d r4
+    R1\fermata \bar "|." %54 finis
+  }
+}
+
+AchGottSoliLyrics = \lyricmode {
+  Ach Gott! ach
+  A -- bel! A -- dam, wo
+  bin ich? Eis -- kal -- ter
+  Schau -- er faſ -- ſet mich!
+  Da liegt er! %5
+  Blut fließt
+  von der Stir -- ne nie -- der!
+  Ach
+  A -- bel! be -- ſter Sohn! er -- wa -- che
+  wie -- der! %10
+  A -- dam! liegt er nicht hier?
+  trugſt du ihn her?
+  ſprich, liegt er nicht vor
+  mir?
+  Ach! ih -- re %15
+  Sin -- nen ſind zer -- rüt -- tet! mit
+  wel -- chem Jam -- mer, Gott, haſt
+  du mich ü -- ber -- ſchüt -- tet! nicht
+  du_– nein ich; ach das iſt
+  mei -- ner Sün -- de Lohn! %20
+  Mein Va -- ter! E -- va!
+  A -- bel! ach mein Sohn! O
+  Schwe -- ſter, welch ein Kla -- ge -- ton! ſie ſehn uns
+  nicht. Ach, ich muß ge -- hen und ſelbſt die
+  ſchreck -- li -- che Ge -- ſchich -- te ſe -- hen. %25
+  Ge -- lieb -- ter A -- bel!
+  du, du todt!
+  mein an -- drer Sohn! o
+  Gott! ein Ab -- ſcheu der Na --
+  tur! Ach, %30
+  mei -- ne Glie -- der be -- ben! All --
+  mäch -- ti -- ger, du wirſt die
+  Kla -- gen uns ver -- ge -- ben.
+
+  Wie liegt die Hül -- le da im %36
+  Gras!
+  mit Blut be -- fleckt, die Wan -- ge
+  blaß!
+  dieß ſtar -- ke Aug weint %40
+  nicht mehr Freu -- den -- zäh -- ren!
+  Der Mund wird uns kein Lied mehr
+  leh -- ren.
+  Todt iſt er! ach,
+  iſt das der Tod? Wie %45
+  ſchreck -- lich iſt er, Gott! ach
+  A -- bel! todt biſt du, er --
+  ſchla -- gen!
+  Ja, ich hab ihn er -- ſchla -- gen,
+  vor %50
+  die -- ſem Don -- ner
+  bebt, Weib!
+  ich hab ihn er -- ſchla -- gen! %53 finis
+}

@@ -3315,3 +3315,121 @@ WieEineBassFigures = \figuremode {
   <5> <6!> <_!>
   r <6 4> <5 _!> %77 finis
 }
+
+AchGottOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoAchGott
+    f,1\pE
+    R
+    \tempoAchGottB d'4\fE r r2
+    r es4 r
+    r2 \tempoAchGottC es,4~\p es8 r %5
+    r es'( d es) es,4 r
+    r2 es4~ es8 r
+    r es'( d es) es,2~
+    es c'
+    \tempoAchGottD b4\f r r2 %10
+    r h4 r
+    r2 c4 r
+    r2 es4\p r
+    d\f r r16 a d a fis' d a' fis
+    c16. c32 c16. c32 c4~ \tempoAchGottE c2~\pE %15
+    c b
+    r h~
+    h c~
+    c f
+    e r4 e %20
+    a,2 r
+    \tempoAchGottF r e'~
+    e b
+    f' r
+    a, \tempoAchGottG b4.^\tenuto b8 %25
+    as1~
+    as4 r g g
+    g1
+    \tempoAchGottH c4\f r r2
+    es4 r r2 %30
+    r \tempoAchGottI d\pE
+    cis1~
+    cis4 r r d\fE
+    \tempoAchGottJ g,~ g8 r r g'( fis g)
+    <es es,>4~ q8 r r es( d es) %35
+    <es es,>4 r r2
+    q4~\p q8 r r es( d es)
+    <e e,>2 r
+    <f f,>4~ q8 r r f( e! f)
+    <fis fis,>1 %40
+    r2 <g g,>4~ q8 r
+    b,2 c4 r
+    r d g,2
+    r g
+    r e'! %45
+    r cis~
+    cis1
+    \tempoAchGottK r16. \mvTrr d32\ff-\unisonoE d16. d32 d16. a32 a16. a32 a16. a'32 a16. a32 a16. d,32 d16. d32
+    d4 r r16. d32 d16. d32 d16. a32 a16. a32
+    a16. a'32 a16. a32 a16. d,32 d16. d32 d4 r %50
+    \time 2/4 R2
+    \time 4/4 r16. d32-\unisonoE d16. d32 d16. g,32 g16. g32 g4 r
+    r2 r16. a32 a16. a32 a16. a32 a16. a32
+    d16. a32 d16. d32 d16. a32 d16. d32 d4-! r\fermata \bar "|." %54 finis
+  }
+}
+
+AchGottBassFigures = \figuremode {
+  <_->1
+  r
+  <6->
+  r2 \bo <[5- \l]>
+  r2 <5-> %5
+  r8 <5-> <7 5-> <5-> r2
+  r2 <5->
+  r8 <5-> <7 5-> <5-> r2
+  r2 <6! _->
+  r1 %10
+  r2 <6>
+  r <_->
+  r <6>
+  <_+>1
+  <4+ _-> %15
+  r2 <6>
+  r <6\\>
+  r <6>
+  r <6 5>
+  <7 _+>2. \bc <[\t \t]>4 %20
+  r1
+  r2 <6>
+  r <4 2>
+  r1
+  <6 5-> %25
+  <4 2->
+  r2 <7 _!>
+  <\t \t>1
+  <_->
+  <6> %30
+  r2 <7 _+>
+  <7->1
+  r2. \bo <[7 _+]>4
+  <_->2. <7->8 <_->
+  <5->2. <7 5->8 <5-> %35
+  r1
+  <5->2. <7 5->8 <5->
+  <6 5->1
+  \bc <[_- \l]>2. <7- 5->8 <[_-]>
+  <7- [_!]>1 %40
+  r2 <_->
+  <6> <[6 5 _-]>
+  r4 \bo <[7 _+]> \bc <[_- \l]>2
+  r <_->
+  r <6> %45
+  r <6>
+  r1
+  r
+  r
+  r2 <[7 _+]> %50
+  r2
+  r1
+  r
+  r %54 finis
+}
