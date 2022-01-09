@@ -1166,9 +1166,52 @@ paperEightStaves = \paper {
   %     \midi { \tempo 4. = 45 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2.4" "Accompagnato" "Ach Gott! ach Abel!"
+  %   \addTocLabel "achgott"
+  %   \paperFiveStaves
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \AchGottViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \AchGottViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \AchGottViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "Adam" "Eva" "Thirza" "Mehala" "Kain" }
+  %           \new Voice = "Soli" { \dynamicUp \AchGottSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \AchGottSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \AchGottOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \AchGottBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
-    \section "2.4" "Accompagnato" "Ach Gott! ach Abel!"
-    \addTocLabel "achgott"
+    \section "2.5" "Aria" "Welch Winſeln ſchlägt mein Ohr?"
+    \addTocLabel "welchwinseln"
     \paperFiveStaves
     \score {
       <<
@@ -1177,36 +1220,36 @@ paperEightStaves = \paper {
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \AchGottViolinoI
+              \WelchWinselnViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \AchGottViolinoII
+              \WelchWinselnViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \AchGottViola
+            \WelchWinselnViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "Adam" "Eva" "Thirza" "Mehala" "Kain" }
-            \new Voice = "Soli" { \dynamicUp \AchGottSoli }
+            \set Staff.instrumentName = "Kain"
+            \new Voice = "Soli" { \dynamicUp \WelchWinselnSoli }
           }
-          \new Lyrics \lyricsto Soli \AchGottSoliLyrics
+          \new Lyrics \lyricsto Soli \WelchWinselnSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \AchGottOrgano
+            \WelchWinselnOrgano
           }
         >>
-        \new FiguredBass { \AchGottBassFigures }
+        \new FiguredBass { \WelchWinselnBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 70 }
+      \midi { \tempo 4 = 110 }
     }
   }
 }

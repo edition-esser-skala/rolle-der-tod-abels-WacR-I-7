@@ -1922,3 +1922,50 @@ AchGottViola = {
     d16. a32 d16. d32 d16. a32 d16. d32 d4-! r\fermata \bar "|." %54 finis
   }
 }
+
+WelchWinselnViola = {
+  \relative c' {
+    \clef alto
+    \key d \minor \time 4/4 \tempoWelchWinseln
+    f8(\p f f f) f( f f f)
+    e( e e e) e( e e e)
+    d( d d d) d( d d d)
+    cis( cis cis cis) cis( cis cis cis)
+    f(\pp f f f) f( f f f) %5
+    e( e e e) e( e e e)
+    d( d d d) d( d d d)
+    cis( cis cis cis) cis( cis cis cis)
+    f(\fp f f f) f( f f f)
+    a(\fp a a a) a( a a a) %10
+    g(\fp g g g) g( g g g)
+    d(\fp d d d) d( d d d)
+    d(\fp d d d) d( d d d)
+    d(\fp d d d) d( d d d)
+    cis(\fp cis cis cis) cis( cis cis cis) %15
+    d(\fp d d d) d( d d d)
+    cis(\fp cis cis cis) e( e e e)
+    e( e e e) e4 r
+    r a,8 a16( h) cis( h cis d) e( d e f)
+    g8 r cis,16( h cis d) e( d e f) g( f g a) %20
+    b!8 r e,16( d e f) g( f g a) h( a h cis)
+    d8.[ a16\f a8. a16] a4 r
+    r8. b16[ b8. b16] b4 r
+    b,\p r r2
+    r4 b16(\f a b c) d( c d es) f8. h,16 %25
+    h4 r h\p r
+    c r r2
+    r4 c16(\f h c d) e!( d e f) g8. cis,16
+    cis4 r cis\p r
+    r8. a'16\f a4 r8 a,\p a a %30
+    b b b b c! c c c
+    d d d d c c c c
+    d d d d d d d d
+    cis cis cis cis d d d d
+    cis r a a16( h) cis( h cis d) e( d e f) %35
+    g8 r cis,16( h cis d) e( d e f) g( f g a)
+    b!8 r e,16( d e f) g( f g a) h( a h cis)
+    d d,\f f a d4-! r16 b,! d f b4-!
+    r16 g, b d g4-! r16 a, cis e a4-!
+    r16 d, f a d4-! r2\fermata \bar "|." %40 finis
+  }
+}

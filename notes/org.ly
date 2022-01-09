@@ -3433,3 +3433,93 @@ AchGottBassFigures = \figuremode {
   r
   r %54 finis
 }
+
+WelchWinselnOrgano = {
+  \relative c {
+    \clef bass
+    \key d \minor \time 4/4 \tempoWelchWinseln
+    \mvTr d8(\p-\soloE d d d) d( d d d)
+    cis( cis cis cis) cis( cis cis cis)
+    f( f f f) f( f f f)
+    e( e e e) e( e e e)
+    d(\pp d d d) d( d d d) %5
+    cis( cis cis cis) cis( cis cis cis)
+    f( f f f) f( f f f)
+    e( e e e) e( e e e)
+    d(\fp d d d) d( d d d)
+    c!(\fp c c c) c( c c c) %10
+    b(\fp b b b) b( b b b)
+    fis(\fp fis fis fis) fis( fis fis fis)
+    g(\fp g g g) g( g g g)
+    h(\fp h h h) h( h h h)
+    a(\fp a a a) a( a a a) %15
+    a(\fp a a a) a( a a a)
+    a(\fp a a a) a( a a a)
+    a( a a a) a4 r
+    r a8 a16( h) cis( h cis d) e( d e f)
+    g8 r cis,16( h cis d) e( d e f) g( f g a) %20
+    b!8 r e,16( d e f) g( f g a) h( a h cis)
+    d8.[ d,16\f d8. d16] d4 r
+    r8. b16[ b8. b16] b4 r
+    b\pE r r2
+    r4 b16(\f a b c) d( c d es) f8. f16 %25
+    f4 r h,\p r
+    c r r2
+    r4 c16(\f h c d) e!( d e f) g8. g16
+    g4 r cis,\p r
+    r8. d16\f d4 r8 f\p f f %30
+    g g g g a a a a
+    b b b b a a a a
+    b b b b h h h h
+    a a a a a a a a
+    a, r a a16( h) cis( h cis d) e( d e f) %35
+    g8 r cis,16( h cis d) e( d e f) g( f g a)
+    b!8 r e,16( d e f) g( f g a) h( a h cis)
+    d d,\f f a d4-! r16 b,! d f b4-!
+    r16 g, b d g4-! r16 a, cis e a4-!
+    r16 d, f a d4-! r2\fermata \bar "|." %40 finis
+  }
+}
+
+WelchWinselnBassFigures = \figuremode {
+  r1
+  <6>
+  q
+  <6\\>
+  r %5
+  <6>
+  q
+  <6\\>
+  r
+  <4+ 2> %10
+  <6>
+  <6 5>
+  r
+  <6\\>
+  <_+> %15
+  <6 4>
+  <5 _+>
+  <\t \t>
+  r4 <_+> <6> <6\\>
+  <4+ _-> <7> <6\\ 5> <4+ 3> %20
+  <4 2+> <6\\> <_!> <6>8. <6>16
+  r1
+  r
+  r
+  r2 <6>4 <4! _-> %25
+  <\t \t>2 <6 5>
+  <_->1
+  r4 <_!> <6> <4+ _->
+  <\t \t>2 <6>
+  r2 r8 <6>4. %30
+  <5>8 <6->4. <5- _!>8 <6\\ \t>4.
+  <5+>8 <6>4. <6\\>2
+  <5+>8 <6>4. <7>8 <6\\>4.
+  <_+>2 <6! 4>
+  <5 _+>4 <\t \t> <6> <6\\> %35
+  <4+ 3> <7-> <6\\ 5> <4+ 3>
+  <4 2+> <6\\> <_!> <6>8. q16
+  r1
+  r2 r16 <_+>4..
+  r1 %40 finis
+}

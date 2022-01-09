@@ -1667,3 +1667,50 @@ AchGottViolinoII = {
     d16. a32 d16. d32 d16. a32 d16. d32 d4-! r\fermata \bar "|." %54 finis
   }
 }
+
+WelchWinselnViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 4/4 \tempoWelchWinseln
+    a'2\p gis8( a) gis( a)
+    gis( a) b( a) a2
+    a, gis8( a) gis( a)
+    gis( a) b( a) a2
+    a'\pp gis8( a) gis( a) %5
+    gis( a) b( a) a2
+    a, gis8( a) gis( a)
+    \slurDashed gis( a) b( a) \slurSolid a2
+    a'8(\fp a a a) a( a a a)
+    d(\fp d d d) d( d d d) %10
+    d(\fp d d d) d( d d d)
+    c(\fp c c c) c( c c c)
+    b(\fpE b b b) b( b b b)
+    gis(\fp gis gis gis) gis( gis gis gis)
+    a(\fp a a a) a( a a a) %15
+    f(\fp f f f) f( f f f)
+    e(\fp e e e) a( a a a)
+    cis( cis cis cis) cis4 r
+    a,8 a16( h) cis( h cis d) e( d e f) g8 r
+    cis,16( h cis d) e( d e f) g( f g a) b8 r %20
+    e,16( d e f) g( f g a) h( a h cis) d( cis d e)
+    d8.[ d16\f d8. d16] d4 r
+    r8. d16[ d8. d16] d4 r
+    r8 b,(\p b b) b( b b b)
+    b16(\f a b c) d( c d es) f( es f g) as8. d,16 %25
+    d4 r r2
+    r8 c8(\p c c) c( c c c)
+    c16(\f h c d) e!( d e f) g( f g a) b8. e,16
+    e4 r r2
+    r8. d'16\f d4 r8 d,\p d d %30
+    d( es) r es es( fis) r fis
+    fis( g) r d' d( fis,) r fis
+    fis( g) r b a( gis) r gis
+    a( e') r g, f( d') r f,
+    e a,16( h) cis( h cis d) e( d e f) g8 r %35
+    cis,16( h cis d) e( d e f) g( f g a) b8 r
+    e,16( d e f) g( f g a) h( a h cis) d( cis d e)
+    f8 r r16 d,\f f a d4-! r16 b, d f
+    b4-! r16 g, b g a4-! r16 a' cis a
+    d4-! r16 d f a d4-! r\fermata \bar "|." %40
+  }
+}

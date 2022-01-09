@@ -68,6 +68,7 @@ tempoAchGott = \tempoMarkup "Largo"
   tempoAchGottI = \tempoMarkup "[Recitativo]"
   tempoAchGottJ = \tempoMarkup "Largo"
   tempoAchGottK = \tempoMarkup "Allegro"
+tempoWelchWinseln = \tempoMarkup "Allegro moderato"
 
 
 \include "notes/fl1.ly"

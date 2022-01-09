@@ -2690,3 +2690,80 @@ AchGottSoliLyrics = \lyricmode {
   bebt, Weib!
   ich hab ihn er -- ſchla -- gen! %53 finis
 }
+
+WelchWinselnSoli = {
+  \relative c {
+    \clef bass
+    \key d \minor \time 4/4 \autoBeamOff \tempoWelchWinseln
+    R1*3
+    r2 r4 \mvTr a'\pE^\soloE
+    d d, f e8([ d)] %5
+    a'2 r
+    R1*2
+    r2 r4 d,
+    fis fis r d %10
+    \appoggiatura d8 g4 g r2
+    a4. a8 a d, d a'
+    b!4 r r2
+    d4 d, d8 e f d
+    a'2 r %15
+    R1*3
+    r2 r4 g
+    b! b r b8 g %20
+    cis4 r r8 a a a
+    d4 r r8 d d a
+    b4 r r8 b b f
+    b,4 r r2
+    R1 %25
+    r8 h' h c d f, g d
+    es4 r r2
+    R1
+    r8 cis' cis d e g, a e
+    f4 r8 d' d4 a %30
+    r2 c!8 c c fis,
+    g4 r r2
+    r d'8 d d gis,
+    a4 r r2
+    r r4 g8 g %35
+    b! b r4 r b8 g
+    cis cis r4 r8. a16 h8. cis16
+    d4 r r2
+    R1
+    R\fermata \bar "|." %40 finis
+  }
+}
+
+WelchWinselnSoliLyrics = \lyricmode {
+  Welch %4
+  Win -- ſeln ſchlägt mein %5
+  Ohr?
+
+  Welch %9
+  Seuf -- zen, welch %10
+  Seuf -- zen
+  ſteigt aus dem Ge -- büsch her --
+  vor?
+  ſteigt aus dem Ge -- büsch her --
+  vor? %15
+
+  Es %19
+  rie -- ſelt hin -- ter %20
+  mir als wie ein
+  Bach! das iſt ſein
+  Blut, das iſt ſein
+  Blut!
+  %25
+  Es fließt mir nach, das iſt ſein
+  Blut!
+
+  Das iſt ſein Blut, es fließt mir
+  nach! Er iſt es_– %30
+  rö -- cheln hör ich
+  ihn,
+  rö -- cheln hör ich
+  ihn!
+  Wo -- hin %35
+  flieh ich? wo -- hin
+  flieh ich? wo -- hin, wo --
+  hin? %38 finis
+}
