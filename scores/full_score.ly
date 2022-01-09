@@ -1209,9 +1209,52 @@ paperEightStaves = \paper {
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2.5" "Aria" "Welch Winſeln ſchlägt mein Ohr?"
+  %   \addTocLabel "welchwinseln"
+  %   \paperFiveStaves
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \WelchWinselnViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \WelchWinselnViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \WelchWinselnViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Kain"
+  %           \new Voice = "Soli" { \dynamicUp \WelchWinselnSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \WelchWinselnSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \WelchWinselnOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \WelchWinselnBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 110 }
+  %   }
+  % }
   \bookpart {
-    \section "2.5" "Aria" "Welch Winſeln ſchlägt mein Ohr?"
-    \addTocLabel "welchwinseln"
+    \section "2.6" "Accompagnato" "Entſetzen – Kain – mein Mann – erſchlug ihn!"
+    \addTocLabel "entsetzen"
     \paperFiveStaves
     \score {
       <<
@@ -1220,36 +1263,36 @@ paperEightStaves = \paper {
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \WelchWinselnViolinoI
+              \EntsetzenViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \WelchWinselnViolinoII
+              \EntsetzenViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \WelchWinselnViola
+            \EntsetzenViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "Kain"
-            \new Voice = "Soli" { \dynamicUp \WelchWinselnSoli }
+            \set Staff.instrumentName = \markup \center-column { "Mehala" "Adam" "Eva" "Thirza" }
+            \new Voice = "Soli" { \dynamicUp \EntsetzenSoli }
           }
-          \new Lyrics \lyricsto Soli \WelchWinselnSoliLyrics
+          \new Lyrics \lyricsto Soli \EntsetzenSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \WelchWinselnOrgano
+            \EntsetzenOrgano
           }
         >>
-        \new FiguredBass { \WelchWinselnBassFigures }
+        \new FiguredBass { \EntsetzenBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 110 }
+      \midi { \tempo 4 = 70 }
     }
   }
 }

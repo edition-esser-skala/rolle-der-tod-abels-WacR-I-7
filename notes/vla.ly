@@ -1969,3 +1969,66 @@ WelchWinselnViola = {
     r16 d, f a d4-! r2\fermata \bar "|." %40 finis
   }
 }
+
+EntsetzenViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoEntsetzen
+    d16.\f d32 d16. d32 d4 r16. d32 d16. d32 d4
+    r16. d32 d16. d32 d4 r16. d32 d16. d32 d4-!
+    r16. c32 c16. c32 c4 r2
+    r16. c32 c16. c32 c4 r16. cis32 cis16. cis32 cis4
+    r16. f32 f16. f32 f16. f32 f16. f32 g4~ \tempoEntsetzenB g~\p %5
+    g1~
+    g
+    \tempoEntsetzenC r2 r16. gis32\fE gis16. gis32 gis16. dis32 dis16. dis32
+    dis4~ dis2\p r4
+    r8 fis~ fis4 \tempoEntsetzenD r8 fis~ fis4 %10
+    \tempoEntsetzenE r8 e16.\f e32 gis16. gis32 h16. h32 d!16. d32 h16. h32 gis16. gis32 e16. e32
+    d4 r r2
+    r r8 c16. c32 e16. e32 a16. a32
+    \time 2/4 c16. c32 a16. a32 e16. e32 c16. c32
+    \time 4/4 g!4 r r2 %15
+    r16. d'32 f16. a32 d4 r16. d,32 f16. a32 d16. a32 f16. d32
+    b16. b32 d16. f32 b4 r16. b,32 d16. f32 b16. d32 b16. f32
+    \tempoEntsetzenF b,8 f f f f4~ f~\p
+    f2~ f4 r
+    r2 \tempoEntsetzenG r8 g(-. g4-.) %20
+    r8 g(-. g4-.) r8 g(-. g4-.)
+    r8 \once \slurDashed fis(-. fis4-.) r2
+    R1*16 %38
+    \time 2/4 R2
+    \time 4/4 R1*5 %44
+    r2 \tempoEntsetzenH b~\p %45
+    b~ b4 r
+    r2 f'4 r
+    f r f r
+    \tempoEntsetzenI r2 d4\f r
+    d' r a r %50
+    \tempoEntsetzenJ h!4\p e,8 e e4\fermata r
+    \tempoEntsetzenK a,8 d e e, f c' d e
+    f c d e a a, c c
+    d d d d c c c c
+    h h h h a gis h a %55
+    gis'16 a a8~ a gis16 e a,8 c h h
+    a a d e f c d, e
+    a4 r \tempoEntsetzenL r2
+    r b~
+    b a %60
+    R1
+    \tempoEntsetzenM c4 r8 g' c,4 r8 g
+    c1~
+    c2 r
+    g'1~ %65
+    g4 r f r8 c
+    f4 r8 c f,2
+    R1
+    r8 f'16. f32 f4 r8 a16. a32 a4
+    r2 r8 b, b b %70
+    b4 r8 f' b4 r8 f,
+    b2 r
+    R1
+    r2 r4 a
+    g1\fermata \bar "|." %75 finis
+  }
+}

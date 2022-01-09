@@ -1713,3 +1713,66 @@ WelchWinselnViolinoI = {
     d4-! r16 d f a d4-! r\fermata \bar "|." %40
   }
 }
+
+EntsetzenViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoEntsetzen
+    gis'16.\f gis32 gis16. gis32 gis4 r16. gis32 gis16. gis32 gis4
+    r16. gis32 gis16. gis32 gis4 r16. gis32 gis16. gis32 gis4-!
+    r16. a32 a16. a32 a4 r2
+    r16. a32 a16. a32 a4 r16. b32 b16. b32 b4
+    r16. des32 des16. des32 des16. des32 des16. des32 des4~ \tempoEntsetzenB des~\p %5
+    des1~
+    des
+    \tempoEntsetzenC r2 r16. gis32\fE gis16. dis32 dis16. h!32 h16. gis32
+    gis4~ gis2\p r4
+    r8 dis'~ dis4 \tempoEntsetzenD r8 dis~ dis4 %10
+    \tempoEntsetzenE r8 e,16.\f e32 gis16. gis32 h16. h32 d16. d32 h16. h32 gis16. gis32 e16. e32
+    d4 r r2
+    r r8 c16. c32 e16. e32 a16. a32
+    \time 2/4 c16. c32 a16. a32 e16. e32 e16. e32
+    \time 4/4 e4 r r2 %15
+    r16. d32 f16. a32 d4 r16. d,32 f16. a32 d16. a32 f16. d32
+    b16. b32 d16. f32 b4 r16. b,32 d16. f32 b16. d32 b16. f32
+    \tempoEntsetzenF b,8 d d d d4~ d~\p
+    d2~ d4 r
+    r2 \tempoEntsetzenG r8 e!(-. e4-.) %20
+    r8 e(-. e4-.) r8 e(-. e4-.)
+    r8 \once \slurDashed d(-. d4-.) r2
+    R1*16 %38
+    \time 2/4 R2
+    \time 4/4 R1*5 %44
+    r2 \tempoEntsetzenH g~\p %45
+    g~ g4 r
+    r2 r8 c16.( f32) c4
+    r8 c16.( f32) c4 r8 c16.( f32) c4
+    \tempoEntsetzenI r2 r16. a32\f d16. f32 a4
+    r16. d,32 f16. a32 d4 r2 %50
+    \tempoEntsetzenJ r8 h,16.\p e32 h8 \appoggiatura d16 c16( h) h4\fermata r8 e
+    \tempoEntsetzenK \slurDashed d16( c) c( h) \slurSolid h( a) a( gis) gis8( a16) c h( a) a( gis)
+    gis8( a16) e' d( c) c( h) \appoggiatura h8 c4 r16 a c e
+    e8( f16) d c8( h16) f' f8( e16) c h( gis) a c
+    c8( d16) h a8( gis16) d' c8( h16) e d8( c16) f %55
+    e( dis) dis8~ dis h16 d c8. a16 \appoggiatura a8 gis4\trill
+    a8 e16 c' h( a) a( gis) gis8( a16) e d( c) c( h)
+    \appoggiatura h8 c4 r \tempoEntsetzenL r2
+    r cis'~
+    cis d %60
+    R1
+    \tempoEntsetzenM r8 g16. c32 g16([ e)] e32.( g64 f16) e8 e e16([ c)] c32.( e64 d16)
+    c1~
+    c2 r
+    e1~ %65
+    e4 r r8 c16.( f32) c16([ a)] a32.( c64 b16)
+    a8 a \once \slurDashed a16([ f)] f32.( a64 g16) f2
+    R1
+    r8 a'16. a32 a4 r8 c16. c32 c4
+    r2 r8 \tuplet 3/2 8 { d,,16( f b) f([ b d)] b( d f) } %70
+    \tuplet 3/2 8 { d([ f b)] } f f f([ d)] d32.( f64 es16) d8 d d16[( b]) b32.( d64 c16)
+    b2 r
+    R1
+    r2 r4 fis
+    g1\fermata \bar "|." %75 finis
+  }
+}

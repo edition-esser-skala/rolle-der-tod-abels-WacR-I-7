@@ -2767,3 +2767,162 @@ WelchWinselnSoliLyrics = \lyricmode {
   flieh ich? wo -- hin, wo --
   hin? %38 finis
 }
+
+EntsetzenSoli = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoEntsetzen
+    r4 r8. d16^\soloMehala gis8 gis r4
+    h8 h r h d4 r8. a16
+    a8 e r e16 e a8 a a gis
+    a4 r8 a b b r b16 des
+    b8 b r4 r \tempoEntsetzenB b~ %5
+    b b8 b g g r es16 f
+    g8 g g as b b r b
+    \tempoEntsetzenC des des des ces as4 r
+    r h! r h8 gis
+    a!4 r8 cis \tempoEntsetzenD a a r a16 gis %10
+    \tempoEntsetzenE gis4 r r2
+    r4 e8 e16 fis gis8 gis gis a
+    h h h e, a a r4
+    \time 2/4 R2
+    \time 4/4 r8 e e e g g b a %15
+    f f r16 a a a d4 r
+    r r16 f, f f b4 r
+    \tempoEntsetzenF r2 r4 r8 b
+    b f r4 f8 f f g
+    as as as g \tempoEntsetzenG e!4 r %20
+    g8 g r g b g r g16 fis
+    d8 d r4 r r16 fis^\markup \remark "risoluto" h ais
+    h8 r16 h h8 r16 fis g8 r16 e^\markup \remark "(Sie eilt Kain nach.)" ais8 h
+    h fis r4 \clef bass r r8 g,^\soloAdam
+    g d r4 g8. g16 g4 %25
+    r8 g g a h h \clef treble r h'16^\soloEva c
+    d4 r16 h a g c4 r16 g g a
+    b8 r16 b b8 d b b r g
+    e e r4 g8 g b a
+    f f r4 a r8 a %30
+    a e e f f4 a
+    a8 a d a b4 d
+    b b8 g cis4 r8 d
+    a4 r \clef bass r h,!~^\soloAdam
+    h h8 d, f f f e %35
+    c c r4 a' a8 a
+    a8. e16 e4 r8 e g! f
+    d d r d a' a a b
+    \time 2/4 c8. c16 c8 r16 a
+    \time 4/4 b8 r16 d d8 b g8. g16 g4 %40
+    r r8 g g f! f g
+    es r16 es es8 f g g c h!
+    c c r c, g' g g b
+    g4 r8 g g g fis g
+    g d r4 \clef treble \tempoEntsetzenH r r8 b''^\soloThirza %45
+    g^\markup \remark { \override #'(baseline-skip . 2) \left-column { "(die zurück kömmt, nachdem ſie den" "erſchlagnen Leichnam Abels geſehen.)" } } g r d' b b r g16 a
+    b8 b b r16 c a8^\dolce a r f16.^\markup \remark "a tempo" g32
+    a4 r8 c c f, r f
+    \tempoEntsetzenI a r16 a a a a a d4 r8 d
+    f4 r8 a, d  d d16 a a h! %50
+    \tempoEntsetzenJ gis8 gis r4 r\fermata r8 e'
+    \tempoEntsetzenK d16([ c)] c([ h)] h([ a)] a([ gis)] \appoggiatura gis8 a8. c16 h([ a)] a[( gis)]
+    \appoggiatura gis8 a8. e'16 d([ c)] c([ h)] \appoggiatura h8 c4 r16 a c e
+    e8([ f16)] d c8([ h16)] f' \appoggiatura f8 e4 r16 gis, a c
+    c8([ d16)] h a8([ gis16)] d' c8([ h16)] e d8 c16 f %55
+    e([ dis)] dis8 r h16 d c8.([ a16)] \appoggiatura a8 gis4\trill
+    a r r2
+    r \tempoEntsetzenL r4 r8 e
+    a4 r16 a a a cis4 r8 e
+    e g, b a f f r a %60
+    d d d e f d e f
+    \tempoEntsetzenM e e r4 r2
+    r4 r8 c c4 g
+    e8 e e f g g g a
+    b r16 b b b b d b4 r8 g %65
+    b b c g a a r4
+    r2 r4 r8 c
+    a a a b c c c d
+    es4 r16 es es c f4 r8 es
+    g es es f d d r4 %70
+    R1
+    r2 f4 f8 f16 d
+    b8 b r d16 b g8 g r16 g b g
+    es'8 c c b g g r4
+    R1\fermata \bar "|." %75 finis
+  }
+}
+
+EntsetzenSoliLyrics = \lyricmode {
+  Ent -- ſe -- tzen_–
+  Ka -- in_– mein Mann_– er --
+  ſchlug ihn! hat den Bru -- der -- mord ge --
+  than! Ent -- ſe -- tzen_– welch Ver --
+  bre -- chen! Ach, __ %5
+  mei -- ne Mut -- ter! wer
+  ver -- mag es aus -- zu -- ſpre -- chen, was
+  dei -- ne Bruſt zer -- reißt?
+  Doch, fluch ihm
+  nicht, ach, A -- dam! fluch ihm %10
+  nicht.
+  Sieh, wie die Höl -- le ſchon in
+  ſei -- nen Bu -- ſen drin -- get!
+
+  und er mit der Ver -- zweif -- lung %15
+  rin -- get! wie jagt ſie ihn,
+  wie jagt ſie ihn!
+  Ach,
+  Ka -- in! ein -- ſam wilſt du
+  in die Welt ent -- fliehn! %20
+  ein -- ſam und hülf -- los und ver --
+  laſ -- ſen! ich fol -- ge
+  dir, ich kann, ich darf, ich darf nicht
+  haſ -- ſen. Ach,
+  E -- va_– ſtarr ſieht ſie, %25
+  wen ſucht dein Au -- ge? Iſt er
+  fort, der uns ge -- flucht? wo iſt er
+  hin?_– ich muß ihn ſu -- chen, und
+  ſa -- gen, A -- dam nicht zu
+  flu -- chen! ich, ich %30
+  ſün -- dig -- te zu -- erst, mich
+  tref -- fe Fluch und Wuth! mich,
+  mich klag es an, dieß
+  Blut. O, __
+  wel -- che Quaal machſt du dem %35
+  Her -- zen! Ach, ich be --
+  ſchwö -- re dich bey un -- ſern
+  Schmer -- zen, von die -- ſem Vor -- wurf
+  ge -- gen dich laß
+  ab! wir bey -- de ſün -- dig -- ten; %40
+  Gott ſieht auf uns her --
+  ab, ge -- den -- ke ſei -- nes Worts voll
+  Se -- gen, die Tu -- gend führt der
+  Tod dem ew -- gen Lohn ent --
+  ge -- gen. Ach, %45
+  E -- lend! Ach, E -- lend!_– er er --
+  wa -- chet nicht, mein A -- bel_– Er, mein
+  Glück, mein Le -- ben, und
+  ich ſeh das ver -- haß -- te Licht, und
+  nichts, nichts, nichts kann mir ihn wie -- der %50
+  ge -- ben! Ach,
+  Thrä -- nen, Thrä -- nen, fließt in mei -- nen
+  Schmerz, in mei -- nen Schmerz, er -- leich -- tert
+  das be -- klemm -- te Herz, er -- leich -- tert
+  das be -- klemm -- te, das be -- klemm -- te, er -- %55
+  leich -- tert das be -- klemm -- te
+  Herz!
+  Er
+  todt!_– mein A -- bel todt! auf
+  e -- wig mir ent -- riſ -- ſen!_– wa -- %60
+  rum mußt ich nicht ein -- mal noch ihn
+  küſ -- ſen._–
+  Wie lieb -- reich
+  hätt’ er mich im Ster -- ben an -- ge --
+  blickt! Dann hät -- te mei -- nen Geiſt ſein %65
+  Hauch in ſich ge -- ſo -- gen!
+  Dann
+  hätt’ er mich mit ſich der Erd’ ent --
+  rückt, mit ihm wär ich zum
+  Him -- mel auf -- ge -- flo -- gen. %70
+
+  Ach, ſü -- ßer Ge --
+  dan -- ke, hei -- ßes Seh -- nen! er -- weich, er --
+  weich dieß Herz zu Thrä -- nen. %74 finis
+}

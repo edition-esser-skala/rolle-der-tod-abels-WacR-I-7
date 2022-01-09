@@ -3523,3 +3523,163 @@ WelchWinselnBassFigures = \figuremode {
   r2 r16 <_+>4..
   r1 %40 finis
 }
+
+EntsetzenOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoEntsetzen
+    h16.\f h32 h16. h32 h4 r16. h32 h16. h32 h4
+    r16. h32 h16. h32 h4 r16. h32 h16. h32 h4-!
+    r16. a32 a16. a32 a4 r2
+    r16. a32 a16. a32 a4 r16. g'32 g16. g32 g4
+    r16. f32 f16. f32 f16. f32 f16. f32 es4~ \tempoEntsetzenB es~\pE %5
+    es1~
+    es
+    \tempoEntsetzenC r2 r16. h!32\fE h16. h32 h16. h32 h16. h32
+    h4~ h2\p r4
+    r8 h~ h4 \tempoEntsetzenD r8 h~ h4 %10
+    \tempoEntsetzenE r8 e16.\f e32 gis16. gis32 h16. h32 d!16. d32 h16. h32 gis16. gis32 e16. e32
+    d4 r r2
+    r r8 c16. c32 e16. e32 a16. a32
+    \time 2/4 c16. c32 a16. a32 e16. e32 c16. c32
+    \time 4/4 cis4 r r2 %15
+    r16. d32-\unisonoE f16. a32 d4 r16. d,32 f16. a32 d16. a32 f16. d32
+    b16. b32 d16. f32 b4 r16. b,32 d16. f32 b16. d32 b16. f32
+    \tempoEntsetzenF b,8 b b b b4~ b~\p
+    b2~ b4 r
+    r2 \tempoEntsetzenG r8 b(-. b4-.) %20
+    r8 \slurDashed b(-. b4-.) r8 b(-. b4-.)
+    r8 h(-. h4-.) \slurSolid r2
+    d2 e
+    r4 fis g2~
+    g1 %25
+    g2 f!~
+    f e~
+    e1~
+    e
+    f %30
+    cis2 d
+    fis g~
+    g g4 r
+    r a gis2~
+    gis1 %35
+    a,
+    g'!
+    f2 fis~
+    \time 2/4 fis
+    \time 4/4 g1 %40
+    h,!
+    c~
+    c
+    cis
+    r4 d \tempoEntsetzenH g,2~\p %45
+    g~ g4 r
+    g' r f r
+    f r f r
+    \tempoEntsetzenI r2 f4\f r
+    d r f r %50
+    \tempoEntsetzenJ e\p e8 e, e4\fermata r
+    \tempoEntsetzenK a8 d e e, f c' d e
+    f c d e a a, a a'
+    d, d g g c, c f f
+    h, h e e e e e e %55
+    e e e e dis dis e e
+    a a, d e f c d e
+    a, a' a,4 \tempoEntsetzenL r2
+    r g'~
+    g d %60
+    r d
+    \tempoEntsetzenM c4 r8 g' c4 r8 g
+    c,1~
+    c2 r
+    c1~ %65
+    c4 r f r8 c
+    f4 r8 c f,2
+    R1
+    r8 f'16. f32 f4 r8 f16. f32 f4
+    r2 r8 b, b b %70
+    b4 r8 f' b4 r8 f
+    b,2 r
+    d es
+    c r4 d
+    g,1\fermata \bar "|." %75 finis
+  }
+}
+
+EntsetzenBassFigures = \figuremode {
+  <6\\ 5>1
+  r
+  r
+  r2 r16. <4+ _->32 r4.
+  r16. <6- 4->32 r4. <7- 5->2 %5
+  r1
+  r
+  r2 r16. <6+ _+>32 r4.
+  <\t \t>1
+  r8 <7 5+ _+>2.. %10
+  r8 <7 _+>2..
+  <\t \t>1
+  r2 r8 <6>4.
+  r2
+  <7->1 %15
+  r
+  r
+  r
+  r
+  r2 r8 <4! 2+>4. %20
+  r1
+  r8 <5+>2..
+  <6 _+>1
+  r4 <7 [5+] _+> <3>2
+  r1 %25
+  r2 <4 2>
+  r <6>
+  <6 5->1
+  r
+  r %30
+  <6>
+  <6>2 <_->
+  r <4+ 2>
+  r4 <_+> <7>2
+  r1 %35
+  r
+  <4+ 2>
+  <6>2 q
+  r
+  <_->1 %40
+  <6>
+  <_->
+  r
+  <7- [_!]>
+  r4 <_+> <[_-]>2 %45
+  r1
+  <6!>
+  r
+  r2 <6>
+  r <6> %50
+  <5 _+>4. <6 4>16 <5 _+> <\t \t>2
+  r8 <6> <6 4> <5 _+> <\t \t> <6> q <7 _+>
+  <\t \t> <6> q <7 _+> <\t \t> <8 3>4.
+  <9>8 <8> <7 4> <\t 3> <4> <3> <7 5 2+> <\t \t 3>
+  <9> <8> <7 4> <\t _+> <6 4> <5 _+> <7 5> <6 4> %55
+  <8 _+> <7+ 2+>4 <7! _+>8 <7 _+>4 <4>8 <_+>
+  r4 <6>8 <7 _+> <\t \t> <6> q <7 _+>
+  <\t \t> <8 3>2..
+  r2 <4+ _->
+  r1 %60
+  r2 <6!>
+  r1
+  r
+  r
+  <7-> %65
+  r
+  r
+  r
+  r8 <7->2..
+  r1 %70
+  r
+  r
+  <6->2 <[5-]>
+  <[_-]>2. <_+>4
+  <_->1 %75 finis
+}

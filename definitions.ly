@@ -70,6 +70,21 @@ tempoAchGott = \tempoMarkup "Largo"
   tempoAchGottK = \tempoMarkup "Allegro"
 tempoWelchWinseln = \tempoMarkup "Allegro moderato"
 
+%2.6
+tempoEntsetzen = \tempoMarkup "Moderato"
+  tempoEntsetzenB = \tempoMarkup "Poco lento"
+  tempoEntsetzenC = \tempoMarkup "Vivace"
+  tempoEntsetzenD = \tempoMarkup "Poco lento"
+  tempoEntsetzenE = \tempoMarkup "Vivace"
+  tempoEntsetzenF = \tempoMarkup "Moderato"
+  tempoEntsetzenG = \tempoMarkup "Poco lento, a tempo"
+  tempoEntsetzenH = \tempoMarkup "Poco lento"
+  tempoEntsetzenI = \tempoMarkup "Recitativo, vivace"
+  tempoEntsetzenJ = \tempoMarkup "Largo"
+  tempoEntsetzenK = \tempoMarkup "Arioso"
+  tempoEntsetzenL = \tempoMarkup "Recitativo"
+  tempoEntsetzenM = \tempoMarkup "Largo dolce"
+
 
 \include "notes/fl1.ly"
 \include "notes/fl2.ly"
