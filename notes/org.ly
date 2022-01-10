@@ -3877,3 +3877,77 @@ AchTochterBassFigures = \figuremode {
   <4+ 3>2. <7 _+>4 %15
   <_+>1 %16 finis
 }
+
+HerrWendeOrgano = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \tempoHerrWende
+    \mvTr d8\pE-\soloE d' a fis d e fis d
+    a' a, a4 r8 a cis a
+    d, d' a fis d4 r
+    r8 cis' d a fis d r4
+    r8 cis' d cis h d e e, %5
+    a e' cis a r h e e,
+    r a cis e a g! fis e
+    d d' a fis d e fis d
+    a' a, a4 r8 a cis a
+    d, d' a fis d4 r %10
+    r8 cis' d a fis d r4
+    r8 cis' d cis h d e e,
+    a e' cis a r h e e,
+    a a' e cis a a cis e
+    a, a' e cis a4 g'!8 fis %15
+    cis a d d, r a' a' a,
+    h h' a g fis e fis d
+    r e a a, d d' cis h
+    a h a g fis e fis4
+    g8 fis g4 a8 g a a, %20
+    d d' a fis d e fis d
+    a a' e cis a4 g'!8 fis
+    cis a d d, r a' a' a,
+    h h' a g fis e fis d
+    r e a a, d d' cis h %25
+    a h a g fis e fis4
+    g8 fis g4 a8 g a a,
+    d4 r r8 d'( cis h)
+    a2~ a8 h a g
+    fis e d h' a4 a, %30
+    d2 d,~ \bar "||" %31 finis
+    \hideNotes d4
+  }
+}
+
+HerrWendeBassFigures = \figuremode {
+  r1
+  <6 4>4 <5 3>8 <6 4> <7 5>4 <6 5>
+  <9 4>8 <\t \t> <6 4> <\t \t> r2
+  r8 <7> <5 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff r4
+  r8 <7> <5 3> <\t \t> r <6> <6 4> <5 _+> %5
+  r2. <6 4>8 <5 _+>
+  r2 r8 <2> <6> q
+  r1
+  <6 4>4 <5 3>8 <6 4> <7 5>4 <6 5>
+  <9 4>8 <\t \t> <6 4> <\t \t> r2 %10
+  r8 <7> <5 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff r4
+  r8 <7> <5 3> <\t \t> r <6> <6 4> <5 _+>
+  r2. <6 4>8 <5 _+>
+  r1
+  r2. <2>8 <6> %15
+  <6 5>8 <\t \t>4. <7 5>8 <6 4> <5 3>4
+  r2 <6>4. q8
+  <7 4>4 <7> r4 <6>8 <7>
+  r2 <6>8 q <6 3> <\t _+>
+  <5>8 <6\\> <6>4 <6 4!> <5 3> %20
+  r2 r8 <6> q4
+  r2. <2>8 <6>
+  <6 5>8 <\t \t>4. <7 5>8 <6 4> <5 3>4
+  r2 <6>4. q8
+  <7 4>4 <7> r <6>8 <7> %25
+  r2 <6>8 q <6 3> <\t _+>
+  <5>8 <6\\> <6>4 <6 4!>4 <5 3>
+  r2. <6>8 <7>
+  r <9 7> <8 6> <7 5> <6 4>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff <6>
+  <6> q4 q8 <7 4> <6 \t> <5 3>4 %30
+  r8 <6 4> <5 3> <7 4> <\t \t>4 <8 3> %31 finis
+  r
+}

@@ -3050,7 +3050,7 @@ AchTochterSoli = {
     a r16 a a8 b c c c es,
     d d r4 b' b8 f %5
     as as as g es es r4
-    c' g8 g b^\markup \remark "(Hier wird in der Ferne ein murmelnder Donner gehört.)" b b a
+    c' g8 g b b b a
     f r16 a d8 a
     b b g f d4 r r2
     \clef bass r8 d,^\soloAdam f g a a r4 %10
@@ -3059,7 +3059,7 @@ AchTochterSoli = {
     gis, gis r gis16 a h8 h h c
     a r16 a a8 e f f f4
     r8 gis gis a e4 r %15
-    R1^\markup \remark "(Der Donner wird immer fortgehört.)" \bar "||" %16 finis
+    R1 \bar "||" %16 finis
   }
 }
 
@@ -3079,4 +3079,89 @@ AchTochterSoliLyrics = \lyricmode {
   Ev -- a! laß uns zu dem Rich -- ter
   flehn, viel -- leicht er -- barmt er ſich
   des Flie -- hen -- den. %15 finis
+}
+
+HerrWendeSoliEva = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \autoBeamOff \tempoHerrWende
+    R1*7 %7
+    \mvTr a'4\pE^\soloE r d4. fis,8
+    fis4( e8) fis g4 g
+    g fis r8 fis g a %10
+    \appoggiatura { a16.[ c32] } h4 a r8 a d cis
+    \appoggiatura cis h4 a d \appoggiatura a8 gis4
+    a8.([ gis16)] a4 d \appoggiatura a8 gis4
+    a8.([ gis16)] a4 r2
+    R1*7 %21
+    e4 a r8 e e fis
+    g!4( fis8) a \appoggiatura g fis4 e
+    r8 d' cis h a4. d16([ h)]
+    a4( \grace a16 g[ fis)] g8 fis8.([ g16)] a4 %25
+    r8 d cis h a4. ais8
+    h4. g8 fis4( e)\trill
+    d r r2
+    R1*3 \bar "||" %31 finis
+    s4
+  }
+}
+
+HerrWendeSoliEvaLyrics = \lyricmode {
+  Herr, du ver -- %8
+  gabſt den er -- ſten
+  Sün -- dern, ver -- gieb, ver -- %10
+  gieb auch, ver -- gieb, ver --
+  gieb auch ih -- ren
+  Kin -- dern, ih -- ren
+  Kin -- dern.
+
+  Laß ihm, wird er um %22
+  Gna -- de wei -- nen,
+  in ſei -- nem Jam -- mer
+  Troſt __ er -- ſchei -- nen, %25
+  in ſei -- nem Jam -- mer
+  Troſt er -- ſchei --
+  nen. %28 finis
+}
+
+HerrWendeSoliAdam = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \autoBeamOff \tempoHerrWende
+    \mvTr a'4\pE^\soloE r d4. fis,8
+    fis4( e8) fis g4 g
+    g( fis) r8 fis g a
+    \appoggiatura { a16.[ c32] } h4 a r8 a d cis
+    \appoggiatura cis h4 a d \appoggiatura a8 gis4\trill %5
+    a r d \appoggiatura a8 gis4
+    a r r2
+    R1*7 %14
+    e4 a r8 e e fis %15
+    g!4( fis8) a \appoggiatura g fis4 e
+    r8 d' cis h a4. d16([ h)]
+    a4( \grace a16 g[ fis]) g8 fis8.([ g16)] a4
+    r8 d cis h a4. ais8
+    h4. g8 fis4( e)\trill %20
+    d r r2
+    R1*10 \bar "||" %31 finis
+    s4
+  }
+}
+
+HerrWendeSoliAdamLyrics = \lyricmode {
+  Herr, wen -- de
+  nicht dein An -- ge --
+  ſicht von dem Ver --
+  bre -- cher, von dem Ver --
+  bre -- cher, tödt ihn %5
+  nicht, tödt ihn
+  nicht!
+
+  Laß ihn, wenn er wird %15
+  reu -- end fle -- hen,
+  vor dei -- nem Zor -- ne
+  nicht ver -- ge -- hen,
+  vor dei -- nem Zor -- ne
+  nicht ver -- ge -- %20
+  hen. %21 finis
 }

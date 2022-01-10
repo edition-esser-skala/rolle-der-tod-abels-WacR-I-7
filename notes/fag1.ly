@@ -245,3 +245,42 @@ SehtDortFagottoI = {
     d8 d'16 a f8 a16 f d4 r\fermata \bar "|." %99 finis
   }
 }
+
+HerrWendeFagottoI = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \tempoHerrWende
+    a'4\pE a8.( h32 a) d4. fis,8
+    \once \slurDashed fis4( e16.) g32 fis16. a32 g4 g
+    g\trill fis~ fis8 fis g a
+    \appoggiatura { a16.[ c32] } h4 a r8 a d cis
+    \appoggiatura cis h4 a d8.( h16) \appoggiatura a8 gis4\trill %5
+    a4 e16 a cis e \once \slurDashed d8.( h16) \appoggiatura a8 gis4
+    a2~ a8 g! fis e
+    d d' a fis d e fis d
+    a' a, a4 r8 a cis a
+    d, d' a fis d4 r %10
+    r8 cis' d a fis d r4
+    r8 cis' d cis h d e e,
+    a e' cis a r h e e,
+    a a' e cis a4 r
+    e' a r8 e e fis %15
+    g!4( fis8) a \appoggiatura g fis4 e
+    r8 d' cis h a4. d16( h)
+    a4 \appoggiatura a16 g( fis g8) fis8. g16 a4
+    r8 d cis h a4. ais8
+    h4. g8 fis4( e)\trill %20
+    d r r2
+    a8 a' e cis a4 g'!8 fis
+    cis a d d, r a' a' a,
+    h h' a g fis e fis d
+    r e a a, d d' cis h %25
+    a h a g fis e fis4
+    g8 fis g4 a8 g a a,
+    d4 r r8 d'( cis h)
+    a2~ a8 h a g
+    fis e d h' a4 a, %30
+    d2 d,~ \bar "||" %31 finis
+    \hideNotes d4
+  }
+}

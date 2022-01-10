@@ -2120,3 +2120,42 @@ AchTochterViola = {
     a cis8 e a, g! fis e \bar "||" %16 finis
   }
 }
+
+HerrWendeViola = {
+  \relative c' {
+    \clef alto
+    \key d \major \time 4/4 \tempoHerrWende
+    d,8\pE d' a fis d e fis d
+    a' a a4 r8 a cis a
+    d, d' a fis d4 r
+    r8 cis' d a fis d r4
+    r8 cis' d cis h d e e, %5
+    a e' cis a r h e e,
+    r a cis e a, g! fis e
+    d d' a fis d e fis d
+    a' a a4 r8 a cis a
+    d, d' a fis d4 r %10
+    r8 cis' d a fis d r4
+    r8 cis' d cis h d e e,
+    a e' cis a r h e e,
+    a a' e cis a a cis e
+    a,4 a a8 a a a %15
+    a4 a a a
+    h8 h' a g fis e fis d
+    r e a,4 a cis8 h
+    a h a g fis e fis4
+    g8 fis g4 a g %20
+    fis a d8 e fis d
+    a4 a a8 a a a
+    a4 a a a
+    h8 h' a g fis e fis d
+    r e a,4 a cis8 h %25
+    a h a g fis e fis4
+    g8 fis g4 a a
+    d r r8 d( cis h)
+    a2~ a8 h a g
+    fis e' d h a4 a %30
+    d2 d,~ \bar "||" %31 finis
+    \hideNotes d4
+  }
+}

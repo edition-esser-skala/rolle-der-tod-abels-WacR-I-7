@@ -1865,3 +1865,42 @@ AchTochterViolinoII = {
     cis2~ cis8 cis d e \bar "||" %16 finis
   }
 }
+
+HerrWendeViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoHerrWende
+    fis4\pE fis2 a,8 d
+    \once \slurDashed d4( cis16.) e32 d16. fis32 e4 e
+    e\trill d~ d8 d e fis
+    \appoggiatura { fis16.[ a32] } g4 fis r8 fis h a
+    \appoggiatura a g4 fis \once \slurDashed fis8.( d16) \appoggiatura cis8 h4 %5
+    cis4 r \once \slurDashed fis8.( d16) \appoggiatura cis8 h4
+    cis2~ cis8 cis d e
+    fis4 fis2 a,8 d
+    d4( cis16.) e32 d16. fis32 e4 e
+    e\trill d~ d8 d e fis %10
+    \appoggiatura { fis16.[ a32] } g4 fis r8 fis h a
+    \appoggiatura a g4 fis fis8. d16 \appoggiatura cis8 h4
+    cis4 cis \once \slurDashed fis8.( d16) \appoggiatura cis8 h4
+    \once \slurDashed cis8.( h16) cis4 r2
+    cis4 cis r8 cis cis d %15
+    e4( d8) fis \appoggiatura e d4 cis
+    d d d2~
+    d4 \appoggiatura fis16 \once \slurDashed e( d e8) d4 e8 d
+    cis d4 d8 d( cis) d4~
+    d8 dis e e d4( cis) %20
+    d d8. e16 fis8( g) a( d,)
+    cis4 cis r8 cis cis d
+    e4( d8) fis \appoggiatura e d4 cis
+    d d d2~
+    d4 \appoggiatura fis16 e( d e8) d4 e8 d %25
+    cis d4 d8 d( cis) d4~
+    d8 dis e e d4( cis)\trill
+    d8 h' a g fis4 e8 d
+    cis g' fis e d4. e8
+    fis g fis d~ d4 cis\trill %30
+    d4. e8 \appoggiatura e4 d2~ \bar "||" %31 finis
+    \hideNotes d4
+  }
+}

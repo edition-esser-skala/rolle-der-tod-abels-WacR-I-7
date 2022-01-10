@@ -86,6 +86,7 @@ tempoEntsetzen = \tempoMarkup "Moderato"
   tempoEntsetzenM = \tempoMarkup "Largo dolce"
 tempoFliesst = \tempoMarkup "Andante di molto"
 tempoAchTochter = \tempoMarkup "Recitativo"
+tempoHerrWende = \tempoMarkup "Andante"
 
 
 \include "notes/fl1.ly"
