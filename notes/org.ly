@@ -3808,7 +3808,7 @@ FliesstBassFigures = \figuremode {
   r2
   <7>
   <9 4>8 <8 3>4. %45
-  <7>8 <6>4 <\t>16 <6\\>
+  <7 4>8 <\t 3>4 <6>16 <6\\>
   <4>8 <_+>4 <4! 2>16 <4+ \t>
   <6>8 <5>16 <6> <6 4>8 <5 _+>
   r4 <6>
@@ -3834,4 +3834,46 @@ FliesstBassFigures = \figuremode {
   <6 4>4 <5 _+>
   r4. <_+>8 %70
   r2 %71 finis
+}
+
+AchTochterOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoAchTochter
+    g1~
+    g~
+    g2~ g
+    f~ f
+    b1 %5
+    h2 c~
+    c cis
+    d g
+    r4 a d,2~
+    d1~ %10
+    d
+    r2 d
+    h1
+    c2 d~
+    d4 r r e\fE %15
+    a, cis8 e a g! fis e \bar "||" %16 finis
+  }
+}
+
+AchTochterBassFigures = \figuremode {
+  <_->1
+  <7+ 4 2>
+  <5 _->2 <6! \t>
+  r <7->
+  r1 %5
+  <7->2 <_->
+  r <7- [_!]>
+  r <_->
+  r4 <_+>2.
+  r1 %10
+  r
+  r
+  <6\\>
+  <6>
+  <4+ 3>2. <7 _+>4 %15
+  <_+>1 %16 finis
 }

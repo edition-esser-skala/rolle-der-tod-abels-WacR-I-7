@@ -20,6 +20,13 @@ sources:
     url: https://data.onb.ac.at/rec/AC14290384
     license: public domain
     principal: true
+  B2:
+    siglum: D-BNu
+    shelfmark: Ec 149.12
+    date: 1770–1800
+    rism: 450064107
+    url: https://digitale-sammlungen.ulb.uni-bonn.de/urn/urn:nbn:de:hbz:5:1-298443
+    license: public domain
   C1:
     siglum: D-Mbs
     shelfmark: 4 Mus.pr. 1078
@@ -28,15 +35,9 @@ sources:
     url: https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb11140540-5
     license: CC BY-NC-SA 4.0
     notes: Breitkopf, Leipzig
-  D1:
-    siglum: D-BNu
-    shelfmark: Ec 149.12
-    date: 1770–1800
-    rism: 450064107
-    url: https://digitale-sammlungen.ulb.uni-bonn.de/urn/urn:nbn:de:hbz:5:1-298443
-    license: public domain
 imslp:
 parts:
   cor12: Corno I, II in D/F/G
+  timp: Timpani in D–A
 extra_abbreviations:
   fond:

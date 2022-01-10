@@ -3039,3 +3039,44 @@ FliesstSoliLyrics = \lyricmode {
   wei --
   nen! %65 finis
 }
+
+AchTochterSoli = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoAchTochter
+    r4 r8 d^\soloEva g g r b
+    a a r a16 b c8 c c b
+    g4 r8 b b g a b
+    a r16 a a8 b c c c es,
+    d d r4 b' b8 f %5
+    as as as g es es r4
+    c' g8 g b^\markup \remark "(Hier wird in der Ferne ein murmelnder Donner gehört.)" b b a
+    f r16 a d8 a
+    b b g f d4 r r2
+    \clef bass r8 d,^\soloAdam f g a a r4 %10
+    d8 a a a16 a f8 f r f16 g
+    a8 a a f d d r d'
+    gis, gis r gis16 a h8 h h c
+    a r16 a a8 e f f f4
+    r8 gis gis a e4 r %15
+    R1^\markup \remark "(Der Donner wird immer fortgehört.)" \bar "||" %16 finis
+  }
+}
+
+AchTochterSoliLyrics = \lyricmode {
+  Ach Toch -- ter, ach
+  Toch -- ter, du zer -- rei -- ßeſt die -- ſes
+  Herz! wie mar -- tert mich dein
+  Schmerz! ich fühl, ich füh -- le dei -- ne
+  Kla -- gen. Vor -- wür -- fe %5
+  ſind es die mich na -- gen,
+  mich, die ich die -- ſe Trau -- er --
+  nacht, und Fluch und Tod auf euch ge --
+  bracht.
+  Hörſt du den Don -- ner? %10
+  Gott wird kom -- men zu fo -- dern das ver --
+  goß -- ne Blut des From -- men. Ach,
+  Ev -- a! laß uns zu dem Rich -- ter
+  flehn, viel -- leicht er -- barmt er ſich
+  des Flie -- hen -- den. %15 finis
+}

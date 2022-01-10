@@ -1855,3 +1855,13 @@ FliesstViolinoII = {
     d4 r\fermata \bar "|." %71 finis
   }
 }
+
+AchTochterViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoAchTochter
+    R1*14 %14
+    r2 r4 d\fE %15
+    cis2~ cis8 cis d e \bar "||" %16 finis
+  }
+}

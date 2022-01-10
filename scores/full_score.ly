@@ -1295,47 +1295,95 @@ paperEightStaves = \paper {
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2.7" "Aria" "Fließt unaufhaltſam hin, ihr Zähren!"
+  %   \addTocLabel "fliesst"
+  %   \paperFiveStaves
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \FliesstViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \FliesstViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \FliesstViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Thirza"
+  %           \new Voice = "Soli" { \dynamicUp \FliesstSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \FliesstSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \FliesstOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \FliesstBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 65 }
+  %   }
+  % }
   \bookpart {
-    \section "2.7" "Aria" "Fließt unaufhaltſam hin, ihr Zähren!"
-    \addTocLabel "fliesst"
-    \paperFiveStaves
+    \section "2.8" "Recitativo" "Ach Tochter, du zerreißtſt dieſes Herz!"
+    \addTocLabel "achtochter"
+    \paper { systems-per-page = #2 }
     \score {
       <<
+        \new Staff {
+          \set Staff.instrumentName = \transposedTimpShort "D" "" "A" ""
+          % \transpose c d
+          \AchTochterTimpani
+        }
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \FliesstViolinoI
+              \AchTochterViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \FliesstViolinoII
+              \AchTochterViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \FliesstViola
+            \AchTochterViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "Thirza"
-            \new Voice = "Soli" { \dynamicUp \FliesstSoli }
+            \set Staff.instrumentName = \markup \center-column { "Eva" "Adam" }
+            \new Voice = "Soli" { \dynamicUp \AchTochterSoli }
           }
-          \new Lyrics \lyricsto Soli \FliesstSoliLyrics
+          \new Lyrics \lyricsto Soli \AchTochterSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \FliesstOrgano
+            \AchTochterOrgano
           }
         >>
-        \new FiguredBass { \FliesstBassFigures }
+        \new FiguredBass { \AchTochterBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 65 }
+      \midi { \tempo 4 = 70 }
     }
   }
 }

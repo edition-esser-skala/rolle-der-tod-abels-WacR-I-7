@@ -2110,3 +2110,13 @@ FliesstViola = {
     b4 r\fermata \bar "|."
   }
 }
+
+AchTochterViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoAchTochter
+    R1*14 %14
+    r2 r4 h\fE %15
+    a cis8 e a, g! fis e \bar "||" %16 finis
+  }
+}
