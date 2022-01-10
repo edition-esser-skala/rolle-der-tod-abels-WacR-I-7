@@ -1903,3 +1903,29 @@ HerrWendeViolinoI = {
     \hideNotes fis4
   }
 }
+
+ErToedtetViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoErToedtet
+    fis4\pE r r2
+    \tempoErToedtetB r16. d32\f f16. e32 d16. c32 b16. a32 \kneeBeam g16. e''32 e16. e32 e4
+    r2 r16. f,32 f16. f32 e16. d32 c16. b32
+    a16. c'32 c16. c32 c4 r16. es,32 es16. es32 es4
+    r2 d\p %5
+    e! r4 e
+    e2~ e4 r
+    r16 d32\f f a16 f32 a d16 a f d h!16. gis'32 gis16. gis32 gis4
+    R1
+    r16 a,32 c e16 c32 e a16 e32 a c16 c c4 r8. c16 %10
+    c4 r r2
+    r4 e, a, r
+    \tempoErToedtetC R1*56 %68
+    f'1\p
+    g~ %70
+    g
+    as
+    f4 r r2
+    r4 d es2\fermata \bar "|." %74 finis
+  }
+}

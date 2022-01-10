@@ -3165,3 +3165,184 @@ HerrWendeSoliAdamLyrics = \lyricmode {
   nicht ver -- ge -- %20
   hen. %21 finis
 }
+
+ErToedtetSoliUpper = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoErToedtet
+    R1*68 %68
+    r8 f^\soloEva f g as r16 c c8 b
+    \appoggiatura as g4 r8 es g g g as %70
+    b4 r8 es, b' b c des
+    des c r c c[( as)] as([ f)]
+    \appoggiatura es d!4 r8 d d d d es
+    es b r4 r2\fermata \bar "|." %74 finis
+  }
+}
+
+ErToedtetSoliUpperLyrics = \lyricmode {
+  Gott ſe -- gne dich, Gott ſe -- gne %69
+  dich, daß er, durch dich er -- %70
+  weckt, vor dem Ver -- bre -- chen
+  be -- be, und wein und
+  fleh, biß Gott ihm ganz ver --
+  ge -- be. %74 finis
+}
+
+ErToedtetSoliLower = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoErToedtet
+    r4 r16 a'^\soloEva a a d8 r16 a a8 f!
+    \tempoErToedtetB d4 r r r8 g
+    b b r b16 a a4 r
+    r r16 f a b c4 r8 c
+    c es, es d d r16 d d8 d %5
+    e e e f f c r4
+    r r8 b' g g g16 g a e
+    f8 f r4 r r16 gis gis a
+    h8 h h h d gis, gis a
+    a4 r r a %10
+    r c8 c a a a16 a gis a
+    e4 r r8 \clef bass e,^\soloAdam a gis
+    \tempoErToedtetC a r16 a a8 e f f a g
+    e e r16 g a b a8 a h16 h h c
+    c8 g r4 \clef treble r a'^\markup \remark "Mehala (die noch einmal zu ihren Eltern zurück kömmt)" %15
+    d8 a c h \appoggiatura a g4 r8 d
+    g g a h a r16 a a8 e
+    g g h a fis fis r16 a a a
+    h8 g r cis16 d d8 a r4
+    r8 e e fis gis4 r8 h %20
+    h h h e, a r16 a a8 h
+    c c c a fis fis fis g
+    g4 r8 d g g r4
+    f!8 f a g e e r c'
+    c g g16 g g g b8 b b as %25
+    f f r as as16. es32 es8 r es
+    ges ges ges f f4 r16 f f b
+    a!8 r16 a a8 b c c c f,
+    b4 r16 b b b b8 f as16 as b f
+    ges8 ges r es ges r16 ges ges8 as %30
+    b b r b b8. es,16 es8 b'
+    des des des c as as r16 es es es
+    as8 as r as16. g32 as4 r16 as as b
+    c8 r16 c c8 g as as r c,
+    f f f e! f4 r %35
+    r as f8 f g d
+    es4 r r c'
+    c8. g16 g8 r16 g g8 es f g
+    \tempoErToedtetD c,4 r8 g' c g r4
+    g8 g g a! \tempoErToedtetE fis4 fis %40
+    r fis8 g a a a a
+    c c c b g g r g
+    es es fis g g d r4
+    r r16 a' a e! f4 d'
+    gis,8 gis gis a a r16 a a8 a %45
+    c a gis a e4 r
+    \tempoErToedtetF R1
+    r2 r4 r8 g
+    e8. e16 e4 r8 e e g
+    g c, r c b' b b a %50
+    a r16 f f8 g a a r16 a a b
+    c4 r8 c c c c a
+    fis r16 fis fis8 g a a a d,
+    g4 b r b8 b
+    \tempoErToedtetG b16. f!32 f8 r f as as as g %55
+    \appoggiatura g fis4 r16 fis fis g a4 \tempoErToedtetH r16 a a a
+    c8 c c b g r16 g g8 d
+    f! f as g es es r16 g g g
+    c8 fis, fis g g d r4
+    r8 g b g e! e e8. f16 %60
+    \tempoErToedtetI f4 r r2
+    r \tempoErToedtetJ r4 r8 c
+    f f f f a a c es,
+    d8. d16 d4 r8 d d es
+    f r16 f as8 g es es r16 es g b %65
+    c8. c16 c8 f, as d, d es
+    es b r4 r r8 f'
+    a! a r4 c8 f, r es16 f
+    d8 \clef bass d,^\soloAdam d es f r16 as as8 g
+    \appoggiatura f es4 r8 es b' b b c %70
+    \appoggiatura as g4 r8 g g g as b
+    b as r as as([ c)] c([ as)]
+    \appoggiatura g f4 r8 f as as as g
+    es es r4 r2\fermata \bar "|." %74 finis
+  }
+}
+
+ErToedtetSoliLowerLyrics = \lyricmode {
+  Er töd -- tet, ach! er töd -- tet
+  ihn. Auch
+  Ka -- in iſt nicht mehr!
+  Hörſt du die Schläg? O,
+  ſchreck -- lich iſt der Herr, wenn er ſich %5
+  zum Ge -- richt er -- he -- bet.
+  Ach, A -- dam, mein Ge -- bein er --
+  be -- bet, durch mei -- ne
+  Glie -- der fährt ein To -- des -- ſchau -- er
+  hin. Ich, %10
+  ich bin bey -- der Kin -- der Mör -- de --
+  rinn. Nein, E -- va,
+  nein, der Herr er -- hört ge -- wiß uns
+  Ar -- men, der Gna -- den -- vol -- le wird ſich ſein er --
+  bar -- men! Ja, %15
+  Gna -- den voll iſt Er! ich
+  ei -- le zu euch her, euch mit der
+  Nach -- richt Troſt zu ge -- ben, er le -- bet,
+  Ka -- in, und ſoll le -- ben.
+  Ich eilt ihm nach, doch %20
+  ich er -- reicht ihn nicht, in dem Ge --
+  büſch ver -- lohr ich ihn aus dem Ge --
+  ſicht. Ich rief ihn,
+  irr -- te hin und wie -- der, da
+  ſenk -- te ſchnell ſich ei -- ne ſchwar -- ze Wol -- ke %25
+  nie -- der, es don -- ner -- te, und
+  Feu -- er brach her -- vor. Ich ſank zur
+  Erd’ und hob mein be -- tend Aug’ em --
+  por, und aus der Wol -- ken hört ich ei -- ne
+  Stim -- me, die ſchien, als wie im %30
+  Grim -- me, dem Flüch -- ti -- gen das
+  Flie -- hen zu ver -- bie -- ten: Wo iſt dein
+  Bru -- der? don -- nert ſie. Ich weiß es
+  nicht, ſoll ich ihn hü -- ten? ant --
+  wor -- tet er ver -- wirrt._– %35
+  So ſchau -- er -- te ich
+  nie._– Steh,
+  rief die Stimm, und hör dein Ur -- theil
+  an: Was, Ka -- in!
+  was haſt du ge -- than? Sieh, %40
+  dei -- nes Bru -- ders Blut ſchreyt
+  zu mir von der Er -- de, daß
+  es ge -- rä -- chet wer -- de.
+  Es ſey ge -- rächt! dich
+  mar -- tre Höl -- len -- pein; un -- ſtät und %45
+  flüch -- tig ſollſt du ſeyn.
+
+  Da
+  jam -- mert er und rief mit
+  Be -- ben: ſo bin ich denn ver -- %50
+  flucht, ſo raubt mein Le -- ben, wenn nun mein
+  Fuß un -- ſtät und flüch -- tig
+  irrt, der er -- ſte der mich fin -- den
+  wird! Nein, rief der
+  Rich -- ten -- de: Ge -- wiſ -- ſens -- angſt und %55
+  Pein be -- zeich -- nen dich, du wirſt den
+  Men -- ſchen kenn -- bar ſeyn, daß je -- der,
+  der von fern dich ſie -- het, den Weg des
+  Bru -- der -- mör -- ders flie -- het.
+  So ſtieg die Wol -- ke don -- nernd %60
+  auf.
+  Nun
+  nimmt er ſei -- nen Lauf in ö -- de
+  Ge -- gen -- den. Ich geh mit
+  ihm, will mit ihm wei -- nen, bis daß dem %65
+  Bü -- ßen -- den wird Gnad und Troſt er --
+  ſchei -- nen. Ach,
+  E -- va, Va -- ter, ſe -- gne
+  mich! Gott ſe -- gne dich, Gott ſe -- gne
+  dich, daß er, durch dich er -- %70
+  weckt, vor dem Ver -- bre -- chen
+  be -- be, und wein und
+  fleh, biß Gott ihm ganz ver --
+  ge -- be. %74 finis
+}

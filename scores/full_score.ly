@@ -1386,81 +1386,129 @@ paperEightStaves = \paper {
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2.9" "Wechselgesang" "Herr! wende nicht dein Angeſicht"
+  %   \addTocLabel "herrwende"
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "fl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \HerrWendeFlautoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \HerrWendeFlautoII
+  %           }
+  %         >>
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "fag"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \HerrWendeFagottoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \HerrWendeFagottoII
+  %           }
+  %         >>
+  %       >>
+  %       \new Staff {
+  %         \set Staff.instrumentName = "timp"
+  %         % \transpose c d
+  %         \HerrWendeTimpani
+  %       }
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \HerrWendeViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \HerrWendeViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \HerrWendeViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Eva"
+  %           \new Voice = "SoliEva" { \dynamicUp \HerrWendeSoliEva }
+  %         }
+  %         \new Lyrics \lyricsto SoliEva \HerrWendeSoliEvaLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Adam"
+  %           \new Voice = "SoliAdam" { \dynamicUp \HerrWendeSoliAdam }
+  %         }
+  %         \new Lyrics \lyricsto SoliAdam \HerrWendeSoliAdamLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \HerrWendeOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \HerrWendeBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 80 }
+  %   }
+  % }
   \bookpart {
-    \section "2.9" "Wechselgesang" "Herr! wende nicht dein Angeſicht"
-    \addTocLabel "herrwende"
+    \section "2.10" "Accompagnato" "Er tödtet, ach! er tödtet ihn"
+    \addTocLabel "ertoedtet"
+    \paper { systems-per-page = #2 }
     \score {
       <<
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "fl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \HerrWendeFlautoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \HerrWendeFlautoII
-            }
-          >>
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "fag"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \HerrWendeFagottoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \HerrWendeFagottoII
-            }
-          >>
-        >>
-        \new Staff {
-          \set Staff.instrumentName = "timp"
-          % \transpose c d
-          \HerrWendeTimpani
-        }
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \HerrWendeViolinoI
+              \ErToedtetViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \HerrWendeViolinoII
+              \ErToedtetViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \HerrWendeViola
+            \ErToedtetViola
           }
         >>
         \new ChoirStaff <<
+          \set ChoirStaff.instrumentName = \markup \center-column { "Eva" "Adam" "Mehala" }
           \new Staff {
-            \set Staff.instrumentName = "Eva"
-            \new Voice = "SoliEva" { \dynamicUp \HerrWendeSoliEva }
+            \new Voice = "SoliUpper" { \dynamicUp \ErToedtetSoliUpper }
           }
-          \new Lyrics \lyricsto SoliEva \HerrWendeSoliEvaLyrics
+          \new Lyrics \lyricsto SoliUpper \ErToedtetSoliUpperLyrics
 
           \new Staff {
-            \set Staff.instrumentName = "Adam"
-            \new Voice = "SoliAdam" { \dynamicUp \HerrWendeSoliAdam }
+            \new Voice = "SoliLower" { \dynamicUp \ErToedtetSoliLower }
           }
-          \new Lyrics \lyricsto SoliAdam \HerrWendeSoliAdamLyrics
+          \new Lyrics \lyricsto SoliLower \ErToedtetSoliLowerLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \HerrWendeOrgano
+            \ErToedtetOrgano
           }
         >>
-        \new FiguredBass { \HerrWendeBassFigures }
+        \new FiguredBass { \ErToedtetBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 80 }
+      \midi { \tempo 4 = 70 }
     }
   }
 }

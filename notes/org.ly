@@ -3951,3 +3951,161 @@ HerrWendeBassFigures = \figuremode {
   r8 <6 4> <5 3> <7 4> <\t \t>4 <8 3> %31 finis
   r
 }
+
+ErToedtetOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoErToedtet
+    d,4\pE r r2
+    \tempoErToedtetB r16. d'32\f f!16. e32 d16. c32 b16. a32 g16. g'32 g16. g32 g4
+    r2 r16. f32 f16. f32 e16. d32 c16. b32
+    a16. a32 a16. a32 a4 r16. a32 a16. a32 a4
+    r2 b~\pE %5
+    b r4 c
+    cis2~ cis4 r
+    r16 d32\f f a16 f32 a d16 a f d h!16. h32 h16. h32 h4
+    R1
+    r16 a32 c e16 c32 e a16 e32 a c16 a dis,4 r8. dis16 %10
+    dis4 r r2
+    r4 e a, r
+    \tempoErToedtetC r2 d\pE
+    c f
+    r4 g fis2~ %15
+    fis g~
+    g cis,~
+    cis d
+    g r4 a
+    gis1~ %20
+    gis2 c,~
+    c c
+    h1~
+    h2 b~
+    b1 %25
+    as2 r16. c32 c16. c32 c4~
+    c2 r16. des32 des16. des32 des4
+    c1
+    des2 d
+    es1~ %30
+    es2 g,!~
+    g r16. as32 as16. as32 as4~
+    as2 r16. as32 as16. as32 as4
+    e'!2 f~
+    f r16. c32 f16. g32 as16. f32 d16. f32 %35
+    h,!1
+    r16. c32 es16. f32 g16. c32 g16. es32 c4 r
+    R1
+    \tempoErToedtetD r8 c16. h!32 c8 g r c'16. h32 c8 g
+    es c r4 \tempoErToedtetE a2~ %40
+    a1~
+    a2 b
+    c r4 d
+    cis2 d~
+    d dis~ %45
+    dis r4 e
+    \tempoErToedtetF a,8 c16. a32 d16. h32 e16. c32 f16. d32 h16. g32 c16. a32 d16. h32
+    e16. c32 c'16. c32 c16. g32 e16. c32 b8 b b4~
+    b1
+    r16 e(-. e-. e-.) e4~ e2 %50
+    es1~
+    es
+    d2 c
+    b1
+    \tempoErToedtetG r16 d(-. d-. d-.) d(-. d-. c-. c-.) h!(-. h-. h-. h-.) h(-. h-. h-. h-.) %55
+    c(-. c-. c-. c-.) c(-. c-. c-. c-.) fis,(-. fis-. fis-. fis-.) \tempoErToedtetH fis4~
+    fis2 b
+    h c
+    c4 r r d
+    g,2 g' %60
+    \tempoErToedtetI r8 a,16. f32 b16. g32 c16. a32 d16. b32 c16. a32 d16. b32 e16. c32
+    f8 a16( f) f( c) c( a) \tempoErToedtetJ a2~
+    a1
+    b
+    as2 g %65
+    as1
+    r4 b a2~
+    a1
+    b
+    es,~ %70
+    es
+    as
+    b^\tenuto
+    r4 b es,2\fermata \bar "|." %74 finis
+  }
+}
+
+ErToedtetBassFigures = \figuremode {
+  r1
+  r2 \bo <[6 _-]>
+  r2. <6>4
+  <6>2 r16. <6 5->32 r4.
+  r1 %5
+  <4! 2>2. <7->4
+  <\t>1
+  r2 <6\\ 5>
+  r1
+  r2 <7 _+> %10
+  <\t \t>1
+  r4 \bc <[_+ \l]>2.
+  r2 <6>
+  r <5 3>4 <4! 2>
+  r2 <6> %15
+  r1
+  r2 <6>
+  r <_+>
+  r4 <4+ 2>2 <_+>4
+  <6>1 %20
+  r2 <6>
+  r <4+ 2>
+  <6>1
+  <[5!]>2 <4 2>
+  r1 %25
+  <6>2 r16. <6- [_-]>32 r4.
+  <6- 5- [_-]>2 r16. <[5-]>32 r4.
+  <6! _->1
+  <6->2 <[6- 5-]>
+  <[5-] _->1 %30
+  r2 <6- [_-]>
+  <[5- _-]>2 r16. <[5-]>32 r4.
+  r1
+  <6>2 <_->
+  r1 %35
+  <7->
+  r16. <[_-]>32 r2..
+  r1
+  r8 <_->4 <_!> <_-> <_!>8
+  <6> <[_-]>4. <6\\>2 %40
+  r1
+  r2 <6>
+  <_->2. <_+>4
+  <6 _!>2 <_!>
+  <4+ 2> <7 [_+]> %45
+  r2. <_+>4
+  r1
+  r2 <4 2>
+  r1
+  r16 <6>4.. <6 5->2 %50
+  <4 2>1
+  r
+  <_+>2 <4+ 2>
+  <6>1
+  r16 <6->4.. <7->2 %55
+  <4+ 2> <6>
+  r <6>
+  <7- [5!]> <_->
+  <4+ 2>2. <_+>4
+  <_->2 <6! _-> %60
+  r1
+  r2 <6>
+  r1
+  r
+  <4 2->2 <6- [_-]> %65
+  <5-> <4 2->
+  r <6>
+  r1
+  r2 \bo <[7-]>
+  <5->1 %70
+  r
+  <5->2 <6>
+  r1
+  r2 \bc <[5-]> %74 finis
+}

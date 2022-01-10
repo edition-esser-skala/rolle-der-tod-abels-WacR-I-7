@@ -2159,3 +2159,29 @@ HerrWendeViola = {
     \hideNotes d4
   }
 }
+
+ErToedtetViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoErToedtet
+    d,4\pE r r2
+    \tempoErToedtetB r16. d'32\f f16. e32 d16. c32 b16. a32 g16. g'32 g16. g32 g4
+    r2 r16. f32 f16. f32 e16. d32 c16. b32
+    a16. c32 c16. c32 c4 r16. f,32 f16. f32 f4
+    r2 f\p %5
+    g r4 g
+    g2~ g4 r
+    r16 d'32\f f a16 f32 a d16 a f d h!16. d32 d16. d32 d4
+    R1
+    r16 a32 c e16 c32 e a16 e32 a c16 a fis4 r8. fis16 %10
+    fis4 r r2
+    r4 e a, r
+    \tempoErToedtetC R1*56 %68
+    b1\pE
+    b~ %70
+    b
+    c
+    d4 r r2
+    r4 f, g2\fermata \bar "|." %74 finis
+  }
+}
