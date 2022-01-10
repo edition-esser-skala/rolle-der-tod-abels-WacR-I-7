@@ -1463,10 +1463,58 @@ paperEightStaves = \paper {
   %     \midi { \tempo 4 = 80 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2.10" "Accompagnato" "Er tödtet, ach! er tödtet ihn"
+  %   \addTocLabel "ertoedtet"
+  %   \paper { systems-per-page = #2 }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \ErToedtetViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \ErToedtetViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \ErToedtetViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \set ChoirStaff.instrumentName = \markup \center-column { "Eva" "Adam" "Mehala" }
+  %         \new Staff {
+  %           \new Voice = "SoliUpper" { \dynamicUp \ErToedtetSoliUpper }
+  %         }
+  %         \new Lyrics \lyricsto SoliUpper \ErToedtetSoliUpperLyrics
+  %
+  %         \new Staff {
+  %           \new Voice = "SoliLower" { \dynamicUp \ErToedtetSoliLower }
+  %         }
+  %         \new Lyrics \lyricsto SoliLower \ErToedtetSoliLowerLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \ErToedtetOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \ErToedtetBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
-    \section "2.10" "Accompagnato" "Er tödtet, ach! er tödtet ihn"
-    \addTocLabel "ertoedtet"
-    \paper { systems-per-page = #2 }
+    \section "2.10a" "Accompagnato" "Ach Eva! komm und hilf!"
+    \addTocLabel "acheva"
+    \paperFiveStaves
     \score {
       <<
         \new StaffGroup <<
@@ -1474,41 +1522,36 @@ paperEightStaves = \paper {
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \ErToedtetViolinoI
+              \AchEvaViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \ErToedtetViolinoII
+              \AchEvaViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \ErToedtetViola
+            \AchEvaViola
           }
         >>
         \new ChoirStaff <<
-          \set ChoirStaff.instrumentName = \markup \center-column { "Eva" "Adam" "Mehala" }
           \new Staff {
-            \new Voice = "SoliUpper" { \dynamicUp \ErToedtetSoliUpper }
+            \set ChoirStaff.instrumentName = \markup \center-column { "Hamiel" "Eva" "Adam" "Sunam" }
+            \new Voice = "Soli" { \dynamicUp \AchEvaSoli }
           }
-          \new Lyrics \lyricsto SoliUpper \ErToedtetSoliUpperLyrics
-
-          \new Staff {
-            \new Voice = "SoliLower" { \dynamicUp \ErToedtetSoliLower }
-          }
-          \new Lyrics \lyricsto SoliLower \ErToedtetSoliLowerLyrics
+          \new Lyrics \lyricsto Soli \AchEvaSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \ErToedtetOrgano
+            \AchEvaOrgano
           }
         >>
-        \new FiguredBass { \ErToedtetBassFigures }
+        \new FiguredBass { \AchEvaBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 70 }
+      \midi { \tempo 4 = 60 }
     }
   }
 }

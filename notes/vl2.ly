@@ -1930,3 +1930,66 @@ ErToedtetViolinoII = {
     r4 as g2\fermata \bar "|." %74 finis
   }
 }
+
+AchEvaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 4/4 \tempoAchEva
+    es4\p b as d16(-. es-.) f(-. g-.)
+    as4\f f b,8 g g g'
+    f2 r
+    b4\p f es a16(-. b-.) c(-. d-.)
+    es4\f c8 c b r r4 %5
+    d,1\p
+    h'
+    r8 es4(\fp c8) r es4(\fp c8)
+    c4 r8 d,\f c4 r
+    c' r r2 %10
+    b4 r r2
+    g,4\p b as d16(-. es-.) f(-. g-.)
+    as4\f f8 f es4 r8. b16
+    b4 r8. b'16 b4 r
+    g8-! g,\p g g g2 %15
+    as1
+    des
+    c2 es
+    as,4 r as2\fz
+    r8 as as as as2 %20
+    r8 b b b b2
+    r8 c c c c2~\p
+    c r8 d d4~
+    d2 r8 es es4~
+    es2 fis %25
+    g r4 d\f
+    e r g2~\p
+    g f8 f4\f d8
+    r f'4 d8 d,4 r
+    r8 cis'4 cis8 d f,4 d8 %30
+    cis cis4\p d8 cis4 r
+    a1
+    f'
+    e4\f r8 c des( c) h( c)
+    h4 r r2 %35
+    f'2.\p r4
+    e4\f r8 b des( b) a( b)
+    a4 r c2~\p
+    c d4\f r8 g
+    b( g) fis( g) b2\p %40
+    r8 c,\f b'( g) f4 r
+    r8 as c( as) d,4 r
+    r r8 f es es es es'
+    es2\p a,
+    d g, %45
+    c8\f c h(\p c) c2
+    r f,~\p
+    f1~
+    f
+    a~ %50
+    a2 d
+    g, fis
+    r4 fis\fE f2~\p
+    f g~
+    g1 %55
+    r4 c,\f d! r\fermata \bar "|." %56 finis
+  }
+}

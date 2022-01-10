@@ -2185,3 +2185,66 @@ ErToedtetViola = {
     r4 f, g2\fermata \bar "|." %74 finis
   }
 }
+
+AchEvaViola = {
+  \relative c' {
+    \clef alto
+    \key es \major \time 4/4 \tempoAchEva
+    g2\p f4 b16(-. c-.) d(-. es-.)
+    f4\f b, b8 es es es
+    c2 r
+    b\p c4 f16(-. g-.) a(-. b-.)
+    c4\f a,8 f' f r r4 %5
+    g,1\p
+    g'
+    fis,4\f g\p as8\f fis'(\p g a)
+    g4 r8 g\f g4 r
+    f r r2 %10
+    d4 r r2
+    es,\p f4 b16(-. c-.) d(-. es-.)
+    f4\f d8 b b4 r8. g16
+    g4 r8. es'16 es4 r
+    e8-\parenthesize-! e,\p e e e2 %15
+    f1
+    b
+    as2 c
+    des4 r f,2\fz
+    r8 f f f f2 %20
+    r8 g g g g2
+    r8 a a a a2~\p
+    a r8 g g4~
+    g2 r8 c c4~
+    c2 a %25
+    e' r4 a,\f
+    a r e'2~\p
+    e a,4 a\f
+    a a b r
+    a a a f' %30
+    e a,\p a r
+    d,1
+    d'
+    g,4\f r8 c des( c) h( c)
+    h4 r r2 %35
+    d!2.\p r4
+    g,4\f r8 b des( b) a( b)
+    a4 r a2~\pE
+    a g4\f r8 g'
+    b( g) fis( g) g,2\p %40
+    e'4\f e f r
+    f, f' as r
+    r r8 d, c c c c'
+    c2\p d,
+    g, c %45
+    f,4 f f2
+    r a~\p
+    a1~
+    a
+    d~
+    d2 g,
+    c1
+    r4 a\fE a2~\p
+    a des~
+    des1
+    r4 f\f f r\fermata \bar "|."
+  }
+}

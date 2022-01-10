@@ -4109,3 +4109,125 @@ ErToedtetBassFigures = \figuremode {
   r1
   r2 \bc <[5-]> %74 finis
 }
+
+AchEvaOrgano = {
+  \relative c {
+    \clef bass
+    \key es \major \time 4/4 \tempoAchEva
+    g'2\p f4~ f16 es-! d-! c-!
+    b4\f b8( as) g es'-! es-! es-!
+    es2 r
+    d4\p d' c~ c16 b-! a-! g-!
+    f8\f f f es d r r4 %5
+    h1\p
+    f'
+    fis4\f g\p as\f g8\p fis
+    g4 r8 g\fE e4 r
+    f r r2 %10
+    d4 r r2
+    es4\p g f~ f16 es-! d-! c-!
+    b8\f b b as g4 r8. g16
+    g4 r8. g16 g4 r
+    e'8-! e\p e e e2 %15
+    f1
+    g
+    as,
+    des4 r des2\fz
+    r8 des des( d) d2 %20
+    r8 es es( e) e2
+    r8 f f( fis) fis2~\p
+    fis r8 g g4~
+    g2 r8 c, c4~
+    c1 %25
+    cis2 r4 d\f
+    cis r cis2~\p
+    cis d4 f\fE
+    d c b r
+    a a a a %30
+    a a\p a r
+    d1~
+    d
+    c4\f r8 c des( c) h( c)
+    h4 r r2 %35
+    h2.\p r4
+    b\f r8 b des( b) a( b)
+    a4 r a2~\p
+    a b4\f r8 g'
+    b( g) fis( g) es2\p %40
+    e4\f e f r
+    f, f' f r
+    r r8 g c,4 r
+    r r8 c' d(\fz c) h\p c
+    h4 r8 h c(\fp b) a\p b %45
+    a4 a, a2
+    r a~\p
+    a1~
+    a
+    fis~ %50
+    fis2 g
+    c1
+    r4 d\f es!2~\p
+    es e~
+    e1 %55
+    r4 f\f b, r\fermata \bar "|." %56 finis
+  }
+}
+
+AchEvaBassFigures = \figuremode {
+  <6>2 q
+  <7>4. <2>8 <6> <5>4 <6>8
+  <4! 2>1
+  <6>2 <6!>
+  <7 _!>4. <4! 2>8 <6>2 %5
+  <6>1
+  <4! 2>
+  <7 5>1 \bassFigureExtendersOn
+  q4. \bassFigureExtendersOff <_!>8 <6>2
+  <_->1 %10
+  <6>
+  r4 <6> q2
+  <7>4. <2>8 <6>4.. <\t>16
+  q4.. <6 5->16 <\t \t>2
+  <6>1 %15
+  <6->
+  <6! 5->
+  <6>2 <7->
+  r2 <7->
+  r8 <\t>4 <6 5>8 <\t \t>2 %20
+  r8 <7->4 <6 5>8 <\t \t>2
+  r8 <7 _!>4 <6 5 _!>8 <\t \t \t>2
+  r1
+  r2 r8 <6-> <\t>4
+  r2 <6! 4+ 3> %25
+  <7 _!>2. <5! _+>4
+  <6! _!>2 <7 _!>
+  r <8 5! 3> \bassFigureExtendersOn
+  q4 q \bassFigureExtendersOff <6\\>2
+  <5! _+>2 <6 4>4 <\t \t>8 <7+ \t> %30
+  <5! _+>4 <\t \t>8 <6 4> <5! _+>2
+  <5!>1
+  <6!>
+  <_!>4. <1>8 q q q q
+  <6>1 %35
+  <7->
+  <4! _->4. <1>8 q q q q
+  <6>2 <6\\>
+  r <6>4. <1>8
+  q q q q <7->2 %40
+  <6>4 <7-> <_->2
+  r2 <4! 3>
+  r4. <7 _!>8 r2
+  r <5! _+>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+  <6>4. <5>8 <5 _!>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff %45
+  <6 3>8 <5- \t> <4 2!> <5 3> <6 5>2
+  r <6>
+  r1
+  r
+  <6 _!> %50
+  r
+  <5>2 <6! 4+>
+  r4 <5! _+> <4! 2>2
+  r <7->
+  r1 %55
+  r4 <_!> q2 %56 finis
+}

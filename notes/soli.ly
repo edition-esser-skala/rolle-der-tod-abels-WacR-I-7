@@ -3346,3 +3346,120 @@ ErToedtetSoliLowerLyrics = \lyricmode {
   fleh, biß Gott ihm ganz ver --
   ge -- be. %74 finis
 }
+
+AchEvaSoli = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 4/4 \autoBeamOff \tempoAchEva
+    R1*2
+    r4 c'^\soloHamiel a8 a es' d
+    b4 r r2
+    r2 r8 f' f16 as,! as g %5
+    g8 r16 g g g g a h8 r16 h h h c d
+    d8 g, r d' d d f es
+    es4 r8 es c c r c~
+    c g g4 \fC c^\soloEva g8 as
+    f4 r8 c f16 f f g as8 c %10
+    b b r4 r8 as as b
+    g4 r r2
+    r r8 es g r
+    r g b r des4 des8 c
+    c4 r r8 c, c c %15
+    des4 r8 des des des des f
+    e e r4 r8 e g f
+    f4 r8 f ges ges ges f
+    des des r4 \clef bass r r8 des,^\soloAdam
+    f f r4 r f8 b, %20
+    g'16 g g8 r4 r8 g b a
+    a4 r r fis
+    a8 a c b g4 r8 d
+    g g g b as as r4
+    c as8 g fis16 fis fis8 r fis %25
+    g g fis g g d r4
+    r8 a' a a b4 r
+    b b8 a f4 r
+    \clef treble r2 r4 r8 d'^\soloEva
+    e e r4 r2 %30
+    r r8 e16 e e8 a
+    f4 r8 f f d d c!
+    h4 r8 d f f f e
+    g g r4 r2
+    g4 r g8 as! f16 f f8 %35
+    r4 d f8 f as g
+    e4 r r2
+    r8 f f f fis4 r
+    fis8 fis16 a c8 b g16 g g8 r4
+    r2 g4 b8 des %40
+    c16 c c8 r4 r c
+    as!8 as r4 r h8 c
+    g g r4 r2
+    R1*2 %45
+    \clef bass r2 f,4^\soloAdam r
+    a8 a r4 c16 f, f8 r f
+    f c c b c c r c
+    c c c d es es es d
+    d4 r16 d d d a'4 r8 a %50
+    c c c b g g r g
+    es16 es es8 r es16 c' c8 a16 g fis8 g
+    g d r4 \clef treble r c''^\soloSunam
+    a8 a r c16 c des8. des16 des8 r
+    des4 c8 des b b a b %55
+    f4 r r2\fermata \bar "|." %56 finis
+  }
+}
+
+AchEvaSoliLyrics = \lyricmode {
+  Ach E -- va! komm und %3
+  hilf!
+  Die Mut -- ter ſchläft ſehr %5
+  tief. Sie gab mit Aug und Hand mir gar kein einz -- ges
+  Zei -- chen; da ich doch wei -- nend
+  bath, und Mut -- ter! Mut --
+  ter rief. Gott, ſteh ihr
+  bey! Viel -- leicht kann ich ſie noch er -- %10
+  rei -- chen, be -- vor ſie
+  ſtirbt.
+  Al -- lein_–
+  ſie iſt_– ja, ſie iſt
+  todt!_– das Au -- ge %15
+  ſtarrt,_– die Lip -- pen sind er --
+  blaſ -- ſet!_– welch ei -- ne
+  Quaal, da Thir -- za mich ver --
+  laſ -- ſet! Was
+  hör ich?_– Thir -- za %20
+  lebt nicht mehr?_– ge -- rech -- ter
+  Gott!_– mir
+  ſchwillt vor Angſt die Bruſt!_– gieb
+  Kraft bey ſol -- chen Pla -- gen,
+  ſonſt kann mein Va -- ter -- herz den %25
+  Schmer -- zen nicht er -- tra -- gen;
+  er wird zu ſchwer!
+  er wird zu ſchwer!
+  Wie
+  iſt mir? %30
+  wel -- che dunk -- le
+  Nacht be -- nahm mir all Ge --
+  fühl, und ſchloß mir bey -- de
+  Au -- gen?
+  Gott!_– ach! was ha -- be ich_– %35
+  was ha -- be ich ge --
+  than!
+  ich hab den Tod,_–
+  ich hab dieß Ü -- bel auf -- ge -- bracht.
+  O die Un -- %40
+  ſchul -- di -- gen!_– Herr!
+  laß mich_– laß mich
+  ſter -- ben!
+
+  Wie? %46
+  E -- va! faſ -- ſe dich! und
+  ei -- le dem Ver -- der -- ben durch
+  all -- zu -- ban -- gen Gram nicht ſelb -- ſten
+  zu! Wir ha -- ben dieß, und %50
+  noch weit mehr ver -- ſchul -- det. Nur
+  Gna -- de iſts, wenn Gott uns hier noch län -- ger
+  dul -- det. Ach
+  Bru -- der! wel -- cher Schmer -- zen -- tag
+  ſtört heut auf ein -- mal al -- le %5
+  Ruh! %56 finis
+}

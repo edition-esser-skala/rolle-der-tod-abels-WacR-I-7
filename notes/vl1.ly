@@ -1929,3 +1929,66 @@ ErToedtetViolinoI = {
     r4 d es2\fermata \bar "|." %74 finis
   }
 }
+
+AchEvaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 4/4 \tempoAchEva
+    b'8.\p \tuplet 3/2 16 { as32( g f } es8) es d32[( f es g)] f( as g b) as8 r
+    d,32(\f f es g) f[( as g b)] as([ g as f)] d'( c d b) es16 es( g d) es( h) c( g')
+    a,2 r
+    f'8.\p \tuplet 3/2 16 { es32( d c } b8) b a32([ c b d)] c( es d f) es8 r
+    a,32(\f c b d) c([ es d f)] es( d es c) a'([ g a f)] b8 r r4 %5
+    g,1\p
+    d'
+    r8 c'4(\fp es,8) r c'4(\fp es,8)
+    es4 r8 h\f c4 r
+    as'! r r2 %10
+    f4 r r2
+    b,8.\p \tuplet 3/2 8 { as32( g f } es8) es d32([ f es g)] f( as g b) as8 r
+    d,32(\f f es g) f([ as g b)] as( g as f) d'([ c d b)] es4 r8. es,16
+    es4 r8. des'16 des4 r
+    c8-! c,\p c c c2 %15
+    des1
+    e
+    f2 ges
+    f8 as\fz f des ces2
+    r8 ces ces( b) b2 %20
+    r8 des des( c) c2
+    r8 es es( d) d2~\p
+    d r8 b' b4~
+    b2 r8 as! as4~
+    as2 es' %25
+    b r4 fis\f
+    a r b2~\p
+    b a8 d4\f f,8
+    r d''4 f,8 gis,4 r
+    r8 a'4 e8 f d4 gis,8 %30
+    a e4\p f8 e4 r
+    f1
+    h
+    c4\f r8 c, des( c) h( c)
+    h4 r r2 %35
+    as'!2.\p r4
+    des\f r8 b, des( b) a( b)
+    a4 r fis'2~\p
+    fis g4\f r8 g
+    b( g) fis( g) des'2\p %40
+    r8 g,\f des'( b) as!4 r
+    r8 c as'( f) h,4 r
+    r r8 h c4 r8 g'
+    as(\fz g) fis\p g fis4 r8 fis
+    g(\fz f) e\p f e4 r8 e %45
+    f(\fz es) d(\p es) es2
+    r c~\p
+    c1~
+    c
+    d~ %50
+    d2 b'
+    es, a,
+    r4 d\f c2~\p
+    c b~
+    b1 %55
+    r4 a\f b r\fermata \bar "|." %56 finis
+  }
+}

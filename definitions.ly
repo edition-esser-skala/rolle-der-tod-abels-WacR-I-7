@@ -11,8 +11,10 @@ fermataMark = \mark \markup { \musicglyph #"scripts.ufermata" }
 soloAbel = \markup \remark "Abel"
 soloAdam = \markup \remark "Adam"
 soloEva = \markup \remark "Eva"
+soloHamiel = \markup \remark "Hamiel"
 soloKain = \markup \remark "Kain"
 soloMehala = \markup \remark "Mehala"
+soloSunam = \markup \remark "Sunam"
 soloThirza = \markup \remark "Thirza"
 
 
@@ -97,6 +99,9 @@ tempoErToedtet = \tempoMarkup "Recitativo"
   tempoErToedtetH = \tempoMarkup "Recicativo"
   tempoErToedtetI = \tempoMarkup "Vivace"
   tempoErToedtetJ = \tempoMarkup "[Recicativo]"
+
+%2.10a
+tempoAchEva = \tempoMarkup "Adagio"
 
 
 \include "notes/fl1.ly"
