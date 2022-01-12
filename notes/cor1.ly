@@ -1,5 +1,82 @@
 \version "2.22.0"
 
+LobtDenCornoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoLobtDen % in Es
+    \pao c'2\fE e
+    g e4 g8 e
+    \pao c4 e2 \pao d4
+    e2 g4 e
+    \pao c2 r %5
+    r e4 e8. e16
+    e4 d d d
+    e2 \pa d4 d \pd
+    d2 d
+    d2. r4 %10
+    r2 e\mfE
+    g e4 g8 e
+    \pao c4 e2 d4
+    e2 g4 e
+    \pao c2 r %15
+    r e4 e8. e16
+    e4 d d d
+    e2 \pa d4 d \pd
+    d2 d
+    d2. r4 %20
+    d2 r4 d
+    \pa d2 d4 \pd d
+    e2 e4 e8. e16
+    e4 d r e
+    f2 e4 d %25
+    c2 g4 g
+    g2. r4
+    r2 e'\pocoP
+    g e4 g8 e
+    \pao c4 e2 d4 %30
+    e2 g4 e
+    \pao c2 r
+    r e~
+    e4 d r d
+    e2 \pa d4 d \pd %35
+    d2 d4 d
+    d2. r4
+    d2 r
+    r r4 d
+    e2 e4 e8. e16 %40
+    e4 d r e
+    f2 e4 d
+    c2 g4 g
+    g2. r4
+    \pao c2\mfE e %45
+    g e4 g8 e
+    \pao c4 e2 d4
+    e2 g4 e
+    \pao c2 r
+    r e4 e8. e16 %50
+    e4 d r d
+    e2 \pa d4 d \pd
+    d2 d4 d
+    d2. r4
+    d2 r4 d %55
+    \pa d2 d4 \pd d
+    e2 e4 e8. e16
+    e4 d d e
+    f2 e4 d
+    c2 g4 g %60
+    g2. r4
+    d'2 r4 d
+    \pa d2 d4 \pd d
+    e2 e4 e8. e16
+    e4 d d e %65
+    f2 e4 d
+    c2 c4 c
+    c2 r
+    R1
+    R\fermata \bar "|." %70 finis
+  }
+}
+
 WennDerJungeCornoI = {
   \relative c' {
     \clef treble

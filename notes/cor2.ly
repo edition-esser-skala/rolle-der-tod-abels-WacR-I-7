@@ -1,5 +1,82 @@
 \version "2.22.0"
 
+LobtDenCornoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoLobtDen % in Es
+    c'2\fE c
+    e c4 e
+    c c2 d4
+    c2 e4 c
+    c2 r %5
+    r c4 c8. c16
+    c4 g g g
+    c2 d4 d
+    g,2 g
+    g2. r4 %10
+    r2 c\mfE
+    e c4 e
+    c c2 g4
+    c2 e4 c
+    c2 r %15
+    r c4 c8. c16
+    c4 g g g
+    c2 d4 d
+    g,2 g
+    g2. r4 %20
+    g2 r4 g
+    d'2 r4 g,
+    c2 c4 c8. c16
+    c4 g r c
+    c d c g %25
+    g2 c,4 c
+    c2. r4
+    r2 c'\pocoP
+    e c4 e
+    c c2 g4 %30
+    c2 e4 c
+    c2 r
+    r c~
+    c4 g r g
+    c2 d4 d %35
+    g,2 g4 g
+    g2. r4
+    g2 r
+    r r4 g
+    c2 c4 c8. c16 %40
+    c4 g r c
+    c d c g
+    c,2 c4 c
+    c2. r4
+    c'2\mfE c %45
+    e c4 e8 c
+    c4 c2 g4
+    c2 e4 c
+    c2 r
+    r c4 c8. c16 %50
+    c4 g r g
+    g c d d
+    g,2 g4 g
+    g2. r4
+    g2 r4 g %55
+    d'2 r4 g,
+    c2 c4 c8. c16
+    c4 g g c
+    c d c g
+    e2 c4 c %60
+    c2. r4
+    g'2 r4 g
+    d'2 r4 g,
+    c2 c4 c8. c16
+    c4 g g c %65
+    c d c g
+    e2 e4 e
+    e2 r
+    R1
+    R\fermata \bar "|." %70 finis
+  }
+}
+
 WennDerJungeCornoII = {
   \relative c' {
     \clef treble
