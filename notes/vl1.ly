@@ -1992,3 +1992,156 @@ AchEvaViolinoI = {
     r4 a\f b r\fermata \bar "|." %56 finis
   }
 }
+
+OSchmerzViolinoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key b \major \time 2/4 \tempoOSchmerz
+    \partial 8 f'8\p \appoggiatura es d4 r8 \tuplet 3/2 8 { f16( d b') }
+    \appoggiatura b8 a4 r8 \tuplet 3/2 8 { a16(\f f c') }
+    c4 es,8.(\trill d32 c)
+    \tuplet 3/2 8 { d16([ g f)] } f r \tuplet 3/2 8 { d([ g f)] } f r
+    d'4 f,8.(\trill es32 d) %5
+    \tuplet 3/2 8 { c16([ f es)] } es r \tuplet 3/2 8 { c([ f es)] } es r
+    des8. b16 b'8. e,16
+    \appoggiatura e8 f4 r8 f16(\p b,)
+    b( g') g4 es16( c)
+    c( f) f4 d16( b) %10
+    g( c) c4 a16( f)
+    b16.([ c64 d)] c16.( d64 es) d8-! f16(\f b,)
+    b( g') g4 es16( c)
+    c( c') c4 a16( f)
+    b16. f32 g16. b,32 b8( \grace d16 c8) %15
+    b \tuplet 3/2 8 { g'16( es b') f([ d b)] g'( es b') }
+    f8 r <a, es c> r
+    b,[-! f'-! b] d\p
+    \appoggiatura c b4 r8 f'
+    \appoggiatura es d4 r8 f, %20
+    g es'4 g,8
+    g f f16( b) b( d)
+    \appoggiatura d8 c4 r8 g'
+    \appoggiatura f es4 r8 es
+    d g c, es %25
+    d b16(\f d) b( g) c( e,)
+    f( c')\p r f e e( f d)
+    c( a) c( a) c( e) f( a)
+    c,( a) c( a) c( a) g( b)
+    b( g) a c b( a) d( c) %30
+    f f8 f f f16~
+    f f8 f f f16
+    f( d) f e f( d) f h,
+    \appoggiatura h8 c8. c16 a8 e
+    f f' r f %35
+    f8.\fz e16\p d8 d~
+    d c16 b b( a) a( g)
+    c8.\fz b16\p a8 d
+    c( b) a( g)
+    f r <d h' f'>\f r %40
+    <c g' c e> r r c'\p
+    \appoggiatura b a4 r8 \tuplet 3/2 8 { c16( a f') }
+    \appoggiatura f8 e4 r8 b
+    \appoggiatura a g4 r8 \tuplet 3/2 8 { g'16( c, b') }
+    \appoggiatura b8 a4 r8 c, %45
+    c16( b) b( a) c( b) b( a)
+    f'8.\fz e16\p d8 d~
+    d c16 b b( a) a( g)
+    c8.\fz b16\p a8 a'~
+    a16( g) f e d( c) b( a) %50
+    a'( g) f( e) d( c) d( b)
+    a\fz a'8 a16 \kneeBeam b e,,8 e16
+    f8 \tuplet 3/2 8 { a16(\f f c') c([ a f')] f( c a') }
+    g4 b,8.(\trill a32 g)
+    \tuplet 3/2 8 { a16([ d c)] } c r \tuplet 3/2 8 { a([ d c)] } c r %55
+    c'4 c,8.(\trill b32 a)
+    \tuplet 3/2 8 { g16([ c b)] } b r \tuplet 3/2 8 { g([ c b)] } b r
+    \tuplet 3/2 8 { a([ d c)] c-! c-! c-! c([ g' f)] f-! f-! f-! }
+    f( d') d4 b16( g)
+    g( c) c4 a16( f) %60
+    d( g) g4 e16( c)
+    f16.( g64 a) g16.([ a64 b)] a16.( b64 c) b16.([ c64 d)]
+    c16( e,) f-! c-! g'4\trill
+    f8 f,( g) as
+    as4( h,8) r %65
+    \tuplet 6/4 4 { r16 g\p d' h g' d r g, d' h g' d }
+    \tuplet 6/4 4 { r g, es' c g' es r g, es' c g' es }
+    \tuplet 6/4 4 { r g, d' h g' d r g, d' h g' d }
+    \tuplet 6/4 4 { r g, c g es' c r g' c g es' c }
+    \tuplet 3/2 8 { r d d r es es r f f r g g } %70
+    \tuplet 6/4 4 { r as f as f as r as, f as f as }
+    \tuplet 3/2 8 { r g es' r d f r c es r h d }
+    \tuplet 6/4 4 { r g,, g' es c' g r c, g' es c' g }
+    \tuplet 6/4 4 { r c, as' es c' as r c, as' es c' as }
+    \tuplet 6/4 4 { r f e f c' f, r f e f c' f, } %75
+    \tuplet 6/4 4 { r c a'! f c' a r c, a' f c' a }
+    \tuplet 6/4 4 { r b, f' b, b' f r b d b b' d, }
+    es8. f16 \tuplet 6/4 4 { g c, es c f c }
+    d8. es16 \tuplet 6/4 4 { f  d f d b' d, }
+    g8 f es d %80
+    \appoggiatura d c4 \tuplet 6/4 4 { r16 f,\f c' a f' c }
+    \tuplet 6/4 4 { r g e' b g' e r b g' e b' e, }
+    f8 f(\pp ges es)
+    c( a) f d'!\pE
+    \appoggiatura c b4 r8 f' %85
+    \appoggiatura es d4 r8 f,
+    g es'4 g,8
+    g f f16( b) \once \slurDashed b( d)
+    \appoggiatura d8 c4 r8 g'
+    \appoggiatura f es4 r8 es %90
+    d g c, es
+    d b16(\f a) b( g) as( d,)
+    es( b')\p r es d d( es c)
+    b( g) b( g) b( d) es( g)
+    b,( g) b( g) b( g) f( as) %95
+    as( f) g( b) g'( es) c( b)
+    a f'8 f f f16~
+    f f8 f f f16
+    f( g) g( d) d( es) es( d)
+    f( d) c16. f32\f <f a,>8 r %100
+    d,4\p r8 g
+    g'8.\f f16\p es8 r
+    c,4 r8 f
+    f'8.\f es16\p d8 g
+    f( es) d( c) %105
+    b r <e b g>\f r
+    <f a, f> r r f\p
+    \appoggiatura es! d4 r8 \tuplet 3/2 8 { f16( d b') }
+    \appoggiatura b a4 r8 es
+    \appoggiatura d c4 r8 \tuplet 3/2 8 { a'16( f c') } %110
+    \appoggiatura c8 b4 r8 d,,
+    d16( es) es( f) d( es) es( f)
+    es8.\f f16\p g8 es
+    c16( d) d( es) c( d) d( es)
+    d8.\f es16\p f8 g %115
+    f( es) d( c)
+    b r r \tuplet 3/2 8 { b''16( f d') }
+    c4 es,8.(\trill d32 c)
+    \tuplet 3/2 8 { d16([ g f)] } f r \tuplet 3/2 8 { d([ g f)] } f r
+    d'4 f,8.(\trill es32 d) %120
+    \tuplet 3/2 8 { c16([ f es)] } es r \tuplet 3/2 8 { c([ f es)] } es r
+    des8. b16 b'8. e,16
+    \appoggiatura e f8 f r f
+    f16( es!) es( d!) f( es) es( d)
+    b'8.\f a16\p g8 g~ %125
+    g f16 es es( d) d( c)
+    f8.\f es16\p d8 f~\fz
+    f16 g\p f es f( d) b'( g)
+    f( g) f( es) f( d) g( es)
+    d\fz f8 f16 es, a8 a16 %130
+    r b\p b b r g' g g
+    r f f f r es es es
+    r d d d r b'\f b b
+    r b b b r a a a
+    r b,,-! d-! f-! b( d) f(\p b,) %135
+    b( g') g4 es16( c)
+    c( f) f4 d16( b)
+    g( c) c4 a16( f)
+    b16.( c64 d) c16.([ d64 es)] d8-! f16(\f b,)
+    b( g') g4 es16( c) %140
+    c( c') c4 a16( f)
+    b16. f32 g16. b,32 b8( \grace d16 c8)
+    b8 \tuplet 3/2 8 { g'16( es b') f([ d b)] g'( es b') }
+    f8 r <a, es c> r
+    r b\p f( es) %145
+    d g16( f) f8 b16(\f as) \bar "||" %146 finis
+  }
+}

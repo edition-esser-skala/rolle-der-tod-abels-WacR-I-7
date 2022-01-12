@@ -1511,44 +1511,113 @@ paperEightStaves = \paper {
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2.10a" "Accompagnato" "Ach Eva! komm und hilf!"
+  %   \addTocLabel "acheva"
+  %   \paperFiveStaves
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \AchEvaViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \AchEvaViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \AchEvaViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set ChoirStaff.instrumentName = \markup \center-column { "Hamiel" "Eva" "Adam" "Sunam" }
+  %           \new Voice = "Soli" { \dynamicUp \AchEvaSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \AchEvaSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \AchEvaOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \AchEvaBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 60 }
+  %   }
+  % }
   \bookpart {
-    \section "2.10a" "Accompagnato" "Ach Eva! komm und hilf!"
-    \addTocLabel "acheva"
-    \paperFiveStaves
+    \section "2.10b" "Duetto" "Seht! dort ſteigt der Opferrauch herauf!"
+    \addTocLabel "sehtdort"
+    \paper { indent = 1.5\cm }
     \score {
       <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "ob"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \OSchmerzOboeI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \OSchmerzOboeII
+            }
+          >>
+        >>
+        \new StaffGroup  <<
+          \set StaffGroup.instrumentName = \markup \center-column { \transposedNameShort "cor" "B" "flat" "basso" "1, 2" }
+          \new Staff {
+            % \transpose c b,
+            \partCombine \OSchmerzCornoI \OSchmerzCornoII
+          }
+        >>
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \AchEvaViolinoI
+              \OSchmerzViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \AchEvaViolinoII
+              \OSchmerzViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \AchEvaViola
+            \OSchmerzViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set ChoirStaff.instrumentName = \markup \center-column { "Hamiel" "Eva" "Adam" "Sunam" }
-            \new Voice = "Soli" { \dynamicUp \AchEvaSoli }
+            \set Staff.instrumentName = "Hamiel"
+            \new Voice = "Hamiel" { \dynamicUp \OSchmerzHamiel }
           }
-          \new Lyrics \lyricsto Soli \AchEvaSoliLyrics
+          \new Lyrics \lyricsto Hamiel \OSchmerzHamielLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "Sunam"
+            \new Voice = "Sunam" { \dynamicUp \OSchmerzSunam }
+          }
+          \new Lyrics \lyricsto Sunam \OSchmerzSunamLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \AchEvaOrgano
+            \OSchmerzOrgano
           }
         >>
-        \new FiguredBass { \AchEvaBassFigures }
+        \new FiguredBass { \OSchmerzBassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 60 }

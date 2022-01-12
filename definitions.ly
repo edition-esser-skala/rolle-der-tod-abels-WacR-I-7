@@ -102,6 +102,7 @@ tempoErToedtet = \tempoMarkup "Recitativo"
 
 %2.10a
 tempoAchEva = \tempoMarkup "Adagio"
+tempoOSchmerz = \tempoMarkup "Adagio"
 
 
 \include "notes/fl1.ly"

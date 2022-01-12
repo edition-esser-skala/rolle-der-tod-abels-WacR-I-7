@@ -14,6 +14,7 @@ sources:
     rism: 455016820
     url: https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00084995-7
     license: CC BY-NC-SA 4.0
+    notes: principal source for movements 2.10a–e
   B1:
     siglum: A-Wn
     shelfmark: Mus.Hs.15529
@@ -37,7 +38,7 @@ sources:
     notes: Breitkopf, Leipzig
 imslp:
 parts:
-  cor12: Corno I, II in D/F/G
+  cor12: Corno I, II in \flat B basso/D/F/G
   timp: Timpani in D–A
 extra_abbreviations:
   fond:

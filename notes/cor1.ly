@@ -277,3 +277,116 @@ FrommIstCornoI = {
     c4 r8\fermata \bar "|." %132 finis
   }
 }
+
+OSchmerzCornoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \tempoOSchmerz % in B basso
+    \partial 8 r8 r c'\p c r
+    r g g r
+    g\f g g g
+    g r g r
+    g g g g %5
+    g r g r
+    c4 \pa c
+    g'8 g, \pd r4
+    R2*3 %11
+    r4 r8 c\fE
+    c4 r8 f
+    d4 r8 d
+    c[ c e d] %15
+    c r c r
+    e r d r
+    c4 r
+    r8 c\p c r
+    r c c r %20
+    R2
+    r4 e8 c
+    g2~
+    g8 g g r
+    R2 %25
+    r4 r8 d'\f
+    g,4 r
+    R2*13 %40
+    r8 \pa d'\pE d d
+    d2~
+    d~
+    d~
+    d4 r \pd %45
+    R2*3
+    r4 r8 g,
+    g4 r %50
+    g r
+    d'8 d d d
+    d g4\f g8
+    d d d d
+    d r d r %55
+    d d d d
+    d r d r
+    d g4 g8
+    g e r e
+    \pa d d \pd r d %60
+    e r \pao d r
+    \pao d4 r
+    r8 \pa g, c d
+    g, \pd r r4
+    R2*12 %76
+    r4 r8 a'\pE
+    f d r g
+    e c r4
+    R2 %80
+    r4 g8\f r
+    g r g r
+    g2~\p
+    g
+    r8 c c r %85
+    r c c r
+    c,2
+    r4 e'8 c
+    g2~
+    g %90
+    R
+    r4 r8 c\fE
+    c4 r
+    R2*6 %99
+    r8 g\f g4 %100
+    R2*5 %105
+    r4 c8\f r
+    \pa g' g\p g g
+    g2~
+    g~
+    g~ %110
+    g4 r \pd
+    R2
+    d8\f d\p r4
+    R2
+    c8\f c\pE r4 %115
+    R2
+    r8 c\p r c
+    g4 r
+    r8 g g g
+    g4 r %120
+    r8 g g g
+    c4 \pa c
+    g'8 g, \pd r4
+    c2
+    c8 r r4 %125
+    g'2
+    g8 r r16 c,[ g' e]
+    c2~
+    c4. r8
+    R2*3 %132
+    r4 c8\f r
+    g r g r
+    g g r4 %135
+    R2*3
+    r4 r8 c\fE
+    c4 r8 f %140
+    d4 r8 d
+    c[ c e d]
+    c r c r
+    e r d r
+    c4 r %145
+    R2 \bar "||" %146 finis
+  }
+}

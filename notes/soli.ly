@@ -3463,3 +3463,419 @@ AchEvaSoliLyrics = \lyricmode {
   ſtört heut auf ein -- mal al -- le %5
   Ruh! %56 finis
 }
+
+OSchmerzHamiel = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key b \major \time 2/4 \autoBeamOff \tempoOSchmerz
+    \partial 8 r8 R2*21 %21
+    r4 r8 \mvTr b'\pE^\soloE
+    \appoggiatura d c4 r8 g'
+    \appoggiatura f es4 r8 es
+    d16([ f)] es([ g)] \appoggiatura g c,8. es16 %25
+    \tuplet 3/2 8 { d([ c b)] } b8 r4
+    f'4 e8 d
+    c4~ \tuplet 3/2 8 { c16[ a' g] f([ e d)] }
+    c4~ \tuplet 3/2 8 { c16[ d c] b([ a b)] }
+    \appoggiatura b8 a4 r %30
+    f' r
+    f r8 f16 f
+    f([ d)] f([ e)] f([ d)] h([ d)]
+    \appoggiatura d8 c4 r8 c
+    c16([ b!)] b([ a)] c([ b)] b([ a)] %35
+    f'8. e16 d8 d~
+    d c16 b b([ a)] a([ g)]
+    c8. b16 a8 f'16([ f,)]
+    f4. g8
+    f4 r %40
+    R2*3
+    r4 r8 e'
+    \appoggiatura g f4 r %45
+    f r
+    f r8 d~
+    d c16 b b([ a)] a([ g)]
+    c8. b16 a8 a'~
+    a16[ g] f e d([ c)] b([ a)] %50
+    a'([ g)] f([ e)] d([ c)] d([ b)]
+    a4( g8.)\trill f16
+    f4 r
+    R2*12 %65
+    r4 r8 g'
+    g4. es16([ c)]
+    \tuplet 3/2 8 { h[([ c d)] } d8 d8. f16
+    \appoggiatura f8 es4 r8 es
+    d es f g %70
+    as4 f8 f
+    es d c h
+    \appoggiatura h c4 r
+    es r8 es
+    \appoggiatura f es4 r8 es %75
+    es8. g16 g([ f)] f([ es)]
+    \appoggiatura es8 d4 r8 d
+    es8. f16 g8 c,
+    d8. es16 f8 d
+    g f es d %80
+    \appoggiatura d c4 r
+    e r8 e16 e
+    f8 r r4
+    R2*4 %87
+    r4 r8 b,
+    \appoggiatura d c4 r8 g'
+    \appoggiatura f es4 r8 es %90
+    d16([ f)] es([ g)] \appoggiatura g c,8. es16
+    \tuplet 3/2 8 { d([ c b)] } b8 r4
+    es d8 c
+    b4~ \tuplet 3/2 8 { b16[ g' f] es[( d c)] }
+    b4~ \tuplet 3/2 8 { b16[ c b] as([ g as)] } %95
+    \appoggiatura as8 g4 r
+    a b8 b
+    es4 d8. f16
+    f([ g)] g([ d)] d([ es)] es([ d)]
+    \appoggiatura d8 c4 r8 f %100
+    f16([ es)] es([ d)] f([ es)] es([ d)]
+    g8. f16 es8 es~
+    es d16 c c([ b)] b([ a)]
+    f'8. es16 d8 g16([ b,)]
+    b4. c8 %105
+    b4 r
+    R2*3
+    r4 r8 f' %110
+    \appoggiatura es d4 r8 f
+    f16([ es)] es([ d)] f([ es)] es([ d)]
+    g8. f16 es8 es~
+    es d16 c c([ b)] b([ a)]
+    f'8. es16 d8 b'16([ b,)] %115
+    b4.( \grace d16 c) b
+    b4 r
+    R2
+    r4 r8 d
+    d8. es16 \appoggiatura g f8 es16([ d)] %120
+    \tuplet 3/2 8 { c([ f es)] } es8 r4
+    des e
+    \appoggiatura e16 f8 f r4
+    b, r8 b
+    g'4 r8 g~ %125
+    g f16 es es([ d)] d([ c)]
+    f8. es16 d8 f~
+    f16[ g] f es f([ d)] b'([ g)]
+    f([ g)] f([ es)] f([ d)] g([ es)]
+    d4( c8.)\trill b16 %130
+    b4 b8 g'
+    f8. d16 c8. es16
+    d8 r <g b,> g
+    f8. d16 es8. c16
+    b8 r r4 %135
+    R2*11 \bar "||" %146 finis
+  }
+}
+
+OSchmerzHamielLyrics = \lyricmode {
+  O %22
+  Quaal! O
+  Quaal! Die
+  Mut -- ter iſt ent -- %25
+  wi -- chen!
+  Nun ſind wir
+  va -- ter --
+  mut -- ter --
+  los, %30
+  ach,
+  ach, der Ver --
+  luſt ist gar zu
+  groß, nun
+  ſind wir va -- ter -- %35
+  mut -- ter -- los, ach, __
+  der Ver -- luſt ist
+  gar zu groß, ist
+  gar zu
+  groß. %40
+
+  O %44
+  Quaal! %45
+  ach,
+  ach, ach, __
+  der Ver -- luſt ist
+  gar zu groß, ach, __
+  der Ver -- luſt ist %50
+  gar zu groß, ist
+  gar __ zu
+  groß.
+
+  Nur %66
+  du, o
+  E -- va! du al --
+  lein, ihr
+  kön -- net uns Ver -- %70
+  laſſ -- nen ſtatt
+  Thir -- za Mut -- ter
+  ſeyn,
+  du, nur
+  du, o %75
+  E -- va! du al --
+  lein, ihr
+  kön -- net uns Ver --
+  laſ -- ſe -- nen ſtatt
+  Thir -- za Mut -- ter %80
+  ſeyn,
+  du, du al --
+  lein.
+
+  O %88
+  Quaal! O
+  Quaal! Die %90
+  Mut -- ter iſt ent --
+  wi -- chen!
+  Nun ſind wir
+  va -- ter --
+  mut -- ter -- %95
+  los,
+  ach, der Ver --
+  luſt, der Ver --
+  luſt ist gar zu
+  groß, nun %100
+  ſind wir va -- ter --
+  mut -- ter -- los, ach, __
+  der Ver -- luſt ist
+  gar zu groß, ist
+  gar zu %105
+  groß.
+
+  O %110
+  Quaal! Nun
+  ſind wir va -- ter --
+  mut -- ter -- los, ach, __
+  der Ver -- luſt ist
+  gar zu groß, ist %115
+  gar __ zu
+  groß.
+
+  Die
+  Mut -- ter iſt ent -- %120
+  wi -- chen,
+  iſt ent --
+  wi -- chen!
+  ach, o
+  Quaal! ach, __ %125
+  der Ver -- luſt ist
+  gar zu groß, ach, __
+  der Ver -- luſt ist
+  gar zu groß, ist
+  gar __ zu %130
+  groß, der Ver --
+  luſt ist gar zu
+  groß, der Ver --
+  luſt ist gar zu
+  groß. %135 finis
+}
+
+OSchmerzSunam = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key b \major \time 2/4 \autoBeamOff \tempoOSchmerz
+    \partial 8 r8 R2*17 %17
+    r4 r8 \mvTr d'\pE^\soloE
+    \appoggiatura c b4 r8 f'
+    \appoggiatura es d4 r8 b %20
+    g8. es'16 es8. g,16
+    g8 f r4
+    R2*4 %26
+    a4 c8 b
+    a4~ \tuplet 3/2 8 { a16[ f' e] d([ c b)] }
+    a4~ \tuplet 3/2 8 { a16[ b a] g([ f g)] }
+    \appoggiatura g8 f4 r %30
+    b a8 a
+    d4 c
+    h4. d16([ f,)]
+    \appoggiatura f8 e4 r8 c'
+    a16([ g)] g([ f)] a([ g)] g([ f)] %35
+    d'8. c16 b8 b~
+    b a16 g g([ f)] f([ e)]
+    a8. g16 f8 r
+    r d' c e,
+    f4 r %40
+    R2
+    r4 r8 f'
+    \appoggiatura f e4 r
+    R2*2 %45
+    f,4 r
+    d' r8 b~
+    b a16 g g([ f)] f([ e)]
+    a8. g16 f8 f'~
+    f16[ e] d c b([ a)] g([ f)] %50
+    f'([ e)] d([ c)] b([ a)] b([ g)]
+    f4( e8.)\trill f16
+    f4 r
+    R2*11 %64
+    r4 r8 d' %65
+    d4. g,8
+    \tuplet 3/2 8 { es'16([ d c)] } c8 r g
+    g4 h8. d16
+    \appoggiatura d8 c4 r8 c
+    h c d es %70
+    f4 d8 as
+    g f' es d
+    \appoggiatura d c4 r
+    c r8 c
+    \appoggiatura d c4 r8 c %75
+    c8. es16 es([ d)] d([ c)]
+    \appoggiatura c8 b4 r8 b
+    c8. d16 es8 a,
+    b8. c16 d8 b
+    es d c b %80
+    \appoggiatura b a4 r
+    b r8 b16 b
+    a8 r r4
+    r r8 d
+    \appoggiatura c b4 r8 f' %85
+    \appoggiatura es d4 r8 b
+    g8. es'16 es8. g,16
+    g8 f r4
+    R2*4 %92
+    g4 b8 as
+    g4~ \tuplet 3/2 8 { g16[ es' d] c([ b as)] }
+    g4~ \tuplet 3/2 8 { g16[ as g] f([ es f)] } %95
+    \appoggiatura f8 es4 r
+    f r
+    c' r8 b16 d
+    d([ es)] es([ h)] h([ c)] c([ b)]
+    \appoggiatura b8 a4 r8 d %100
+    d16([ c)] c([ h)] d([ c)] c([ h)]
+    es8. d16 c8 c~
+    c b!16 a a([ g)] g([ f)]
+    d'8. c16 b8 r
+    r g f a %105
+    b4 r
+    R2
+    r4 r8 d
+    \appoggiatura f es4 r
+    R2 %110
+    r4 r8 d
+    d16([ c)] c([ h)] d([ c)] c([ h)]
+    es8. d16 c8 c~
+    c b!16 a a([ g)] g([ f)]
+    d'8. c16 b8 r %115
+    r g' f a,
+    b4 r8 b
+    c8. d16 \appoggiatura f es8 d16([ c)]
+    d([ b)] f8 r4
+    R2*2 %121
+    b4. b8
+    \appoggiatura b16 a8 a r4
+    b4 r8 b
+    es4 r8 es~ %125
+    es d16 c c([ b)] b([ a)]
+    d8. c16 b8 d~
+    d16[ es] d c d([ b)] g'([ es)]
+    d([ es)] d([ c)] d([ b)] es([ c)]
+    b4( a8.)\trill b16 %130
+    b4 b8 es
+    d8. b16 a8. c16
+    b8 r b es
+    d8. b16 c8. a16
+    b8 r r4 %135
+    R2*11 \bar "||" %146 finis
+  }
+}
+
+OSchmerzSunamLyrics = \lyricmode {
+  O %18
+  Schmerz! O
+  Schmerz! Mein %20
+  Va -- ter iſt er --
+  bli -- chen!
+
+  Nun ſind wir %27
+  va -- ter --
+  mut -- ter --
+  los, %30
+  ach, der Ver --
+  luſt ist
+  gar zu
+  groß, nun
+  ſind wir va -- ter -- %35
+  mut -- ter -- los, ach, __
+  der Ver -- luſt ist
+  gar zu groß,
+  ist gar zu
+  groß. %40
+
+  O
+  Schmerz!
+
+  ach, %46
+  ach, ach, __
+  der Ver -- luſt ist
+  gar zu groß, ach, __
+  der Ver -- luſt ist %50
+  gar zu groß, ist
+  gar __ zu
+  groß.
+
+  Nur %65
+  du, o
+  A -- dam! nur
+  du, du al --
+  lein, ihr
+  kön -- net uns Ver -- %70
+  laſſ -- nen ſtatt
+  A -- bel Va -- ter
+  ſeyn,
+  du, nur
+  du, o %75
+  A -- dam! du al --
+  lein, ihr
+  kön -- net uns Ver --
+  laſ -- ſe -- nen ſtatt
+  \xE A -- bel \x Va -- ter %80
+  ſeyn,
+  du, du al --
+  lein.
+  O
+  Schmerz! O %85
+  Schmerz! Mein
+  Va -- ter iſt er --
+  bli -- chen!
+
+  Nun ſind wir
+  va -- ter --
+  mut -- ter -- %95
+  los,
+  ach,
+  ach, der Ver --
+  luſt ist gar zu
+  groß, nun %100
+  ſind wir va -- ter --
+  mut -- ter -- los, ach, __
+  der Ver -- luſt ist
+  gar zu groß,
+  ist gar zu %105
+  groß.
+
+  O
+  Schmerz!
+
+  Nun
+  ſind wir va -- ter --
+  mut -- ter -- los, ach, __
+  der Ver -- luſt ist
+  gar zu groß, %115
+  ist gar zu
+  groß. Mein
+  Va -- ter iſt er --
+  bli -- chen,
+
+  iſt er -- %122
+  bli -- chen!
+  ach, o
+  Schmerz! ach, __ %125
+  der Ver -- luſt ist
+  gar zu groß, ach, __
+  der Ver -- luſt ist
+  gar zu groß, ist
+  gar __ zu %130
+  groß, der Ver --
+  luſt ist gar zu
+  groß, der Ver --
+  luſt ist gar zu
+  groß. %135 finis
+}

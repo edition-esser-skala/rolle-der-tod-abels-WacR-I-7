@@ -268,3 +268,122 @@ SehtDortOboeI = {
     d d d r\fermata \bar "|." %99 finis
   }
 }
+
+OSchmerzOboeI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key b \major \time 2/4 \tempoOSchmerz
+    \partial 8 r8 r f'\p f r
+    r a a r
+    c4\f es,
+    d8( f) r f
+    d'4 f, %5
+    es8( c) r es
+    des b'4 des,8
+    des c r4
+    R2*3 %11
+    r4 r8 f
+    g2
+    f4 a
+    b8 g d c %15
+    b g' f g
+    d r c r
+    b4 r
+    r8 d\p d r
+    r f f r %20
+    R2*2
+    r8 c c r
+    r es es r
+    R2 %25
+    r8 b16\f d b g c e,
+    f4 r
+    R2*6 %33
+    r8 c'4\pE b'8
+    a r r4 %35
+    R2*4
+    r4 h8\f r %40
+    c r r4
+    r8 c,\p c r
+    r e e r
+    r b' b r
+    r a a r %45
+    R2*3
+    r4 r8 f
+    f4 r %50
+    f r8 d16 b
+    a4 g
+    f8 r r4
+    g'\f b,
+    a8( c) r c %55
+    a'4 c,
+    b8( g) r b
+    a( c) r f
+    f4 b~
+    b a %60
+    d, e
+    f8 g a e
+    f16 e f c g'4
+    f8 r r4
+    R2*8 %72
+    r8 es4\pE es8
+    es2~
+    es %75
+    c'8( es,) r4
+    r r8 d
+    es8. f16 g8 c,
+    d8. es16 f8 r
+    R2 %80
+    r4 f8\f r
+    e r b' r
+    a r r4
+    R2
+    r8 d, d r %85
+    r f f r
+    R2*2
+    r8 c c r
+    r es es r %90
+    R2
+    r8 b16\f a b g as d,
+    es4 r
+    R2*6 %99
+    r8 f'\f f4 %100
+    R2*5 %105
+    r4 b8\f r
+    a r r4
+    r8 f\p f r
+    r a, a r
+    r es' es r %110
+    r d d r
+    R2
+    g8.\f f16\p es8 r
+    R2
+    f8.\f es16\p d8 r %115
+    R2
+    r8 d\p r f
+    es2
+    d8( f) r d
+    d4 f %120
+    es8( c) r es
+    des b'4 des,8
+    des16( c) c16. c32\f d8 es
+    d r r4
+    g2\p %125
+    c,8 r r4
+    f4~ f16 b, d f
+    b2~
+    b4. r8
+    R2*3 %132
+    r4 g8\f r
+    f r a r
+    d, b' r4 %135
+    R2*3
+    r4 r8 f\fE
+    g2 %140
+    f4 a
+    b8 g d c
+    b g' f g
+    d r c r
+    b4 r %145
+    R2 \bar "||" %146 finis
+  }
+}

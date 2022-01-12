@@ -2248,3 +2248,156 @@ AchEvaViola = {
     r4 f\f f r\fermata \bar "|."
   }
 }
+
+OSchmerzViola = {
+  \relative c' {
+    \clef alto
+    \twofourtime \key b \major \time 2/4 \tempoOSchmerz
+    \partial 8 b'8\p b,4 r8 b'
+    c4 r8 c,\f
+    f, f' f f
+    f f f f
+    f f f f %5
+    f f f f
+    ges ges ges ges
+    f f, r d'\p
+    es4 g
+    c f,8 b, %10
+    b( g') a,( f')
+    d-! a-! b d\f
+    es es c' c
+    a a f f
+    b, b' f es %15
+    d es d es
+    f r f r
+    b,-![ f'-! b-!] f\p
+    a,( b) r f'
+    a( b) r b, %20
+    b b4 b8
+    b4 r8 f'
+    f4 r8 f
+    a, a g f
+    b es f f %25
+    f b16(\f d) b( g) c( e,)
+    f8 r r4
+    f\p f,
+    c'4. c8
+    c4 r %30
+    d8 d c c
+    b b a a
+    g d'4 g8
+    g[ r16 c] a8 e
+    f r f r %35
+    f f r f
+    e r c' r
+    f, f, r b
+    a b c c
+    f, r d'\f r %40
+    c r r4
+    f,4\p r8 f
+    g4 r8 g
+    c4 r8 c
+    f,4 r8 f' %45
+    f r f r
+    b,\f b'\p r f
+    e r c' r
+    f,\f f,\p r16 f' c' a
+    f8 f4 f8~ %50
+    f f4 b,8
+    c\fz c c c
+    f c\f a f
+    c' c c c
+    c c c c %55
+    c c c c
+    c c c c
+    f, f' a, a'
+    b b g g
+    e e f f %60
+    b b c c
+    a e f g
+    a a b c
+    f, f( g) as
+    as4( h,8) r %65
+    r d-!\p g-! g,-!
+    r es'-! g-! c-!
+    r d, g g,
+    r es' g c
+    as! g f es %70
+    d4 h
+    c8 f, g g
+    c g'-! c-! es-!
+    r c, es as!
+    r c, es c' %75
+    c8. es16 es( d) d( c)
+    \appoggiatura c8 b4 r8 g
+    es c r f
+    d b r4
+    r8 h c g' %80
+    \tuplet 6/4 4 { r16 f, e f c' a } f8\f r
+    f' r f r
+    f r r4
+    R2
+    b,4\pE r8 f' %85
+    a( b) r b,
+    b2
+    b4 r8 f'
+    f4 r8 f
+    a, a g f %90
+    b es f f
+    f b16(\f a) b( g) as( d,)
+    es8 r r4
+    es4\p es,
+    b'4. b8 %95
+    b4 r
+    c8 c b b'
+    c c b b
+    g4 r
+    r8 f f,\f r %100
+    g4\p r8 g'
+    g4 r
+    f, r8 f'
+    f4 r8 es
+    d es f f, %105
+    b r b\f r
+    c r r4
+    b'\p r8 b
+    c4 r8 c,
+    f4 r8 f %110
+    a,( b) r4
+    g4. g'8
+    g\f c,\p r4
+    f,4. f'8
+    f\f b,\p r es, %115
+    d es f f
+    b4 r
+    r8 f f f
+    f4 r
+    r8 f f f %120
+    f4 r8 f'
+    ges ges ges ges
+    f f,16. es'32 d!8 a
+    b r b' r
+    es,,\fE es'\pE r b %125
+    a r f' r
+    d\f b'\p r16 b\fz f d
+    b8\p b' r es,
+    b b' r es,
+    f\fz f f, f %130
+    r16 g\p g g r es es es
+    r f f f r f' f f
+    r b, b b r es\f es es
+    r f f f r f f f
+    b8 b, r d\pE %135
+    es4 g
+    c f,8 b,
+    b( g') a,( f')
+    d-! a-! b-! d\f
+    es es c' c %140
+    a a f f
+    b, b' f es
+    d es d es
+    f r f r
+    b,2~\p %145
+    b \bar "||" %146 finis
+  }
+}
