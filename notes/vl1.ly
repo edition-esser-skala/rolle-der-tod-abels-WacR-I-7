@@ -2145,3 +2145,15 @@ OSchmerzViolinoI = {
     d g16( f) f8 b16(\f as) \bar "||" %146 finis
   }
 }
+
+DerEnkelViolinoI = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 4/4 \tempoDerEnkel
+    as'1\p
+    h2 r8 d16.\f d32 \mvDrr d4~\p
+    d2 r8 es16.\f es32 \mvDrr es4~\p
+    es2 as~
+    as r4 r8 g\p \bar "||" %5 finis
+  }
+}

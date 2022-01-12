@@ -4533,3 +4533,23 @@ OSchmerzBassFigures = \figuremode {
   r4. <4 2>8 %145
   <3 1> <6 4> <5 3> <7-> %146 finis
 }
+
+DerEnkelOrgano = {
+  \relative c {
+    \clef bass
+    \key es \major \time 4/4 \tempoDerEnkel
+    b1\p
+    as2 r8 g16.\f g32 \mvDrr g4~\p
+    g2 r8 c16.\f c32 \mvDrr c4~\p
+    c2 f~
+    f r4 r8 g\p \bar "||"
+  }
+}
+
+DerEnkelBassFigures = \figuremode {
+  <7>1
+  <4 2!>2 r8 <7 _!> <\t \t>4
+  r1
+  r
+  r2.. <_!>8 %5 finis
+}

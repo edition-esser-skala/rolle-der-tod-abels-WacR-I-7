@@ -8,6 +8,7 @@
 
 fC = \set Staff.forceClef = ##t
 fermataMark = \mark \markup { \musicglyph #"scripts.ufermata" }
+mvDrr = \once \override DynamicText.X-offset = #3
 soloAbel = \markup \remark "Abel"
 soloAdam = \markup \remark "Adam"
 soloEva = \markup \remark "Eva"
@@ -103,6 +104,7 @@ tempoErToedtet = \tempoMarkup "Recitativo"
 %2.10a
 tempoAchEva = \tempoMarkup "Adagio"
 tempoOSchmerz = \tempoMarkup "Adagio"
+tempoDerEnkel = \tempoMarkup "[Adagio]"
 
 
 \include "notes/fl1.ly"

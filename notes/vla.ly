@@ -2401,3 +2401,15 @@ OSchmerzViola = {
     b \bar "||" %146 finis
   }
 }
+
+DerEnkelViola = {
+  \relative c' {
+    \clef alto
+    \key es \major \time 4/4 \tempoDerEnkel
+    d1\p
+    f2 r8 f16.\f f32 \mvDrr f4~\p
+    f2 r8 g16.\f g32 \mvDrr g4~\p
+    g2 f~
+    f r4 r8 g\p \bar "||" %5 finis
+  }
+}

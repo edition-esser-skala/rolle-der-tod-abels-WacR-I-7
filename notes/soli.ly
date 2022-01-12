@@ -3879,3 +3879,23 @@ OSchmerzSunamLyrics = \lyricmode {
   luſt ist gar zu
   groß. %135 finis
 }
+
+DerEnkelSoli = {
+  \relative c {
+    \clef bass
+    \key es \major \time 4/4 \autoBeamOff \tempoDerEnkel
+    r8 f g as as8. d,16 d8 d
+    f4 r8 f h16 h h8 r d,
+    f f as g es4 r
+    g es8 c as'8. as16 as8 r
+    c c16 c h8 c g g r4 \bar "||" %5 finis
+  }
+}
+
+DerEnkelSoliLyrics = \lyricmode {
+  Der En -- kel Klag -- ge -- ſang durch --
+  dringt, er -- ſchüt -- tert mich, gräbt
+  al -- le Wun -- den neu.
+  Gott! un -- ter -- ſtüt -- ze mich!
+  gieb mei -- ner Gat -- tinn Gna -- de! %5 finis
+}

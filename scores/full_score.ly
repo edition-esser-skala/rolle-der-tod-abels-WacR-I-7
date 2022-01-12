@@ -1554,73 +1554,116 @@ paperEightStaves = \paper {
   %     \midi { \tempo 4 = 60 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2.10b" "Duetto" "Seht! dort ſteigt der Opferrauch herauf!"
+  %   \addTocLabel "sehtdort"
+  %   \paper { indent = 1.5\cm }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "ob"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \OSchmerzOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \OSchmerzOboeII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup  <<
+  %         \set StaffGroup.instrumentName = \markup \center-column { \transposedNameShort "cor" "B" "flat" "basso" "1, 2" }
+  %         \new Staff {
+  %           % \transpose c b,
+  %           \partCombine \OSchmerzCornoI \OSchmerzCornoII
+  %         }
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \OSchmerzViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \OSchmerzViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \OSchmerzViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Hamiel"
+  %           \new Voice = "Hamiel" { \dynamicUp \OSchmerzHamiel }
+  %         }
+  %         \new Lyrics \lyricsto Hamiel \OSchmerzHamielLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Sunam"
+  %           \new Voice = "Sunam" { \dynamicUp \OSchmerzSunam }
+  %         }
+  %         \new Lyrics \lyricsto Sunam \OSchmerzSunamLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \OSchmerzOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \OSchmerzBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 60 }
+  %   }
+  % }
   \bookpart {
-    \section "2.10b" "Duetto" "Seht! dort ſteigt der Opferrauch herauf!"
-    \addTocLabel "sehtdort"
-    \paper { indent = 1.5\cm }
+    \section "2.10c" "Accompagnato" "Der Enkel Klaggeſang"
+    \addTocLabel "derenkel"
+    \paperFiveStaves
     \score {
       <<
-        \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "ob"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \OSchmerzOboeI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \OSchmerzOboeII
-            }
-          >>
-        >>
-        \new StaffGroup  <<
-          \set StaffGroup.instrumentName = \markup \center-column { \transposedNameShort "cor" "B" "flat" "basso" "1, 2" }
-          \new Staff {
-            % \transpose c b,
-            \partCombine \OSchmerzCornoI \OSchmerzCornoII
-          }
-        >>
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \OSchmerzViolinoI
+              \DerEnkelViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \OSchmerzViolinoII
+              \DerEnkelViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \OSchmerzViola
+            \DerEnkelViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "Hamiel"
-            \new Voice = "Hamiel" { \dynamicUp \OSchmerzHamiel }
+            \set ChoirStaff.instrumentName = "Adam"
+            \new Voice = "Soli" { \dynamicUp \DerEnkelSoli }
           }
-          \new Lyrics \lyricsto Hamiel \OSchmerzHamielLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "Sunam"
-            \new Voice = "Sunam" { \dynamicUp \OSchmerzSunam }
-          }
-          \new Lyrics \lyricsto Sunam \OSchmerzSunamLyrics
+          \new Lyrics \lyricsto Soli \DerEnkelSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \OSchmerzOrgano
+            \DerEnkelOrgano
           }
         >>
-        \new FiguredBass { \OSchmerzBassFigures }
+        \new FiguredBass { \DerEnkelBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 60 }
+      \midi { \tempo 4 = 70 }
     }
   }
 }
