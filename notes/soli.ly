@@ -3992,3 +3992,55 @@ MeinAbelSunamLyrics = \lyricmode {
   Ach wel -- cher
   Scha -- de! %23 finis
 }
+
+DerHerrSoli = {
+  \relative c {
+    \clef bass
+    \key es \major \time 4/4 \autoBeamOff \tempoDerHerr
+    r4 r8 es g8. g16 g4
+    r8 g b des c4 r16 c, c c
+    g'4 r b8 b16 b b8 as
+    f f r4 f f8 f
+    ges16 ges ges8 r ges ges8. ges16 ges8 b %5
+    a4 r8 a16 a a4 b8 c
+    \appoggiatura c es,4 r8 es ges ges ges f
+    des des r4 f f8 f
+    b b c des des4 e,
+    r e8 f c4 r %10
+    r c f8 f f c'
+    h8. h16 h8 r f4 g8 as
+    g g r4 g8. d16 d8 es
+    f4 f as8 as as g
+    es es r4 r2 %15
+    r4 r8 es c8. c16 c4
+    es es8 as as8. d,!16 d4
+    r8 d d es f4 f8 f16 b
+    b f f8 r b g g r b16 des
+    c4 r8 c as as as g %20
+    es es r4 r2\fermata \bar "|." %21 finis
+  }
+}
+
+DerHerrSoliLyrics = \lyricmode {
+  Der Herr al -- lein,
+  der Herr iſt Gott! er iſt al --
+  lein Herr ü -- ber Tod und
+  Le -- ben. Deß -- hal -- ben
+  kla -- get nicht! ſein Ur -- theil iſt ge -- %5
+  recht; er kann dieß, was er
+  nimmt, uns hun -- dert -- fäl -- tig
+  ge -- ben. Auch in der
+  Stra -- fe bleibt er Va -- ter:
+  ich der Knecht. %10
+  Des A -- bels und der
+  Thir -- za Grab ihr zar -- ten
+  En -- kel! hel -- fet mir mit
+  Ro -- ſen und Ky -- preſ -- ſen
+  zie -- ren. %15
+  Wo A -- bel liegt,
+  bey die -- ſer Lau -- be hier,
+  will ich den Hauch, den ich vom
+  Höch -- ſten hab, ihr En -- kel! un -- ter
+  euch zum Schö -- pfer wie -- der %20
+  füh -- ren. %21 finis
+}

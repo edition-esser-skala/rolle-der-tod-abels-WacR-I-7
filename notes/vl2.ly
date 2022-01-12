@@ -2189,3 +2189,23 @@ MeinAbelViolinoII = {
     es as16( g) g8 c16(\f b) \bar "||" %24 finis
   }
 }
+
+DerHerrViolinoII = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 4/4 \tempoDerHerr
+    b'1\pE
+    r2 g4\fE r
+    b r r2
+    as4 r r2
+    des,1\p %5
+    es2 r
+    c'4\f r r2
+    b4 r r2
+    r g,~\p
+    g4 r r g'\f %10
+    f r r2
+    R1*9 %20
+    R1\fermata \bar "|." %21 finis
+  }
+}

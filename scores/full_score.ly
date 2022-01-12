@@ -1666,76 +1666,119 @@ paperEightStaves = \paper {
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2.10d" "Trio" "Mein Abel, meine Thirza todt!"
+  %   \addTocLabel "meinabel"
+  %   \paper { indent = 1.5\cm }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { instrumentName = "ob" } <<
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \MeinAbelOboeI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \MeinAbelOboeII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup \with { instrumentName = \markup \center-column { \transposedNameShort "cor" "B" "flat" "basso" "1, 2" }} <<
+  %         \new Staff {
+  %           % \transpose c b,
+  %           \partCombine \MeinAbelCornoI \MeinAbelCornoII
+  %         }
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance instrumentName = "vl" } <<
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \MeinAbelViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \MeinAbelViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \MeinAbelViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Eva"
+  %           \new Voice = "Eva" { \dynamicUp \MeinAbelEva }
+  %         }
+  %         \new Lyrics \lyricsto Eva \MeinAbelEvaLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Hamiel"
+  %           \new Voice = "Hamiel" { \dynamicUp \MeinAbelHamiel }
+  %         }
+  %         \new Lyrics \lyricsto Hamiel \MeinAbelHamielLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Sunam"
+  %           \new Voice = "Sunam" { \dynamicUp \MeinAbelSunam }
+  %         }
+  %         \new Lyrics \lyricsto Sunam \MeinAbelSunamLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \MeinAbelOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \MeinAbelBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 60 }
+  %   }
+  % }
   \bookpart {
-    \section "2.10d" "Trio" "Mein Abel, meine Thirza todt!"
-    \addTocLabel "meinabel"
-    \paper { indent = 1.5\cm }
+    \section "2.10e" "Accompagnato" "Der Herr allein, der Herr iſt Gott!"
+    \addTocLabel "derherr"
+    \paperFiveStaves
     \score {
       <<
         \new StaffGroup <<
-          \new GrandStaff \with { instrumentName = "ob" } <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \MeinAbelOboeI
+              \DerHerrViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \MeinAbelOboeII
-            }
-          >>
-        >>
-        \new StaffGroup \with { instrumentName = \markup \center-column { \transposedNameShort "cor" "B" "flat" "basso" "1, 2" }} <<
-          \new Staff {
-            % \transpose c b,
-            \partCombine \MeinAbelCornoI \MeinAbelCornoII
-          }
-        >>
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance instrumentName = "vl" } <<
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \MeinAbelViolinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \MeinAbelViolinoII
+              \DerHerrViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \MeinAbelViola
+            \DerHerrViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "Eva"
-            \new Voice = "Eva" { \dynamicUp \MeinAbelEva }
+            \set ChoirStaff.instrumentName = "Adam"
+            \new Voice = "Soli" { \dynamicUp \DerHerrSoli }
           }
-          \new Lyrics \lyricsto Eva \MeinAbelEvaLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "Hamiel"
-            \new Voice = "Hamiel" { \dynamicUp \MeinAbelHamiel }
-          }
-          \new Lyrics \lyricsto Hamiel \MeinAbelHamielLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "Sunam"
-            \new Voice = "Sunam" { \dynamicUp \MeinAbelSunam }
-          }
-          \new Lyrics \lyricsto Sunam \MeinAbelSunamLyrics
+          \new Lyrics \lyricsto Soli \DerHerrSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \MeinAbelOrgano
+            \DerHerrOrgano
           }
         >>
-        \new FiguredBass { \MeinAbelBassFigures }
+        \new FiguredBass { \DerHerrBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 60 }
+      \midi { \tempo 4 = 70 }
     }
   }
 }

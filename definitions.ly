@@ -106,6 +106,7 @@ tempoAchEva = \tempoMarkup "Adagio"
 tempoOSchmerz = \tempoMarkup "Adagio"
 tempoDerEnkel = \tempoMarkup "[Adagio]"
 tempoMeinAbel = \tempoMarkup "Adagio molto"
+tempoDerHerr = \tempoMarkup "[Adagio]"
 
 
 \include "notes/fl1.ly"

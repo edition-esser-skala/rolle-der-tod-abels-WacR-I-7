@@ -4611,3 +4611,55 @@ MeinAbelBassFigures = \figuremode {
   <\t \t> <5 3>4 <7 4>8
   <8 3> <6 4> <5 3> <7-> %24 finis
 }
+
+DerHerrOrgano = {
+  \relative c {
+    \clef bass
+    \key es \major \time 4/4 \tempoDerHerr
+    es1\pE
+    r2 e4\fE r
+    e r r2
+    f4 r r2
+    b,1\p %5
+    c2 r
+    a4\f r r2
+    b4 r r2
+    r2 b~\p
+    b4 r r c\f %10
+    as r r2
+    g1
+    h~
+    h
+    c8( g') es( c') as( es) c( g) %15
+    as1~
+    as2 b~
+    b1
+    d2 es
+    as,1 %20
+    r4 b es,2\fermata \bar "|." %21 finis
+  }
+}
+
+DerHerrBassFigures = \figuremode {
+  <7->1
+  r2 <6>
+  <6 5>1
+  r
+  <6-  _-> %5
+  <6!>
+  <7->
+  <_->
+  r2 <4! _->
+  r2. <_!>4 %10
+  <6>1
+  <_!>
+  <6>
+  r2 <7>
+  r <5>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff <6> %15
+  r1
+  r2 <_!>
+  r1
+  <6>
+  r %20
+  r %21 finis
+}

@@ -2444,3 +2444,23 @@ MeinAbelViola = {
     es2 \bar "||" %24 finis
   }
 }
+
+DerHerrViola = {
+  \relative c' {
+    \clef alto
+    \key es \major \time 4/4 \tempoDerHerr
+    g1\pE
+    r2 c4\fE r
+    c r r2
+    c4 r r2
+    b1\p %5
+    c2 r
+    ges'4\f r r2
+    f4 r r2
+    r des~\p
+    des4 r r c\f %10
+    c r r2
+    R1*9 %20
+    R1\fermata \bar "|." %21 finis
+  }
+}
