@@ -2,7 +2,7 @@
 
 #(define option-movement-title-format "genre-number-title")
 #(define option-init-toc #t)
-#(define option-print-all-bar-numbers #t)
+#(define option-print-all-bar-numbers #f)
 \include "ees.ly"
 
 
@@ -20,8 +20,8 @@ soloThirza = \markup \remark "Thirza"
 
 
 % 1.1
-tempoLobtDen = \tempoMarkup "Lobgesang der Kinder Adams in ihrer Laube"
-tempoSieSingen = \tempoMarkup "Kain, der um Abels Laube feindſelig herumſchleicht"
+tempoLobtDen = \tempoMarkup "[Tempo deest]"
+tempoSieSingen = \tempoMarkup "[Recitativo]"
 tempoIchElend = \tempoMarkup "Poco lento"
   tempoIchElendB = \tempoMarkup "Allegro"
   tempoIchElendC = \tempoMarkup "Poco lento"
@@ -33,7 +33,7 @@ tempoOWort = \tempoMarkup "Andante"
   tempoOWortD = \tempoMarkup "Andante"
 
 % 1.6
-tempoWieSeufzet = \tempoMarkup \markup \left-column { "Kain, der in der Entfernung ſtehen geblieben" "und ſeinen Vater jammern geſehen" }
+tempoWieSeufzet = \tempoMarkup "[Recitativo]"
   tempoWieSeufzetB = \tempoMarkup "Poco largo"
   tempoWieSeufzetC = \tempoMarkup "a tempo"
   tempoWieSeufzetD = \tempoMarkup "Recitativo"

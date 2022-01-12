@@ -1355,7 +1355,7 @@ SoKommViola = {
     \key c \major \time 4/4 \tempoSoKomm
     e1
     e~
-    e~
+    e
     d~
     d~ %5
     d2 d~

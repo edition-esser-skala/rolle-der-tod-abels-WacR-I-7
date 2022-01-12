@@ -4,7 +4,7 @@ SieSingenSoli = {
   \relative c {
     \clef bass
     \key c \minor \time 4/4 \autoBeamOff \tempoSieSingen
-    r4 r8 es es b r4
+    r4 r8 es^\markup \remark "Kain, der um Abels Laube feindſelig herumſchleicht" es b r4
     es8 r16 es es8 f g g g b
     b f r f16 f as4 r8 as
     as as as g g4 r8 g
@@ -556,7 +556,7 @@ WieSeufzetSoli = {
   \relative c {
     \clef bass
     \key f \minor \time 4/4 \autoBeamOff \tempoWieSeufzet
-    r4 r8 b es8. es16 es4
+    r4 r8 b^\markup \remark "Kain, der in der Entfernung ſtehen geblieben und ſeinen Vater jammern geſehen" es8. es16 es4
     r8 es g f g g g as
     b b b g \tempoWieSeufzetB e e r4
     R1

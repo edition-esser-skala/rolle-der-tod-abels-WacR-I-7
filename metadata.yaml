@@ -4,7 +4,7 @@ composer:
 title: Der Tod Abels
 id: WacR I:7, MH 271
 genre: oratorio
-scoring: org
+scoring: 3 S, 2 A, T, 2 B (solo), S, A, T, B (coro), 2 fl, 2 ob, 2 ob d'amore,\\2 fag, 2 cor (\flat B\ basso/D/F/G), timp (D–A), 2 vl, 2 vla, b, bc
 license: cc-by-nc-sa-4.0
 sources:
   A1:
@@ -14,7 +14,7 @@ sources:
     rism: 455016820
     url: https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00084995-7
     license: CC BY-NC-SA 4.0
-    notes: principal source for movements 2.10a–e
+    notes: principal source for movements 2.11–2.15
   B1:
     siglum: A-Wn
     shelfmark: Mus.Hs.15529
@@ -40,5 +40,6 @@ imslp:
 parts:
   cor12: Corno I, II in \flat B basso/D/F/G
   timp: Timpani in D–A
+  vla: Viola I, II
 extra_abbreviations:
   fond:
