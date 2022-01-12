@@ -1097,7 +1097,7 @@ paperEightStaves = \paper {
     }
   }
   \bookpart {
-    \section "2.2" "Accompagnato" "Ach, meine Eva!"
+    \section "2.2" "Recitativo" "Ach, meine Eva!"
     \addTocLabel "achmeine"
     \paper {
       system-system-spacing.basic-distance = #21

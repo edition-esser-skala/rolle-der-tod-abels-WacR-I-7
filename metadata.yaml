@@ -36,9 +36,11 @@ sources:
     url: https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb11140540-5
     license: CC BY-NC-SA 4.0
     notes: Breitkopf, Leipzig
-imslp:
+imslp: Der_Tod_Abels_(Rolle,_Johann_Heinrich)
 parts:
-  cor12: Corno I, II in \flat B basso/D/F/G
+  oba1: Oboe d’amore I
+  oba2: Oboe d’amore II
+  cor12: Corno I, II in \flat B\ basso/D/F/G
   timp: Timpani in D–A
   vla: Viola I, II
 extra_abbreviations:
