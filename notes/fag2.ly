@@ -284,3 +284,64 @@ HerrWendeFagottoII = {
     \hideNotes d4
   }
 }
+
+IhrRosenFagottoII = {
+  \relative c {
+    \clef bass
+    \key es \major \time 3/4 \tempoIhrRosen
+    es2\fE es4
+    es( as) g~
+    g f es
+    \once \slurDashed es( d)\trill es
+    b'8 b4 b b8~ %%
+    b b4 b b8~\p
+    b b4 b b8~
+    b b4 b es,8~\f
+    es f \once \slurDashed es4( d)\trill
+    es2 r4 %10
+    es2\p es4
+    es( as) g~
+    g f es
+    \once \slurDashed es( d)\trill es
+    R2. %15
+    b'8 b4 b b8
+    b4 b8 d c a
+    \appoggiatura a4 b2 r4
+    es,2\f es4
+    es( as) g~ %20
+    g f es
+    \once \slurDashed es( d)\trill es
+    R2.
+    b'8 b4 b b8
+    b4 b8 d c a %25
+    \appoggiatura a4 b2 r4
+    R2.*6 %32
+    f2\p e4\trill
+    \appoggiatura e f2 r4
+    R2.*6 %40
+    f2\f e4\trill
+    \appoggiatura e f2 r4
+    R2.
+    r4 r g~\p
+    g as f %45
+    \appoggiatura f8 es4 d r
+    es2 es4
+    \once \slurDashed es( as) g~
+    g8 f es4( d)\trill
+    es2 r4 %50
+    R2.
+    r4 r g~\f
+    g as f
+    \appoggiatura f8 es4 d r
+    es2 es4 %55
+    \once \slurDashed es( as) g~
+    g8 f es4( d)\trill
+    es2 r4
+    R2.*2 %60
+    r4 r es\p
+    as4. as8 g f
+    es as g4( f)
+    es2 r4
+    R2.\fermata \bar "|." %65 FINIS
+  }
+}

@@ -284,3 +284,64 @@ HerrWendeFagottoI = {
     \hideNotes d4
   }
 }
+
+IhrRosenFagottoI = {
+  \relative c {
+    \clef bass
+    \key es \major \time 3/4 \tempoIhrRosen
+    \once \slurDashed es4(\fE f) g
+    \once \slurDashed as8.( b16) c4 b~
+    b as g
+    \once \slurDashed g( f)\trill es
+    b'8 d4 d d8 %5
+    es g4 g es8\p
+    b d4 d d8 es
+    g4 g g,8~\f
+    g as \once \slurDashed g4( f)\trill
+    es2 r4 %10
+    \once \slurDashed es(\p f) g
+    \once \slurDashed as8.( b16) c4 b~
+    b as g
+    \once \slurDashed g( f)\trill es
+    R2. %15
+    b'8 d4 d d8
+    d4 d8 f es c
+    \appoggiatura c4 b2 r4
+    \once \slurDashed es,(\f f) g
+    \once \slurDashed as8.( b16) c4 b~ %20
+    b as g
+    \once \slurDashed g( f)\trill es
+    R2.
+    b'8 d4 d d8
+    d4 d8 f es c %25
+    \appoggiatura c4 b2 r4
+    R2.*6 %32
+    as2\p g4\trill
+    \appoggiatura g f2 r4
+    R2.*6 %40
+    as2\f g4\trill
+    \appoggiatura g f2 r4
+    R2.
+    r4 r es'~\p
+    es c as %45
+    \appoggiatura as8 g4 f r
+    \once \slurDashed es( f) g
+    \once \slurDashed as8.( b16) c4 b~
+    b8 as g4( f)\trill
+    es2 r4 %50
+    R2.
+    r4 r es'~\f
+    es c as
+    \appoggiatura as8 g4 f r
+    \once \slurDashed es( f) g %55
+    \once \slurDashed as8.( b16) c4 b~
+    b8 as g4( f)\trill
+    es2 r4
+    R2.*2 %60
+    r4 r es\p
+    c'4. c8 b as
+    g c8 b4( as)
+    g2 r4
+    R2.\fermata \bar "|." %65 FINIS
+  }
+}

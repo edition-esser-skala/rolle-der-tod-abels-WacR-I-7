@@ -2464,3 +2464,75 @@ DerHerrViola = {
     R1\fermata \bar "|." %21 finis
   }
 }
+
+IhrRosenViola = {
+  \relative c' {
+    \clef alto
+    \key es \major \time 3/4 \tempoIhrRosen
+    \once \slurDashed g4(\fE as) b
+    c as es'~
+    es as, b
+    \once \slurDashed b( as)\trill g
+    b8 d4 d d8 %5
+    es es4 es es8\p
+    b d4 d d8
+    es es4 es es8~\f
+    es4 \once \slurDashed b( as)\trillE
+    g2 r4 %10
+    g(\p as) b
+    c as es'~
+    es as, b
+    \once \slurDashed b( as)\trill g
+    b d8 d d d %15
+    d f4 f f8
+    f4 f f8 es
+    \appoggiatura es4 d2 r4
+    g,(\f as) b
+    c as es'~ %20
+    es as, b
+    \once \slurDashed b( as)\trill g
+    b d8 d d d
+    d f4 f f8
+    f4 f f8 es %25
+    \appoggiatura es4 d2 r4
+    b\p b b
+    c2 r4
+    r r c
+    c( b)\trill as %30
+    as as8 as as as
+    as4 r r
+    c c b
+    \appoggiatura b as2 r4
+    b\f b b %35
+    c2 r4
+    r r c
+    c( b)\trill as
+    as as8 as as as
+    as4 r r %40
+    c c b
+    \appoggiatura b as2 r4
+    b\p b c
+    b d es
+    es2 c4 %45
+    b b4. as8
+    \once \slurDashed g4( as) b
+    c as es'
+    c b( as)\trill
+    g2 r4 %50
+    b\f b c
+    b d es
+    es2 c4
+    b b4. as8
+    \once \slurDashed g4( as) b %55
+    c as es'
+    c b( as)\trill
+    g2 r4
+    R2.
+    r4 \once \slurDashed g(\f f)\trill %60
+    g2 r4
+    R2.
+    r4 g(\p f)
+    g b\pp b
+    b2 r4\fermata \bar "|." %65 FINIS
+  }
+}

@@ -390,3 +390,123 @@ SehtDortBassoLyrics = \lyricmode {
   ver -- wor -- fen iſt der Haſ -- ſen --
   de. %97 finis
 }
+
+IhrRosenBasso = {
+  \relative c {
+    \clef bass
+    \key es \major \time 3/4 \autoBeamOff \tempoIhrRosen
+    R2.*10 %10
+    \mvTr es4\pE^\solo es es
+    es2 es4~
+    es f g8.([ as16)]
+    b4( b,) es
+    R2. %15
+    b4 b'8 b b b
+    b4 f f
+    b,2 r4
+    \mvTr es\fE^\tutti es es
+    es2 es4~ %20
+    es f g8.([ as16)]
+    b4( b,) es
+    R2.
+    b4 b'8 b b b
+    b4 f f %25
+    b,2 r4
+    \mvTr b'\pE^\solo as g
+    f2 f4~
+    f g as8([ b)]
+    c4( c,) f %30
+    f as8 as as as
+    as2 r4
+    f c8 c c c
+    f2 r4
+    \mvTr b\fE^\tutti as g %35
+    f2 f4~
+    f g as8([ b)]
+    c4( c,) f
+    f as8 as as as
+    as2 r4 %40
+    f c8 c c c
+    f2 r4
+    \mvTr b\pE^\solo b as
+    g( f) es
+    as2 as,4 %45
+    b b r
+    es es es
+    es es es
+    as, b2
+    es r4 %50
+    \mvTr b'\fE^\tutti b as
+    g( f) es
+    as2 as,4
+    b b r
+    es es es %55
+    es es es
+    as, b2
+    es r4
+    R2.
+    r4 \mvTr b2\fE^\tutti %60
+    es4 r \mvTr es\pE^\solo
+    as4. as8 g f
+    es as g4(^\tutti f)
+    es2 r4
+    R2.\fermata \bar "|." %65 FINIS
+  }
+}
+
+IhrRosenBassoLyrics = \lyricmode {
+  Ihr Ro -- ſen %11
+  blüht auf __
+  A -- bels
+  Gra -- be
+  %15
+  zu ei -- ner Laub her --
+  vor, Laub her --
+  vor!
+  Ihr Ro -- ſen
+  blüht auf __ %20
+  A -- bels
+  Gra -- be
+
+  zu ei -- ner Laub her --
+  vor, Laub her -- %25
+  vor!
+  Zy -- preſ -- ſen
+  wachst bey __
+  ſei -- nem
+  Gra -- be %30
+  zu ei -- nem Hayn em --
+  por,
+  zu ei -- nem Hayn em --
+  por!
+  Zy -- preſ -- ſen %35
+  wachst bey __
+  ſei -- nem
+  Gra -- be
+  zu ei -- nem Hayn em --
+  por, %40
+  zu ei -- nem Hayn em --
+  por!
+  Da wol -- len
+  wir __ den
+  fern -- ſten %45
+  Ta -- gen
+  des To -- des
+  er -- ſtes O --
+  pfer kla --
+  gen. %50
+  Da wol -- len
+  wir __ den
+  fern -- ſten
+  Ta -- gen
+  des To -- des %55
+  er -- ſtes O --
+  pfer kla --
+  gen,
+
+  kla -- %60
+  gen, des
+  To -- des er -- ſtes
+  O -- pfer kla --
+  gen. %64 FINIS
+}

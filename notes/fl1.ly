@@ -283,3 +283,73 @@ HerrWendeFlautoI = {
     \hideNotes d4
   }
 }
+
+IhrRosenFlautoI = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 3/4 \tempoIhrRosen
+    \once \slurDashed es'4(\fE f) g
+    as8.( b16) c4 b~
+    b as g
+    \once \slurDashed g( f)\trill es
+    f8 b4 b b8~ %5
+    b es4 es g,8\p
+    f b4 b b8~
+    b es4 es g,8~\f
+    g as \once \slurDashed g4( f)\trill
+    es r r %10
+    \once \slurDashed es(\p f) g
+    \once \slurDashed as8.( b16) c4 b~
+    b as g
+    \once \slurDashed g( f)\trill es
+    f b8 b b b %15
+    b4 r r
+    d2 c4\trill
+    \appoggiatura c b2 r4
+    \once \slurDashed es,(\f f) g
+    \once \slurDashed as8.( b16) c4 b~ %20
+    b as g
+    \once \slurDashed g( f)\trill es
+    f b8 b b b
+    b4 r r
+    d2 c4\trill %25
+    \appoggiatura c b2 r4
+    f2\p g4
+    \once \slurDashed as8.( b16) c4 c~
+    c b as
+    \once \slurDashed as( g)\trill f %30
+    R2.*2
+    f4 as8 c b g
+    \appoggiatura g4 f2 r4
+    f2\f g4 %35
+    \once \slurDashed as8.( b16) c4 c~
+    c b as
+    \once \slurDashed as( g)\trill f
+    R2.*2 %40
+    f4 as8 c b g
+    \appoggiatura g4 f2 r4
+    f\p g as
+    b2 es4~
+    es c as %45
+    \appoggiatura as8 g4 f r
+    es f g
+    as8.( b16) c4 b~
+    b8 as g4( f)\trill
+    es2 r4 %50
+    f\f g as
+    b2 es4~
+    es c as
+    \appoggiatura as8 g4 f r
+    es f g %55
+    as8.( b16) c4 b~
+    b8 as g4( f)\trill
+    es2 es4\p
+    c'4. c8 b as
+    g f es4(\f d)\trill %60
+    es2 r4
+    R2.
+    r4 \once \slurDashed es(\p d)
+    es2 es4\pp
+    es2 r4\fermata \bar "|." %65 FINIS
+  }
+}

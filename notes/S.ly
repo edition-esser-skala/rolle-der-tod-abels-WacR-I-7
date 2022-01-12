@@ -392,3 +392,123 @@ SehtDortSopranoLyrics = \lyricmode {
   ver -- wor -- fen iſt der Haſ -- ſen --
   de. %97 finis
 }
+
+IhrRosenSoprano = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 3/4 \autoBeamOff \tempoIhrRosen
+    R2.*10 %10
+    \mvTr es4\pE^\solo f g
+    as8.([ b16] c4) b~
+    b as g
+    g( f)\trill es
+    f b8 b b b %15
+    b2 r4
+    d d8 f es c
+    \appoggiatura c4 b2 r4
+    \mvTr es,\fE^\tutti f g
+    as8.([ b16] c4) b~ %20
+    b as g
+    g( f)\trill es
+    f b8 b b b
+    b2 r4
+    d d8 f es c %25
+    \appoggiatura c4 b2 r4
+    \mvTr f\pE^\solo f g
+    as8.([ b16] c4) c~
+    c b as
+    as( g)\trill f %30
+    R2.
+    f4 f'8 f f f
+    f4 as,8 c b g
+    \appoggiatura g4 f2 r4
+    \mvTr f\fE^\tutti f g %35
+    as8.([ b16] c4) c~
+    c b as
+    as( g)\trill f
+    R2.
+    f4 f'8 f f f %40
+    f4 as,8 c b g
+    \appoggiatura g4 f2 r4
+    \mvTr f\pE^\solo g as
+    b2 es4~
+    es c as %45
+    \appoggiatura as8 g4 f r
+    es f g
+    as8.([ b16)] c4 b~
+    b8 as g4( f)\trill
+    es2 r4 %50
+    \mvTr f\fE^\tutti g as
+    b2 es4~
+    es c as
+    \appoggiatura as8 g4 f r
+    es f g %55
+    as8.([ b16)] c4 b~
+    b8 as g4( f)\trill
+    es2 \mvTr es4\pE^\solo
+    c'4. c8 b as
+    g f \mvTr es4(\fE^\tutti d) %60
+    es2 r4
+    R2.
+    r4 \mvTr es(\pE^\tutti d)
+    es2 r4
+    R2.\fermata \bar "|." %65 FINIS
+  }
+}
+
+IhrRosenSopranoLyrics = \lyricmode {
+  Ihr Ro -- ſen %11
+  blüht auf __
+  A -- bels
+  Gra -- be
+  zu ei -- ner Laub %15
+  her -- vor,
+  zu ei -- ner Laub
+  her -- vor!
+  Ihr Ro -- ſen
+  blüht auf __ %20
+  A -- bels
+  Gra -- be
+  zu ei -- ner Laub
+  her -- vor,
+  zu ei -- ner Laub %25
+  her -- vor!
+  Zy -- preſ -- ſen
+  wachst bey __
+  ſei -- nem
+  Gra -- be %30
+
+  zu ei -- nem Hayn em --
+  por, ei -- nem Hayn em --
+  por!
+  Zy -- preſ -- ſen %35
+  wachst bey __
+  ſei -- nem
+  Gra -- be
+
+  zu ei -- nem Hayn em -- %40
+  por, ei -- nem Hayn em --
+  por!
+  Da wol -- len
+  wir den __
+  fern -- ſten %45
+  Ta -- gen
+  des To -- des
+  er -- ſtes O --
+  pfer kla --
+  gen. %50
+  Da wol -- len
+  wir den __
+  fern -- ſten
+  Ta -- gen
+  des To -- des %55
+  er -- ſtes O --
+  pfer kla --
+  gen, des
+  To -- des er -- ſtes
+  O -- pfer kla -- %60
+  gen,
+
+  kla --
+  gen. %64 FINIS
+}

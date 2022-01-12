@@ -55,7 +55,7 @@ tempoWeltrichter = \tempoMarkup "[Tempo deest]"
 tempoMehala = \tempoMarkup "Recitativo"
 tempoFrommIst = \tempoMarkup "Allegretto"
 
-%2.1
+% 2.1
 tempoSehtDort = \tempoMarkup "Allegro ma non troppo"
   tempoSehtDortB = \tempoMarkup "Poco più allegro"
 tempoAchMeine = \tempoMarkup "Recitativo"
@@ -73,7 +73,7 @@ tempoAchGott = \tempoMarkup "Largo"
   tempoAchGottK = \tempoMarkup "Allegro"
 tempoWelchWinseln = \tempoMarkup "Allegro moderato"
 
-%2.6
+% 2.6
 tempoEntsetzen = \tempoMarkup "Moderato"
   tempoEntsetzenB = \tempoMarkup "Poco lento"
   tempoEntsetzenC = \tempoMarkup "Vivace"
@@ -101,12 +101,16 @@ tempoErToedtet = \tempoMarkup "Recitativo"
   tempoErToedtetI = \tempoMarkup "Vivace"
   tempoErToedtetJ = \tempoMarkup "[Recicativo]"
 
-%2.10a
+% 2.10a
 tempoAchEva = \tempoMarkup "Adagio"
 tempoOSchmerz = \tempoMarkup "Adagio"
 tempoDerEnkel = \tempoMarkup "[Adagio]"
 tempoMeinAbel = \tempoMarkup "Adagio molto"
 tempoDerHerr = \tempoMarkup "[Adagio]"
+
+
+% 2.11
+tempoIhrRosen = \tempoMarkup "Affettuoso"
 
 
 \include "notes/fl1.ly"

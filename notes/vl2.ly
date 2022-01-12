@@ -2209,3 +2209,75 @@ DerHerrViolinoII = {
     R1\fermata \bar "|." %21 finis
   }
 }
+
+IhrRosenViolinoII = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 3/4 \tempoIhrRosen
+    es2\fE es4
+    es( as) g~
+    g d es
+    es( d)\trill es
+    d8 f4 f f8 %5
+    g g4 g es8\p
+    d f4 f f8
+    g g4 g es8~\fE
+    es f \once \slurDashed es4( d)\trill
+    es8 g es b g b %10
+    es2\p es4
+    es( as) g~
+    g d es
+    es( d)\trill es
+    d f8 f f f %15
+    f b4 b b8
+    b4 b8 d c a
+    \appoggiatura a4 b2 r4
+    es,2\f es4
+    es( as) g~ %20
+    g d es
+    es( d)\trill es
+    d f8 f f f
+    f b4 b b8
+    b4 b8 d c a %25
+    \appoggiatura a4 b2 r4
+    d,\p d e
+    \once \slurDashed f8.( g16) as4 as~
+    as e f
+    f( e)\trill f %30
+    c f8 f f f
+    f4 as8 as as as
+    as4 f8 as g e
+    \appoggiatura e4 f2 r4
+    d\f d e %35
+    \once \slurDashed f8.( g16) as4 as~
+    as e f
+    f( e)\trill f
+    c f8 f f f
+    f4 as8 as as as %40
+    as4 f8 as g e
+    \appoggiatura e4 f2 r4
+    d\p es f
+    \once \slurDashed es( as) g~
+    g as f %45
+    \appoggiatura f8 es4 d r
+    es2 es4
+    es( as) g~
+    g8 f es4( d)\trill
+    es2 r4 %50
+    d\f es f
+    \once \slurDashed es( as) g~
+    g as f
+    \appoggiatura f8 es4 d r
+    es2 es4 %55
+    es( as) g~
+    g8 f es4( d)\trill
+    es2 es4\p
+    as4. as8 g f
+    es f b,4(\f as)\trill %60
+    g2 r4
+    R2.
+    r4 b(\p as)
+    g~ g8 g4\pp g8
+    g2 r4\fermata \bar "|." %65 FINIS
+  }
+}

@@ -1738,47 +1738,132 @@ paperEightStaves = \paper {
   %     \midi { \tempo 4 = 60 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2.10e" "Accompagnato" "Der Herr allein, der Herr iſt Gott!"
+  %   \addTocLabel "derherr"
+  %   \paperFiveStaves
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \DerHerrViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \DerHerrViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \DerHerrViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set ChoirStaff.instrumentName = "Adam"
+  %           \new Voice = "Soli" { \dynamicUp \DerHerrSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \DerHerrSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \DerHerrOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \DerHerrBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
-    \section "2.10e" "Accompagnato" "Der Herr allein, der Herr iſt Gott!"
-    \addTocLabel "derherr"
-    \paperFiveStaves
+    \section "2.11" "Coro" "Ihr Roſen blüht auf Abels Grabe"
+    \addTocLabel "sehtdort"
     \score {
       <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "fl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \IhrRosenFlautoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \IhrRosenFlautoII
+            }
+          >>
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "fag"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \IhrRosenFagottoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \IhrRosenFagottoII
+            }
+          >>
+        >>
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \DerHerrViolinoI
+              \IhrRosenViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \DerHerrViolinoII
+              \IhrRosenViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \DerHerrViola
+            \IhrRosenViola
           }
         >>
         \new ChoirStaff <<
+        \set ChoirStaff.instrumentName = \markup { \rotate #90 "Chor der Kinder Abels" \hspace #8 }
           \new Staff {
-            \set ChoirStaff.instrumentName = "Adam"
-            \new Voice = "Soli" { \dynamicUp \DerHerrSoli }
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \IhrRosenSoprano }
           }
-          \new Lyrics \lyricsto Soli \DerHerrSoliLyrics
+          \new Lyrics \lyricsto Soprano \IhrRosenSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \IhrRosenAlto }
+          }
+          \new Lyrics \lyricsto Alto \IhrRosenAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \IhrRosenTenore }
+          }
+          \new Lyrics \lyricsto Tenore \IhrRosenTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \IhrRosenBasso }
+          }
+          \new Lyrics \lyricsto Basso \IhrRosenBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \DerHerrOrgano
+            \IhrRosenOrgano
           }
         >>
-        \new FiguredBass { \DerHerrBassFigures }
+        \new FiguredBass { \IhrRosenBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 70 }
+      \midi { \tempo 4 = 100 }
     }
   }
 }

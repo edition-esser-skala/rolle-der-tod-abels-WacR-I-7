@@ -4663,3 +4663,143 @@ DerHerrBassFigures = \figuremode {
   r %20
   r %21 finis
 }
+
+IhrRosenOrgano = {
+  \relative c {
+    \clef bass
+    \key es \major \time 3/4 \tempoIhrRosen
+    \mvTr es2.\fE-\soloE
+    es
+    es,4 f g8 as
+    b2 es4
+    b as' f %5
+    g b es,\p
+    b as' f
+    g es c\f
+    as b b
+    es2 r4 %10
+    es2\p es4
+    es2.
+    es,4 f g8 as
+    b2 es4
+    b2 f'4 %15
+    b f d
+    b f' f
+    b,4. as'!8 g f
+    \mvTr es2\f-\tutti es4
+    es2. %20
+    es,4 f g8 as
+    b2 es4
+    b2 f'4
+    b f d
+    b f' f %25
+    b,4. b8 d f
+    \mvTr b4\p-\solo as g
+    f2.
+    f,4 g as8 b
+    c2 f4 %30
+    f,2 c'4
+    f c as
+    f c' c
+    f, f'8 es! d c
+    \mvTr b4\f-\tutti as' g %35
+    f2.
+    f,4 g as8 b
+    c2 f4
+    f,2 c'4
+    f c as %40
+    f c' c
+    f, f'8 es! d c
+    \mvTr b4\p-\solo b' as
+    g f es
+    as2 as,4 %45
+    b b'8 as g f
+    es2.
+    es
+    as,4 b2
+    es4 g es %50
+    \mvTr b\f-\tutti b' as
+    g f es
+    as2 as,4
+    b b'8 as g f
+    es2. %55
+    es
+    as,4 b2
+    es4 es, r
+    r \mvTr as\p-\solo as
+    b2 \mvTr b4\f-\tutti %60
+    es es, r
+    r \mvTr as\p-\solo as
+    b2 b4-\tutti
+    es es,\pp es
+    es2 r4\fermata \bar "|." %65 FINIS
+  }
+}
+
+IhrRosenBassFigures = \figuremode {
+  <3 1>4 <4 2> <5 3>
+  <6 4>2 <5 3>4
+  r <6> q8 <\t>
+  <6 4>4 <5 3>2
+  r4 <2> <6> %5
+  <6> <\t>2
+  r4 <2> <6>
+  q2.
+  <7 5>8 <8 6> <6 4>4 <5 3>
+  r2. %10
+  <3 1>4 <4 2> <5 3>
+  <6 4>2 <5 3>4
+  r <6> q8 <\t>
+  <6 4>4 <5 3>2
+  <5 3>2 <\t \t>4 %15
+  q2.
+  r4 <6 4> <7 3>
+  <\t \t> <5 _!>2
+  <3 1>4 <4 2> <5 3>
+  <6 4>2 <5 3>4 %20
+  r <6> q8 <\t>
+  <6 4>4 <5 3>2
+  <5 3>2 <\t \t>4
+  q2.
+  r4 <6 4> <7 3> %25
+  <\t \t> <5 _!>2
+  r4 <2> <6!>
+  r2.
+  r4 <6!> <6>8 <\t>
+  <6 4>4 <5 _!>2 %30
+  <5 3>2 <\t \t>4
+  q2.
+  r4 <6 4> <7 _!>
+  <\t \t> <5 3>2
+  r4 <2> <6!> %35
+  r2.
+  r4 <6!> <6>8 <\t>
+  <6 4>4 <5 _!>2
+  <5 3>2 <\t \t>4
+  q2. %40
+  r4 <6 4> <7 _!>
+  <\t \t> <5 3>2
+  r4 <6 4-> <6>
+  q <4 3>2
+  <7>4 <8> <6> %45
+  <7 5>8 <6 4> <5 3>4 <6>8 q
+  <3 1>4 <4 2> <5 3>
+  <6 4>2 <5 3>4
+  <9 7>8 <8 6> <6 4>4 <5 3>
+  r2. %50
+  r4 <6 4> <6>
+  q <4 3>2
+  <7>4 <8> <6>
+  <7 5>8 <6 4> <5 3>4 <6>8 q
+  <3 1>4 <4 2> <5 3> %55
+  <6 4>2 <5 3>4
+  <9 7>8 <8 6> <6 4>4 <5 3>
+  r2.
+  r4 <5> <6>
+  <6 4>2 <7 3>4 %60
+  r2.
+  r4 <5> <6>
+  <6 4>2 <7 3>4
+  r2.
+  r %65 FINIS
+}
