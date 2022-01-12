@@ -4553,3 +4553,61 @@ DerEnkelBassFigures = \figuremode {
   r
   r2.. <_!>8 %5 finis
 }
+
+MeinAbelOrgano = {
+  \relative c {
+    \clef bass
+    \twofourtime \key c \minor \time 2/4 \tempoMeinAbel
+    \grace s8 \mvTr c8\pE-\soloE c' c r
+    r d d r
+    r g,,\f g g
+    r c c r
+    r c\p c r %5
+    r d d r
+    r f\f f r
+    R2
+    r8 g,\p g r
+    r g\f g g %10
+    g2\p
+    c4 r
+    c8 r r4
+    d2\fz
+    r8 es\p es r %15
+    r f f r
+    r e\f e4~
+    e\p e
+    f r
+    r8 b, b r %20
+    r b\f b b
+    b4\p d
+    es2~
+    es \bar "||" %24 finis
+  }
+}
+
+MeinAbelBassFigures = \figuremode {
+  <4>8 <3>4.
+  <7>8 <6!>4.
+  <9 7 _!>8 \bassFigureExtendersOn <\t \t _!> <8 6 _!> <7 5 _!>
+  q \bassFigureExtendersOff <5 3>4.
+  r2 %5
+  <7>8 <6!>4.
+  r8 <4! 2>4.
+  r2
+  r8 <7 _!>4.
+  r8 <9 7 _!>4 \bassFigureExtendersOn q8 %10
+  q4 <8 6 _!>8 <7 5 _!>
+  q \bassFigureExtendersOff <5 3>4.
+  r2
+  <6>8 <5!> <5->4
+  r2 %15
+  <7>8 <6>4.
+  r8 <7->4.
+  r4 <\t>8 <6>
+  r2
+  r8 <_!>4. %20
+  r8 <7>4.
+  <\t>4 <8 6>8 <7 5>
+  <\t \t> <5 3>4 <7 4>8
+  <8 3> <6 4> <5 3> <7-> %24 finis
+}

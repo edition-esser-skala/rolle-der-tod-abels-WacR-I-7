@@ -2413,3 +2413,34 @@ DerEnkelViola = {
     f r4 r8 g\p \bar "||" %5 finis
   }
 }
+
+MeinAbelViola = {
+  \relative c' {
+    \clef alto
+    \twofourtime \key c \minor \time 2/4 \tempoMeinAbel
+    \grace s8 g'4\pE r8 c
+    d4 r8 h,\f
+    h( d) g, g'
+    g4 r
+    r8 c,\p c r %5
+    r d d r
+    r f\f f r
+    R2
+    r8 f\p f r
+    r h,\f h( d) %10
+    d4\p g,
+    g4 r
+    R2
+    d\fz
+    r8 es'\p es r %15
+    r f f r
+    r g\f g4~
+    g8(\p g,) g( c)
+    c4 r
+    r8 b b r %20
+    r d\f d( f)
+    f(\p d) b4
+    b4. d8
+    es2 \bar "||" %24 finis
+  }
+}

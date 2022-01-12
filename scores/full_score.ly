@@ -1623,47 +1623,119 @@ paperEightStaves = \paper {
   %     \midi { \tempo 4 = 60 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2.10c" "Accompagnato" "Der Enkel Klaggeſang"
+  %   \addTocLabel "derenkel"
+  %   \paperFiveStaves
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \DerEnkelViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \DerEnkelViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \DerEnkelViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set ChoirStaff.instrumentName = "Adam"
+  %           \new Voice = "Soli" { \dynamicUp \DerEnkelSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \DerEnkelSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fond"
+  %           % \transpose c c,
+  %           \DerEnkelOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \DerEnkelBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
-    \section "2.10c" "Accompagnato" "Der Enkel Klaggeſang"
-    \addTocLabel "derenkel"
-    \paperFiveStaves
+    \section "2.10d" "Trio" "Mein Abel, meine Thirza todt!"
+    \addTocLabel "meinabel"
+    \paper { indent = 1.5\cm }
     \score {
       <<
         \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "vl"
+          \new GrandStaff \with { instrumentName = "ob" } <<
             \new Staff {
               \set Staff.instrumentName = "1"
-              \DerEnkelViolinoI
+              \MeinAbelOboeI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \DerEnkelViolinoII
+              \MeinAbelOboeII
+            }
+          >>
+        >>
+        \new StaffGroup \with { instrumentName = \markup \center-column { \transposedNameShort "cor" "B" "flat" "basso" "1, 2" }} <<
+          \new Staff {
+            % \transpose c b,
+            \partCombine \MeinAbelCornoI \MeinAbelCornoII
+          }
+        >>
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance instrumentName = "vl" } <<
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \MeinAbelViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \MeinAbelViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \DerEnkelViola
+            \MeinAbelViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set ChoirStaff.instrumentName = "Adam"
-            \new Voice = "Soli" { \dynamicUp \DerEnkelSoli }
+            \set Staff.instrumentName = "Eva"
+            \new Voice = "Eva" { \dynamicUp \MeinAbelEva }
           }
-          \new Lyrics \lyricsto Soli \DerEnkelSoliLyrics
+          \new Lyrics \lyricsto Eva \MeinAbelEvaLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "Hamiel"
+            \new Voice = "Hamiel" { \dynamicUp \MeinAbelHamiel }
+          }
+          \new Lyrics \lyricsto Hamiel \MeinAbelHamielLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "Sunam"
+            \new Voice = "Sunam" { \dynamicUp \MeinAbelSunam }
+          }
+          \new Lyrics \lyricsto Sunam \MeinAbelSunamLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "fond"
             % \transpose c c,
-            \DerEnkelOrgano
+            \MeinAbelOrgano
           }
         >>
-        \new FiguredBass { \DerEnkelBassFigures }
+        \new FiguredBass { \MeinAbelBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 70 }
+      \midi { \tempo 4 = 60 }
     }
   }
 }

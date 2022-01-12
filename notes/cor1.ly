@@ -390,3 +390,25 @@ OSchmerzCornoI = {
     R2 \bar "||" %146 finis
   }
 }
+
+MeinAbelCornoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \tempoMeinAbel
+    \grace s8 r8 d'\p d r
+    r e e r
+    R2
+    r8 d d r
+    R2*2 %6
+    r8 g\f g r
+    R2*2
+    r8 g\f g4 %10
+    R2*3
+    c,2\fzE
+    R2*2 %16
+    r8 c\fE c4
+    R2*3 %20
+    r8 c\f c r
+    R2*3 \bar "||" %24 finis
+  }
+}

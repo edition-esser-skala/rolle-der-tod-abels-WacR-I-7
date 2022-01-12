@@ -105,6 +105,7 @@ tempoErToedtet = \tempoMarkup "Recitativo"
 tempoAchEva = \tempoMarkup "Adagio"
 tempoOSchmerz = \tempoMarkup "Adagio"
 tempoDerEnkel = \tempoMarkup "[Adagio]"
+tempoMeinAbel = \tempoMarkup "Adagio molto"
 
 
 \include "notes/fl1.ly"

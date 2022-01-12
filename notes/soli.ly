@@ -3899,3 +3899,96 @@ DerEnkelSoliLyrics = \lyricmode {
   Gott! un -- ter -- ſtüt -- ze mich!
   gieb mei -- ner Gat -- tinn Gna -- de! %5 finis
 }
+
+MeinAbelEva = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \minor \time 2/4 \autoBeamOff \tempoMeinAbel
+    \grace s8 R2*3
+    r4 r8 \mvTr g'\pE^\soloE
+    es8 es r g16 c %5
+    c h h8 r4
+    as r
+    as f8 d
+    \appoggiatura c h4 r8 d'
+    \appoggiatura c h4 r %10
+    as g8 f
+    f es r4
+    R2*12 \bar "||" %24 finis
+  }
+}
+
+MeinAbelEvaLyrics = \lyricmode {
+  Mein %4
+  A -- bel, mei -- ne %5
+  Thir -- za todt,
+  todt!
+  ſie ſind da --
+  hin!_– O
+  Schmerz! %10
+  Ach wel -- cher
+  Scha -- de! %12 finis
+}
+
+MeinAbelHamiel = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \minor \time 2/4 \autoBeamOff \tempoMeinAbel
+    \grace s8 R2*14 %14
+    r4 r8 \mvTr es'\pE^\soloE %15
+    es16 d d8 r4
+    des r
+    R2
+    c4 as'8 f
+    \appoggiatura es d4 r8 es %20
+    \appoggiatura e f4 r
+    c b8 as
+    as g r4
+    R2 \bar "||" %24 finis
+  }
+}
+
+MeinAbelHamielLyrics = \lyricmode {
+  Die %15
+  Mut -- ter todt,
+  todt!
+
+  ſie ſind da --
+  hin!_– O %20
+  Schmerz!
+  Ach wel -- cher
+  Scha -- de! %23 finis
+}
+
+
+MeinAbelSunam = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \minor \time 2/4 \autoBeamOff \tempoMeinAbel
+    \grace s8 R2*13 %13
+    r4 r8 \mvTr b'\pE^\soloE
+    g g r g %15
+    as16 as as8 r4
+    b r
+    R2
+    as4 c8 as
+    \appoggiatura g f4 r8 g %20
+    \appoggiatura g as4 r
+    as g8 f
+    f es r4
+    R2 \bar "||" %24 finis
+  }
+}
+
+MeinAbelSunamLyrics = \lyricmode {
+  Mein %14
+  Va -- ter, mein %15
+  Va -- ter todt,
+  todt!
+
+  ſie ſind da --
+  hin!_– O %20
+  Schmerz!
+  Ach wel -- cher
+  Scha -- de! %23 finis
+}

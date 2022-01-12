@@ -383,3 +383,27 @@ OSchmerzOboeII = {
     R2 \bar "||" %146 finis
   }
 }
+
+MeinAbelOboeII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \minor \time 2/4 \tempoMeinAbel
+    \grace s8 r8 es'\p es r
+    r h h r
+    r h\f c d
+    r g, g r
+    R2*2 %6
+    r8 h\f h r
+    R2*2
+    r8 h\f h4 %10
+    R2*3
+    f2\fzE
+    R2*2 %16
+    r8 b\fE b4~
+    b g
+    f8 r r4
+    R2 %20
+    r8 f'\f f r
+    R2*3 \bar "||" %24 finis
+  }
+}

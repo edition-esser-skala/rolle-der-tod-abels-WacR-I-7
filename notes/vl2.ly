@@ -2158,3 +2158,34 @@ DerEnkelViolinoII = {
     c r4 r8 h'\p \bar "||" %5 finis
   }
 }
+
+MeinAbelViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \minor \time 2/4 \tempoMeinAbel
+    \grace s8 c'4\pE r8 es
+    f4 r8 d,16.\f f32
+    f4 es8 d
+    \appoggiatura h c4 r
+    r8 es\p es r %5
+    r f f r
+    r as\f as r
+    R2
+    r8 h\p h r
+    r d,\f d( f) %10
+    f4\p es8 d
+    \appoggiatura d c4 r
+    es8 r r4
+    f\fz b,
+    r8 g'\p g r %15
+    r as as r
+    r b\f b4~
+    b8(\p des) \once \slurDashed b( g)
+    f( as) r4
+    r8 f f r %20
+    r f\f f( as)
+    as4\p g8 f
+    r es( g f)
+    es as16( g) g8 c16(\f b) \bar "||" %24 finis
+  }
+}
